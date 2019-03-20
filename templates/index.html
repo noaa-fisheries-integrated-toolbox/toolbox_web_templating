@@ -22,9 +22,18 @@
               </div>
         </div>
         <div class="mywrap">
-              <button class = "codelink" id="nolink">
-              Online Application
-              </button>
+              {% if online_app_link is defined and online_app_link|length %}
+              <a href= "{{online_app_link}}" target="_blank">
+                <button class = "codelink">
+                Online Application
+                </button>
+              </a>
+              {% else %}
+                <button class = "codelink" id = "nolink">
+                Online Application
+                </button>
+              {% endif%}
+
               <a href= "{{download_app_link}}" target="_blank">
                 <button class = "codelink" >
                 Download Application
