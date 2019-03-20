@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+   <link type="text/css" rel="stylesheet" href="./static/simple.css" />
+
+
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="mywrap">
+            <div class ="title">
+              {{model_name}}
+            </div>
+
+              <div class = "badge">
+              <!-- &#10039; -->
+              </div>
+              <div class = "badge" id="check">
+              <!-- &#10004; -->
+              </div>
+        </div>
+        <div class="mywrap">
+              <button class = "codelink" id="nolink">
+              Online Application
+              </button>
+              <a href= {{download_app_link}} target="_blank">
+                <button class = "codelink" >
+                Download Application
+                 </button>
+              </a>
+              <a href={{documentation_link}}><button class = "codelink">
+              Documentation
+              </button>
+              </a>
+              <button class = "codelink" id="nolink">
+              Associated Tools
+              </button>
+        </div>
+      <div class = "divider">
+      </div>
+
+
+      <div class ="main">
+        <div class="mywrap">
+              <div class ="label">
+                {{model_name}} ({{model_abbrev}})
+              </div>
+
+              <a class = "pdfIcon"
+                href={{pdf_download}} download>
+
+              </a>
+
+              <a class = "githubIcon" href={{github_link}}target="_blank"></a>
+
+              <button class = "versionButton">
+              Version {{version_number}}
+              </button>
+        </div>
+
+        <div class = "authName">
+         author: {{author_name}}
+
+        </div >
+
+        <div class ="mainText">
+          {{background_text}}
+        </div>
+        <div class = "ref">
+            References
+        </div>
+        <div class ="mainText">
+            <ul>
+             <li>Andreas Griewank, Andrea Walther [Introduction to Automatic Differentiation]. PAMM u ̊ Proc. Appl. Math. Mech. 2, 45?49 (2003).</li>
+             <li>Andreas Griewank [On Automatic Differentiation]. Center for Research on Parallel Computation, 1989.</li>
+             <li> Robert Mansel Gower, Margarida P. Mello Hessian Matrices via Automatic Differentiation. Institute of Mathematics, Statistics and Scientific Computing,State University of Campinas, September 29, 2010.</li>
+
+             <li>Fournier, D.A., Skaug, H.J., Ancheta, J., Ianelli, J., Magnusson, A., Maunder, M.N., Nielsen, A., and Sibert, J. 2012. AD Model Builder: using automatic differentiation for statistical inference of highly parameterized complex nonlinear models. Optim. Methods Softw. 27:233-249. </li>
+
+             <li>Kasper Kristensen and Anders Nielsen and Casper W. Berg and Hans Skaug and Bradley M. Bell, 2016,  TMB: Automatic Differentiation and Laplace Approximation, Journal of Statistical Software, 70:1-21 </li>
+            </ul>
+        </div>
+      </div>
+
+     <div class ="bottom">
+           <div class = "IconButton">
+          ?
+          </div>
+     </div>
+
+
+
+    </div>
+
+
+</body>
+</html>
+
+
