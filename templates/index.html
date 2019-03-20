@@ -34,18 +34,42 @@
                 </button>
               {% endif%}
 
+              {% if download_app_link is defined and download_app_link|length %}
               <a href= "{{download_app_link}}" target="_blank">
-                <button class = "codelink" >
+                <button class = "codelink">
                 Download Application
-                 </button>
+                </button>
               </a>
-              <a href="{{documentation_link}}"><button class = "codelink">
-              Documentation
-              </button>
+              {% else %}
+                <button class = "codelink" id = "nolink">
+                Download Application
+                </button>
+              {% endif%}
+
+              {% if documentation_link is defined and documentation_link|length %}
+              <a href= "{{documentation_link}}" target="_blank">
+                <button class = "codelink">
+                Documentation
+                </button>
               </a>
-              <button class = "codelink" id="nolink">
-              Associated Tools
-              </button>
+              {% else %}
+                <button class = "codelink" id = "nolink">
+                Documentation
+                </button>
+              {% endif%}
+
+              {% if associated_tools is defined and associated_tools|length %}
+              <a href= "{{associated_tools}}" target="_blank">
+                <button class = "codelink">
+                Associated Tools
+                </button>
+              </a>
+              {% else %}
+                <button class = "codelink" id = "nolink">
+                Associated Tools
+                </button>
+              {% endif%}
+
         </div>
       <div class = "divider">
       </div>
