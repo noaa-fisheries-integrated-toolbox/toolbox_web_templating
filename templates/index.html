@@ -13,13 +13,25 @@
             <div class ="title">
               {{model_name}}
             </div>
-
+              {% if badge_level %}
               <div class = "badge">
               <!-- &#10039; -->
               </div>
-              <div class = "badge" id="check">
-              <!-- &#10004; -->
+              {% else%}
+              <div class = "badge" id="greybadge">
+              <!-- &#10039; -->
               </div>
+              {% endif%}
+              {% if badge_level %}
+              <div class = "badge" id = "check">
+              <!-- &#10039; -->
+              </div>
+              {% else%}
+              <div class = "badge" id="greycheck">
+              <!-- &#10039; -->
+              </div>
+              {% endif%}
+
         </div>
         <div class="mywrap">
               {% if online_app_link is defined and online_app_link|length %}
@@ -69,6 +81,9 @@
                 Associated Tools
                 </button>
               {% endif%}
+              <div class = "IconButton">
+                ?
+              </div>
 
         </div>
       <div class = "divider">
@@ -79,6 +94,7 @@
         <div class="mywrap">
               <div class ="label">
                 {{model_name}} ({{model_abbrev}})
+
               </div>
 
               <a class = "pdfIcon"
@@ -91,6 +107,9 @@
               <button class = "versionButton">
               Version {{version_number}}
               </button>
+        </div>
+        <div class ="label">
+              Type:  {{model_type}}
         </div>
 
         <div class = "authName">
@@ -112,12 +131,6 @@
             </ul>
         </div>
       </div>
-
-     <div class ="bottom">
-           <div class = "IconButton">
-          ?
-          </div>
-     </div>
 
 
 
