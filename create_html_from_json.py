@@ -49,7 +49,7 @@ def run_all_files():
     #         'CSA','DCAC','IRATE','KALMAN','MCOMP','MSE','POPSIM-A',
     #         'POPSIM-L','POPSIM','PSA','RIVARD','SCALE','SEINE','SRFIT',
     #         'SS','STATCAM','VPA','VRD','YPR','YPRLEN']
-    list_of_models = ['2BOX']
+    list_of_models = ['ASAP']
     for modelname in list_of_models:
         old_name = modelname +'.json'
         # shutil.copy(old_name, 'config_template.json')
@@ -66,9 +66,9 @@ def write_templates(filename, new_dir):
     template = load_template()
     write_html_index(template, configs, new_dir)
     staticdir = os.path.join(new_dir,'docs','static')
-    shutil.copy('./templates/static', staticdir)
-    shutil.copy('./templates/README.MD',staticdir)
-    shutil.copy('./templates/LICENSE.MD',staticdir)
+    # shutil.copytree('./templates/static', staticdir)
+    # shutil.copy('./templates/README.MD',new_dir)
+    # shutil.copy('./templates/LICENSE.MD',new_dir)
 
 
 

@@ -14,20 +14,20 @@
               {{model_name}}
             </div>
               {% if badge_level %}
-              <div class = "badge">
+              <div class = "badge" data-md-tooltip="FIT Supported">
               <!-- &#10039; -->
               </div>
-              {% else%}
-              <div class = "badge" id="greybadge">
+              {% else %}
+              <div class = "badge" data-md-tooltip="Limited Support" id="greybadge">
               <!-- &#10039; -->
               </div>
-              {% endif%}
+              {% endif %}
               {% if badge_level %}
-              <div class = "badge" id = "check">
+              <div class = "badge" data-md-tooltip="Code Validated" id = "check">
               <!-- &#10039; -->
               </div>
-              {% else%}
-              <div class = "badge" id="greycheck">
+              {% else %}
+              <div class = "badge" data-md-tooltip="Not Validated" id="greycheck">
               <!-- &#10039; -->
               </div>
               {% endif%}
@@ -56,7 +56,7 @@
                 <button class = "codelink" id = "nolink">
                 Download Application
                 </button>
-              {% endif%}
+              {% endif %}
 
               {% if documentation_link is defined and documentation_link|length %}
               <a href= "{{documentation_link}}" target="_blank">
@@ -68,7 +68,7 @@
                 <button class = "codelink" id = "nolink">
                 Documentation
                 </button>
-              {% endif%}
+              {% endif %}
 
               {% if associated_tools is defined and associated_tools|length %}
               <a href= "{{associated_tools}}" target="_blank">
@@ -80,8 +80,8 @@
                 <button class = "codelink" id = "nolink">
                 Associated Tools
                 </button>
-              {% endif%}
-              <div class = "IconButton">
+              {% endif %}
+              <div class = "IconButton" data-md-tooltip="Need Support?">
                 ?
               </div>
 
@@ -97,10 +97,15 @@
 
               </div>
 
-              <a class = "pdfIcon"
+              {% if pdf_download is defined and pdf_download|length %}
+              <a class = "pdfIcon" data-md-tooltip="download pdf"
                 href="{{pdf_download}}" download>
-
               </a>
+              {% else %}
+              <a class = "pdfIcon" id = "nolink">
+              </a>
+
+              {% endif %}
 
               <a class = "githubIcon" href="{{github_link}}" target="_blank"></a>
 
