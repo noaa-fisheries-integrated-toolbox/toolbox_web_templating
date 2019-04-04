@@ -35,7 +35,7 @@
         </div>
         <div class="mywrap">
               {% if online_app_link is defined and online_app_link|length %}
-              <a href= "{{online_app_link}}" target="_blank">
+              <a href= "{{online_app_link}}" target="_blank" title="link to online application">
                 <button class = "codelink">
                 Online Application
                 </button>
@@ -47,7 +47,7 @@
               {% endif%}
 
               {% if download_app_link is defined and download_app_link|length %}
-              <a href= "{{download_app_link}}" target="_blank">
+              <a href= "{{download_app_link}}" target="_blank" title="link to download application">
                 <button class = "codelink">
                 Download Application
                 </button>
@@ -59,7 +59,7 @@
               {% endif %}
 
               {% if documentation_link is defined and documentation_link|length %}
-              <a href= "{{documentation_link}}" target="_blank">
+              <a href= "{{documentation_link}}" target="_blank" title="link to documentation">
                 <button class = "codelink">
                 Documentation
                 </button>
@@ -71,7 +71,7 @@
               {% endif %}
 
               {% if associated_tools is defined and associated_tools|length %}
-              <a href= "{{associated_tools}}" target="_blank">
+              <a href= "{{associated_tools}}" target="_blank" title="link to associated tools">
                 <button class = "codelink">
                 Associated Tools
                 </button>
@@ -81,9 +81,9 @@
                 Associated Tools
                 </button>
               {% endif %}
-              <div class = "IconButton" data-md-tooltip="Need Support?">
+              <button class = "IconButton" title="need support?">
                 ?
-              </div>
+              </button>
 
         </div>
       <div class = "divider">
@@ -98,7 +98,7 @@
               </div>
 
               {% if pdf_download is defined and pdf_download|length %}
-              <a class = "pdfIcon" data-md-tooltip="download pdf"
+              <a class = "pdfIcon" title="download pdf"
                 href="{{pdf_download}}" download>
               </a>
               {% else %}
