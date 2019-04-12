@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+   <link type="text/css" rel="stylesheet" href="./static/simple.css" />
+
+
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="mywrap">
+            <div class ="title">Fish and Fisheries Tools</div>
+        </div>
+        <div class = "divider"></div>
+        <div class ="infoText">
+          The NOAA Fish and Fisheries Toolbox  (Fish-Tools) is a collection of software programs and modeling tools which can be used in fishery stock assessments.  Many of the models are used in peer-reviewed stock assessments in the U.S. and globally.  A variety of fisheries stock assessment models as well as analytical and reporting tools are available, each of which uses a different type of estimation method to produce results.   The NOAA Fish and Fisheries Toolbox (Fish-Tools) is part of the NOAA Fisheries Integrate Toolbox (FIT).
+
+
+
+        </div>
+        <div class="boxcontainer">
+            <div class = "box2">
+              <div class ="row"><img id="online" height="25px" width="25px"><h2>Web Application</h2></div>
+                Some tools are available as web based applications.
+
+
+
+              </div>
+            <div class = "box2">
+              <div class ="row"><img id="down" height="25px" width="25px"><h2> Executable</h2></div>
+
+                  Tools packaged as executables are available for download.
+
+
+            </div>
+            <div class = "box2">
+              <div class ="row"><img id="github" height="25px" width="25px"><h2> Code Repository</h2></div>
+
+                   Github repositories associated to the tool are available for developers or users to access. Interested devleopers can make pull requests on the code base.
+
+
+
+            </div>
+            <div class = "box2">
+              <div class ="row"><img id="cert" height="25px" width="25px"> <h2>Validation</h2></div>
+                  Tools and code go through a validation process and areassigned different levels of validation.
+
+
+
+            </div>
+            <div class = "box2">
+              <div class ="row"><img id="checkmark" height="25px" width="25px"> <h2>Support Level</h2></div>
+                  Tools are supported by NOAA support staff at differeing levels depending on the owner of the repository and tools validation level
+
+
+            </div>
+
+
+
+
+            </div>
+        <!-- <div class ="filtering"></div> -->
+        <div class ="boxcontainer">
+
+          {% for key, value in configs.items() %}
+          <div class = "box">
+              {% set my_string = 'https://nmfs-fish-tools.github.io/'   ~ value['model_abbrev']  %}
+              <a class = "shortTitle" href= {{my_string}} target= "_blank"> {{value['model_abbrev']}} </a>
+              <div class = "longTitle">{{value['model_name']}}</div>
+              <div class = "modelType">{{value['tool_type']}}</div>
+              <div class = "modelType">{{value['model_type']}}</div>
+              <div class = "language"></div>
+              <div class = "iconrow">
+                {% if value['online_app_link'] is defined and value['online_app_link']|length %}
+                 <button class = "icon_small"  id ="online" onclick="location.href= '{{value.online_app_link}}';" value="Go to online app" ></button>
+                 {% else %}
+                 <button class = "icon_small" id ="online" disabled></button>
+                {% endif %}
+
+                {% if value['download_app_link'] is defined and value['download_app_link']|length %}
+                 <button class = "icon_small"  id ="down" onclick="location.href='{{value.download_app_link}}';" value="download app" ></button>
+                 {% else %}
+                  <button class = "icon_small" id ="down" disabled></button>
+                {% endif %}
+
+                {% if value['github_link'] is defined and value['github_link']|length %}
+                 <button class = "icon_small"  id ="github" onclick="location.href='{{value.github_link}}';" value="Go to online app" ></button>
+                 {% else %}
+                  <button class = "icon_small" id ="github" disabled></button>
+                {% endif %}
+
+               <!--  {% if value['online_app_link']|length %}
+                 <button class = "icon_small"  id ="" onclick="location.href=""{{value['online_app_link']}};" value="Go to online app" ></button>
+                 -->
+                  <!-- {% else %} -->
+                  <button class = "icon_small" id ="cert" disabled></button>
+                <!-- {% endif %} -->
+                {% if value['support_level'] is defined and value['support_level']|length %}
+                 <button class = "icon_small"  id ="checkmark"  ></button>
+
+                 {% else %}
+                  <button class = "icon_small" id ="checkmark" disabled></button>
+                {% endif %}
+
+              </div>
+
+
+          </div>
+          {% endfor %}
+
+
+        </div>
+
+
+
+
+
+        <div class = "divider"></div>
+      </div>
+   </body>
+</html>
