@@ -4,7 +4,7 @@ import json
 import os
 import shutil
 #basic templating
-# use conda web_templating. .. source avtivate web_templating
+# use conda web_templating. .. source activate web_templating
 
 
 
@@ -63,7 +63,7 @@ def main(location_of_model_list, list_of_models, org_config):
 
 
 if __name__ == '__main__':
-    location_of_model_list = '../model_landing_template'
+    location_of_model_list = '/Users/corinne/NOAA_2019_on/FIT2/nmfs-fish-tools/model_list'
     list_of_models =['2BOX','AGEPRO','AIM','ASAP','ASPIC',
             'CSA','DCAC','IRATE','KALMAN','MCOMP','MSE','POPSIM-A',
             'POPSIM-L','POPSIM','PSA','RIVARD','SCALE','SEINE','SRFIT',
