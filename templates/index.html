@@ -10,14 +10,11 @@
 <body>
     <div class="container">
         <div class="mywrap">
-            <div class ="title">Fish and Fisheries Tools</div>
+            <div class ="title"> {{org_config.title}}</div>
         </div>
         <div class = "divider"></div>
         <div class ="infoText">
-          The NOAA Fish and Fisheries Toolbox  (Fish-Tools) is a collection of software programs and modeling tools which can be used in fishery stock assessments.  Many of the models are used in peer-reviewed stock assessments in the U.S. and globally.  A variety of fisheries stock assessment models as well as analytical and reporting tools are available, each of which uses a different type of estimation method to produce results.   The NOAA Fish and Fisheries Toolbox (Fish-Tools) is part of the NOAA Fisheries Integrate Toolbox (FIT).
-
-
-
+          {{org_config.info}}
         </div>
         <div class="boxcontainer">
             <div class = "box2">
@@ -65,7 +62,7 @@
 
           {% for key, value in configs.items() %}
           <div class = "box">
-              {% set my_string = 'https://nmfs-fish-tools.github.io/'   ~ value['model_abbrev']  %}
+              {% set my_string = org_config.githubpage   ~ value['model_abbrev']  %}
               <a class = "shortTitle" href= {{my_string}} target= "_blank"> {{value['model_abbrev']}} </a>
               <div class = "longTitle">{{value['model_name']}}</div>
               <div class = "modelType">{{value['tool_type']}}</div>
@@ -116,7 +113,10 @@
 
 
 
-        <div class = "divider"></div>
+       <div class = "divider"></div>
+        <footer><a class ="mylink" href="https://www.commerce.gov/">U.S. Department of Commerce</a>
+    <a class ="mylink" href="https://www.noaa.gov">National Oceanographic and Atmospheric Administration</a>
+    <a class ="mylink" href="https://www.fisheries.noaa.gov/">NOAA Fisheries</a></footer>
       </div>
    </body>
 </html>
