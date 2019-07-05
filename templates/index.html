@@ -62,7 +62,11 @@
 
           {% for key, value in configs.items() %}
           <div class = "box">
+              {% if value['model_link'] is defined and value['model_link'] %}
+              {% set my_string = value['model_link'] %}
+              {% else %}
               {% set my_string = org_config.githubpage   ~ value['model_abbrev']  %}
+              {% endif %}
               <a class = "shortTitle" href= {{my_string}} target= "_blank"> {{value['model_abbrev']}} </a>
               <div class = "longTitle">{{value['model_name']}}</div>
               <div class = "modelType">{{value['tool_type']}}</div>
@@ -91,6 +95,14 @@
                  <button class = "icon_small"  id ="" onclick="location.href=""{{value['online_app_link']}};" value="Go to online app" ></button>
                  -->
                   <!-- {% else %} -->
+                  {% if badge_level %}
+                <button class = "icon_small" id = {{badge_level}}></button>
+
+                {% else %}
+                <button class = "icon_small" id ="cert" disabled></button>
+
+                {% endif %}
+
                   <button class = "icon_small" id ="cert" disabled></button>
                 <!-- {% endif %} -->
                 {% if value['support_level'] is defined and value['support_level']|length %}
@@ -114,9 +126,15 @@
 
 
        <div class = "divider"></div>
-        <footer><a class ="mylink" href="https://www.commerce.gov/">U.S. Department of Commerce</a>
-    <a class ="mylink" href="https://www.noaa.gov">National Oceanographic and Atmospheric Administration</a>
-    <a class ="mylink" href="https://www.fisheries.noaa.gov/">NOAA Fisheries</a></footer>
+
+        <footer >
+             <img src="./static/noaa-fisheries-rgb-2line-horizontal-small.png" height="75px">
+         <div class="mywrap_center">
+          <a class ="mylink" id = "line" href="https://www.commerce.gov/">U.S. Department of Commerce</a>
+         <a class ="mylink" id = "line" href="https://www.noaa.gov">National Oceanographic and Atmospheric Administration</a>
+         <a class ="mylink" href="https://www.fisheries.noaa.gov/">NOAA Fisheries</a>
+         </div>
+        </footer>
       </div>
    </body>
 </html>
