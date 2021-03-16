@@ -1,0 +1,18 @@
+{
+  "general_info_text": "This is a collection of interdisciplinary data analysis and modeling tools which are part of the <a class ='mylink' href ='https://noaa-fisheries-integrated-toolbox.github.io/'>NOAA Fisheries Integrated Toolbox (FIT)</a>. ",
+  "general_title": "General Modeling Tools",
+  "githubpage": "https://nmfs-general-modeling-tools.github.io/",
+  "list_of_models": [
+    "ADMB",
+    "ATL",
+    "FishLife",
+    "FishSET_Map_Viewer",
+        "MARSS",
+        "nmfspalette",
+        "VAST"
+  ],
+  "location_of_model_list": "/Users/corinne/NOAA_2019_on/FIT2/nmfs-general-modeling-tools/model_list",
+  "main_title":"NMFS General Modeling Tools",
+  "google_analytics":"https://www.googletagmanager.com/gtag/js?id=UA-146635872-3",
+  "google_analytics_code":"UA-146635872-3"
+}
