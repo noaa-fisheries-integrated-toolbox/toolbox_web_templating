@@ -44,20 +44,17 @@ def parse_args():
 
 
 
-def run_all_files():
-    # list_of_models =['2BOX','AGEPRO','AIM','ASAP','ASPIC','ATL',
-    #         'CSA','DCAC','IRATE','KALMAN','MCOMP','MSE','POPSIM-A',
-    #         'POPSIM-L','POPSIM','PSA','RIVARD','SCALE','SEINE','SRFIT',
-    #         'SS','STATCAM','VPA','VRD','YPR','YPRLEN']
-    list_of_models = ['ASAP']
+def run_all_files(list_of_models, folder_out, configdir):
     for modelname in list_of_models:
+        print(modelname)
         old_name = modelname +'.json'
+        configfile = os.path.join(configdir,old_name)
         # shutil.copy(old_name, 'config_template.json')
-        new_dir = '../../legacy_models/' + modelname
+        new_dir = os.path.join(folder_out, modelname)
         # Create target Directory if don't exist
         if not os.path.exists(new_dir):
             os.mkdir(new_dir)
-        write_templates(old_name, new_dir)
+        write_templates(configfile, new_dir)
 
 
 def write_templates(filename, new_dir):
@@ -66,14 +63,47 @@ def write_templates(filename, new_dir):
     template = load_template()
     write_html_index(template, configs, new_dir)
     staticdir = os.path.join(new_dir,'docs','static')
-    # shutil.copytree('./templates/static', staticdir)
+    if os.path.exists:
+        shutil.rmtree(staticdir)
+    shutil.copytree('./templates/static', staticdir)
     # shutil.copy('./templates/README.MD',new_dir)
     # shutil.copy('./templates/LICENSE.MD',new_dir)
 
 
 
 def main():
-    run_all_files()
+    which_type_models = 'gen_models'
+    if which_type_models == 'legacy':
+    #for legacy:
+        #list_of_models = ['2BOX']
+        list_of_models =['2BOX','AGEPRO','AIM','ASAP','ASPIC',
+                'CSA','DCAC','IRATE','KALMAN','MCOMP','MSE','POPSIM-A',
+                'POPSIM-L','POPSIM','PSA','RIVARD','SCALE','SEINE','SRFIT',
+                 'STATCAM','VPA','VRD','YPR','YPRLEN']
+        folder_out= '/Users/corinne/NOAA_2019_on/FIT2/nmfs-fish-tools/legacy_models'
+        configdir= '/Users/corinne/NOAA_2019_on/FIT2/nmfs-fish-tools/model_list/'
+    elif which_type_models == 'new_fish':
+    #new models :
+        list_of_models = ["RMAS"]
+        # list_of_models = ["GMACS","RMAS","WHAM"]
+
+        folder_out= '/Users/corinne/NOAA_2019_on/FIT2/nmfs-fish-tools'
+        configdir= '/Users/corinne/NOAA_2019_on/FIT2/nmfs-fish-tools/model_list/'
+
+    elif which_type_models == 'gen_models':
+    #gen models:
+        list_of_models = ['nmfspalette']
+        folder_out= '/Users/corinne/NOAA_2019_on/FIT2/nmfs-general-modeling-tools'
+        configdir= '/Users/corinne/NOAA_2019_on/FIT2/nmfs-general-modeling-tools/model_list/'
+    elif which_type_models == 'eco_models':
+    #gen models:
+        #list_of_models = ['MSCAA','MSSPM','MSVPA_X2']
+        list_of_models = ['DONUT']
+        #list_of_models = ['MSSPM']
+        folder_out= '/Users/corinne/NOAA_2019_on/FIT2/nmfs-ecosystem-tools'
+        configdir= '/Users/corinne/NOAA_2019_on/FIT2/nmfs-ecosystem-tools/model_list/'
+
+    run_all_files(list_of_models, folder_out, configdir)
 
 
 
