@@ -36,7 +36,7 @@
     "YPR",
     "YPRLEN"
   ],
-  "location_of_model_list": "/Users/corinne/NOAA_2019_on/FIT2/nmfs-fish-tools/model_list",
+  "location_of_model_list": "./model_list",
   "google_analytics":"https://www.googletagmanager.com/gtag/js?id=UA-146635872-2",
   "google_analytics_code":"UA-146635872-2",
   "main_title":"NMFS Fish and Fisheries Tools"
