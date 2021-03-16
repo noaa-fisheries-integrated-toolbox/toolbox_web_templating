@@ -11,7 +11,7 @@
         "nmfspalette",
         "VAST"
   ],
-  "location_of_model_list": "/Users/corinne/NOAA_2019_on/FIT2/nmfs-general-modeling-tools/model_list",
+  "location_of_model_list": "./model_list_dir/FGenM_model_list",
   "main_title":"NMFS General Modeling Tools",
   "google_analytics":"https://www.googletagmanager.com/gtag/js?id=UA-146635872-3",
   "google_analytics_code":"UA-146635872-3"
