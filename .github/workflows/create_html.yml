@@ -24,8 +24,13 @@ jobs:
     - name: create HTML file
       run: |
         python create_html_from_jsonmodellist.py FaF_config.json
+    - name: upload
+      uses: actions/upload-artifact@v2
+      with: 
+        path: html/index.html
+        name: index
     - name: Download a single artifact
       uses: actions/download-artifact@v2
       with:
         name: index
-        path: html/index.html
+        
