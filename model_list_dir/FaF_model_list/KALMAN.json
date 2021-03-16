@@ -1,0 +1,22 @@
+{
+  "associated_tools": "",
+  "author_name": "Seaver, A.",
+  "background_text": "The Kalman Filter is a recursive algorithm for updating linear projections of the system comprised by of an Observation Equation and a State Equation. <p>Observation Equation: y<sub>t</sub> = q<sub>t</sub>b<sub>t</sub> + v<sub>t</sub> </p><p> State Equation: b<sub>t</sub> = b<sub>t-1</sub> - w<sub>t</sub> </p><p>The user will supply a vector of observations, coefficients of variation on observation error and scale vector (q<sub>t</sub>).  The model will estimate two parameters: the state variable at time zero (b<sub>0</sub>) and the standard error on the state variable (s<sub>w</sub>). The model will return a vector of Filtered and Smoothed observations.</p>",
+  "badge_level": "badge_internal_inactive",
+  "documentation_link": "",
+  "download_app_link": "https://github.com/nmfs-fish-tools/KALMAN/releases/download/2.3/KalmanFilterV2-3.zip",
+  "fit_repo": "https://github.com/nmfs-fish-tools/KALMAN.git",
+  "model_abbrev": "KALMAN",
+  "model_name": "Kalman Filter",
+  "model_type": "",
+  "online_app_link": "",
+  "pdf_download": "",
+  "references": [
+    "Meinhold, R and Meinhold, N. 1983. Understanding the Kalman Filter. The American Statistician, Vol. 37, No. 2 (May, 1983), pp. 123-127"
+  ],
+  "shields_badges":["https://www.repostatus.org/badges/latest/inactive.svg"],
+  "support_level": "internal_inactive",
+  "tool_type": "Solver",
+  "version_number": "2.3",
+  "release_badge":"nmfs-fish-tools/KALMAN"
+}

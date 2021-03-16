@@ -1,0 +1,24 @@
+{
+  "associated_tools": [{"name":"GMR"},{"name":"ADMB","link":"https://www.admb-project.org"}],
+  "author_name": "J. Ianelli, A. Punt, D. Webber, S. Martell, and C.Szuwalski",
+  "background_text": "Generalized model originally designed for Alaska crab stocks. GMACs is a generalized modelling framework for developing size-structured stock assessment models. It is an open source program developed using AD Model Builder (ADMB). Source files will therefore build on any computer that can run ADMB. ADMB is free, open source, and available for Windows, Linux, MacOS, and Sun/SPARC.",
+  "badge_level": "badge_external_active",
+  "contact":"jim.ianelli@noaa.gov",
+  "documentation_link": "https://github.com/seacode/gmacs/wiki",
+  "download_app_link": "",
+  "github_link": "https://github.com/seacode/gmacs",
+  "model_abbrev": "GMACs",
+  "model_name": "General Model for Assessing Crustacean Stocks",
+  "model_type": "Length-structured model",
+  "model_link_page":"https://seacode.github.io/gmacs/",
+  "online_app_link": "",
+  "pdf_download": "",
+  "references": [
+    "ADMB reference: Fournier, D.A., Skaug, H.J., Ancheta, J., Ianelli, J., Magnusson, A., Maunder, M.N., Nielsen, A., and Sibert, J. 2012. AD Model Builder: using automatic differentiation for statistical inference of highly parameterized complex nonlinear models. Optim. Methods Softw. 27:233-249."
+  ],
+  "support_level": "internal_active",
+  "tool_type":"Stock Assessment Model",
+  "shields_badges":["https://www.repostatus.org/badges/latest/active.svg","https://img.shields.io/github/watchers/seacode/gmacs.svg?style=social","https://img.shields.io/badge/documentation-in--progress-yellow.svg","https://img.shields.io/travis/com/seacode/gmacs.svg"],
+  "version_number": "",
+  "release_badge":""
+}

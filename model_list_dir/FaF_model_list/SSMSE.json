@@ -1,0 +1,33 @@
+{
+  "associated_tools": [
+    {
+      "name": "SS",
+      "link": "https://vlab.ncep.noaa.gov/web/stock-synthesis"
+    },
+    {
+      "name": "DST",
+      "link": "https://nmfs-fish-tools.github.io/DST"
+    }
+  ],
+  "author_name": "Doering, K., and N. Vaughan",
+  "background_text": "SSMSE is an R package for performing Management Strategy Evaluation (MSE) using Stock Synthesis (SS).  SS is used as the Operating Model (OM) and, if the user desires, the Estimation model (EM). SSMSE allows existing SS models to be used as the basis for an OM. These OMs are used in the MSE framework provided by SSMSE to evaluate the implications of management actions on a population given uncertainty.",
+  "badge_level": "badge_external_active",
+  "contact": "fisheries.toolbox@noaa.gov",
+  "documentation_link": "../inst/bookdown/_book/index.html",
+  "download_app_link": "",
+  "github_link": "https://github.com/nmfs-fish-tools/SSMSE",
+  "model_abbrev": "SSMSE",
+  "model_name": "Management Strategy Evaluation for SS",
+  "model_type": "Management Strategy Evaluation",
+  "online_app_link": "",
+  "pdf_download": "",
+  "references": [],
+  "support_level": "internal_active",
+  "tool_type": "Associated Tool",
+  "shields_badges": [
+    "https://www.repostatus.org/badges/latest/active.svg",
+    "https://img.shields.io/github/watchers/nmfs-fish-tools/ssmse.svg?style=social"
+  ],
+  "version_number": "",
+  "release_badge": ""
+}

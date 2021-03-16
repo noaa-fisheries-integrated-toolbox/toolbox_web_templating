@@ -1,0 +1,22 @@
+{
+  "associated_tools": [{"name":
+    "RMAS","link":"https://nmfs-fish-tools.github.io/RMAS"},{"name":"ATL","link":"https://msupernaw.github.io/ATL"}
+  ],
+  "author_name": "M. Supernaw, J. Brodziak, T. A'mar, R. Methot, and C. Stawitz",
+  "background_text": "The Metapopulation System (MAS) is a next generation modeling approach to account for spatially-explicit population and fishery dynamics. The primary goal of the MAS project is to build an modular software system with object-oriented design and extensibility. MAS uses the Analytics Template Library (ATL) to optimize non-linear stock assessment models and supports ensemble modeling and parallelization. It is written in C++ and uses object-oriented programming to provide flexibility in model dimensions. MAS is currently under development and testing.",
+  "badge_level": "badge_internal_active",
+  "documentation_link": "mas_users_guide.html",
+  "download_app_link": "",
+  "github_link": "https://github.com/nmfs-fish-tools/MAS",
+  "model_abbrev": "MAS",
+  "model_name": "Metapopulation Assessment System",
+  "model_type": "",
+  "online_app_link": "",
+  "pdf_download": "",
+  "references": "",
+  "shields_badges":["https://www.repostatus.org/badges/latest/active.svg"],
+  "support_level": "internal_active",
+  "tool_type": "Stock Assessment Model",
+  "version_number": "1.0.0",
+  "release_badge":""
+}
