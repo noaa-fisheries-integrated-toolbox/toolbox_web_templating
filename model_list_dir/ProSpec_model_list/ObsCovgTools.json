@@ -1,0 +1,23 @@
+{
+  "associated_tools": [],
+  "author_name": "Curtis, A.",
+  "background_text": "",
+  "badge_level": "badge_external_active",
+  "contact":"alex.curtis@noaa.gov",
+  "documentation_link": "",
+  "download_app_link": "",
+  "github_link": "https://github.com/kacurtis/ObsCovgTools",
+  "model_abbrev": "ObsCovgTools",
+  "model_name": "Observer Coverage Simulator",
+  "model_type": "",
+  "model_link_page":"https://kacurtis.shinyapps.io/obscov/",
+  "online_app_link": "https://kacurtis.shinyapps.io/obscov/",
+  "pdf_download": "",
+  "references": [
+  ],
+  "release_badge":"kacurtis/ObsCovgTools",
+  "support_level": "internal_active",
+  "tool_type":"",
+  "shields_badges":["https://www.repostatus.org/badges/latest/active.svg"],
+  "version_number": ""
+}

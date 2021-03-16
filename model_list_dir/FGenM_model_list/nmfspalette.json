@@ -1,0 +1,21 @@
+{
+  "associated_tools": "",
+  "author_name": "Christine Stawitz",
+  "background_text": "nmfspalette is an open-source R package to implement the color palette for ggplot2 using NOAA Fisheries official colors.",
+  "badge_level": "",
+  "documentation_link": "https://github.com/nmfs-general-modeling-tools/nmfspalette/blob/main/README.md",
+  "download_app_link": "",
+  "github_link": "https://github.com/nmfs-general-modeling-tools/nmfspalette",
+  "model_abbrev": "nmfspalette",
+  "model_link_page": "https://nmfs-general-modeling-tools.github.io/nmfspalette/",
+  "model_name": "nmfspalette",
+  "model_type": "",
+  "online_app_link": "",
+  "pdf_download": "",
+  "release_badge":"nmfs-general-modeling-tools/nmfspalette",
+  "references": "",
+  "support_level": "internal_active",
+  "tool_type": "Visualization",
+  "shields_badges":[ "https://img.shields.io/github/last-commit/nmfs-general-modeling-tools/nmfspalette.svg?style=plastic","https://www.repostatus.org/badges/latest/active.svg"],
+  "version_number": ""
+}

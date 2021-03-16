@@ -1,0 +1,23 @@
+{
+  "associated_tools": [
+  ],
+  "author_name": "Lisa Colburn",
+  "background_text": "",
+  "badge_level": "internal_active",
+  "contact": "fisheries.toolbox@noaa.gov",
+  "documentation_link": "",
+  "download_app_link": "",
+  "github_link": "",
+  "model_abbrev": "SIFC",
+  "model_link_page":"https://www.fisheries.noaa.gov/national/socioeconomics/social-indicators-fishing-communities-0",
+  "model_name": "Social Indicators for Fishing Communities",
+  "model_type": "Social Indicators",
+  "online_app_link": "https://www.st.nmfs.noaa.gov/data-and-tools/social-indicators/",
+  "pdf_download": "",
+  "references": [],
+  "support_level": "internal_active",
+  "tool_type": "Mapping, Analysis, and Data Exploration",
+  "shields_badges": "",
+  "version_number": "",
+  "release_badge": ""
+}

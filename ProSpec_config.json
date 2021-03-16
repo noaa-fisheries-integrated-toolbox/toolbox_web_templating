@@ -1,0 +1,18 @@
+{
+  "general_info_text": "Environmental change and anthropogenic impacts are a serious conservation and management concern for protected and other non-target megafauna species such as sea turtles, marine mammals, sharks, and seabirds.  In the United States, management actions and environmental policies are geared towards reducing impacts on critical species from fisheries bycatch, oil spills, and habitat and climate change.  Implementing the appropriate regulatory or management action requires data and appropriate data-analysis frameworks.  For example, under the Magnuson-Stevens Act, reference points are required to be estimated for all target and non-target species considered a part of the fishery.  Under the Endangered Species Act, analyses are needed to inform the question of whether proposed actions will jeopardize listed species.  Under the Marine Mammal Protection Act, limits to direct human-caused mortality and serious injuries must be estimated. <p>Common traits of many marine megafauna include slow life histories (long-lived, late-maturing, low-recruitment to adult stage), widespread distribution across political boundaries, and being poorly sampled by research surveys.  Also, some species are more vulnerable to environmental perturbations and may require more innovative and interventionist approaches, such as for corals to promote recovery and prevent extinction. These factors result in data scarcities and present a challenge to established assessment methods used to manage exploited marine populations that are often data-intensive. Analytical tools that consist of simple to complex models developed on different statistical and programming platforms are increasingly useful for integrating disparate data streams and addressing species- or habitat-specific science and conservation questions. The Protected Species Toolbox comprises of such analytical products and applications tailored to policies and data uncertainties for protected species that would benefit management of protected and other highly migratory non-target species.  </p><p>This site features analytical products funded through the National Protected Species Toolbox (NPST) initiative, as well as others that were independently developed by NMFS scientists and collaborators. The NMFS Office of Science and Technology NPST initiative provides critical long-term research and development (R&D) investment in applied science, which in some cases may be available for immediate management application or transitioned over time for management actions.</p> ",
+  "general_title": "Protected Species Tools",
+  "githubpage": "https://nmfs-protected-species-tools.github.io/",
+  "google_analytics": "https://www.googletagmanager.com/gtag/js?id=UA-146635872-5",
+  "google_analytics_code": "UA-146635872-5",
+  "list_of_models": [
+    "atsar",
+    "agTrend",
+    "AcousticThresholds",
+    "eSDM",
+    "ObsCovgTools",
+    "NWCTrends",
+    "VRAP"
+  ],
+  "location_of_model_list": "./model_list_dir/ProSpec_model_list",
+  "main_title": "NMFS Protected Species Tools"
+}

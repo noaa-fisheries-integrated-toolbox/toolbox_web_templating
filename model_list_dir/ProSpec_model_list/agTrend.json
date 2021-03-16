@@ -1,0 +1,21 @@
+{
+  "associated_tools": [],
+  "author_name": "",
+  "background_text": "",
+  "badge_level": "",
+  "documentation_link": "",
+  "download_app_link": "",
+  "github_link": "https://github.com/dsjohnson/agTrend.gam",
+  "model_abbrev": "agTrend",
+  "model_name": " A Bayesian approach for estimating trends of aggregated abundance",
+  "model_type": "",
+  "model_link_page":"https://dataexplorer.northwestscience.fisheries.noaa.gov/nwc/agTrend/",
+  "online_app_link": "https://dataexplorer.northwestscience.fisheries.noaa.gov/nwc/agTrend/",
+  "pdf_download": "",
+  "references": "",
+  "shields_badges":[],
+  "support_level": "internal_active",
+  "tool_type": "",
+  "version_number": "",
+  "release_badge":""
+}

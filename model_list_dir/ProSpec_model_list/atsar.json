@@ -1,0 +1,21 @@
+{
+  "associated_tools": [],
+  "author_name": "",
+  "background_text": "",
+  "badge_level": "",
+  "documentation_link": "https://nwfsc-timeseries.github.io/atsar/#documentation",
+  "download_app_link": "",
+  "github_link": "https://github.com/nwfsc-timeseries/atsar",
+  "model_abbrev": "atsar",
+  "model_name": "Applied time series analysis in R with Stan",
+  "model_type": "",
+  "model_link_page":"https://nwfsc-timeseries.github.io/atsar/",
+  "online_app_link": "",
+  "pdf_download": "",
+  "references": "",
+  "shields_badges":["https://www.repostatus.org/badges/latest/active.svg"],
+  "support_level": "internal_active",
+  "tool_type": "",
+  "version_number": "",
+  "release_badge":"nwfsc-timeseries/atsar"
+}

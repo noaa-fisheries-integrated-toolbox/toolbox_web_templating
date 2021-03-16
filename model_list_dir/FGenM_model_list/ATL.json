@@ -1,0 +1,28 @@
+{
+  "associated_tools": "",
+  "author_name": "Matthew Supernaw",
+  "background_text": " The Analytics Template Library (ATL) is a scientific computing library with an emphasis on gradient based optimization. ATL leverages the power of template metaprogramming for flexibility, extensibility, and speed. This guide is intended to give the user a basic understanding of how to develop programs in ATL. The information in this document is intended for anyone interested in scientific computing in C++ and it is expected that the reader will have a basic understanding of the C++ programming language, as well as scientific computing.",
+  "badge_level": "",
+  "documentation_link": "./html/index.html",
+  "download_app_link": "",
+  "github_link": "https://github.com/nmfs-general-modeling-tools/ATL",
+  "model_abbrev": "ATL",
+  "model_link_page": "https://nmfs-general-modeling-tools.github.io/ATL",
+  "model_name": "Analytics Template Library",
+  "model_type": "",
+  "online_app_link": "",
+  "pdf_download": "./draft_developers_guide.pdf",
+  "references": [
+    "Andreas Griewank, Andrea Walther [Introduction to Automatic Differentiation]. PAMM Proc. Appl. Math. Mech. 2, 45?49 (2003).",
+    "Andreas Griewank [On Automatic Differentiation]. Center for Research on Parallel Computation, 1989.",
+    "Robert Mansel Gower, Margarida P. Mello Hessian Matrices via Automatic Differentiation. Institute of Mathematics, Statistics and Scientific Computing,State University of Campinas, September 29, 2010.",
+    "Fournier, D.A., Skaug, H.J., Ancheta, J., Ianelli, J., Magnusson, A., Maunder, M.N., Nielsen, A., and Sibert, J. 2012. AD Model Builder: using automatic differentiation for statistical inference of highly parameterized complex nonlinear models. Optim. Methods Softw. 27:233-249.",
+    "Kasper Kristensen and Anders Nielsen and Casper W. Berg and Hans Skaug and Bradley M. Bell, 2016,  TMB: Automatic Differentiation and Laplace Approximation, Journal of Statistical Software, 70:1-21 "
+  ],
+  "shields_badges": [
+    "https://img.shields.io/github/last-commit/nmfs-general-modeling-tools/ATL.svg?style=plastic"
+  ],
+  "support_level": "internal_active",
+  "tool_type": "Model Builder",
+  "version_number": "1.0.0"
+}

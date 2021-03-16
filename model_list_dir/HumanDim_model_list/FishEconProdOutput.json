@@ -1,0 +1,23 @@
+{
+  "associated_tools": [
+  ],
+  "author_name": "Emily Markowitz",
+  "background_text": "",
+  "badge_level": "badge_internal_active",
+  "contact": "emily.markowitz@noaa.gov",
+  "documentation_link": "https://github.com/EmilyMarkowitz-NOAA/FishEconProdOutput/tree/FishEconProdOutput/vignettes",
+  "download_app_link": "https://github.com/EmilyMarkowitz-NOAA/FishEconProdOutput/releases",
+  "github_link": "https://github.com/EmilyMarkowitz-NOAA/FishEconProdOutput",
+  "model_abbrev": "FishEconProdOutput",
+  "model_link_page":"https://emilymarkowitz-noaa.github.io/FishEconProdOutput/index.html",
+  "model_name": "Price Method Fisheries Economics Total Factor Productivity Outputs for the U.S. Fisheries",
+  "model_type": "",
+  "online_app_link": "",
+  "pdf_download": "",
+  "references": [],
+  "support_level": "internal_active",
+  "tool_type": "",
+  "shields_badges": "",
+  "version_number": "",
+  "release_badge": "EmilyMarkowitz-NOAA/FishEconProdOutput"
+}

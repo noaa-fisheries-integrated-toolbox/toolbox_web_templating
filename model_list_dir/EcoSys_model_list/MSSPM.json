@@ -1,0 +1,25 @@
+{
+  "associated_tools": [],
+  "author_name": "Klasky, R., Townsend, Link. J., H., Gamble R., Beet A., and  E. Wurst",
+  "background_text": "The Multi-Species Surplus Production Model (MSSPM) allows the user to 1) define a model, using choices of growth, harvest, competition, and predation forms, 2) run the model, which estimates the necessary parameters using choices for optimization algorithms, and 3) visualize the estimated data.",
+  "badge_level": "",
+  "contact": "ron.klaskey@noaa.gov",
+  "documentation_link": "./QuickStart_Guide_MSSPM.pdf",
+  "download_app_link": "https://github.com/NMFS-ecosystem-tools/MSSPM/releases",
+  "github_link": "https://github.com/NMFS-ecosystem-tools/MSSPM",
+  "model_abbrev": "MSSPM",
+  "model_link_page": "",
+  "model_name": "Multi-Species Surplus Production Model",
+  "model_type": "",
+  "online_app_link": "",
+  "pdf_download": "",
+  "release_badge":"NMFS-ecosystem-tools/MSSPM",
+  "references": [],
+  "shields_badges": [
+    "https://www.repostatus.org/badges/latest/active.svg",
+    "https://img.shields.io/badge/platform-linux-lightgrey"
+  ],
+  "support_level": "internal_active",
+  "tool_type": "",
+  "version_number": "0.9.0"
+}

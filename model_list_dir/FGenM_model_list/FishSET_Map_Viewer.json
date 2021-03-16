@@ -1,0 +1,23 @@
+{
+  "associated_tools": [{"name":"FishSET","link":"https://access.afsc.noaa.gov/pubs/posters/pdfs/pHaynie03_fishset.pdf"}
+  ],
+  "author_name": "Corinne Bassin",
+  "background_text": "This tool allows the display of various data on a map, built specifically for fishing data.  It displays and allows for analysis of fishing hauls using the start and end points of the haul.  Data associated to an individaul haul is shown on the map and colored based on the value of a choosen variable associated to that data.  The data is also spatially grouped based on the users choice of grid.",
+  "badge_level": "1",
+  "documentation_link": "./documentationLandingPage.html",
+  "download_app_link": "",
+  "github_link": "https://github.com/nmfs-general-modeling-tools/FishSET-Map-Viewer.git",
+  "model_abbrev": "FishSET Map Viewer",
+  "model_link_page": "https://nmfs-general-modeling-tools.github.io/FishSET-Map-Viewer/",
+  "model_name": "FishSET-Map-Viewer",
+  "model_type": "",
+  "online_app_link": "",
+  "pdf_download": "",
+  "release_badge":"nmfs-general-modeling-tools/FishSET-Map-Viewer",
+  "references": "",
+  "support_level": "internal_active",
+  "tool_type": "Analysis",
+  "shields_badges":[ "https://img.shields.io/github/last-commit/nmfs-general-modeling-tools/FishSET-Map-Viewer.svg?style=plastic","https://www.repostatus.org/badges/latest/active.svg"],
+  "version_number": "0.1.0",
+  "zenodo_citation":"187419043"
+}

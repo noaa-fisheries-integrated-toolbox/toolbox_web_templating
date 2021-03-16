@@ -1,0 +1,26 @@
+{
+  "associated_tools": [],
+  "author_name": "B. Fulton and B. Gorton",
+  "background_text": "Atlantis an ecosystem model that considers all parts of marine ecosystems – biophysical, economic and social. Originally focused on the biophysical world and then fisheries it has grown to begin to be used for multiple use and climate questions. Atlantis is a deterministic biogeochemical whole of ecosystem model. It’s overall structure is based around the Management Strategy Evaluation (MSE) approach, where there is a sub-model (or module) for each of the major steps in the adaptive management cycle. For more information, visit the website: https://research.csiro.au/atlantis/.  The Atlantis Ecosystem Modeling Software is proprietary software owned by Commonwealth Scientific and Industrial Research Organisation (CSIRO), © 2015-2020, and made available for use without modification. For more information see the CSIRO copyright page and legal notice and disclaimer page.",
+  "badge_level": "",
+  "contact":"Beth.Fulton@csiro.au",
+  "cite":["https://research.csiro.au/atlantis/home/useful-references/"],
+  "documentation_link": "https://research.csiro.au/atlantis/home/links/",
+  "download_app_link": "https://research.csiro.au/atlantis/home/links/",
+  "github_link": "https://research.csiro.au/atlantis/home/links/",
+  "model_abbrev": "Atlantis",
+  "model_name": "Atlantis",
+  "model_type": "deterministic biogeochemical whole of ecosystem model",
+  "model_link_page":"https://research.csiro.au/atlantis/home/about-atlantis/",
+  "online_app_link": "",
+  "pdf_download": "",
+  "release_badge":"",
+  "references": ["Fulton, E.A. 2010. Approaches to end to end ecosystem models. Journal of Marine Systems  81:171-183",
+    "Audzijonyte, A., Gorton, R., Kaplan, I. and Fulton, E.A. 2017. Atlantis User’s Guide Part I: General Overview, Physics & Ecology. CSIRO living document",
+    "Audzijonyte, A., Gorton, R., Kaplan, I. and Fulton, E.A. 2017. Atlantis User’s Guide Part II: Socio-Economics. CSIRO living document"
+  ],
+  "support_level": "external_active",
+  "tool_type":"model",
+  "shields_badges":["https://www.repostatus.org/badges/latest/active.svg"],
+  "version_number": ""
+}

@@ -1,0 +1,21 @@
+{
+  "associated_tools": [],
+  "author_name": "E.E. Holmes",
+  "background_text": "",
+  "badge_level": "",
+  "documentation_link": "",
+  "download_app_link":"",
+  "github_link": "https://github.com/eeholmes/VRAP",
+  "model_abbrev": "VRAP",
+  "model_name": "Viability and Risk Assessment Procedure",
+  "model_type": "",
+  "model_link_page":"https://eeholmes.github.io/VRAP/",
+  "online_app_link":  "https://dataexplorer.northwestscience.fisheries.noaa.gov/nwc/VRAP/",
+  "pdf_download": "",
+  "references": "",
+  "shields_badges":["https://www.repostatus.org/badges/latest/active.svg"],
+  "support_level": "internal_active",
+  "tool_type": "",
+  "version_number": "",
+  "release_badge":"eeholmes/VRAP"
+}
