@@ -458,22 +458,47 @@ button.icon_small[disabled]{
   background-image: url("icons8-checkmark-24.png");
 }
 
-.internal_inactive{
+.checkmarkN{
+  background-image: url("badge_internal_N.png");
+}
+.checkmarkE{
+  background-image: url("badge_external_E.png");
+}
+/*.internal_inactive{
   background-image: url("icons8-checkmark-24-internal-inactive.png");
   background-repeat: none;
   background-size: cover;
-}
-.internal_active{
-  background-image: url("icons8-checkmark-24-internal-active.png");
-  background-repeat: none;
-  background-size: cover;
-}
-.external_active{
-  background-image: url("icons8-checkmark-24-external-active.png");
+}*/
+
+.internal_inactive{
+  background-image: url("internal_inactiveN.png");
   background-repeat: none;
   background-size: cover;
 }
 
+.internal_active{
+  background-image: url("badge_internal_N.png");
+  background-repeat: none;
+  background-size: cover;
+}
+
+/*.internal_active{
+  background-image: url("icons8-checkmark-24-internal-active.png");
+  background-repeat: none;
+  background-size: cover;
+}*/
+
+.external_active{
+  background-image: url("badge_external_E.png");
+  background-repeat: none;
+  background-size: cover;
+}
+
+/*.external_active{
+  background-image: url("icons8-checkmark-24-external-active.png");
+  background-repeat: none;
+  background-size: cover;
+}*/
 #email{
     background-image: url("icons8-email-send-24.png");
   background-repeat: none;

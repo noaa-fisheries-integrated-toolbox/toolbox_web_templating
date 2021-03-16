@@ -63,7 +63,7 @@ def main(org_config):
 
 
 if __name__ == '__main__':
-    org_config_file = 'FaF_config.json'
+    org_config_file = 'HumanDim_config.json'
     with open(org_config_file) as f:
             org_config =  json.load(f)
     # location_of_model_list = '/Users/corinne/NOAA_2019_on/FIT2/nmfs-general-modeling-tools/model_list'
@@ -87,4 +87,3 @@ if __name__ == '__main__':
 
 
     main(org_config)
-

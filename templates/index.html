@@ -78,14 +78,18 @@
 
                       Code repositories associated to the tool are available for developers or users to access. Interested devleopers can make pull requests on the code base.
                 </div>
-                <div class = "box2">
+                <!-- <div class = "box2">
                   <div class ="row"><img class="icon_small cert" > <h2>Validation</h2></div>
                       Tools and code go through a validation process and are assigned different levels of validation.
 
+                </div> -->
+                <div class = "box2">
+                  <div class ="row"><img class="icon_small checkmarkN"> <h2>NOAA Support</h2></div>
+                      Authored by NOAA staff with support at differing levels depending on the owner of the repository and tools validation level.
                 </div>
                 <div class = "box2">
-                  <div class ="row"><img class="icon_small checkmark"> <h2>Support Level</h2></div>
-                      Tools are supported by NOAA support staff at differing levels depending on the owner of the repository and tools validation level.
+                  <div class ="row"><img class="icon_small checkmarkE"> <h2>External Tool</h2></div>
+                      Authored by scientists external to NOAA.
                 </div>
                 </div>
           </nav>
@@ -106,7 +110,7 @@
               <div class = "modelType">{{value['tool_type']}}</div>
               <div class = "modelType">{{value['model_type']}}</div>
               {% if value['release_badge'] is defined and value['release_badge'] %}
-              {% set release = "https://img.shields.io/github/v/release/"   ~ value['release_badge']  ~ "?color=%230093D0" %}
+              {% set release = "https://img.shields.io/github/v/release/"   ~ value['release_badge']  ~ "?color=%230093D0&include_prereleases" %}
               <div class = "release"><img alt="GitHub release (latest by date)" src= "{{release}}"></div>
               {% endif %}
 
