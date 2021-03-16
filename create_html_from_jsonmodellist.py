@@ -66,7 +66,7 @@ def main(org_config):
 if __name__ == '__main__':
 
     # org_config_file = 'HumanDim_config.json'
-    org_config_file = sys.arvz[1];
+    org_config_file = sys.argv[1];
     with open(org_config_file) as f:
             org_config =  json.load(f)
 
