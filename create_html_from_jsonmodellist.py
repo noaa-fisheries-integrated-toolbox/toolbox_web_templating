@@ -50,7 +50,7 @@ def main(org_config):
     allthemodels =  {}
     for f in org_config['list_of_models']:
         old_name = f +'.json'
-        print(f)
+        print(os.path())
         filename = os.path.join(org_config['location_of_model_list'], old_name)
         with open(filename) as ff:
             allthemodels[f] = json.load(ff)
