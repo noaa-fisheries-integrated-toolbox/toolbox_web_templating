@@ -1,8 +1,9 @@
 from jinja2 import Environment, FileSystemLoader
-import argparse
+# import argparse
 import json
 import os
 import shutil
+import sys
 #basic templating
 # use conda web_templating. .. source activate web_templating
 
@@ -27,12 +28,12 @@ def load_template():
 
 
 
-def parse_args():
-    parser = argparse.ArgumentParser()
-    parser.add_argument('files')
-    args = parser.parse_args()
-    filename = args.files;
-    return filename
+# def parse_args():
+#     parser = argparse.ArgumentParser()
+#     parser.add_argument('files')
+#     args = parser.parse_args()
+#     filename = args.files;
+#     return filename
 
 
 
@@ -63,27 +64,11 @@ def main(org_config):
 
 
 if __name__ == '__main__':
-    org_config_file = 'HumanDim_config.json'
+
+    # org_config_file = 'HumanDim_config.json'
+    org_config_file = sys.arvz[1];
     with open(org_config_file) as f:
             org_config =  json.load(f)
-    # location_of_model_list = '/Users/corinne/NOAA_2019_on/FIT2/nmfs-general-modeling-tools/model_list'
-    # list_of_models = ['ATL','VAST', 'FishSET_Map_Viewer']
-    # general_info_text = '''This is a collection of interdisciplinary data analysis and modeling tools; part of the NOAA Fisheries Integrate Toolbox (FIT).
-    #  '''
-    # general_title= "General Modeling Tools"
-    # org_config = {'title':general_title, 'info':general_info_text, 'githubpage':'https://nmfs-general-modeling-tools.github.io/'}
-
-
-    # location_of_model_list = '/Users/corinne/NOAA_2019_on/FIT2/nmfs-fish-tools/model_list'
-    # list_of_models =['2BOX','AGEPRO','AIM','ASAP','ASPIC',
-    #         'CSA','DCAC','IRATE','KALMAN','MCOMP','MSE','POPSIM-A',
-    #         'POPSIM-L','POPSIM','PSA','RMAS','RIVARD','SCALE','SEINE','SRFIT',
-    #         'STATCAM','VPA','VRD','YPR','YPRLEN']
-
-
-    # general_info_text = '''The NOAA Fish and Fisheries Toolbox (Fish-Tools) is a collection of software programs and modeling tools which can be used in fishery stock assessments. Many of the models are used in peer-reviewed stock assessments in the U.S. and globally. A variety of fisheries stock assessment models as well as analytical and reporting tools are available, each of which uses a different type of estimation method to produce results. The NOAA Fish and Fisheries Toolbox (Fish-Tools) is part of the NOAA Fisheries Integrate Toolbox (FIT).'''
-    # general_title= "Fish and Fisheries Tools"
-    # org_config = {'title':general_title, 'info':general_info_text, 'githubpage':'https://nmfs-fish-tools.github.io/'}
 
 
     main(org_config)
