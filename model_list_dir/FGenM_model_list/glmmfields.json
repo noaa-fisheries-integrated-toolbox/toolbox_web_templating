@@ -1,0 +1,21 @@
+{
+  "associated_tools": [],
+  "author_name": "Sean Andersen, Eric Ward",
+  "background_text": "",
+  "badge_level": "",
+  "documentation_link": "https://cran.r-project.org/web/packages/glmmfields/vignettes/spatial-glms.html",
+  "download_app_link": "https://cran.r-project.org/web/packages/glmmfields/index.html",
+  "github_link": "https://github.com/seananderson/glmmfields",
+  "model_abbrev": "glmmfields",
+  "model_name": "Spatial GLMMs in R with Stan",
+  "model_type": "",
+  "model_link_page":"https://github.com/seananderson/glmmfields",
+  "online_app_link": "",
+  "pdf_download": "",
+  "references": "",
+  "shields_badges":["https://www.repostatus.org/badges/latest/active.svg"],
+  "support_level": "internal_active",
+  "tool_type": "",
+  "version_number": "",
+  "release_badge":""
+}
