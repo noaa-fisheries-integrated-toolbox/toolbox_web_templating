@@ -5,8 +5,10 @@
   "list_of_models": [
     "ADMB",
     "ATL",
+    "atsar",
     "FishLife",
     "FishSET_Map_Viewer",
+    "glmmfields",
         "MARSS",
         "nmfspalette",
         "VAST"
