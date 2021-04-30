@@ -10,7 +10,7 @@
     "eSDM",
     "ObsCovgTools",
     "NWCTrends",
-    "salmix"
+    "salmix",
     "VRAP"
   ],
   "location_of_model_list": "./model_list_dir/ProSpec_model_list",
