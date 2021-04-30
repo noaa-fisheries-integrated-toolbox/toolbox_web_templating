@@ -23,7 +23,7 @@ jobs:
         pip install jinja2
     - name: create HTML file
       run: |
-        python create_html_from_jsonmodellist.py FGenM_config.json
+        python create_html_from_jsonmodellist.py ProSpec_config.json
     - name: upload
       uses: actions/upload-artifact@v2
       with: 
