@@ -5,12 +5,12 @@
   "google_analytics": "https://www.googletagmanager.com/gtag/js?id=UA-146635872-5",
   "google_analytics_code": "UA-146635872-5",
   "list_of_models": [
-    "atsar",
     "agTrend",
     "AcousticThresholds",
     "eSDM",
     "ObsCovgTools",
     "NWCTrends",
+    "salmix"
     "VRAP"
   ],
   "location_of_model_list": "./model_list_dir/ProSpec_model_list",
