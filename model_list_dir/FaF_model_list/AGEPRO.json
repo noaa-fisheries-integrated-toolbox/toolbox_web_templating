@@ -8,7 +8,7 @@
   "github_link": "https://github.com/PIFSCstockassessments/AGEPRO-GUI",
   "model_abbrev": "AGEPRO",
   "model_name": "Age Structured Projection Model",
-  "model_type": "Age-structured model",
+  "model_type": "Forecast module",
   "online_app_link": "",
   "pdf_download": "https://github.com/PIFSCstockassessments/AGEPRO-GUI/raw/master/doc/AGEPRO_v4.2_Reference_Manual.pdf",
   "references": [
@@ -17,7 +17,7 @@
   ],
   "shields_badges":["https://www.repostatus.org/badges/latest/active.svg"],
   "support_level": "internal_active",
-  "tool_type": "Stock Assessment Model",
+  "tool_type": "Forecast module",
   "version_number": "4.3.2",
 "release_badge":"PIFSCstockassessments/AGEPRO-GUI"
 }
