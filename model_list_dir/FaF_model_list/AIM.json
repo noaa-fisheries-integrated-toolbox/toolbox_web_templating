@@ -8,7 +8,7 @@
   "fit_repo": "https://github.com/nmfs-fish-tools/AIM.git",
   "model_abbrev": "AIM",
   "model_name": "An Index Method",
-  "model_type": "",
+  "model_type": "Index-Based",
   "online_app_link": "",
   "pdf_download": "",
   "references": "",

@@ -8,7 +8,7 @@
   "fit_repo": "https://github.com/nmfs-fish-tools/CSA.git",
   "model_abbrev": "CSA",
   "model_name": "Collie-Sissenwine Analysis",
-  "model_type": "",
+  "model_type": "Data-Limited",
   "online_app_link": "",
   "pdf_download": "",
   "references": [

@@ -13,7 +13,7 @@
   "github_link": "https://github.com/nmfs-stock-synthesis/stock-synthesis",
   "model_abbrev": "SS",
   "model_name": "Stock Synthesis",
-  "model_type": "age and size structured assessment model",
+  "model_type": "Statistical Catch-at-Length",
   "model_link_page":"https://vlab.ncep.noaa.gov/web/stock-synthesis",
   "online_app_link": "",
   "pdf_download": "",

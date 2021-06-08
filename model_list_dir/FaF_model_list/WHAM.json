@@ -16,7 +16,7 @@
   "model_abbrev": "WHAM",
   "model_link_page": "https://timjmiller.github.io/wham",
   "model_name": "Woods Hole Assessment Model",
-  "model_type": "State-space, age-structured ",
+  "model_type": "Statistical Catch-at-Age",
   "online_app_link": "",
   "pdf_download": "",
   "references": [

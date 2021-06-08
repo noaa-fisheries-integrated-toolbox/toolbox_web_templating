@@ -8,7 +8,7 @@
   "fit_repo": "https://github.com/nmfs-fish-tools/ASPIC.git",
   "model_abbrev": "ASPIC",
   "model_name": "A Stock Production Model Incorporating Covariates",
-  "model_type": "Surplus production model",
+  "model_type": "Aggregate Biomass Dynamics",
   "online_app_link": "",
   "pdf_download": "",
   "references": [

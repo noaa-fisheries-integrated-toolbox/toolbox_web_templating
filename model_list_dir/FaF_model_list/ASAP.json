@@ -8,7 +8,7 @@
   "fit_repo": "https://github.com/nmfs-fish-tools/ASAP",
   "model_abbrev": "ASAP",
   "model_name": "Age Structured Assessment Program",
-  "model_type": "Age-structured model",
+  "model_type": "Statistical Catch-at-Age",
   "online_app_link": "",
   "pdf_download": "https://www.researchgate.net/publication/266334996_A_Flexible_Forward_Age-Structured_Assessment_Program/download",
   "references": [
