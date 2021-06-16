@@ -16,6 +16,7 @@
   "references": "",
   "support_level": "external_active",
   "tool_type": "Model Builder",
-  "shield_badges":[ ],
+  "release_badge": "Cole-Monnahan-NOAA/adnuts",
+  "shield_badges":["https://www.repostatus.org/badges/latest/active.svg"],
   "version_number": ""
 }
