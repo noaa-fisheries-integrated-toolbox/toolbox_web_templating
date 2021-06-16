@@ -1,0 +1,21 @@
+{
+  "associated_tools": [{"name":"ADMB","link":"http://www.admb-project.org/"}
+  ],
+  "author_name": "Cole Monnahan",
+  "background_text": "The aim of ‘adnuts’ (pronounced A-D NUTS like A-D MB) is to provide advanced MCMC sampling for ‘ADMB’ and ‘TMB’ models. It mimics ‘Stan’ in functionality and feel, specifically providing no-U-turn (NUTS) sampling with adaptive mass matrix and parallel execution.",
+  "badge_level": "1",
+  "documentation_link": "https://cloud.r-project.org/web/packages/adnuts/adnuts.pdf",
+  "download_app_link": "https://cloud.r-project.org/web/packages/adnuts/index.html",
+  "github_link": "https://github.com/Cole-Monnahan-NOAA/adnuts/",
+  "model_abbrev": "adnuts",
+  "model_link_page": "https://cole-monnahan-noaa.github.io/adnuts/index.html",
+  "model_name": "AD no U-turn sampling",
+  "model_type": "",
+  "online_app_link": "",
+  "pdf_download": "https://doi.org/10.1371/journal.pone.0197954",
+  "references": "",
+  "support_level": "external_active",
+  "tool_type": "Model Builder",
+  "shield_badges":[ ],
+  "version_number": ""
+}
