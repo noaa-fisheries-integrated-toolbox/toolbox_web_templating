@@ -4,8 +4,8 @@
   "background_text": "This is a prey preference and diet composition tool based upon a rank proportion algorithm. The user is able to designate various prey species for various predator species to predict the prey preference and diet composition of each predator.",
   "badge_level": "",
   "documentation_link": "./QuickStart_Guide_Donut_Tool.pdf",
-  "download_app_link": "https://github.com/NMFS-ecosystem-tools/Donut_Tool/releases",
-  "github_link": "https://github.com/NMFS-ecosystem-tools/Donut_Tool",
+  "download_app_link": "https://github.com/nmfs-fish-tools/Donut_Tool/releases",
+  "github_link": "https://github.com/nmfs-fish-tools/Donut_Tool",
   "model_abbrev": "Donut_Tool",
   "model_name": "Prey Preference and Diet Composition Tool",
   "model_type": "",
@@ -19,5 +19,5 @@
   "support_level": "internal_active",
   "tool_type": "",
   "version_number": "",
-  "release_badge": "NMFS-ecosystem-tools/Donut_Tool"
+  "release_badge": "nmfs-fish-tools/Donut_Tool"
 }
