@@ -5,9 +5,9 @@
   "badge_level": "",
   "documentation_link": "./html/index.html",
   "download_app_link": "",
-  "github_link": "https://github.com/nmfs-general-modeling-tools/ATL",
+  "github_link": "https://github.com/nmfs-fish-tools/ATL",
   "model_abbrev": "ATL",
-  "model_link_page": "https://nmfs-general-modeling-tools.github.io/ATL",
+  "model_link_page": "https://nmfs-fish-tools.github.io/ATL",
   "model_name": "Analytics Template Library",
   "model_type": "",
   "online_app_link": "",
@@ -20,7 +20,7 @@
     "Kasper Kristensen and Anders Nielsen and Casper W. Berg and Hans Skaug and Bradley M. Bell, 2016,  TMB: Automatic Differentiation and Laplace Approximation, Journal of Statistical Software, 70:1-21 "
   ],
   "shields_badges": [
-    "https://img.shields.io/github/last-commit/nmfs-general-modeling-tools/ATL.svg?style=plastic"
+    "https://img.shields.io/github/last-commit/nmfs-fish-tools/ATL.svg?style=plastic"
   ],
   "support_level": "internal_active",
   "tool_type": "Model Builder",
