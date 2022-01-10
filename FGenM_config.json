@@ -1,7 +1,7 @@
 {
   "general_info_text": "This is a collection of interdisciplinary data analysis and modeling tools which are part of the <a class ='mylink' href ='https://noaa-fisheries-integrated-toolbox.github.io/'>NOAA Fisheries Integrated Toolbox (FIT)</a>. ",
   "general_title": "General Modeling Tools",
-  "githubpage": "https://nmfs-general-modeling-tools.github.io/",
+  "githubpage": "https://nmfs-fish-tools.github.io/",
   "list_of_models": [
     "ADMB",
     "adnuts",
