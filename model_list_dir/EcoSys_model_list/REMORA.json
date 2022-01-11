@@ -1,0 +1,23 @@
+{
+  "associated_tools": [{"name":"MSSPM", "link":"https://nmfs-fish-tools.github.io/MSSPM/"}],
+  "author_name": "Klasky, R.",
+  "background_text": "REMORA is a REsource Management Option Review and Analysis tool. It features an intuitive user interface to simplify forecast modeling and analysis.",
+  "badge_level": "",
+  "contact":"ronald.klasky@noaa.gov",
+  "documentation_link": "",
+  "download_app_link": "",
+  "github_link": "https://github.com/nmfs-fish-tools/REMORA",
+  "model_abbrev": "REMORA",
+  "model_name": "REsource Management Option Review and Analysis Tool",
+  "model_type": "",
+  "model_link_page":"",
+  "online_app_link": "",
+  "pdf_download": "",
+  "release_badge":"nmfs-fish-tools/REMORA",
+  "references": [
+  ],
+  "support_level": "external_active",
+  "tool_type":"",
+  "shields_badges":["https://www.repostatus.org/badges/latest/active.svg","https://img.shields.io/badge/platform-linux%20%7Cwin-lightgrey"],
+  "version_number": ""
+}
