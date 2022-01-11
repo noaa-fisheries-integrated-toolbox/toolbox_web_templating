@@ -3,13 +3,13 @@
   "author_name": "Eric Ward",
   "background_text": "",
   "badge_level": "",
-  "documentation_link": "https://nwfsc-timeseries.github.io/atsar/#documentation",
+  "documentation_link": "https://atsa-es.github.io/atsar/#documentation",
   "download_app_link": "",
-  "github_link": "https://github.com/nwfsc-timeseries/atsar",
+  "github_link": "https://github.com/atsa-es/atsar",
   "model_abbrev": "atsar",
   "model_name": "Applied time series analysis in R with Stan",
   "model_type": "",
-  "model_link_page":"https://nwfsc-timeseries.github.io/atsar/",
+  "model_link_page":"https://atsa-es.github.io/atsar/",
   "online_app_link": "",
   "pdf_download": "",
   "references": "",
@@ -17,5 +17,5 @@
   "support_level": "internal_active",
   "tool_type": "",
   "version_number": "",
-  "release_badge":"nwfsc-timeseries/atsar"
+  "release_badge":"atsa-es/atsar"
 }
