@@ -1,0 +1,23 @@
+{
+  "associated_tools": [],
+  "author_name": "Klasky, R.",
+  "background_text": "Common C++ utilities for Multi-Species tools: MSSPM, MSCAA, and MSVPA_X2",
+  "badge_level": "",
+  "contact":"ronald.klasky@noaa.gov",
+  "documentation_link": "",
+  "download_app_link": "",
+  "github_link": "https://github.com/nmfs-fish-tools/nmfSharedUtilities",
+  "model_abbrev": "nmfSharedUtilities",
+  "model_name": "nmfSharedUtilities",
+  "model_type": "",
+  "model_link_page":"",
+  "online_app_link": "",
+  "pdf_download": "",
+  "release_badge":"nmfs-fish-tools/nmfSharedUtilities",
+  "references": [
+  ],
+  "support_level": "external_active",
+  "tool_type":"",
+  "shields_badges":["https://www.repostatus.org/badges/latest/active.svg","https://img.shields.io/badge/platform-linux%20%7Cwin-lightgrey"],
+  "version_number": ""
+}
