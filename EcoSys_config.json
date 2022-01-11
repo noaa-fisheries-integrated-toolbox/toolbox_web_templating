@@ -15,7 +15,9 @@
     "MSCAA",
     "OSMOSE",
     "RPATH",
-    "VES-V"
+    "VES-V",
+    "REMORA",
+    "nmfSharedUtilities"
   ],
   "location_of_model_list": "./model_list_dir/EcoSys_model_list",
   "main_title": "NMFS Ecosystem Tools"
