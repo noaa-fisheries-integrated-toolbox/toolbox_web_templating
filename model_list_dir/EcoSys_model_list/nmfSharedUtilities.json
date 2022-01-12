@@ -1,5 +1,9 @@
 {
-  "associated_tools": [],
+  "associated_tools": [
+    "MSSPM: https://nmfs-fish-tools.github.io/MSSPM/",
+    "MSCAA: https://nmfs-fish-tools.github.io/MSCAA/",
+    "MSVPA_X2: https://nmfs-fish-tools.github.io/MSVPA_X2/"
+  ],
   "author_name": "Klasky, R.",
   "background_text": "Common C++ utilities for Multi-Species tools: MSSPM, MSCAA, and MSVPA_X2",
   "badge_level": "",
@@ -10,7 +14,7 @@
   "model_abbrev": "nmfSharedUtilities",
   "model_name": "nmfSharedUtilities",
   "model_type": "",
-  "model_link_page":"",
+  "model_link_page":"https://github.com/nmfs-fish-tools/nmfSharedUtilities",
   "online_app_link": "",
   "pdf_download": "",
   "release_badge":"nmfs-fish-tools/nmfSharedUtilities",
