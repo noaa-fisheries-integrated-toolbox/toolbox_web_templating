@@ -5,28 +5,28 @@
   "badge_level": "",
   "contact": "jason.link@noaa.gov",
   "documentation_link": "./VES-VUserManual_v137_final.pdf",
-  "download_app_link": "https://github.com/nmfs-fish-tools/VES-V/#Executables",
+  "download_app_link": "https://github.com/nmfs-fish-tools/VES-V/blob/master/Executables.md",
   "github_link": "https://github.com/nmfs-fish-tools/VES-V",
   "main_image": {"image":"VES-V.jpg","link":"http://www.perspectx.com/VES-V/VESVdemoSept12WestCoast.mp4","alt":"image of VES-V interface and link to video overview"},
   "model_abbrev": "VES-V",
-  "model_link_page": "https://github.com/nmfs-fish-tools/VES-V/",
+  "model_link_page": "https://nmfs-fish-tools.github.io/VES-V/",
   "model_name": "Virtual Ecosystem Scenario Viewer",
   "model_type": "",
   "multi_download": [
     {
-      "link": "http://www.perspectx.com/VES-V/NOAA_VES-V_v137_PC.zip",
-      "name": "Windows EXE"
+      "link": "http://www.perspectx.com/VES-V/NOAA_VES-V_v144_PC.zip",
+      "name": "VES-V 1.44 for PC/Windows"
     },
     {
-      "link": "http://www.perspectx.com/VES-V/NOAA_VES-V_v137_OSX.zip",
-      "name": "OSX EXE"
+      "link": "http://www.perspectx.com/VES-V/NOAA_VES-V_v144_OSX.zip",
+      "name": "VES-V 1.44 for Mac/OS"
     },
     {
-      "link": "http://www.perspectx.com/VES-V/NOAA_VES-V_v137_linux.zip",
-      "name": "Linux EXE"
+      "link": "http://www.perspectx.com/VES-V/NOAA_VES-V_v144_linux.zip",
+      "name": "VES-V 1.44 for Linux"
     }
   ],
-  "online_app_link": "http://www.perspectx.com/VES-V",
+  "online_app_link": "http://www.perspectx.com/VES-V/v144/",
   "pdf_download": "",
   "references": [],
   "shields_badges": [
