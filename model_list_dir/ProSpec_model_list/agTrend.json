@@ -9,6 +9,7 @@
   "model_abbrev": "agTrend",
   "model_name": "A Bayesian approach for estimating trends of aggregated abundance",
   "model_type": "",
+  "model_link_page":"https://nmfs-fish-tools.github.io/agTrend/",  
   "online_app_link": "",
   "pdf_download": "",
   "references": "",
