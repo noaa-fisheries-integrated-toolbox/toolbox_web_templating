@@ -1,0 +1,23 @@
+{
+  "associated_tools": [{"name":
+    "Life History Sampling"
+  }
+  ],
+  "author_name": "E. Bohaboy, E. Schemmel",
+  "background_text": "An individual-based model (IBM) incorporating within-population variability in von Bertalanffy growth, size-dependent natural mortality, and a size-selective fishery to simulate an exploited fish population and catch (harvest). A bootstrap algorithm allows the user to investigate various sampling approaches including sampling strategy (proportional or fixed otolith sampling, POS or FOS, respectively), sample size, supplementation with fishery-independent sampling, and assumptions regarding von Bertalanffy t0 and the relationship between variance of length at age and age. A function to produce plots of the bootstrap sampling results is also provided.",
+  "badge_level": "badge_internal_inactive",
+  "documentation_link": "https://github.com/NOAA-LHP/LHsampling/blob/main/LH_Sampling_documentation.pdf",
+  "download_app_link": "",
+  "github_link": "https://github.com/NOAA-LHP/LHsampling",
+  "model_abbrev": "LHSampling",
+  "model_name": "Life History Sampling",
+  "model_type": "",
+  "model_link_page":"https://nmfs-fish-tools.github.io/LH-sampling/",   
+  "online_app_link": "",
+  "pdf_download": "",
+  "references": "",
+  "support_level": "internal_inactive",
+  "tool_type": "",
+  "version_number": "",
+  "release_badge":"NOAA-LHP/LHsampling"
+}
