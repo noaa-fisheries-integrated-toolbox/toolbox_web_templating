@@ -1,7 +1,7 @@
 {
-  "associated_tools": [],
+  "associated_tools": "",
   "author_name": "Melissa A. Karp, John F. Kennedy",
-  "background_text": "The Distribution Mapping and Analysis Portal is a national web application which displays data from NOAA Fisheries bottom trawl surveys for five regions - Northeast, Southeast, Gulf of Mexico, West Coast, and Alaska. The portal includes a map viewer and  graphing capabilities for over 800 marine fish and invertebrate species caught during the surveys. DisMAP is being developed in phases, with this release of version 1.0 as the first phase of its ongoing development. The plan is for future releases to include additional data types, model outputs, and functionality. Version 1.0 presents distribution information obtained from NOAA Fisheries bottom trawl surveys, and enables analysis of single species distributions as well as a regional summary of community level distribution shifts. Planned additions for future releases include:  (1) data from other surveys (e.g. PIFSC and Canada DFO), (2) two additional analysis modules focused on multispecies interactions and species availability to fishing ports, and (3) species distribution model outputs (both hindcast and forecasts/projections). Evaluation of additional future data types, model outputs, or functionalities to potentially incorporate into the portal will be the role of the DisMAP steering committee/working group. ",
+  "background_text": "The Distribution Mapping and Analysis Portal is a national web application which displays data from NOAA Fisheries bottom trawl surveys for five regions - Northeast, Southeast, Gulf of Mexico, West Coast, and Alaska. The portal includes a map viewer and  graphing capabilities for over 800 marine fish and invertebrate species caught during the surveys. DisMAP is being developed in phases, with this release of version 1.0 as the first phase of its ongoing development. The plan is for future releases to include additional data types, model outputs, and functionality. Version 1.0 presents distribution information obtained from NOAA Fisheries bottom trawl surveys, and enables analysis of single species distributions as well as a regional summary of community level distribution shifts. Planned additions for future releases include:  (1) data from other surveys (e.g. PIFSC and Canada DFO), (2) two additional analysis modules focused on multispecies interactions and species availability to fishing ports, and (3) species distribution model outputs (both hindcast and forecasts/projections). Evaluation of additional future data types, model outputs, or functionalities to potentially incorporate into the portal will be the role of the DisMAP steering committee/working group.",
   "badge_level": "",
   "contact":"melissa.karp@noaa.gov",
   "documentation_link": "",
@@ -18,91 +18,5 @@
   ],
   "support_level": "internal_active",
   "tool_type":"",
-  "shields_badges":["https://www.repostatus.org/badges/latest/active.svg","https://img.shields.io/badge/platform-linux%20%7Cwin-lightgrey"],
   "version_number": "0.9.0"
-}
-
-Explanation:
-
-{
-  "associated_tools": [{"name":"NAME OF TOOL","link":"LINK TO TOOL"},{"name":"NAME OF TOOL","link":"LINK TO TOOL"}],
-  "author_name": "AUTHOR NAME",
-  "background_text": "THIS TEXT WILL BE THE MAIN TEXT ON THE MODEL LANDING PAGE",
-  "badge_level": "",** for the most part this is no longer used but can be left in older ones
-  "contact":"EMAIL FOR MAIN CONTACT use fisheries.toolbox@noaa.gov if no other email is known",
-  "documentation_link": "LINK TO EXTERNAL DOUMENTATION OR LOCAL PATH TO FILE WITH DOCUMENTATION",
-  "download_app_link": "LINK TO DOWNLOAD APPLICATION IF EXE OR RELEASE VERSION, CAN JUST USE LINK TO RELEASE PAGE",
-  "github_link": "LINK TO GITHUB CODE REPO",
-  "model_abbrev": "SHORT ABBREVIATION OF TOOL USED AT TOP OF TILE ON LANDNIG PAGE",
-  "model_name": "COOMPLETE NAME OF TOOL SHOOWN IN TILE ON SECOND ROW",
-  "model_type": "SPECIFIY TYPE OF MOODEL< THIS SHOOWS UP IN THE TILE OR CAN BE LEFT AS JUST EMPTY QUOTES",
-  "model_link_page":"LINK TO LANDING PAGE FOOR TOOL< FOR GITHUB ONES THIS IS THE PAGES LINK OTHERWISE LEAVE AS EMPTY QUOTES, no space",
-  "online_app_link": "IF THERE IS A SHINY APP OR OTHER ONLINIE VERSION PUT LINK HERE OTHERWISE LEAVE AS EMPTY QUOTES, no space",
-  "pdf_download": "",
-  "release_badge":"IF THE REPO UESE RELEASES OON GITHUB, JUST PUT THE ORG/REPO HERE TO LINK. IF ITS A TAG AND NOT A RELEASE YO UMAYNEED TO MAKE A FIX DIRECTLY IN THE HTML AFTER THE FACT  , EXAMPLE FOOR RELEASES: NMFS-ecosystem-tools/MSCAA",
-  "references": [{"name":"NAME OF TOOL","link":"LINK TO TOOL"},{"name":"NAME OF TOOL","link":"LINK TO TOOL"}],**LEAVE AS EMPTY LIST [] IF NONE
-  "support_level": "external_active",** CHOICES ARE external_active OR internal_active OR interal_inactive
-  "tool_type":"SPECIFIY TYPE OF TOOL ( MORE GENERAL THEN MODEL) THIS SHOOWS UP IN THE TILE OR CAN BE LEFT AS JUST EMPTY QUOTES",
-  "shields_badges":["https://www.repostatus.org/badges/latest/active.svg","https://img.shields.io/badge/platform-linux%20%7Cwin-lightgrey"],** add any extra badges here from repostatus or shields in a list
-  "version_number": "0.9.0"** add version number only if it is not linked to a release_badge above
-}
-
-AN example where doccumentation link is internal to repo:
-{
-  "associated_tools": [
-    {
-      "name": "SS",
-      "link": "https://vlab.ncep.noaa.gov/web/stock-synthesis"
-    },
-    {
-      "name": "DST",
-      "link": "https://nmfs-fish-tools.github.io/DST"
-    }
-  ],
-  "author_name": "Doering, K., and N. Vaughan",
-  "background_text": "SSMSE is an R package for performing Management Strategy Evaluation (MSE) using Stock Synthesis (SS).  SS is used as the Operating Model (OM) and, if the user desires, the Estimation model (EM). SSMSE allows existing SS models to be used as the basis for an OM. These OMs are used in the MSE framework provided by SSMSE to evaluate the implications of management actions on a population given uncertainty.",
-  "badge_level": "badge_external_active",
-  "contact": "fisheries.toolbox@noaa.gov",
-  "documentation_link": "../inst/bookdown/_book/index.html",
-  "download_app_link": "",
-  "github_link": "https://github.com/nmfs-fish-tools/SSMSE",
-  "model_abbrev": "SSMSE",
-  "model_name": "Management Strategy Evaluation for SS",
-  "model_type": "Management Strategy Evaluation",
-  "online_app_link": "",
-  "pdf_download": "",
-  "references": [],
-  "support_level": "internal_active",
-  "tool_type": "Associated Tool",
-  "shields_badges": [
-    "https://www.repostatus.org/badges/latest/active.svg",
-    "https://img.shields.io/github/watchers/nmfs-fish-tools/ssmse.svg?style=social"
-  ],
-  "version_number": "",
-  "release_badge": ""
-}
-
-an example with release badge:
-{
-  "associated_tools": [{"name":
-    "Metapopulation Assessment System"
-  }
-  ],
-  "author_name": "C. Stawitz, M. Supernaw, C. Bassin, and B. Li",
-  "background_text": "The Metapopulation Assessment System (MAS) is a modular tool for creating and fitting fisheries stock assessment models. The R interface to MAS (RMAS) allows users to build and run MAS models directly using the R language. It also includes functions to help translate between MAS and other stock assessment software and to plot outputs of MAS models, including estimates of key biological and observation parameters and derived quantities such as biological reference points, estimated biomass, and estimated numbers-at-age.",
-  "badge_level": "",
-  "documentation_link": "./Introduction.html",
-  "download_app_link": "",
-  "github_link": "https://github.com/nmfs-fish-tools/RMAS",
-  "model_abbrev": "RMAS",
-  "model_name": "R interface to Metapopulation Assessment System",
-  "model_type": "",
-  "online_app_link": "",
-  "pdf_download": "",
-  "references": "",
-  "shields_badges":["https://www.repostatus.org/badges/latest/active.svg", "https://github.com/nmfs-fish-tools/RMAS/workflows/R-CMD-check/badge.svg"],
-  "support_level": "internal_active",
-  "tool_type": "Input/Output Processor",
-  "version_number": "1.0",
-  "release_badge":"nmfs-fish-tools/RMAS"
 }
