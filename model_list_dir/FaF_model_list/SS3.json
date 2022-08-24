@@ -1,0 +1,30 @@
+{
+  "associated_tools": [
+    "Stock Synthesis Interface (SSI, the SS GUI): https://github.com/nmfs-stock-synthesis/ssi",
+    "r4ss: https://github.com/r4ss/r4ss",
+    "ss3sim: https://github.com/ss3sim/ss3sim",
+    "ss3 helper: https://connect.fisheries.noaa.gov/ss3-helper/"
+  ],
+  "author_name": "R. Methot, C. Wetzel, I. Taylor, N. Schindler, and K. Doering",
+  "background_text": "Stock Synthesis (SS3) is an age- and size-structured assessment model in the class of models termed integrated analysis models. SS3 has a population sub-model that simulates a stock’s growth, movement, and mortality processes; an observation sub-model estimates expected values for various types of data; a statistical sub-model characterizes the data’s goodness of fit and obtains best-fitting parameters with associated variance; and a forecast sub-model projects needed management quantities. SS3 outputs the quantities, with confidence intervals, needed to implement risk-averse fishery control rules. The model is coded in C++ with parameter estimation enabled by automatic differentiation (www.admb-project.org). Windows, Linux, and iOS versions are available. Output processing and associated tools are in R, and a graphical interface is in QT. The rich feature set in SS3 allows it to be configured for a wide range of situations and it has become the basis for a large fraction of U.S. assessments and many other assessments around the world. ",
+  "badge_level": "badge_external_active",
+  "contact":"nmfs.stock.synthesis@noaa.gov",
+  "documentation_link": "https://github.com/nmfs-stock-synthesis/doc/releases",
+  "download_app_link": "https://github.com/nmfs-stock-synthesis/stock-synthesis/releases",
+  "model_link_page":"https://vlab.noaa.gov/web/stock-synthesis",
+  "github_link": "https://github.com/nmfs-stock-synthesis/stock-synthesis",
+  "model_abbrev": "SS3",
+  "model_name": "Stock Synthesis",
+  "model_type": "Statistical Catch-at-Length",
+  "online_app_link": "",
+  "pdf_download": "",
+  "references": [
+    "SS reference: Methot and Wetzel 2013. Stock synthesis: A biological and statistical framework for fish stock assessment and fishery management. https://doi.org/10.1016/j.fishres.2012.10.012",
+    "ADMB reference: Fournier, D.A., Skaug, H.J., Ancheta, J., Ianelli, J., Magnusson, A., Maunder, M.N., Nielsen, A., and Sibert, J. 2012. AD Model Builder: using automatic differentiation for statistical inference of highly parameterized complex nonlinear models. Optim. Methods Softw. 27:233-249."
+  ],
+  "release_badge": "nmfs-stock-synthesis/stock-synthesis",
+  "shields_badges":["https://www.repostatus.org/badges/latest/active.svg"],
+  "support_level": "internal_active",
+  "tool_type":"Stock Assessment Model",
+  "version_number": ""
+}
