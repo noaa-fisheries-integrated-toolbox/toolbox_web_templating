@@ -1,0 +1,188 @@
+name: Onboarding to FIT form
+description: Test out a new way for user to submit info for inclusion in the toolbox.
+title: "[Onboarding]: "
+labels: ["status: triage_needed"]
+assignees:
+  - k-doering-NOAA
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this onboarding request! Please take a look at the [onboarding slidedeck](https://noaa-fisheries-integrated-toolbox.github.io/FIT-Onboarding-Presentation/) for details about the onboarding process.
+  - type: checkboxes
+    id: drawer
+    attributes:
+      label: Which drawer(s) of the toolbox does this tool belong in?
+      description: Check any that apply.
+      multiple: true
+      options:
+        - label: Fish and Fisheries
+        - label: Protected Species
+        - label: Human Dimensions
+        - label: Ecosystems
+        - label: General Modeling 
+          required: true
+  - type: textarea
+    id: associatedtools
+    attributes:
+      label: Provide name and link of any associated tools
+      description:
+      placeholder: ASAP https://nmfs-fish-tools.github.io/ASAP/
+    validations:
+      required: false
+  - type: textarea
+    id: authorname
+    attributes:
+      label: Provide the name(s) of the Authors
+      description: Please include in the format provided
+      placeholder: Taylor, I., Johnson, K., and Doering, K.
+    validations:
+      required: true
+  - type: textarea
+    id: background
+    attributes:
+      label: Please provide a paragraph of backgorund text.
+      description: This will be the main text on the model landing page.
+      placeholder: The ASAP model is...
+    validations:
+      required: true
+  - type: textarea
+    id: email
+    attributes:
+      label: Email
+      description: Please link an email associated with the tool. Use fisheries.toolbox@noaa.gov if another option is not available
+      placeholder: fisheries.toolbox@noaa.gov
+    validations:
+      required: true
+  - type: textarea
+    id: documentationlink
+    attributes:
+      label: Provide a link to documentation for the tool
+      placeholder: https://nmfs-fish-tools.github.io/SSMSE/manual/
+    validations:
+      required: false
+  - type: textarea
+    id: exelink
+    attributes:
+      label: Provide a link to download the tool, if available.
+      placeholder: https://github.com/nmfs-fish-tools/SSMSE/releases
+    validations:
+      required: false     
+  - type: textarea
+    id: githublink
+    attributes:
+      label: Provide a link to the github repo, if available.
+      placeholder: https://github.com/nmfs-fish-tools/SSMSE
+    validations:
+      required: false
+  - type: textarea
+    id: modelabbrev
+    attributes:
+      label: Please provide the tool abbreviation, if applicable
+      placeholder: SS3
+    validations:
+      required: false
+  - type: textarea
+    id: modelname
+    attributes:
+      label: Please provide tool name
+      placeholder: SS3
+    validations:
+      required: true
+  - type: textarea
+    id: modelname
+    attributes:
+      label: Please provide tool name
+      placeholder: SS3
+    validations:
+      required: true
+  - type: checkboxes
+    id: drawer
+    attributes:
+      label: Please check the model type
+      description: Check any that apply.
+      multiple: true
+      options:
+        - label: ?
+        - label: ??
+      validations:
+          required: false
+  - type: textarea
+    id: 
+    attributes:
+      label: Tool website
+      description: Please link the website for the tool, if it already has one
+      placeholder: https://vlab.noaa.gov/web/stock-synthesis
+    validations:
+      required: false
+  - type: textarea
+    id: 
+    attributes:
+      label: Link to online app
+      description: Please link the online application version of the tool, if applicable
+      placeholder: https://connect.fisheries.noaa.gov/DLMapper/
+    validations:
+      required: false                    
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Add any other context or screenshots about the feature request here.
+    validations:
+      required: false
+  - type: checkboxes
+    id: releases
+    attributes:
+      label: Github Releases
+      description: Check the box below if you use or plan to use [GitHub Releases](https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases)
+      options: 
+        - label: I use or plan to use Github Releases
+      validations:
+        required: false
+  - type: checkboxes
+    id: tooltype
+    attributes:
+      label: Type of tool
+      description: Check up to 5 keywords that describe the tool
+      options:
+        - label: Stock Assessment
+        - label: Ecosystem Model
+        - label: Management Strategy Evaluation
+        - label: Shiny app.
+      validations:
+        required: false
+  - type: textarea
+    id: additionaltooltypes
+    attributes:
+      label: Custom keywords
+      description:  Add up to 5 additional keywords that describe the tool. Separate them with commas.
+      placeholder: marine mammals, mapping, telemetry
+    validations:
+      required: false
+  - type: textarea
+    id: badges
+    attributes:
+      label: Link to badges
+      description:  Add up to 5 badges that you would like displayed. Separate them with commas.
+      placeholder: https://www.repostatus.org/badges/latest/active.svg, https://img.shields.io/badge/platform-linux%20%7Cwin-lightgrey
+    validations:
+      required: false
+  - type: textarea
+    id: versionnumber
+    attributes:
+      label: If not using github releases, please add the latest version number.
+      placeholder: 0.9.0
+    validations:
+      required: false
+  # - type: checkboxes
+  #   id: langs
+  #   attributes:
+  #     label: which language(s) is the tool written in? (note: could pull this from github meta data)
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://noaa-fims.github.io/collaborative_workflow/code-of-conduct.html#code-of-conduct)
+      options:
+        - label: I agree to follow the FIT's [Code of Conduct](https://noaa-fims.github.io/collaborative_workflow/code-of-conduct.html#code-of-conduct)
+          required: true
