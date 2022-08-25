@@ -29,8 +29,3 @@ jobs:
       with: 
         path: html/index.html
         name: index
-    - name: Download a single artifact
-      uses: actions/download-artifact@v2
-      with:
-        name: index
-        
