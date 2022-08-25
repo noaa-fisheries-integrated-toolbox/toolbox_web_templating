@@ -12,10 +12,10 @@
     "FishSET_Map_Viewer",
     "glmmfields",
     "KALMAN",
-        "MARSS",
-        "nmfspalette",
-        "VAST", 
-        "ghactions4r"
+    "MARSS",
+    "nmfspalette",
+    "VAST", 
+    "ghactions4r"
   ],
   "location_of_model_list": "./model_list_dir/FGenM_model_list",
   "main_title":"NMFS General Modeling Tools",

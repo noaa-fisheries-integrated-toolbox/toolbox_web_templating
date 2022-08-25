@@ -9,7 +9,6 @@
     "fisheye",
     "REIA",
     "SIFC"
-
   ],
   "location_of_model_list": "./model_list_dir/HumanDim_model_list",
   "main_title": "NMFS Human Dimensions Tools"
