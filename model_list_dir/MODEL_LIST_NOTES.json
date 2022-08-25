@@ -1,4 +1,4 @@
-An empty versioin of the model list:
+An empty version of the model list:
 {
   "associated_tools": [],
   "author_name": "",
@@ -23,7 +23,7 @@ An empty versioin of the model list:
   "version_number": "0.9.0"
 }
 
-Explanation:
+Explanation of json elements:
 
 {
   "associated_tools": [{"name":"NAME OF TOOL","link":"LINK TO TOOL"},{"name":"NAME OF TOOL","link":"LINK TO TOOL"}],
@@ -34,21 +34,21 @@ Explanation:
   "documentation_link": "LINK TO EXTERNAL DOUMENTATION OR LOCAL PATH TO FILE WITH DOCUMENTATION",
   "download_app_link": "LINK TO DOWNLOAD APPLICATION IF EXE OR RELEASE VERSION, CAN JUST USE LINK TO RELEASE PAGE",
   "github_link": "LINK TO GITHUB CODE REPO",
-  "model_abbrev": "SHORT ABBREVIATION OF TOOL USED AT TOP OF TILE ON LANDNIG PAGE",
+  "model_abbrev": "SHORT ABBREVIATION OF TOOL USED AT TOP OF TILE ON LANDING PAGE",
   "model_name": "COOMPLETE NAME OF TOOL SHOOWN IN TILE ON SECOND ROW",
-  "model_type": "SPECIFIY TYPE OF MOODEL< THIS SHOOWS UP IN THE TILE OR CAN BE LEFT AS JUST EMPTY QUOTES",
+  "model_type": "SPECIFIY TYPE OF MOODEL< THIS SHOWS UP IN THE TILE OR CAN BE LEFT AS JUST EMPTY QUOTES",
   "model_link_page":"LINK TO LANDING PAGE FOOR TOOL< FOR GITHUB ONES THIS IS THE PAGES LINK OTHERWISE LEAVE AS EMPTY QUOTES, no space",
-  "online_app_link": "IF THERE IS A SHINY APP OR OTHER ONLINIE VERSION PUT LINK HERE OTHERWISE LEAVE AS EMPTY QUOTES, no space",
+  "online_app_link": "IF THERE IS A SHINY APP OR OTHER ONLINE VERSION PUT LINK HERE OTHERWISE LEAVE AS EMPTY QUOTES, no space",
   "pdf_download": "",
-  "release_badge":"IF THE REPO UESE RELEASES OON GITHUB, JUST PUT THE ORG/REPO HERE TO LINK. IF ITS A TAG AND NOT A RELEASE YO UMAYNEED TO MAKE A FIX DIRECTLY IN THE HTML AFTER THE FACT  , EXAMPLE FOOR RELEASES: NMFS-ecosystem-tools/MSCAA",
+  "release_badge":"IF THE REPO UESE RELEASES ON GITHUB, JUST PUT THE ORG/REPO HERE TO LINK. IF ITS A TAG AND NOT A RELEASE YOU MAY NEED TO MAKE A FIX DIRECTLY IN THE HTML AFTER THE FACT , EXAMPLE FOR RELEASES: NMFS-ecosystem-tools/MSCAA",
   "references": [{"name":"NAME OF TOOL","link":"LINK TO TOOL"},{"name":"NAME OF TOOL","link":"LINK TO TOOL"}],**LEAVE AS EMPTY LIST [] IF NONE
   "support_level": "external_active",** CHOICES ARE external_active OR internal_active OR interal_inactive
-  "tool_type":"SPECIFIY TYPE OF TOOL ( MORE GENERAL THEN MODEL) THIS SHOOWS UP IN THE TILE OR CAN BE LEFT AS JUST EMPTY QUOTES",
+  "tool_type":"SPECIFIY TYPE OF TOOL (MORE GENERAL THEN MODEL) THIS SHOWS UP IN THE TILE OR CAN BE LEFT AS JUST EMPTY QUOTES",
   "shields_badges":["https://www.repostatus.org/badges/latest/active.svg","https://img.shields.io/badge/platform-linux%20%7Cwin-lightgrey"],** add any extra badges here from repostatus or shields in a list
   "version_number": "0.9.0"** add version number only if it is not linked to a release_badge above
 }
 
-AN example where doccumentation link is internal to repo:
+An example where documentation link is internal to repo:
 {
   "associated_tools": [
     {
