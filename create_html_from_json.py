@@ -80,28 +80,28 @@ def main():
                 'CSA','DCAC','IRATE','KALMAN','MCOMP','MSE','POPSIM-A',
                 'POPSIM-L','POPSIM','PSA','RIVARD','SCALE','SEINE','SRFIT',
                  'STATCAM','VPA','VRD','YPR','YPRLEN']
-        folder_out= '/Users/corinne/NOAA_2019_on/FIT2/nmfs-fish-tools/legacy_models'
-        configdir= '/Users/corinne/NOAA_2019_on/FIT2/nmfs-fish-tools/model_list/'
+        folder_out= './nmfs-fish-tools/legacy_models'
+        configdir= './nmfs-fish-tools/model_list/'
     elif which_type_models == 'new_fish':
     #new models :
         list_of_models = ["RMAS"]
         # list_of_models = ["GMACS","RMAS","WHAM"]
 
-        folder_out= '/Users/corinne/NOAA_2019_on/FIT2/nmfs-fish-tools'
-        configdir= '/Users/corinne/NOAA_2019_on/FIT2/nmfs-fish-tools/model_list/'
+        folder_out= './nmfs-fish-tools'
+        configdir= './model_list/'
 
     elif which_type_models == 'gen_models':
     #gen models:
         list_of_models = ['nmfspalette']
-        folder_out= '/Users/corinne/NOAA_2019_on/FIT2/nmfs-general-modeling-tools'
-        configdir= '/Users/corinne/NOAA_2019_on/FIT2/nmfs-general-modeling-tools/model_list/'
+        folder_out= './nmfs-general-modeling-tools'
+        configdir= './nmfs-general-modeling-tools/model_list/'
     elif which_type_models == 'eco_models':
     #gen models:
         #list_of_models = ['MSCAA','MSSPM','MSVPA_X2']
         list_of_models = ['DONUT']
         #list_of_models = ['MSSPM']
-        folder_out= '/Users/corinne/NOAA_2019_on/FIT2/nmfs-ecosystem-tools'
-        configdir= '/Users/corinne/NOAA_2019_on/FIT2/nmfs-ecosystem-tools/model_list/'
+        folder_out= './nmfs-ecosystem-tools'
+        configdir= './nmfs-ecosystem-tools/model_list/'
 
     run_all_files(list_of_models, folder_out, configdir)
 
