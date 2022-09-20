@@ -1,0 +1,48 @@
+{
+  "type": "object", 
+  "properties": {
+    "associated_tools":{
+       "type": "array", 
+       "items": {
+          "type": "object", 
+          "properties" : {
+             "name": {"type": "string"},
+             "link": {"type": "string"}
+          }
+       }
+    }, 
+    "author_name": {"type": "string"},
+    "background_text": {"type": "string"},
+    "badge_level": {"type": "string"},
+    "contact": {"type": "string"},
+    "documentation_link": {"type": "string"},
+    "download_app_link": {"type": "string"},
+    "github_link": {"type": "string"},
+    "model_abbrev": {"type": "string"},
+    "model_name": {"type": "string"},
+    "model_type": {"type": "string"},
+    "model_link_page": {"type": "string"},
+    "online_app_link": {"type": "string"},
+    "pdf_download": {"type": "string"},
+    "release_badge": {"type": "string"},
+    "references": {
+      "type": "array", 
+      "items": {
+        "type": "object", 
+        "properties": {
+            "name": {"type": "string"},
+            "link": {"type": "string"}
+        }
+      }
+    }, 
+    "support_level": {"type": "string"},
+    "tool_type": {"type": "string"},
+    "shields_badges": {
+      "type" : "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "version_number": {"type": "string"}
+  }
+}
