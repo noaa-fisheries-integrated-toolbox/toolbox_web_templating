@@ -15,6 +15,7 @@
 Each landing page can be created using the correct config file.
 
 # Explanation of JSON metadata
+JSON data can be (partially) validated using [schema](https://json-schema.org/understanding-json-schema/about.html)
 ```json
 Explanation:
 
