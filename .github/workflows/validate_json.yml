@@ -11,6 +11,5 @@ jobs:
       - name: Validate JSON
         uses: docker://orrosenblatt/validate-json-action:latest
         env:
-          INPUT_SCHEMA: schema.json
+          INPUT_SCHEMA: schema_config.json
           INPUT_JSONS: FaF_config.json,EcoSys_config.json
-          
