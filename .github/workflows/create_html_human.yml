@@ -3,8 +3,15 @@
 
 name: create html human
 
+# Includes building automatically when either of the relavent JSON files update on the main branch or on the push of a button
 on: 
   workflow_dispatch:
+  push:
+    paths:
+      - 'HumanDim_config.json'
+      - 'model_list_dir/HumanDim_model_list/**.json'
+    branches:
+      - main
 
 jobs:
   build:
@@ -12,7 +19,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
+    - name: Checkout repository
+      uses: actions/checkout@v2
     - name: Set up Python 3.9
       uses: actions/setup-python@v2
       with:
@@ -24,7 +32,7 @@ jobs:
     - name: create HTML file
       run: |
         python create_html_from_jsonmodellist.py HumanDim_config.json
-    - name: upload
+    - name: upload final html
       uses: actions/upload-artifact@v2
       with: 
         path: html/index.html
