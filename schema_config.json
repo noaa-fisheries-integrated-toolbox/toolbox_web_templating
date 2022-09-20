@@ -1,18 +1,18 @@
 {
   "type": "object", 
   "properties": {
-    "general_info_text": "string", 
-    "general_title": "string", 
-    "githubpage": "string", 
+    "general_info_text": { "type": "string"}, 
+    "general_title": { "type": "string"}, 
+    "githubpage": { "type": "string"}, 
     "list_of_models": {
       "type": "array", 
       "items" : {
         "type": "string"
        }
     }, 
-    "location_of_model_list": "string",
-    "main_title": "string", 
-    "google_analytics": "string", 
-    "google_analytics_code": "string"
+    "location_of_model_list": { "type": "string"},
+    "main_title": { "type": "string"}, 
+    "google_analytics": { "type": "string"}, 
+    "google_analytics_code": { "type": "string"}
   }
 }
