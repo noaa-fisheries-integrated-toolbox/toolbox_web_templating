@@ -1,1 +1,18 @@
-{}
+{
+  "type": "object", 
+  "properties": {
+    "general_info_text": "string", 
+    "general_title": "string", 
+    "githubpage": "string", 
+    "list_of_models": {
+      "type": "array", 
+      "items" : {
+        "type": "string"
+       }
+    }, 
+    "location_of_model_list": "string",
+    "main_title": "string", 
+    "google_analytics": "string", 
+    "google_analytics_code": "string"
+  }
+}
