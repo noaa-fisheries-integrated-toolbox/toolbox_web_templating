@@ -2,15 +2,39 @@ name: Validate model list JSONs
 
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - 'model_list_dir/**/**.json'
+      - 'model_list_dir/**.json'
+    branches:
+      - main
+
 
 jobs:
   verify-json-validation:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
-      - name: Validate JSON
+      - uses: r-lib/actions/setup-r@v1
+        with:
+          use-public-rspm: true
+      - name: get list of jsons to validate
+        run: |
+          files_to_check <- list.files("model_list_dir", recursive = TRUE, full.names = TRUE)
+          # keep only json ones
+          files_to_check <- grep("\\.json", files_to_check, value = TRUE)
+          # format as needed
+          files_to_check_string <- paste0(files_to_check, collapse = ",")
+          writeLines(files_to_check_string, "files_to_check.txt")
+        shell: Rscript {0}
+      - name: Set input jsons
+        id: setinputjsons
+        run: |
+          tmpinputjsons=$(cat files_to_check.txt)
+          echo "::set-output name=inputjsons::${tmpinputjsons}"
+      - name: Validate JSON 
         uses: docker://orrosenblatt/validate-json-action:latest
         env:
           INPUT_SCHEMA: schema_model_list.json
-          INPUT_JSONS: model_list_dir/EcoSys_model_list/Atlantis.json
+          INPUT_JSONS: ${{steps.setinputjsons.outputs.inputjsons}}
           
