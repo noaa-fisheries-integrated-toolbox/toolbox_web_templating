@@ -1,6 +1,5 @@
 {
-  "associated_tools": [
-  ],
+  "associated_tools": [],
   "author_name": "Lisa Colburn",
   "background_text": "",
   "badge_level": "badge_internal_active",
@@ -17,7 +16,7 @@
   "references": [],
   "support_level": "internal_active",
   "tool_type": "Analysis and Data Exploration",
-  "shields_badges": "",
+  "shields_badges": [],
   "version_number": "",
   "release_badge": ""
 }
