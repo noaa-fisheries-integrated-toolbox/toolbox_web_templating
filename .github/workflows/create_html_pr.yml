@@ -29,7 +29,18 @@ jobs:
     - name: create HTML file
       run: |
         python create_html_from_jsonmodellist.py ProSpec_config.json
-    - name: upload final html
+    - name: Pushes test file
+      uses: dmnemec/copy_file_to_another_repo_action@main
+      env:
+        API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+      with:
+        source_file: 'html/index.html'
+        destination_repo: 'NMFS-Protected-Species-Tools/nmfs-protected-species-tools.github.io'
+        destination_folder: '.'
+        user_email: 'kathryn.doering@noaa.gov'
+        user_name: 'k-doering-NOAA'
+        commit_message: 'Update PR index.html'
+    - name: upload final html to GHA
       uses: actions/upload-artifact@v2
       with: 
         path: html/index.html
