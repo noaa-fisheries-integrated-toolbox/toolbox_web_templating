@@ -41,7 +41,7 @@ jobs:
         user_name: 'k-doering-NOAA'
         commit_message: 'Update PR index.html'
         destination_branch: 'master'
-        destination_branch_create: 'testcommit'
+        destination_branch_create: 'testcommitagain'
    # - name: upload final html to GHA
    #   uses: actions/upload-artifact@v2
    #   with: 
