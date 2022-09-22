@@ -1,5 +1,5 @@
 {
-  "associated_tools": "",
+  "associated_tools": [],
   "author_name": " ",
   "background_text": "",
   "badge_level": "badge_external_active",
@@ -12,7 +12,7 @@
   "model_link_page":"https://niwa.co.nz/fisheries/tools-resources/casal",
   "online_app_link": "",
   "pdf_download": "",
-  "references": "",
+  "references": [],
   "shields_badges":["https://www.repostatus.org/badges/latest/active.svg"],
   "support_level": "external_active",
   "tool_type": "Stock Assessment Model",

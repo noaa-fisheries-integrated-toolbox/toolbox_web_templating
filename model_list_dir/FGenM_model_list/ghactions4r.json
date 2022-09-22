@@ -1,5 +1,5 @@
 {
-  "associated_tools": "",
+  "associated_tools": [],
   "author_name": "Doering, K., B. Li, and K. Johnson",
   "background_text": "Reusable github actions workflows for R packages.",
   "badge_level": "",

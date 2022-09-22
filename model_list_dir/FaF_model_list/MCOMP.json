@@ -1,5 +1,5 @@
 {
-  "associated_tools": "",
+  "associated_tools": [],
   "author_name": "Seaver, A.",
   "background_text": "The Model Compare (MComp) program allows the user to compare the results between VPA and ASAP estimation models as well as the simulated results from Age Based PopSim.  In addition, the program allows the user to display time series data from any alternate model as an additional comparative series.  The user may compare Stock Numbers, Fishing Mortality, Spawning Stock Biomass, Jan-1 Biomass and Survey Indices.   The user may compare up to three model results simultaneously.   Comparison may be across all years in the combined time series or alternatively for common years only.",
   "badge_level": "badge_internal_inactive",
@@ -11,7 +11,7 @@
   "model_type": "",
   "online_app_link": "",
   "pdf_download": "",
-  "references": "",
+  "references": [],
   "shields_badges":["https://www.repostatus.org/badges/latest/inactive.svg"],
   "support_level": "internal_inactive",
   "tool_type": "Model Comparison Tool",

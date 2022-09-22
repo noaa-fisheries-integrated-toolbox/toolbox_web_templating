@@ -11,7 +11,7 @@
   "model_type": "Stock assessment model",
   "online_app_link": "",
   "pdf_download": "https://github.com/PIFSCstockassessments/AGEPRO-GUI/raw/master/doc/AGEPRO_v4.2_Reference_Manual.pdf",
-  "references": "Brodziak, J., P. Rago, and R. Conser. 1998. A general approach for making short-term stochastic projections from an age-structured fisheries assessment model. In F. Funk, T. Quinn II, J. Heifetz, J. Ianelli, J. Powers, J. Schweigert, P. Sullivan, and C.-I. Zhang (Eds.), Proceedings of the International Symposium on Fishery Stock Assessment Models for the 21st Century. Alaska Sea Grant College Program, Univ. of Alaska, Fairbanks, AK.",
+  "references": ["Brodziak, J., P. Rago, and R. Conser. 1998. A general approach for making short-term stochastic projections from an age-structured fisheries assessment model. In F. Funk, T. Quinn II, J. Heifetz, J. Ianelli, J. Powers, J. Schweigert, P. Sullivan, and C.-I. Zhang (Eds.), Proceedings of the International Symposium on Fishery Stock Assessment Models for the 21st Century. Alaska Sea Grant College Program, Univ. of Alaska, Fairbanks, AK."],
   "shields_badges":["https://www.repostatus.org/badges/latest/active.svg"],
   "support_level": "internal_active",
   "tool_type": "Statistical Catch-at-Age",

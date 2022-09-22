@@ -100,7 +100,7 @@ an example with release badge:
   "model_type": "",
   "online_app_link": "",
   "pdf_download": "",
-  "references": "",
+  "references": [],
   "shields_badges":["https://www.repostatus.org/badges/latest/active.svg", "https://github.com/nmfs-fish-tools/RMAS/workflows/R-CMD-check/badge.svg"],
   "support_level": "internal_active",
   "tool_type": "Input/Output Processor",

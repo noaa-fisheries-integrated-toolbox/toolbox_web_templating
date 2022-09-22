@@ -20,7 +20,10 @@ JSON data can be (partially) validated using [schema](https://json-schema.org/un
 Explanation:
 
 {
-  "associated_tools": [{"name":"NAME OF TOOL","link":"LINK TO TOOL"},{"name":"NAME OF TOOL","link":"LINK TO TOOL"}],
+  "associated_tools": [
+    {"name":"NAME OF TOOL","link":"LINK TO TOOL"},
+    {"name":"NAME OF TOOL","link":"LINK TO TOOL"}
+  ],
   "author_name": "AUTHOR NAME",
   "background_text": "THIS TEXT WILL BE THE MAIN TEXT ON THE MODEL LANDING PAGE",
   "badge_level": "",** for the most part this is no longer used but can be left in older ones
@@ -35,7 +38,7 @@ Explanation:
   "online_app_link": "IF THERE IS A SHINY APP OR OTHER ONLINE VERSION PUT LINK HERE OTHERWISE LEAVE AS EMPTY QUOTES, no space",
   "pdf_download": "",
   "release_badge":"IF THE REPO UESE RELEASES ON GITHUB, JUST PUT THE ORG/REPO HERE TO LINK. IF ITS A TAG AND NOT A RELEASE YOU MAY NEED TO MAKE A FIX DIRECTLY IN THE HTML AFTER THE FACT  , EXAMPLE FOR RELEASES: NMFS-ecosystem-tools/MSCAA",
-  "references": [{"name":"NAME OF TOOL","link":"LINK TO TOOL"},{"name":"NAME OF TOOL","link":"LINK TO TOOL"}],**LEAVE AS EMPTY LIST [] IF NONE
+  "references": ["ref1", "ref2"],**LEAVE AS EMPTY LIST [] IF NONE
   "support_level": "external_active",** CHOICES ARE external_active OR internal_active OR interal_inactive
   "tool_type":"SPECIFIY TYPE OF TOOL ( MORE GENERAL THEN MODEL) THIS SHOWS UP IN THE TITLE OR CAN BE LEFT AS JUST EMPTY QUOTES",
   "shields_badges":["https://www.repostatus.org/badges/latest/active.svg","https://img.shields.io/badge/platform-linux%20%7Cwin-lightgrey"],** add any extra badges here from repostatus or shields in a list

@@ -14,7 +14,7 @@
   "online_app_link": "",
   "pdf_download": "",
   "release_badge":"nmfs-fish-tools/FishSET-Map-Viewer",
-  "references": "",
+  "references": [],
   "support_level": "internal_active",
   "tool_type": "Analysis",
   "shields_badges":[ "https://img.shields.io/github/last-commit/nmfs-general-modeling-tools/FishSET-Map-Viewer.svg?style=plastic","https://www.repostatus.org/badges/latest/active.svg"],

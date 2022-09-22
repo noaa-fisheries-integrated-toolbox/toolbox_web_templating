@@ -1,5 +1,9 @@
 {
-  "associated_tools": "Ecopath with Ecosim",
+  "associated_tools": [ 
+    {"name": "Ecopath with Ecosim",
+    "link": "https://ecopath.org/"
+    }
+  ],
   "author_name": "Lucey,S.,  K. Aydin, S. Gaichas, and  A.Whitehouse",
   "background_text": "Rpath is an R implementation of the Ecopath mass balance and Ecosim dynamic food web algorithms geared towards fisheries research; Ecopath/Ecosim models have seen worldwide use in the study of fisheries interactions with marine food webs. Rpath is designed to allow for cross-platform use and to aid in the reproducibility of studies using this framework. ",
   "badge_level": "",
