@@ -1,4 +1,4 @@
-name: Validate JSONs
+name: Validate config JSONs
 
 on:
   workflow_dispatch:
