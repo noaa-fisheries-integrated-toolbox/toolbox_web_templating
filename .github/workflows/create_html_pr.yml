@@ -40,6 +40,7 @@ jobs:
         user_email: 'kathryn.doering@noaa.gov'
         user_name: 'k-doering-NOAA'
         commit_message: 'Update PR index.html'
+        destination_branch_create: 'testcommit'
     - name: upload final html to GHA
       uses: actions/upload-artifact@v2
       with: 
