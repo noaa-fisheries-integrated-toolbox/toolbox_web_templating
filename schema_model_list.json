@@ -27,13 +27,7 @@
     "release_badge": {"type": "string"},
     "references": {
       "type": "array", 
-      "items": {
-        "type": "object", 
-        "properties": {
-            "name": {"type": "string"},
-            "link": {"type": "string"}
-        }
-      }
+      "items": {"type": "string"}
     }, 
     "support_level": {"type": "string"},
     "tool_type": {"type": "string"},
