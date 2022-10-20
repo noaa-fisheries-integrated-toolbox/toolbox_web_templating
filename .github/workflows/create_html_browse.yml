@@ -1,0 +1,41 @@
+# This workflow will install Python dependencies, run tests and lint with a single version of Python
+# For more information see: https://help.github.com/actions/language-and-framework-guides/using-python-with-github-actions
+
+name: create html ecosys
+# Includes building automatically when either of the relavent JSON files update on the main branch or on the push of a button
+on: 
+  workflow_dispatch:
+  push:
+    paths:
+      - 'Browse_config.json'
+      - 'model_list_dir/**.json'
+    branches:
+      - main
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python 3.9
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.9
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install jinja2
+    - name: create HTML file
+      run: |
+        python create_html_from_jsonmodellist.py Browse_config.json
+    - name: rename file
+      run: |
+        mv html/index.html html/browse.html
+    - name: upload
+      uses: actions/upload-artifact@v2
+      with: 
+        path: html/browse.html
+        name: browse
+        

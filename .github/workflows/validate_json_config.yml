@@ -12,5 +12,5 @@ jobs:
         uses: docker://orrosenblatt/validate-json-action:latest
         env:
           INPUT_SCHEMA: schema_config.json
-          INPUT_JSONS: EcoSys_config.json,FaF_config.json,FGenM_config.json,HumanDim_config.json,ProSpec_config.json
+          INPUT_JSONS: EcoSys_config.json,FaF_config.json,FGenM_config.json,HumanDim_config.json,ProSpec_config.json,Browse_config.json
           
