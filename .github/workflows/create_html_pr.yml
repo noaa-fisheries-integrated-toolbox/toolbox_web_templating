@@ -8,7 +8,7 @@ on:
   push:
     paths:
       - 'ProSpec_config.json'
-      - 'model_list_dir/ProSpec_model_list/**.json'
+      - 'model_list_dir/**.json'
     branches:
       - main
 

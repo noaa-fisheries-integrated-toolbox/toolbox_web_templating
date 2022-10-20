@@ -8,7 +8,7 @@ on:
   push:
     paths:
       - 'FGenM_config.json'
-      - 'model_list_dir/FGenM_model_list/**.json'
+      - 'model_list_dir/**.json'
     branches:
       - main
 

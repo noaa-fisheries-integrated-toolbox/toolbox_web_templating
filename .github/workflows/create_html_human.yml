@@ -9,7 +9,7 @@ on:
   push:
     paths:
       - 'HumanDim_config.json'
-      - 'model_list_dir/HumanDim_model_list/**.json'
+      - 'model_list_dir/**.json'
     branches:
       - main
 
