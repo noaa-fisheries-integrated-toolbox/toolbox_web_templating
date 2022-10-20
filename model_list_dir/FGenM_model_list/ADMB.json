@@ -16,5 +16,6 @@
   "support_level": "external_active",
   "tool_type": "Model Builder",
   "shield_badges":[ ],
-  "version_number": ""
+  "version_number": "",
+  "toolbox_drawer": ["general"]
 }

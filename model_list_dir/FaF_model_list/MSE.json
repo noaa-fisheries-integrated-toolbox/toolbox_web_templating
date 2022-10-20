@@ -16,5 +16,6 @@
   "support_level": "internal_inactive",
   "tool_type": "Model Wrapper",
   "version_number": "3.4.3",
-  "release_badge":"nmfs-fish-tools/MSE"
+  "release_badge":"nmfs-fish-tools/MSE",
+  "toolbox_drawer": ["fisheries"]
 }

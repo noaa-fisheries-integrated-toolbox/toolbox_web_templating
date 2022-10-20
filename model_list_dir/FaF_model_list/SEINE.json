@@ -20,5 +20,6 @@
   "support_level": "internal_inactive",
   "tool_type": "Stock Assessment Model",
   "version_number": "1.3.0",
-  "release_badge":"nmfs-fish-tools/SEINE"
+  "release_badge":"nmfs-fish-tools/SEINE",
+  "toolbox_drawer": ["fisheries"]
 }

@@ -17,5 +17,6 @@
   "support_level": "external_active",
   "tool_type": "Stock Assessment Model",
   "version_number": "2.3",
-  "release_badge":""
+  "release_badge":"",
+  "toolbox_drawer": ["fisheries"]
 }

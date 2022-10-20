@@ -16,5 +16,6 @@
   "shields_badges":["https://www.repostatus.org/badges/latest/inactive.svg"],
   "support_level": "internal_inactive",
   "version_number": "1.4.1",
-  "release_badge":"nmfs-fish-tools/STATCAM"
+  "release_badge":"nmfs-fish-tools/STATCAM",
+  "toolbox_drawer": ["fisheries"]
 }

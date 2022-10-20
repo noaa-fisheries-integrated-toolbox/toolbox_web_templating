@@ -16,5 +16,6 @@
   "support_level": "internal_inactive",
   "tool_type": "Associated Tool",
   "version_number": "7.0.1",
-  "release_badge":"nmfs-fish-tools/SRFIT"
+  "release_badge":"nmfs-fish-tools/SRFIT",
+  "toolbox_drawer": ["fisheries"]
 }

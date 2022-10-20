@@ -20,5 +20,6 @@
   "support_level": "internal_inactive",
   "tool_type": "Associated Tool",
   "version_number": "2.0.0",
-  "release_badge":"nmfs-fish-tools/IRATE"
+  "release_badge":"nmfs-fish-tools/IRATE",
+  "toolbox_drawer": ["fisheries"]
 }

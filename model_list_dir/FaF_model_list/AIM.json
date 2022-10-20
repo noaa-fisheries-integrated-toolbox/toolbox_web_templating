@@ -16,5 +16,6 @@
   "support_level": "internal_inactive",
   "tool_type": "Stock Assessment Model",
   "version_number": "2.5.0",
-  "release_badge":"nmfs-fish-tools/AIM"
+  "release_badge":"nmfs-fish-tools/AIM",
+  "toolbox_drawer": ["fisheries"]
 }

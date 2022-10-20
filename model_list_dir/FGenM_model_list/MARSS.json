@@ -20,5 +20,6 @@
   ],
   "support_level": "internal_active",
   "tool_type": "",
-  "version_number": ""
+  "version_number": "",
+  "toolbox_drawer": ["general"]
 }

@@ -20,5 +20,6 @@
   "tool_type":"Stock Assessment Model",
   "shields_badges":["https://www.repostatus.org/badges/latest/active.svg","https://img.shields.io/github/watchers/seacode/gmacs.svg?style=social","https://img.shields.io/badge/documentation-in--progress-yellow.svg","https://img.shields.io/travis/com/seacode/gmacs.svg"],
   "version_number": "",
-  "release_badge":""
+  "release_badge":"",
+  "toolbox_drawer": ["fisheries"]
 }

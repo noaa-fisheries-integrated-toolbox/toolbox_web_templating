@@ -17,5 +17,6 @@
   "support_level": "internal_active",
   "tool_type": "Statistical Catch-at-Age",
   "version_number": "4.3.4",
-"release_badge":"PIFSCstockassessments/AGEPRO-GUI"
+"release_badge":"PIFSCstockassessments/AGEPRO-GUI",
+"toolbox_drawer": ["fisheries"]
 }

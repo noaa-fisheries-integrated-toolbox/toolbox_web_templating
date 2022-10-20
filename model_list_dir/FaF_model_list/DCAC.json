@@ -23,5 +23,6 @@
   "support_level": "internal_inactive",
   "tool_type": "Stock Assessment Model",
   "version_number": "2.1.1",
-  "release_badge":"nmfs-fish-tools/DCAC"
+  "release_badge":"nmfs-fish-tools/DCAC",
+  "toolbox_drawer": ["fisheries"]
 }

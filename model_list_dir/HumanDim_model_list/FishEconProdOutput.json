@@ -21,5 +21,6 @@
                     "https://img.shields.io/badge/devel%20version-0.1.1-blue.svg", 
                     "https://img.shields.io/badge/lifecycle-maturing-blue.svg"],
   "version_number": "",
-  "release_badge": "EmilyMarkowitz-NOAA/FishEconProdOutput"
+  "release_badge": "EmilyMarkowitz-NOAA/FishEconProdOutput",
+  "toolbox_drawer": ["human_dimensions"]
 }

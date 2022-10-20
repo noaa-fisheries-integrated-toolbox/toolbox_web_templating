@@ -30,5 +30,6 @@
     "https://img.shields.io/github/last-commit/James-Thorson-NOAA/FishLife.svg?style=plastic",
     ""
   ],
-  "release_badge": "James-Thorson-NOAA/FishLife"
+  "release_badge": "James-Thorson-NOAA/FishLife",
+  "toolbox_drawer": ["general"]
 }

@@ -16,5 +16,6 @@
   "support_level": "internal_inactive",
   "tool_type": "Meta-Analysis Tool",
   "version_number": "1.4.0",
-  "release_badge":"nmfs-fish-tools/PSA"
+  "release_badge":"nmfs-fish-tools/PSA",
+  "toolbox_drawer": ["fisheries"]
 }

@@ -19,5 +19,6 @@
   "tool_type": "Model",
   "shields_badges": [],
   "version_number": "",
-  "release_badge": ""
+  "release_badge": "",
+  "toolbox_drawer": ["human_dimensions"]
 }

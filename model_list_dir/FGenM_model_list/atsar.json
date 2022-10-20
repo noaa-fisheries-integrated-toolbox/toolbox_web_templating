@@ -17,5 +17,6 @@
   "support_level": "internal_active",
   "tool_type": "",
   "version_number": "",
-  "release_badge":"atsa-es/atsar"
+  "release_badge":"atsa-es/atsar",
+  "toolbox_drawer": ["general"]
 }

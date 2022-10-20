@@ -24,5 +24,6 @@
   ],
   "support_level": "internal_active",
   "tool_type": "Model Builder",
-  "version_number": "1.0.0"
+  "version_number": "1.0.0",
+  "toolbox_drawer": ["general"]
 }

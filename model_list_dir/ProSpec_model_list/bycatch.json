@@ -19,6 +19,7 @@
   "tool_type":"",
   "shields_badges":["https://www.repostatus.org/badges/latest/active.svg"],
   "version_number": "",
-  "release_badge": "ericward-noaa/bycatch"
+  "release_badge": "ericward-noaa/bycatch",
+  "toolbox_drawer": ["protected_species"]
 
 }

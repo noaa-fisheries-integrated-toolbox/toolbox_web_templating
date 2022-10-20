@@ -19,5 +19,6 @@
   "support_level": "internal_inactive",
   "tool_type": "",
   "version_number": "",
-  "release_badge":"NOAA-LHP/LHsampling"
+  "release_badge":"NOAA-LHP/LHsampling",
+  "toolbox_drawer": ["fisheries"]
 }

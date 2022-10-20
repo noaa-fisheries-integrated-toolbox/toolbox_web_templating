@@ -18,5 +18,6 @@
   "support_level": "internal_inactive",
   "tool_type": "Associated Tool",
   "version_number": "2.1",
-  "release_badge": "nmfs-fish-tools/YPRLEN"
+  "release_badge": "nmfs-fish-tools/YPRLEN",
+  "toolbox_drawer": ["fisheries"]
 }

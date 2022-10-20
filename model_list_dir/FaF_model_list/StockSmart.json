@@ -20,5 +20,6 @@
   "support_level": "internal_active",
   "tool_type":"Stock Assessment Meta-Analysis",
   "sheild_badges":"",
-  "version_number": "1.0.0"
+  "version_number": "1.0.0",
+  "toolbox_drawer": ["fisheries"]
 }

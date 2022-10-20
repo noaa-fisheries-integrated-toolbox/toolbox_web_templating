@@ -17,5 +17,6 @@
   "support_level": "internal_active",
   "tool_type": "",
   "version_number": "",
-  "release_badge":"eeholmes/VRAP"
+  "release_badge":"eeholmes/VRAP",
+  "toolbox_drawer": ["protected_species"]
 }

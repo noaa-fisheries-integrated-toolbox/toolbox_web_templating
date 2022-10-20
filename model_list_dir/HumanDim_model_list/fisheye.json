@@ -18,5 +18,6 @@
   "tool_type": "Analysis and Data Exploration",
   "shields_badges": [],
   "version_number": "",
-  "release_badge": ""
+  "release_badge": "",
+  "toolbox_drawer": ["human_dimensions"]
 }

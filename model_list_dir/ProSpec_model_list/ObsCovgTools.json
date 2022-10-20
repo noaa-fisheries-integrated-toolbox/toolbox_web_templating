@@ -19,5 +19,6 @@
   "support_level": "internal_active",
   "tool_type":"",
   "shields_badges":["https://www.repostatus.org/badges/latest/active.svg"],
-  "version_number": ""
+  "version_number": "",
+  "toolbox_drawer": ["protected_species"]
 }

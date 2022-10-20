@@ -31,5 +31,6 @@
   "support_level": "internal_active",
   "tool_type":"Stock Assessment Model",
   "sheild_badges":"",
-  "version_number": "3.30.13"
+  "version_number": "3.30.13",
+  "toolbox_drawer": ["fisheries"]
 }

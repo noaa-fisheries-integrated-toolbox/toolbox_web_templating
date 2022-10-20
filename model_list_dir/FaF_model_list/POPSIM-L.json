@@ -16,5 +16,6 @@
   "support_level": "internal_inactive",
   "tool_type": "Data Simulator",
   "version_number": "8.0.0",
-  "release_badge":"nmfs-fish-tools/POPSIM-L"
+  "release_badge":"nmfs-fish-tools/POPSIM-L",
+  "toolbox_drawer": ["fisheries"]
 }

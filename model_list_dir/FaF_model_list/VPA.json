@@ -27,5 +27,6 @@
   "support_level": "internal_inactive",
   "tool_type": "Stock Assessment Model",
   "version_number": "3.4.4",
-  "release_badge":"nmfs-fish-tools/VPA"
+  "release_badge":"nmfs-fish-tools/VPA",
+  "toolbox_drawer": ["fisheries"]
 }

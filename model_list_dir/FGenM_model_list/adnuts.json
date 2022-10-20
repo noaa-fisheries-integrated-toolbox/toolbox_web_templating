@@ -18,5 +18,6 @@
   "tool_type": "Model Builder",
   "release_badge": "Cole-Monnahan-NOAA/adnuts",
   "shield_badges":["https://www.repostatus.org/badges/latest/active.svg"],
-  "version_number": ""
+  "version_number": "",
+  "toolbox_drawer": ["general"]
 }
