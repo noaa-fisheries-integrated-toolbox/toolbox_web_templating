@@ -14,6 +14,6 @@
     "salmix",
     "VRAP"
   ],
-  "location_of_model_list": "./model_list_dir/ProSpec_model_list",
+  "location_of_model_list": "./model_list_dir",
   "main_title": "NMFS Protected Species Tools"
 }

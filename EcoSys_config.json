@@ -19,6 +19,6 @@
     "REMORA",
     "nmfSharedUtilities"
   ],
-  "location_of_model_list": "./model_list_dir/EcoSys_model_list",
+  "location_of_model_list": "./model_list_dir",
   "main_title": "NMFS Ecosystem Tools"
 }

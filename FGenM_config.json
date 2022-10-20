@@ -17,7 +17,7 @@
     "VAST", 
     "ghactions4r"
   ],
-  "location_of_model_list": "./model_list_dir/FGenM_model_list",
+  "location_of_model_list": "./model_list_dir",
   "main_title":"NMFS General Modeling Tools",
   "google_analytics":"https://www.googletagmanager.com/gtag/js?id=UA-146635872-3",
   "google_analytics_code":"UA-146635872-3"
