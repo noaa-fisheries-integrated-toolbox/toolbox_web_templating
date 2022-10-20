@@ -18,5 +18,6 @@
   "support_level": "external_active",
   "tool_type": "Model",
   "version_number": "",
-  "release_badge": "sizespectrum/mizer"
+  "release_badge": "sizespectrum/mizer", 
+  "toolbox_drawer": ["ecosystem"]
 }

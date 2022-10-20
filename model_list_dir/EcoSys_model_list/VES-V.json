@@ -34,5 +34,6 @@
   ],
   "support_level": "internal_active",
   "tool_type": "Visualization Tool",
-  "version_number": "1.37"
+  "version_number": "1.37", 
+  "toolbox_drawer": ["ecosystem"]
 }

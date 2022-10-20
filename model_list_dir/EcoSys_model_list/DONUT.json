@@ -19,5 +19,6 @@
   "support_level": "internal_active",
   "tool_type": "",
   "version_number": "",
-  "release_badge": "nmfs-fish-tools/Donut_Tool"
+  "release_badge": "nmfs-fish-tools/Donut_Tool", 
+  "toolbox_drawer": ["ecosystem"]
 }

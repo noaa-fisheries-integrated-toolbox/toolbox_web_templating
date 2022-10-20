@@ -7,6 +7,7 @@
   "cite":["https://research.csiro.au/atlantis/home/useful-references/"],
   "documentation_link": "https://research.csiro.au/atlantis/home/links/",
   "download_app_link": "https://research.csiro.au/atlantis/home/links/",
+
   "github_link": "https://research.csiro.au/atlantis/home/links/",
   "model_abbrev": "Atlantis",
   "model_name": "Atlantis",
@@ -22,5 +23,6 @@
   "support_level": "external_active",
   "tool_type":"model",
   "shields_badges":["https://www.repostatus.org/badges/latest/active.svg"],
-  "version_number": ""
+  "version_number": "", 
+  "toolbox_drawer": ["ecosystem"]
 }

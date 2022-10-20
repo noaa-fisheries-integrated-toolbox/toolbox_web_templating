@@ -37,6 +37,12 @@
         "type": "string"
       }
     },
-    "version_number": {"type": "string"}
+    "version_number": {"type": "string"}, 
+    "toolbox_drawer": {
+      "type": "array", 
+      "items": {
+         "type": "string"
+       }
+    },
   }
 }

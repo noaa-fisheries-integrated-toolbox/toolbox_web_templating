@@ -19,5 +19,6 @@
   "shields_badges": [
     "https://www.repostatus.org/badges/latest/active.svg"
   ],
-  "version_number": ""
+  "version_number": "", 
+  "toolbox_drawer": ["ecosystem"]
 }

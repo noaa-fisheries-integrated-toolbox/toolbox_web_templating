@@ -20,5 +20,6 @@
   "support_level": "external_active",
   "tool_type":"modeling software suite",
   "shields_badges":["https://www.repostatus.org/badges/latest/active.svg"],
-  "version_number": "6.6.1"
+  "version_number": "6.6.1", 
+  "toolbox_drawer": ["ecosystem"]
 }
