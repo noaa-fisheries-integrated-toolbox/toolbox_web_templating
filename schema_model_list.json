@@ -42,7 +42,13 @@
       "type": "array", 
       "items": {
          "type": "string"
-       }
+      }
+    },
+    "keywords": {
+      "type": "array", 
+      "items": {
+         "type": "string"
+      }
     }
   }
 }

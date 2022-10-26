@@ -24,5 +24,6 @@
   "tool_type": "Stock Assessment Model",
   "version_number": "5.34.6",
   "release_badge":"nmfs-fish-tools/ASPIC",
-  "toolbox_drawer": ["fisheries"]
+  "toolbox_drawer": ["fisheries"],
+  "keywords": ["Stock Assessment Model", "Surplus Production Model", "Legacy", "Guided User Interface"]
 }

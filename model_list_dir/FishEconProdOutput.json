@@ -13,7 +13,7 @@
   "model_name": "Price Method Fisheries Economics Total Factor Productivity Outputs for the U.S. Fisheries",
   "model_type": "",
   "online_app_link": "",
-  "pdf_download": "",
+  "pdf_download": "https://spo.nmfs.noaa.gov/sites/default/files/TM217.pdf",
   "references": [],
   "support_level": "internal_active",
   "tool_type": "",
@@ -22,5 +22,6 @@
                     "https://img.shields.io/badge/lifecycle-maturing-blue.svg"],
   "version_number": "",
   "release_badge": "EmilyMarkowitz-NOAA/FishEconProdOutput",
-  "toolbox_drawer": ["human_dimensions"]
+  "toolbox_drawer": ["human_dimensions"], 
+  "keywords": ["Economics", "R package"]
 }

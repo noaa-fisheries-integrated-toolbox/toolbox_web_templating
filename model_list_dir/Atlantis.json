@@ -24,5 +24,6 @@
   "tool_type":"model",
   "shields_badges":["https://www.repostatus.org/badges/latest/active.svg"],
   "version_number": "", 
-  "toolbox_drawer": ["ecosystem"]
+  "toolbox_drawer": ["ecosystem", "fisheries"],
+  "keywords": ["Socioeconomics", "Ecosystem"]
 }

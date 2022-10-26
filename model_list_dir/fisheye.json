@@ -19,5 +19,6 @@
   "shields_badges": [],
   "version_number": "",
   "release_badge": "",
-  "toolbox_drawer": ["human_dimensions"]
+  "toolbox_drawer": ["human_dimensions"],
+  "keywords": ["Web App", "Economics"]
 }

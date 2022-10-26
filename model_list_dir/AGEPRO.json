@@ -18,5 +18,6 @@
   "tool_type": "Statistical Catch-at-Age",
   "version_number": "4.3.4",
 "release_badge":"PIFSCstockassessments/AGEPRO-GUI",
-"toolbox_drawer": ["fisheries"]
+"toolbox_drawer": ["fisheries"],
+"keywords": ["Stock Assessment Projections", "Age-Structured", "Guided User Interface"]
 }

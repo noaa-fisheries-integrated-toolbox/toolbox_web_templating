@@ -18,5 +18,6 @@
   "tool_type": "Stock Assessment Model",
   "version_number": "3.0.16",
   "release_badge":"nmfs-fish-tools/ASAP",
-  "toolbox_drawer": ["fisheries"]
+  "toolbox_drawer": ["fisheries"],
+  "keywords": ["Stock Assessment Model", "Age Structured Model", "Guided User Interface"]
 }

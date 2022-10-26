@@ -1,7 +1,7 @@
 {
   "associated_tools": [],
   "author_name": "Ward, E. J.",
-  "background_text": "The package salmix provides a suite of curve fitting to describe phenology data that may be generated from a process when distributions in time might be concentrated (from fisheries, this occurs with things counts over time of salmon returning from the ocean to spawn or juvenile fish emigrating from streams to the ocean). For terrestrial applications, this may include times of flowering or leaf-out in plants or trees.",
+  "background_text": "bycatch provides applications of Bayesian bycatch models, using Stan for estimation. These models fit Bayesian GLMs (with or without time varying parameters, and with or without covariates) to estimate bycatch rates. The package includes functions to estimate fleet-level estimates. The primary applications of these models (linked to below) are protected species bycatch (e.g. ESA listed birds, marine mammals) in the west coast groundfish fisheries off the west coast of the USA. Data compilation and analysis is done at the Northwest Fisheries Science Center (NWFSC) in Seattle. ",
   "badge_level": "badge_external_active",
   "contact":"eric.ward@noaa.gov",
   "documentation_link": "",
@@ -20,6 +20,6 @@
   "shields_badges":["https://www.repostatus.org/badges/latest/active.svg"],
   "version_number": "",
   "release_badge": "ericward-noaa/bycatch",
-  "toolbox_drawer": ["protected_species"]
-
+  "toolbox_drawer": ["protected_species", "fisheries"],
+  "keywords": ["R package", "Bayesian Modeling"]
 }
