@@ -17,5 +17,6 @@
   "tool_type": "Reporting Tool",
   "version_number": "1.6.1",
   "release_badge":"nmfs-fish-tools/VRD",
-  "toolbox_drawer": ["fisheries"]
+  "toolbox_drawer": ["fisheries"], 
+  "keywords": ["Guided User Interface", "User Utility", "Legacy"]
 }

@@ -32,5 +32,6 @@
   "tool_type":"Stock Assessment Model",
   "sheild_badges":"",
   "version_number": "3.30.13",
-  "toolbox_drawer": ["fisheries"]
+  "toolbox_drawer": ["fisheries"], 
+  "keywords": ["Data Limited Methods", "R package", "Shiny", "Web App", "Guided User Interface", "Stock Assessment Model"]
 }

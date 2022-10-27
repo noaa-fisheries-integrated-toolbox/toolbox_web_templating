@@ -18,5 +18,6 @@
   "associated_tools": [{"name":"VASTWestCoast","link":  "https://github.com/nwfsc-assess/VASTWestCoast"}, {"name":"VASTGAP"}],
   "shields_badges":[ "https://img.shields.io/github/last-commit/James-Thorson-NOAA/VAST.svg?style=plastic",""],
   "release_badge":"James-Thorson-NOAA/VAST",
-  "toolbox_drawer": ["general"]
+  "toolbox_drawer": ["general", "fisheries"], 
+  "keywords": ["Time Series", "Spatial Model", "TMB", "Species Distribution Model"]
 }

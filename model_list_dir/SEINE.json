@@ -21,5 +21,6 @@
   "tool_type": "Stock Assessment Model",
   "version_number": "1.3.0",
   "release_badge":"nmfs-fish-tools/SEINE",
-  "toolbox_drawer": ["fisheries"]
+  "toolbox_drawer": ["fisheries"], 
+  "keywords": ["Data Limited Methods", "Stock Assessment Model", "Guided User Interface", "Natural Mortality Model"]
 }

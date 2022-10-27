@@ -9,7 +9,7 @@
   "download_app_link": "",
   "github_link": "",
   "model_abbrev": "SIFC",
-  "model_link_page":"https://www.fisheries.noaa.gov/national/socioeconomics/social-indicators-fishing-communities-0",
+  "model_link_page":"https://www.st.nmfs.noaa.gov/data-and-tools/social-indicators/",
   "model_name": "Social Indicators for Fishing Communities",
   "model_type": "Social Indicators",
   "online_app_link": "https://www.st.nmfs.noaa.gov/data-and-tools/social-indicators/",
@@ -20,5 +20,6 @@
   "shields_badges": [],
   "version_number": "",
   "release_badge": "",
-  "toolbox_drawer": ["human_dimensions"]
+  "toolbox_drawer": ["human_dimensions"], 
+  "keywords": ["Web App", "Data Exploration", "Socioeconomics"]
 }

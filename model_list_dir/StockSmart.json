@@ -21,5 +21,6 @@
   "tool_type":"Stock Assessment Meta-Analysis",
   "sheild_badges":"",
   "version_number": "1.0.0",
-  "toolbox_drawer": ["fisheries"]
+  "toolbox_drawer": ["fisheries"], 
+  "keywords": ["Web App", "Data Visualization"]
 }

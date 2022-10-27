@@ -5,12 +5,12 @@
   "badge_level": "badge_external_active",
   "contact":"eric.ward@noaa.gov",
   "documentation_link": "",
-  "download_app_link": "https://ericward-noaa.github.io/salmix/",
-  "github_link": "https://github.com/ericward-noaa/salmix/",
+  "download_app_link": "",
+  "github_link": "https://github.com/ericward-noaa/phenomix",
   "model_abbrev": "salmix",
   "model_name": "salmix",
   "model_type": "",
-  "model_link_page":"https://ericward-noaa.github.io/salmix/",
+  "model_link_page":"https://ericward-noaa.github.io/phenomix/",
   "online_app_link": "",
   "pdf_download": "",
   "references": [
@@ -20,5 +20,6 @@
   "shields_badges":["https://www.repostatus.org/badges/latest/active.svg"],
   "version_number": "",
   "release_badge": "ericward-noaa/salmix",
-  "toolbox_drawer": ["protected_species"]
+  "toolbox_drawer": ["protected_species", "fisheries"],
+  "keywords": ["Salmon", "Time Series", "Fisheries"]
 }

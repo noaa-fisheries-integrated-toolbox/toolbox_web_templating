@@ -20,5 +20,6 @@
   "tool_type": "Associated Tool",
   "version_number": "3.3",
   "release_badge":"nmfs-fish-tools/YPR",
-  "toolbox_drawer": ["fisheries"]
+  "toolbox_drawer": ["fisheries"], 
+  "keywords": ["Reference Points Model", "Stock Assessment", "Legacy Tool", "Visualization"]
 }

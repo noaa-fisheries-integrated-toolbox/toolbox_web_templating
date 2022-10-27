@@ -17,5 +17,6 @@
   "tool_type": "Associated Tool",
   "version_number": "7.0.1",
   "release_badge":"nmfs-fish-tools/SRFIT",
-  "toolbox_drawer": ["fisheries"]
+  "toolbox_drawer": ["fisheries"], 
+  "keywords": ["Reference Points Model", "ADMB", "Bayesian Modeling", "Guided User Interface"]
 }

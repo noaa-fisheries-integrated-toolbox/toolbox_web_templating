@@ -35,5 +35,6 @@
   "support_level": "internal_active",
   "tool_type": "Visualization Tool",
   "version_number": "1.37", 
-  "toolbox_drawer": ["ecosystem"]
+  "toolbox_drawer": ["ecosystem", "fisheries"], 
+  "keywords": ["Guided User Interface", "Visualization", "Simulation", "Fisheries"]
 }
