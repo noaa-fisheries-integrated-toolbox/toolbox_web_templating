@@ -18,5 +18,6 @@
   "tool_type": "",
   "version_number": "",
   "release_badge":"",
-  "toolbox_drawer": ["protected_species"]
+  "toolbox_drawer": ["protected_species", "fisheries"], 
+  "keywords": ["Salmon", "Time Series", "R package", "Standardized Reporting"]
 }

@@ -17,5 +17,6 @@
   "tool_type": "Meta-Analysis Tool",
   "version_number": "1.4.0",
   "release_badge":"nmfs-fish-tools/PSA",
-  "toolbox_drawer": ["fisheries"]
+  "toolbox_drawer": ["fisheries"],
+  "keywords": ["Risk Assessment Tool", "Fisheries", "Simulation Tool"]
 }

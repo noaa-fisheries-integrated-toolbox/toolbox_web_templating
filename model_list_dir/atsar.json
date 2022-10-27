@@ -19,5 +19,5 @@
   "version_number": "",
   "release_badge":"atsa-es/atsar",
   "toolbox_drawer": ["general"],
-  "keywords": ["Baysian Modeling", "Time-series", "Teaching Tool", "R package"]
+  "keywords": ["Baysian Modeling", "Time Series", "Teaching Tool", "R package"]
 }

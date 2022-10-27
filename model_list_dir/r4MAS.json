@@ -20,5 +20,6 @@
   "tool_type": "Input/Output Processor",
   "version_number": "1.0",
   "release_badge":"nmfs-fish-tools/r4MAS",
-  "toolbox_drawer": ["fisheries"]
+  "toolbox_drawer": ["fisheries"], 
+  "keywords": ["Stock Assessment Model", "R package"]
 }

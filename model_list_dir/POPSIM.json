@@ -17,5 +17,6 @@
   "tool_type": "Data Simulator",
   "version_number": "7.5.0",
 "release_badge":"nmfs-fish-tools/POPSIM",
-"toolbox_drawer": ["fisheries"]
+"toolbox_drawer": ["fisheries"], 
+"keywords": ["Simulation Tool", "Guided User Interface"]
 }

@@ -19,5 +19,6 @@
   "tool_type":"",
   "shields_badges":["https://www.repostatus.org/badges/latest/active.svg"],
   "version_number": "",
-  "toolbox_drawer": ["protected_species"]
+  "toolbox_drawer": ["general", "protected_species"], 
+  "keywords":["Time Series", "R Package"]
 }

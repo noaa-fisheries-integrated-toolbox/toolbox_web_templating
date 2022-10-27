@@ -19,5 +19,6 @@
   "tool_type": "Solver",
   "version_number": "2.3",
   "release_badge":"nmfs-fish-tools/KALMAN",
-  "toolbox_drawer": ["general"]
+  "toolbox_drawer": ["general"], 
+  "keywords": ["Time Series", "Guided User Interface"]
 }
