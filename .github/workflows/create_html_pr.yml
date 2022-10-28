@@ -46,11 +46,13 @@ jobs:
       with:
           github-token: ${{ secrets.API_TOKEN_GITHUB }}
           script: |
-            github.rest.pulls.create({owner: 'NMFS-Protected-Species-Tools', 
+            try{
+              github.rest.pulls.create({owner: 'NMFS-Protected-Species-Tools', 
                                       repo: 'nmfs-protected-species-tools.github.io',
                                       title: 'Changes to html',
                                       head: 'new_html_page_2', 
                                       base: 'master'});
+              }
 #    - name: Create Pull Request
  #     uses: vsoch/pull-request-action@1.0.22
  #     env:
