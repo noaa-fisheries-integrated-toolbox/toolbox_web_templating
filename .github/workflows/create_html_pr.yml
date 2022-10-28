@@ -46,42 +46,9 @@ jobs:
       with:
           github-token: ${{ secrets.API_TOKEN_GITHUB }}
           script: |
-            try{
               github.rest.pulls.create({owner: 'NMFS-Protected-Species-Tools', 
                                       repo: 'nmfs-protected-species-tools.github.io',
                                       title: 'Changes to html',
                                       head: 'new_html_page_2', 
                                       base: 'master'});
-              } catch (error) {
-              return "An error occured";
-              }
-#    - name: Create Pull Request
- #     uses: vsoch/pull-request-action@1.0.22
- #     env:
-  #      PULL_REQUEST_TOKEN: ${{ secrets.API_TOKEN_GITHUB }}
-   #     PULL_REQUEST_REPOSITORY: "NMFS-Protected-Species-Tools/nmfs-protected-species-tools.github.io"
-    #    PULL_REQUEST_FROM_BRANCH: "new_html_page"
- #       PULL_REQUEST_BRANCH: "master"
- #       PULL_REQUEST_TITLE: "Update webpage"
- #       PULL_REQUEST_REVIEWERS: "k-doering-NOAA"
-          
-      
-   # - name: upload final html to GHA
-   #   uses: actions/upload-artifact@v3
-   #   with: 
-   #     path: html/index.html
-   #     name: index
-   # - name: Create pull request
-   #   uses: paygoc6/action-pull-request-another-repo@v1.0.1
-   #   env:
-   #     API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
-   #   with:
-   #     source_folder: 'html'
-   #     destination_repo: 'NMFS-Protected-Species-Tools/nmfs-protected-species-tools.github.io'
-   #     destination_folder: '.'
-   #     destination_base_branch: 'master'
-   #     destination_head_branch: 'render-html'
-   #     user_email: 'kathryn.doering@noaa.gov'
-   #     user_name: 'k-doering-NOAA'
-   #     pull_request_reviewers: 'k-doering-NOAA'
-
+                                      
