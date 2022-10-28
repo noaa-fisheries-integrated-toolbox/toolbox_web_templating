@@ -52,6 +52,8 @@ jobs:
                                       title: 'Changes to html',
                                       head: 'new_html_page_2', 
                                       base: 'master'});
+              } catch (error) {
+              return "An error occured";
               }
 #    - name: Create Pull Request
  #     uses: vsoch/pull-request-action@1.0.22
