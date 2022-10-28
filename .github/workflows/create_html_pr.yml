@@ -26,10 +26,10 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install jinja2
-    - name: create HTML file
+    - name: create HTML
       run: |
         python create_html_from_jsonmodellist.py ProSpec_config.json
-    - name: Pushes test file
+    - name: Pushes file to repo branch
       uses: dmnemec/copy_file_to_another_repo_action@main
       env:
         API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
@@ -40,9 +40,8 @@ jobs:
         user_email: 'kathryn.doering@noaa.gov'
         user_name: 'k-doering-NOAA'
         commit_message: 'Update PR index.html'
-        destination_branch: 'master'
-        destination_branch_create: 'new_html_page_2'
-    - name: 'Comment PR'
+        destination_branch: 'new_html_page_2'
+    - name: 'Create Pull Request'
       uses: actions/github-script@v6
       with:
           github-token: ${{ secrets.API_TOKEN_GITHUB }}
