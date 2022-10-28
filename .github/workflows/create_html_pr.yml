@@ -44,12 +44,12 @@ jobs:
         destination_branch_create: 'new_html'
     - name: Create Pull Request
       uses: vsoch/pull-request-action@1.0.22
-        env:
-          PULL_REQUEST_TOKEN: ${{ secrets.API_TOKEN_GITHUB }}
-          PULL_REQUEST_FROM_BRANCH: "new_html"
-          PULL_REQUEST_BRANCH: "master"
-          PULL_REQUEST_TITLE: "Update webpage"
-          PULL_REQUEST_REVIEWERS: "k-doering-NOAA"
+      env:
+        PULL_REQUEST_TOKEN: ${{ secrets.API_TOKEN_GITHUB }}
+        PULL_REQUEST_FROM_BRANCH: "new_html"
+        PULL_REQUEST_BRANCH: "master"
+        PULL_REQUEST_TITLE: "Update webpage"
+        PULL_REQUEST_REVIEWERS: "k-doering-NOAA"
           
       
    # - name: upload final html to GHA
