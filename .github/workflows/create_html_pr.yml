@@ -41,16 +41,26 @@ jobs:
         user_name: 'k-doering-NOAA'
         commit_message: 'Update PR index.html'
         destination_branch: 'master'
-        destination_branch_create: 'new_html_page'
-    - name: Create Pull Request
-      uses: vsoch/pull-request-action@1.0.22
-      env:
-        PULL_REQUEST_TOKEN: ${{ secrets.API_TOKEN_GITHUB }}
-        PULL_REQUEST_REPOSITORY: "NMFS-Protected-Species-Tools/nmfs-protected-species-tools.github.io"
-        PULL_REQUEST_FROM_BRANCH: "new_html_page"
-        PULL_REQUEST_BRANCH: "master"
-        PULL_REQUEST_TITLE: "Update webpage"
-        PULL_REQUEST_REVIEWERS: "k-doering-NOAA"
+        destination_branch_create: 'new_html_page_2'
+    - name: 'Comment PR'
+      uses: actions/github-script@v6
+      with:
+          github-token: ${{ secrets.API_TOKEN_GITHUB }}
+          script: |
+            github.rest.pulls.create({owner: 'NMFS-Protected-Species-Tools', 
+                                      repo: 'nmfs-protected-species-tools.github.io',
+                                      title: 'Changes to html',
+                                      head: 'new_html_page_2', 
+                                      base: 'master'});
+#    - name: Create Pull Request
+ #     uses: vsoch/pull-request-action@1.0.22
+ #     env:
+  #      PULL_REQUEST_TOKEN: ${{ secrets.API_TOKEN_GITHUB }}
+   #     PULL_REQUEST_REPOSITORY: "NMFS-Protected-Species-Tools/nmfs-protected-species-tools.github.io"
+    #    PULL_REQUEST_FROM_BRANCH: "new_html_page"
+ #       PULL_REQUEST_BRANCH: "master"
+ #       PULL_REQUEST_TITLE: "Update webpage"
+ #       PULL_REQUEST_REVIEWERS: "k-doering-NOAA"
           
       
    # - name: upload final html to GHA
