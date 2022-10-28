@@ -6,6 +6,7 @@
   "documentation_link": "",
   "download_app_link": "https://github.com/nmfs-fish-tools/MCOMP/releases/download/4.3.0/MODELCOMPV43.zip",
   "fit_repo": "https://github.com/nmfs-fish-tools/MCOMP.git",
+  "model_link_page": "https://nmfs-fish-tools.github.io/MCOMP",
   "model_abbrev": "MCOMP",
   "model_name": "Model Compare Utility",
   "model_type": "",

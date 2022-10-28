@@ -6,6 +6,7 @@
   "documentation_link": "",
   "download_app_link": "https://github.com/nmfs-fish-tools/STATCAM/releases/download/1.4.1/statcam141.1.zip",
   "fit_repo": "https://github.com/nmfs-fish-tools/STATCAM.git",
+  "model_link_page": "https://nmfs-fish-tools.github.io/STATCAM",
   "model_abbrev": "STATCAM",
   "model_name": "Statistical Catch at Age Model",
   "model_type": "Statistical Catch-at-Age",

@@ -10,7 +10,7 @@
   "model_abbrev": "MSCAA",
   "model_name": "Multi-Species Statistical Catch-At-Age",
   "model_type": "",
-  "model_link_page":"",
+  "model_link_page":"https://github.com/nmfs-fish-tools/MSCAA",
   "online_app_link": "",
   "pdf_download": "",
   "release_badge":"nmfs-fish-tools/MSCAA",

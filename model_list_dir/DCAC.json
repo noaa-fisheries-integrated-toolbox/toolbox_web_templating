@@ -9,6 +9,7 @@
   "model_abbrev": "DCAC",
   "model_name": "Depletion-Corrected Average Catch",
   "model_type": "Data-Limited",
+  "model_link_page": "https://nmfs-fish-tools.github.io/DCAC",
   "online_app_link": "",
   "pdf_download": "",
   "references": [

@@ -6,6 +6,7 @@
   "documentation_link": "",
   "download_app_link": "https://github.com/nmfs-fish-tools/POPSIM-A/releases/download/8.2.0/AGEPOPSIMV82.1.zip",
   "fit_repo": "https://github.com/nmfs-fish-tools/POPSIM-A.git",
+  "model_link_page": "https://nmfs-fish-tools.github.io/POPSIM-A",
   "model_abbrev": "POPSIM-A",
   "model_name": "Age Population Simulator",
   "model_type": "",

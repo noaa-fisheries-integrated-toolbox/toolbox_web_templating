@@ -9,6 +9,7 @@
   "documentation_link": "./Introduction.html",
   "download_app_link": "",
   "github_link": "https://github.com/nmfs-fish-tools/r4MAS",
+  "model_link_page": "https://nmfs-fish-tools.github.io/r4MAS",
   "model_abbrev": "r4MAS",
   "model_name": "R interface to Metapopulation Assessment System",
   "model_type": "",
