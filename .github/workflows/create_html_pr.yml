@@ -30,6 +30,7 @@ jobs:
       run: |
         python create_html_from_jsonmodellist.py ProSpec_config.json
     - name: Pushes file to repo branch
+      continue-on-error: true
       uses: dmnemec/copy_file_to_another_repo_action@main
       env:
         API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
@@ -42,6 +43,7 @@ jobs:
         commit_message: 'Update PR index.html'
         destination_branch: 'new_html_page_2'
     - name: 'Create Pull Request'
+      continue-on-error: true
       uses: actions/github-script@v6
       with:
           github-token: ${{ secrets.API_TOKEN_GITHUB }}
