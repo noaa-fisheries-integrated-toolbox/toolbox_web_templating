@@ -15,7 +15,8 @@
     "MARSS",
     "nmfspalette",
     "VAST", 
-    "ghactions4r"
+    "ghactions4r",
+    "ghBackup"
   ],
   "location_of_model_list": "./model_list_dir",
   "main_title":"NMFS General Modeling Tools",
