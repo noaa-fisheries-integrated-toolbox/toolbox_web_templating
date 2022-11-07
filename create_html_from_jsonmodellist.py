@@ -13,7 +13,7 @@ import sys
 def write_html_index(template, configs, org_config):
     root = os.path.dirname(os.path.abspath(__file__))
     #root = pathto output directory
-    filename = os.path.join(root, 'html', 'index.html')
+    filename = os.path.join(root, 'deploy', 'tool_landing_page.html')
 
     with open(filename, 'w') as fh:
         fh.write(template.render(configs = configs, org_config = org_config))
@@ -23,7 +23,7 @@ def load_template():
     root = os.path.dirname(os.path.abspath(__file__))
     templates_dir = os.path.join(root, 'templates')
     env = Environment( loader = FileSystemLoader(templates_dir) )
-    template = env.get_template('index.html')
+    template = env.get_template('tool_landing_page.html')
     return template
 
 
