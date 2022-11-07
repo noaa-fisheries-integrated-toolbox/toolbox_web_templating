@@ -41,7 +41,8 @@ jobs:
         user_email: 'kathryn.doering@noaa.gov'
         user_name: 'k-doering-NOAA'
         commit_message: 'Update PR index.html'
-        destination_branch: 'new_html_page_2'
+        destination_branch_create: 'update_html'
+        destination_branch: 'update_html'
     - name: 'Create Pull Request'
       continue-on-error: true
       uses: actions/github-script@v6
@@ -51,6 +52,6 @@ jobs:
               github.rest.pulls.create({owner: 'NMFS-Protected-Species-Tools', 
                                       repo: 'nmfs-protected-species-tools.github.io',
                                       title: 'Changes to html',
-                                      head: 'new_html_page_2', 
+                                      head: 'update_html', 
                                       base: 'master'});
                                       
