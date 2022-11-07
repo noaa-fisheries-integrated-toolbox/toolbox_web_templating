@@ -16,6 +16,9 @@
  - individual tool landing pages, toolbox hosted (https://noaa-fisheries-integrated-toolbox.github.io/ASAP, for example; CHANGE from nmfs-fish-tools.github.io/ASAP)
  - individual tool landing pages, maintained by tool developer (whatever desired - or require individual tool landing pages for all tools and link to others??)
 
+ # redirect pages
+ - will need the nmfs-fish-tools.github.io (and other org .io repos) to redirect; same with nmfs-fish-tools.github.io/toolname. Maybe just upload a new link to post for a bit.
+
 # Org Templating
 
 This repository includes templates and JSON data for the FIT. [python's jinja 2](https://zetcode.com/python/jinja/) is used to generate webpages from the html templates and JSON files (For R users, this approach is similar to using [glue](https://glue.tidyverse.org/)).
