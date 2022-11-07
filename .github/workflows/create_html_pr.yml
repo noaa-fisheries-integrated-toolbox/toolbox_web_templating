@@ -42,7 +42,6 @@ jobs:
         user_name: 'k-doering-NOAA'
         commit_message: 'Update PR index.html'
         destination_branch_create: 'update_html'
-        destination_branch: 'update_html'
     - name: 'Create Pull Request'
       continue-on-error: true
       uses: actions/github-script@v6
