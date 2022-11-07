@@ -15,7 +15,6 @@ jobs:
     # build the browse html page, as well as other html pages
     # note that will need to modify the name from index.html
     # build the individual tool html pages
-    # create a deploy directory
     # move the index.html file (FIT homepage) to the deploy directory
     # move the html browse and toolbox drawers to deploy
     # move the individual tool html pages to deploy

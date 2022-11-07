@@ -1,3 +1,7 @@
+# Big picture
+
+![The setup for the FIMS repo](fit-deploy-sketch.png)
+
 # Org Templating
 
 This repository includes templates and JSON data for the FIT. [python's jinja 2](https://zetcode.com/python/jinja/) is used to generate webpages from the html templates and JSON files (For R users, this approach is kind of like using [glue](https://glue.tidyverse.org/)).

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-146635872-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-146635872-1');
+    </script>
+    <title>NOAA Fisheries Integrated Toolbox</title>
+    <link type="text/css" rel="stylesheet" href="./static/simple.css" />
+    <meta name="google-site-verification" content="U6vzg6_XZ4aLFUQSw7xIysB7E3WtARBQnKU_gbCQWz4" />
+    <meta charset="utf-8" name = "description" content="NOAA Fisheries Integrated Toolbox is a portal of modeling, forecasting, and analysis tools for fisheries, protected species, socioeconomics, and ecosystems."/>
+    <meta name="author" content="Corinne Bassin, fisheries.toolbox@noaa.gov">
+    <meta name="keywords" content="NOAA Fisheries Toolbox, NFT, NOAA FIT, NOAA Fisheries Integrated Toolbox, fisheries toolbox, assessment, software, stock, assessment methods, estimation, age based, length based, catch at age, survey, index, graphic interface, NOAA Fisheries, NOAA">
+</head>
+<body>
+     <div class="container">
+        <div class="mywrap">
+            <h1 class ="header_title">NOAA Fisheries Integrated Toolbox</h1>
+        </div>
+        <div class = "divider"></div>
+     <div class="mywrap">
+        <div class="box"><div class ="title"><a class ="title_link" href="/news">NEWS</a></div></div>
+
+        <div class="box"><div class ="title">TOOLS</div>
+            <ul class ="tools_list">
+                <li style="background-color:rgba(250,250,250,0.7);" ><a href="https://nmfs-fish-tools.github.io"> Fish and Fisheries</a></li>
+                <li style="background-color:rgba(250,250,250,.55);" ><a href="https://NMFS-Protected-Species-Tools.github.io/">Protected Species</a></li>
+                <li style="background-color:rgba(250,250,250,.4);" ><a href="https://nmfs-human-dimensions-tools.github.io/">Human Dimensions</a></li>
+                <li style="background-color:rgba(250,250,250,.25);" ><a href="https://nmfs-ecosystem-tools.github.io/">Ecosystems</a></li>
+                <li style="background-color:#0055A4;" ><a href="https://nmfs-general-modeling-tools.github.io">General Modeling Tools</a></li>
+            </ul>
+        </div>
+        <div class="box"><div class ="title"><a class ="title_link" href="/resources">RESOURCES</a></div></div>
+    </div>
+        <div class = "infoText" role="main">
+        <p> The NOAA Fisheries Integrated Toolbox (NOAA FIT) is an interdisciplinary, web-based portal of operational tools that can be used for a variety of applications, including stock assessment modeling, forecasting, and data preparation for fish and protected species, as well as economic and ecosystem modeling. This web portal facilitates easier sharing and comparison of analytical tools (including ensemble modeling, model averaging, model coupling, and shared visualization). The NOAA FIT hosts a variety of operational tools developed by NOAA scientists and programmers, as well as those developed in collaboration with, and exclusively by external developers.  The NOAA FIT is maintained by the National Modeling Team in NOAA Fisheries Office of Science and Technology. The National Modeling Team supports scientists, developers, and users to facilitate accessibility and efficient usage of software and tools.  The NOAA FIT also provides resources for developers and users of the tools to ensure best practices and ease of use.
+        </p>
+        <p>
+
+        Contact the <a class ="contact" href="https://noaa-fisheries-integrated-toolbox.github.io/resources/onboarding/contact/">toolbox team</a> for more information on tool development and usage.</p>
+
+
+
+        </div>
+        <div class = "divider"></div>
+
+        <footer >
+             <img src="./static/noaa-fisheries-rgb-2line-horizontal-small.png" alt="NOAA Fisheries Logo" height="75">
+         <div class="mywrap_center">
+          <a class ="mylink line" href="https://www.commerce.gov/">U.S. Department of Commerce</a>
+         <a class ="mylink line" href="https://www.noaa.gov">National Oceanographic and Atmospheric Administration</a>
+         <a class ="mylink" href="https://www.fisheries.noaa.gov/">NOAA Fisheries</a>
+         </div>
+        </footer>
+    </div>
+    <script>
+      function simpleSearch() {
+          var input, filter, ul, box, box_each, box_each_abbrev, i, txtValue;
+          input = document.getElementById("myInput");
+          filter = input.value.toUpperCase();
+          box = document.getElementsByClassName("box");
+          for (i = 0; i < box.length; i++) {
+              box_each = box[i].getElementsByClassName("longTitle")[0];
+              box_each_abbrev = box[i].getElementsByClassName("shortTitle")[0];
+              txtValue = box_each.textContent + " " + box_each_abbrev.innerText;
+              if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                  box[i].style.display = "";
+              } else {
+                  box[i].style.display = "none";
+              }
+          }
+      }
+</script>
+
+</body>
+</html>
