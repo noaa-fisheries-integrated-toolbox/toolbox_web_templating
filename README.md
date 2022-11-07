@@ -6,7 +6,15 @@
 2. Merge changes into dev. Once merged in, use a github action to build the html pages and deploy them to 3.
 3. The fit-dev repo is hosted on github pages. Navigate to noaa-fisheries-integrated-toolbox.github.io/fit-dev to preview the FIMS website.
 4. Once confirming the dev pages look good, merge changes into 4. Once merged in, use a github acion to build the html pages and deploy them to 5.
-5. This is the production version of the NOAA fisheries site, advertised to the public!
+5. This is the production version of the NOAA fisheries site, advertised to the public.
+
+# Webpage addresses on production
+
+ - FIT landing page (https://noaa-fisheries-integrated-toolbox.github.io/ ; no change)
+ - browse landing page (https://noaa-fisheries-integrated-toolbox.github.io/browse; new page)
+ - individual drawer landing pages (https://noaa-fisheries-integrated-toolbox.github.io/nmfs-fish-tools , for example; CHANGE from nmfs-fish-tools.github.io)
+ - individual tool landing pages, toolbox hosted (https://noaa-fisheries-integrated-toolbox.github.io/ASAP, for example; CHANGE from nmfs-fish-tools.github.io/ASAP)
+ - individual tool landing pages, maintained by tool developer (whatever desired - or require individual tool landing pages for all tools and link to others??)
 
 # Org Templating
 
