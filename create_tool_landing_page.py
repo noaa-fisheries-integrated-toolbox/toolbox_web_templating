@@ -11,11 +11,11 @@ import sys
 
 def write_html(template, configs, new_dir, modelname):
     #root = os.path.dirname(os.path.abspath(__file__))
-    docsdir = os.path.join(new_dir, 'deploy')
+    #docsdir = os.path.join(new_dir, 'deploy')
     htmlname = modelname + '.html'
-    filename = os.path.join(new_dir, 'deploy', htmlname)
-    if not os.path.exists(docsdir):
-        os.mkdir(docsdir)
+    filename = os.path.join(new_dir, htmlname)
+    #if not os.path.exists(docsdir):
+    #    os.mkdir(docsdir)
     with open(filename, 'w') as fh:
         fh.write(template.render(**configs))
 
