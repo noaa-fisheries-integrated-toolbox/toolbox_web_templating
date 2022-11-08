@@ -1,4 +1,4 @@
-# This script run once creates a tool landing page from a model_list_dir/*.json file.
+# This script run once creates tool landing pages from a model_list_dir/*.json file.
 
 from jinja2 import Environment, FileSystemLoader
 # import argparse
