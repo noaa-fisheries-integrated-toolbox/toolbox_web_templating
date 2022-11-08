@@ -53,8 +53,8 @@ def run_all_files(list_of_models, folder_out, configdir):
 
 def main():
     list_of_models = ['DONUT', 'CSA']
-    folder_out= './deploy'
-    configdir= './model_list_dir'
+    folder_out= 'deploy'
+    configdir= 'model_list_dir'
     run_all_files(list_of_models, folder_out, configdir)
 
 
