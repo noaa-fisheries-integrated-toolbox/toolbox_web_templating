@@ -11,8 +11,8 @@ import sys
 
 def write_html_index(template, configs, org_config):
     root = os.path.dirname(os.path.abspath(__file__))
-    #root = pathto output directory
-    filename = os.path.join(root, 'deploy', 'tool_landing_page.html')
+    #root = path to output directory
+    filename = os.path.join(root, 'deploy', 'catalog_landing_page.html')
     with open(filename, 'w') as fh:
         fh.write(template.render(configs = configs, org_config = org_config))
 
@@ -20,7 +20,7 @@ def load_template():
     root = os.path.dirname(os.path.abspath(__file__))
     templates_dir = os.path.join(root, 'templates')
     env = Environment( loader = FileSystemLoader(templates_dir) )
-    template = env.get_template('tool_landing_page.html')
+    template = env.get_template('catalog_landing_page.html')
     return template
 
 # def parse_args():
