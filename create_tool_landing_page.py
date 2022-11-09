@@ -58,3 +58,5 @@ def main():
     run_all_files(list_of_models, folder_out, configdir)
 
 
+if __name__ == '__main__':
+    main()
