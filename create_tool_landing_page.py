@@ -43,13 +43,15 @@ def run_all_files(list_of_models, folder_out, configdir):
     for modelname in list_of_models:
         print(modelname)
         old_name = modelname +'.json'
-        configfile = os.path.join(configdir,old_name)
-        # shutil.copy(old_name, 'config_template.json')
+        configfile = os.path.join(configdir,old_name)  
+        configjson = json.load(configfile)
         new_dir = os.path.join(folder_out)
         # Create target Directory if don't exist
         if not os.path.exists(new_dir):
             os.mkdir(new_dir)
-        write_templates(configfile, new_dir, modelname)
+        write_templates(configjson, new_dir, modelname)
+        
+
 
 def main():
     list_of_models = ['DONUT', 'CSA']
