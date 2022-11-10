@@ -1,24 +1,35 @@
-# create the FIMS website and deploy it
+# This workflow will install Python dependencies, run tests and lint with a single version of Python
+# For more information see: https://help.github.com/actions/language-and-framework-guides/using-python-with-github-actions
 
-name: create and deploy website
+name: Create and Deploy HTMl site
 # Includes building automatically when either of the relavent JSON files update on the main branch or on the push of a button
 on: 
   workflow_dispatch:
-  # want to run this ONLY on the dev branch
+  push:
+
 jobs:
-  create-and-deploy:
+  build:
     runs-on: ubuntu-latest
-
     steps:
-    # check out the repo
     - uses: actions/checkout@v3
-    # build the browse html page, as well as other html pages
-    # note that will need to modify the name from index.html
-    # build the individual tool html pages
-    # move the index.html file (FIT homepage) to the deploy directory
-    # move the html browse and toolbox drawers to deploy
-    # move the individual tool html pages to deploy
-    # deploy the deploy directory to the gh-pages branch of toolbox-web-templating (easier init step)
-    # deploy to the main branch of FIMS-dev (harder step)
-    
-
+    - name: Set up Python 3.9
+      uses: actions/setup-python@v4
+      with:
+        python-version: 3.9
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install jinja2
+    - name: create HTML file
+      run: |
+        python create_tool_landing_page.py
+        python create_catalog_landing_page.py Browse_config.json
+        # note that static images and FIMS landing page (index.html) are
+        # already in the deploy folder.
+        # for now, don't create individual drawer pages
+    - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: deploy # The folder the action should deploy.
+          repository_name: noaa-fisheries-integrated-toolbox/fit-dev
+          token: ${{ secrets.API_TOKEN_GITHUB }}
