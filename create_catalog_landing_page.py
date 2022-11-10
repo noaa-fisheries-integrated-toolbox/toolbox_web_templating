@@ -12,7 +12,7 @@ import sys
 def write_html_index(template, configs, org_config):
     root = os.path.dirname(os.path.abspath(__file__))
     #root = path to output directory
-    filename = os.path.join(root, 'deploy', 'catalog_landing_page.html')
+    filename = os.path.join(root, 'deploy', 'browse.html')
     with open(filename, 'w') as fh:
         fh.write(template.render(configs = configs, org_config = org_config))
 
@@ -47,8 +47,8 @@ def main(org_config):
     write_templates(allthemodels, org_config)
 
 if __name__ == '__main__':
-    # org_config_file = 'HumanDim_config.json'
-    org_config_file = sys.argv[1];
+    org_config_file = 'Browse_config.json'
+    #org_config_file = sys.argv[1]; # use this approach if we need to generate multiple files
     with open(org_config_file) as f:
             org_config =  json.load(f)
     main(org_config)
