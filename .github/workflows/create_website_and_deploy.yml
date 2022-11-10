@@ -28,8 +28,8 @@ jobs:
         # already in the deploy folder.
         # for now, don't create individual drawer pages
     - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          folder: deploy # The folder the action should deploy.
-          repository_name: noaa-fisheries-integrated-toolbox/fit-dev
-          token: ${{ secrets.API_TOKEN_GITHUB }}
+      uses: JamesIves/github-pages-deploy-action@v4
+      with:
+        folder: deploy # The folder the action should deploy.
+        repository_name: noaa-fisheries-integrated-toolbox/fit-dev
+        token: ${{ secrets.API_TOKEN_GITHUB }}
