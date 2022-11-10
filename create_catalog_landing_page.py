@@ -39,11 +39,11 @@ def main(org_config):
     allthemodels =  {}
     for f in org_config['list_of_models']:
         old_name = f +'.json'
-        print(os.getcwd())
+        #print(os.getcwd())
         filename = os.path.join(org_config['location_of_model_list'], old_name)
         with open(filename) as ff:
             allthemodels[f] = json.load(ff)
-            print(allthemodels[f])
+            #print(allthemodels[f])
     write_templates(allthemodels, org_config)
 
 if __name__ == '__main__':

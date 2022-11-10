@@ -1,11 +1,13 @@
 # This script run once creates tool landing pages from a model_list_dir/*.json file.
 
-from jinja2 import Environment, FileSystemLoader
 # import argparse
 import json
 import os
 import shutil
 import sys
+
+from jinja2 import Environment, FileSystemLoader
+
 #basic templating
 # use conda web_templating. .. source activate web_templating
 
@@ -43,8 +45,9 @@ def run_all_files(list_of_models, folder_out, configdir):
     for modelname in list_of_models:
         print(modelname)
         old_name = modelname +'.json'
-        configfile = os.path.join(configdir,old_name)  
-        configjson = json.load(configfile)
+        configfile = os.path.join(configdir,old_name) 
+        with open(configfile, "r") as read_file:
+          configjson = json.load(read_file)
         new_dir = os.path.join(folder_out)
         # Create target Directory if don't exist
         if not os.path.exists(new_dir):
