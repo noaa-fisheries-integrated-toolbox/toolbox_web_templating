@@ -31,5 +31,5 @@ jobs:
       uses: JamesIves/github-pages-deploy-action@v4
       with:
         folder: deploy # The folder the action should deploy.
-        repository_name: noaa-fisheries-integrated-toolbox/fit-dev
+        repository-name: noaa-fisheries-integrated-toolbox/fit-dev
         token: ${{ secrets.API_TOKEN_GITHUB }}
