@@ -5,6 +5,7 @@
   "badge_level": "1",
   "documentation_link": "./documentationLandingPage.html",
   "download_app_link": "http://www.admb-project.org/downloads/",
+  "website": "http://www.admb-project.org",
   "github_link": "https://github.com/admb-project/admb",
   "model_abbrev": "ADMB",
   "model_link_page": "http://www.admb-project.org/",
