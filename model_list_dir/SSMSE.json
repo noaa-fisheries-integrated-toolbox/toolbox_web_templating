@@ -12,7 +12,7 @@
   "documentation_link": "../inst/bookdown/_book/index.html",
   "download_app_link": "",
   "github_link": "https://github.com/nmfs-fish-tools/SSMSE",
-  "model_link_page": "https://nmfs-fish-tools.github.io/SSMSE",
+  "website": "https://nmfs-fish-tools.github.io/SSMSE",
   "model_abbrev": "SSMSE",
   "model_name": "Management Strategy Evaluation for SS3",
   "model_type": "Management Strategy Evaluation",

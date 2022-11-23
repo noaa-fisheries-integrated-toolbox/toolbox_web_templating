@@ -6,7 +6,6 @@
   "documentation_link": "https://www.nefsc.noaa.gov/nft/downloads/VRHelp_022608.zip",
   "download_app_link": "https://github.com/nmfs-fish-tools/VRD/releases/download/1.6.1/VisualReportV161.zip",
   "fit_repo": "https://github.com/nmfs-fish-tools/VRD.git",
-  "model_link_page": "https://nmfs-fish-tools.github.io/VRD",
   "model_abbrev": "VRD",
   "model_name": "Visual Report Designer",
   "model_type": "",

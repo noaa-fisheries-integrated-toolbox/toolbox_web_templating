@@ -10,7 +10,7 @@
   "model_abbrev": "MARSS",
   "model_name": "Multivariate Autoregressive State-Space Modeling with R",
   "model_type": "",
-  "model_link_page":"https://nwfsc-timeseries.github.io/MARSS/",
+  "website":"https://nwfsc-timeseries.github.io/MARSS/",
   "online_app_link": "",
   "pdf_download": "https://cran.r-project.org/web/packages/MARSS/vignettes/UserGuide.pdf",
   "references": [

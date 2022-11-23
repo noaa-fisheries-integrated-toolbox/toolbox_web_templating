@@ -10,7 +10,6 @@
   "model_abbrev": "eSDM",
   "model_name": "Ensemble tool for predictions from Species Distribution Models",
   "model_type": "",
-  "model_link_page":"https://swoodman.shinyapps.io/eSDM/",
   "online_app_link": "https://swoodman.shinyapps.io/eSDM/",
   "pdf_download": "https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.13283",
   "references": [

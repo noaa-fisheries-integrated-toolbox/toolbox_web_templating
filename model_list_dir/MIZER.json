@@ -9,7 +9,7 @@
   "model_abbrev": "MIZER",
   "model_name": "Multi-species size spectrum modelling in R",
   "model_type": "Multi-Species Size-Spectrum",
-  "model_link_page": "https://sizespectrum.org/mizer/index.html",
+  "website": "https://sizespectrum.org/mizer/index.html",
   "online_app_link": "",
   "pdf_download": "",
   "references": [

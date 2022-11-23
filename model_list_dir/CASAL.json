@@ -9,7 +9,7 @@
   "model_abbrev": "CASAL",
   "model_name": "C++ Algorithmic Stock Assessment Laboratory",
   "model_type": "Statistical Catch-at-Age",
-  "model_link_page":"https://niwa.co.nz/fisheries/tools-resources/casal",
+  "website":"https://niwa.co.nz/fisheries/tools-resources/casal",
   "online_app_link": "",
   "pdf_download": "",
   "references": [],

@@ -10,7 +10,7 @@
   "model_abbrev": "GMACs",
   "model_name": "General Model for Assessing Crustacean Stocks",
   "model_type": "Statistical Catch-at-Length",
-  "model_link_page":"https://seacode.github.io/gmacs/",
+  "website":"https://seacode.github.io/gmacs/",
   "online_app_link": "",
   "pdf_download": "",
   "references": [

@@ -9,7 +9,7 @@
   "github_link": "http://sources.ecopath.org/trac/Ecopath",
   "model_abbrev": "EwE",
   "model_name": "Ecopath with Ecosim",
-  "model_link_page":"http://ecopath.org/",
+  "website":"http://ecopath.org/",
   "model_type":"ecological/ecosystem modeling",
   "online_app_link": "",
   "pdf_download": "",

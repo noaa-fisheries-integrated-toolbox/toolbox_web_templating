@@ -104,7 +104,7 @@
               {% if value['model_link_page'] is defined and value['model_link_page'] %}
               {% set my_string = value['model_link_page'] %}
               {% else %}
-              {% set my_string = org_config.githubpage   ~ value['model_abbrev']  %}
+              {% set my_string = value['model_abbrev']  %}
               {% endif %}
               <a class = "shortTitle" href= {{my_string}} target= "_blank"> {{value['model_abbrev']}} </a>
               <div class = "longTitle">{{value['model_name']}}</div>

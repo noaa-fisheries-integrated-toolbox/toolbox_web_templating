@@ -9,7 +9,7 @@
   "model_abbrev": "bayesdfa",
   "model_name": "Bayesian Dynamic Factor Analysis with Stan",
   "model_type": "",
-  "model_link_page":"https://fate-ewi.github.io/bayesdfa/",
+  "website":"https://fate-ewi.github.io/bayesdfa/",
   "online_app_link": "",
   "pdf_download": "",
   "references": [],

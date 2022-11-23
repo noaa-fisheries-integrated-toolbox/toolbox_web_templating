@@ -11,7 +11,7 @@
   "model_abbrev": "OSMOSE",
   "model_name": "Object-oriented Simulator of Marine Ecosystems",
   "model_type": "",
-  "model_link_page":"http://www.osmose-model.org/",
+  "website":"http://www.osmose-model.org/",
   "online_app_link": "",
   "pdf_download": "",
   "release_badge":"osmose-model/osmose",

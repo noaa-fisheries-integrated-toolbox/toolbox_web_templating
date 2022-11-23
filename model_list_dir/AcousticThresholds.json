@@ -6,11 +6,10 @@
   "contact":"amy.scholik@noaa.gov",
   "documentation_link": "",
   "download_app_link": "",
-  "github_link": "https://github.com/emilyhmarkowitz/MarineMammalAcousticThresholds",
   "model_abbrev": "AcousticThresholds",
   "model_name": "Technical Guidance for Assessing the Effects of Anthropogenic Sound on Marine Mammal Hearing ",
   "model_type": "",
-  "model_link_page":"https://jmlondon.shinyapps.io/AcousticThresholds/",
+  "website":"https://jmlondon.shinyapps.io/AcousticThresholds/",
   "online_app_link": "https://jmlondon.shinyapps.io/AcousticThresholds/",
   "pdf_download": "",
   "references": [

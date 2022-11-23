@@ -9,7 +9,6 @@
   "github_link": "https://github.com/nmfs-fish-tools/VES-V",
   "main_image": {"image":"VES-V.jpg","link":"http://www.perspectx.com/VES-V/VESVdemoSept12WestCoast.mp4","alt":"image of VES-V interface and link to video overview"},
   "model_abbrev": "VES-V",
-  "model_link_page": "https://nmfs-fish-tools.github.io/VES-V/",
   "model_name": "Virtual Ecosystem Scenario Viewer",
   "model_type": "",
   "multi_download": [

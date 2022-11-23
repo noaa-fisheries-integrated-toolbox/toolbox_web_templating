@@ -14,7 +14,7 @@
   "model_abbrev": "RPATH",
   "model_name": "R implementation of the Ecopath with Ecosim",
   "model_type": "mass balance food web algorithm",
-  "model_link_page": "https://noaa-edab.github.io/Rpath/",
+  "website": "https://noaa-edab.github.io/Rpath/",
   "online_app_link": "",
   "pdf_download": "",
   "references": [
