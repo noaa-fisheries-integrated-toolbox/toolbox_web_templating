@@ -11,7 +11,7 @@
     "eSDM",
     "ObsCovgTools",
     "NWCTrends",
-    "salmix",
+    "phenomix",
     "VRAP"
   ],
   "location_of_model_list": "./model_list_dir",

@@ -7,8 +7,6 @@
   "cite":["https://research.csiro.au/atlantis/home/useful-references/"],
   "documentation_link": "https://research.csiro.au/atlantis/home/links/",
   "download_app_link": "https://research.csiro.au/atlantis/home/links/",
-
-  "github_link": "https://research.csiro.au/atlantis/home/links/",
   "model_abbrev": "Atlantis",
   "model_name": "Atlantis",
   "model_type": "deterministic biogeochemical whole of ecosystem model",

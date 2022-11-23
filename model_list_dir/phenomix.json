@@ -1,14 +1,14 @@
 {
   "associated_tools": [],
   "author_name": "Ward, E. J.",
-  "background_text": "The package salmix provides a suite of curve fitting to describe phenology data that may be generated from a process when distributions in time might be concentrated (from fisheries, this occurs with things counts over time of salmon returning from the ocean to spawn or juvenile fish emigrating from streams to the ocean). For terrestrial applications, this may include times of flowering or leaf-out in plants or trees.",
+  "background_text": "The package phenomix provides a suite of curve fitting to describe phenology data that may be generated from a process when distributions in time might be concentrated (from fisheries, this occurs with things counts over time of salmon returning from the ocean to spawn or juvenile fish emigrating from streams to the ocean). For terrestrial applications, this may include times of flowering or leaf-out in plants or trees.",
   "badge_level": "badge_external_active",
   "contact":"eric.ward@noaa.gov",
   "documentation_link": "",
   "download_app_link": "",
   "github_link": "https://github.com/ericward-noaa/phenomix",
-  "model_abbrev": "salmix",
-  "model_name": "salmix",
+  "model_abbrev": "phenomix",
+  "model_name": "phenomix",
   "model_type": "",
   "website":"https://ericward-noaa.github.io/phenomix/",
   "online_app_link": "",
@@ -19,7 +19,7 @@
   "tool_type":"",
   "shields_badges":["https://www.repostatus.org/badges/latest/active.svg"],
   "version_number": "",
-  "release_badge": "ericward-noaa/salmix",
+  "release_badge": "ericward-noaa/phenomix",
   "toolbox_drawer": ["protected_species", "fisheries"],
   "keywords": ["Salmon", "Time Series", "Fisheries"]
 }
