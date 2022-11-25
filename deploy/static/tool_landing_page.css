@@ -241,6 +241,22 @@
       text-align: center;
       margin-left: auto;
   }
+
+  .IconButton:hover {
+    width: 30px;
+    height: 30px;
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Arial Narrow,Arial,sans-serif;
+    text-decoration: underline;
+    background: rgba(1,1,1,0.5);
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: auto;
+    transition: 0.7s;
+}
   
   
   
