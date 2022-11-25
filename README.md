@@ -40,34 +40,32 @@ Each landing page can be created using the correct config file.
 # Explanation of JSON metadata
 JSON data can be (partially) validated using [schema](https://json-schema.org/understanding-json-schema/about.html)
 ```json
-Explanation:
-
 {
   "associated_tools": [
     {"name":"NAME OF TOOL","link":"LINK TO TOOL"},
     {"name":"NAME OF TOOL","link":"LINK TO TOOL"}
   ],
-  "author_name": "AUTHOR NAME",
-  "background_text": "THIS TEXT WILL BE THE MAIN TEXT ON THE MODEL LANDING PAGE",
-  "badge_level": "",** for the most part this is no longer used but can be left in older ones
-  "contact":"EMAIL FOR MAIN CONTACT use fisheries.toolbox@noaa.gov if no other email is known",
-  "online_app_link": "IF THERE IS A SHINY APP OR OTHER ONLINE VERSION PUT LINK HERE OTHERWISE LEAVE AS EMPTY QUOTES, no space",
-  "download_app_link": "LINK TO DOWNLOAD APPLICATION IF EXE OR RELEASE VERSION, CAN JUST USE LINK TO RELEASE PAGE",
-  "website_link": "" **link to the website, if there is a separate one from the FIT.
-  "documentation_link": "LINK TO EXTERNAL DOUMENTATION OR LOCAL PATH TO FILE WITH DOCUMENTATION",
-  "code_repository_link": "LINK TO GITHUB CODE REPO",
-  "model_abbrev": "SHORT ABBREVIATION OF TOOL USED AT TOP OF TILE ON LANDING PAGE",
-  "model_name": "COOMPLETE NAME OF TOOL SHOWN IN TILE ON SECOND ROW",
-  "model_type": "SPECIFIY TYPE OF MODEL< THIS SHOWS UP IN THE TILE OR CAN BE LEFT AS JUST EMPTY QUOTES",
-  "pdf_download": "",
-  "release_badge":"IF THE REPO UESE RELEASES ON GITHUB, JUST PUT THE ORG/REPO HERE TO LINK. IF ITS A TAG AND NOT A RELEASE YOU MAY NEED TO MAKE A FIX DIRECTLY IN THE HTML AFTER THE FACT  , EXAMPLE FOR RELEASES: NMFS-ecosystem-tools/MSCAA",
-  "references": ["ref1", "ref2"],**LEAVE AS EMPTY LIST [] IF NONE
-  "support_level": "external_active",** CHOICES ARE external_active OR internal_active OR internal_inactive
-  "tool_type":"SPECIFIY TYPE OF TOOL ( MORE GENERAL THEN MODEL) THIS SHOWS UP IN THE TITLE OR CAN BE LEFT AS JUST EMPTY QUOTES",
-  "shields_badges":["https://www.repostatus.org/badges/latest/active.svg","https://img.shields.io/badge/platform-linux%20%7Cwin-lightgrey"],** add any extra badges here from repostatus or shields in a list
-  "version_number": "0.9.0",** add version number only if it is not linked to a release_badge above
-  "toolbox_drawer": ["fisheries", "general"], ** options are: "fisheries", "ecosystem", "human_dimensions", "protected_species", and "general"**
-  "keywords": ["Economics", "R", "Web App"] **keywords to sort through tools**,
-
+  "author_name": "First1 Last1 and First2 Last2",// **Name of the tool author or authors
+  "background_text": "Information on this tool goes here and will be displayed on the tool page", //** Please Write up to a paragraph.
+  "badge_level": "", //** leave blank
+  "contact": "fisheries.toolbox@noaa.gov", //**Email for main contact. Please put a noaa.gov email address that someone will check.
+  //Note: At least one of the 5 following links need to be filled out for your tool to be found. Please fill in as many as apply.
+  "online_app_link": "", //IF THERE IS A SHINY APP OR OTHER ONLINE APP, PUT LINK HERE OTHERWISE LEAVE AS EMPTY QUOTES, no spaces.
+  "download_app_link": "", //**LINK TO DOWNLOAD APPLICATION IF EXE exists. Please leave blank if there is not an compiled exe distributed.
+  "website_link": "", //**link to the website, if it exists; otherwise, leave blank.
+  "documentation_link": "", //**LINK TO EXTERNAL DOCUMENTATION. Not necessary if it is the same as the website_link or code_repository_link.
+  "code_repository_link": "", //LINK TO GITHUB CODE REPO
+  "model_abbrev": "MODABBREV", //SHORT ABBREVIATION OF TOOL USED AT TOP OF TILE ON LANDING PAGE. Must Match the name of the JSON file. Required.
+  "model_name": "Complete Name of Model Tool", //required
+  "model_type": "", //SPECIFIY TYPE OF MODEL. THIS SHOWS UP IN THE TILE. Optional
+  "pdf_download": "", //A URL to a pdf that might be helpful for users.
+  "release_badge":"NMFS-ecosystem-tools/MSCAA"//IF THE REPO UESE RELEASES ON GITHUB, JUST PUT THE ORG/REPO HERE TO LINK.
+  "references": ["ref1", "ref2"], //** Formatted publication references. LEAVE AS EMPTY LIST [] IF NONE. Please include DOI if available.
+  "support_level": "external_active", //** CHOICES ARE external_active OR internal_active OR internal_inactive
+  "tool_type":"", //SPECIFIY TYPE OF TOOL ( MORE GENERAL THEN MODEL).THIS SHOWS UP IN THE TITLE OR CAN BE LEFT AS JUST EMPTY QUOTES",
+  "shields_badges":["https://www.repostatus.org/badges/latest/active.svg","https://img.shields.io/badge/platform-linux%20%7Cwin-lightgrey"],//** add any extra badges here from repostatus or shields in a list
+  "version_number": "",//** add version number only if it is not linked to a release_badge above
+  "toolbox_drawer": ["fisheries", "general"], //** options are: "fisheries", "ecosystem", "human_dimensions", "protected_species", and "general"*. Put all that apply to the tool.
+  "keywords": ["Economics", "R", "Web App"] //**keywords to sort through tools.,
 }
 ```
