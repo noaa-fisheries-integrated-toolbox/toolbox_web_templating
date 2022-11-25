@@ -62,39 +62,23 @@
   }
   
   #badge_internal_active{
-  background-image: url("./badge_internal_active.png")
+  background-image: url("./icons8-checkmark-24-internal-active.png")
   }
   
   #badge_internal_inactive{
-  background-image: url("./badge_internal_inactive.png")
+  background-image: url("./icons8-checkmark-24-internal_inactive.png")
   }
   
   #badge_external_active{
-  background-image: url("./badge_external_active.png")
+  background-image: url("./icons9-checkmark-24-external-active.png")
   }
-  
-  #badge_external_active{
-  background-image: url("./badge_external_active.png")
-  }
-  
-  
+
   #check{
   
-  background-image: url("./check.png");
+  background-image: url("./icons8-checkmark-24.png");
   
   }
   
-  #greycheck{
-  
-  background-image: url("./greycheck.png");
-  
-  }
-  
-  #greybadge{
-  
-  background-image: url("./greybadge.png");
-  
-  }
   #internal_inactive{
     background-image: url("icons8-checkmark-24-internal-inactive.png");
     background-repeat: none;
@@ -172,7 +156,7 @@
   font-size: 24px;
   font-weight: normal;
   border: none;
-  background-image: url("./icons8-github-32.png");
+  background-image: url("./icons8-github-24.png");
   border: 1px solid #00000066;
   background-repeat: no-repeat;
   background-size: cover;
