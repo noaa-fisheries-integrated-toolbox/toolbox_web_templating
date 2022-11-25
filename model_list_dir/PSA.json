@@ -6,7 +6,7 @@
   "documentation_link": "https://repository.library.noaa.gov/view/noaa/3713",
   "download_app_link": "https://github.com/nmfs-fish-tools/PSA/releases/download/1.4.0/PSA-1-4.zip",
   "fit_repo": "https://github.com/nmfs-fish-tools/PSA.git",
-  "website": "https://nmfs-fish-tools.github.io/PSA",
+  "website": "",
   "model_abbrev": "PSA",
   "model_name": "Productivity and Susceptibility Analysis",
   "model_type": "Risk Assessment Tool",

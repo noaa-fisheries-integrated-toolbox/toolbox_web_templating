@@ -28,7 +28,7 @@
   "model_abbrev": "SS3",
   "model_name": "Stock Synthesis",
   "model_type": "Statistical Catch-at-Length",
-  "online_app_link": "",
+  "online_app_link": "https://connect.fisheries.noaa.gov/ss3-helper",
   "pdf_download": "",
   "references": [
     "SS reference: Methot and Wetzel 2013. Stock synthesis: A biological and statistical framework for fish stock assessment and fishery management. https://doi.org/10.1016/j.fishres.2012.10.012",
