@@ -48,10 +48,10 @@
   
   }
   
-  a{
+  /* a{
    text-decoration: underline;
    color: black;
-  }
+  } */
   
   .badge{
    width: 60px;
@@ -304,7 +304,7 @@
   }
   
   #email{
-      background-image: url("icons8-email-send-24.png");
+    background-image: url("icons8-email-send-24.png");
     background-repeat: none;
     background-size: cover;
     border:none;

@@ -87,7 +87,7 @@
 
       <div class ="main">
         <div class="mywrap">
-              <h2>Tool:</h2>
+              <h2>Tool</h2>
               <div class ="label">
                 {{model_name}} ({{model_abbrev}})
 
@@ -115,24 +115,24 @@
 
         
             {% if model_type %}
-            <h2>Type:</h2>
+            <h2>Type</h2>
             <div class ="label">
               {{model_type}}
             </div>
             {% elif tool_type%}
-            <h2>Type:</h2>
+            <h2>Type</h2>
             <div class ="label">
               {{tool_type}}
             </div>
             {% endif %}
         
         {% if author_name is defined and author_name|length > 1 %}
-        <h2>Authors:</h2>
+        <h2>Authors</h2>
         <div class = "authName">
         {{author_name}}
         </div >
         {% elif author_name is defined and author_name %}
-        <h2>Author:</h2>
+        <h2>Author</h2>
         <div class = "authName">
         {{author_name}}
         </div >
@@ -147,7 +147,7 @@
 
         {% endif %}
           
-          <h2>Description:</h2>
+          <h2>Description</h2>
           <div class ="mainText">
             {{background_text}}
           </div>
