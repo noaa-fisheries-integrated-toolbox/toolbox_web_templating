@@ -10,7 +10,7 @@
     <div class="container">
         <div class="mywrap">
             <h1 class ="title">
-              {{model_name}}
+              Tool: {{model_name}}
             </h1>
               <!-- {% if badge_level %}
               <div class = "badge"  data-md-tooltip="Legacy Tool - Adopted"  id = {{badge_level}}> </div>
@@ -112,23 +112,28 @@
 
         </div>
 
-        <div class ="label">
+        
             {% if model_type %}
-              Type:  {{model_type}}
-              {% elif tool_type%}
-             Type: {{tool_type}}
+            <h2>Type:</h2>
+            <div class ="label">
+              {{model_type}}
+            </div>
+            {% elif tool_type%}
+            <h2>Type:</h2>
+            <div class ="label">
+              {{tool_type}}
+            </div>
             {% endif %}
-        </div>
-
+        
         {% if author_name is defined and author_name|length > 1 %}
+        <h2>Authors:</h2>
         <div class = "authName">
-         Authors: {{author_name}}
-
+        {{author_name}}
         </div >
         {% elif author_name is defined and author_name %}
+        <h2>Author:</h2>
         <div class = "authName">
-         Author: {{author_name}}
-
+        {{author_name}}
         </div >
         {% endif %}
 
@@ -140,16 +145,15 @@
         </div>
 
         {% endif %}
-
+          
+          <h2>Description:</h2>
           <div class ="mainText">
             {{background_text}}
           </div>
 
           <div class="mainText">
               {% if references is defined and references|length%}
-                  <div class = "ref">
-                      References
-                  </div>
+                  <h2>References</h2>
                   <ul>
                       {% for ref in references %}
                           <li>{{ref}}</li>
@@ -159,9 +163,9 @@
 
 
               {% if associated_tools is defined and associated_tools|length %}
-                  <div class = "ref">
+                  <h2>
                       Associated Tools
-                  </div>
+                  </h2>
                   <ul id = "assocaited_tools">
                       {% for tools in associated_tools%}
                           <li><a href="{{tools.link}}"><i>{{tools.name}}</i></a></li>
@@ -170,9 +174,9 @@
               {% endif %}
 
               {% if orgs_of_use is defined and orgs_of_use|length %}
-                  <div class = "ref">
+                  <h2>
                       Organizations using this Tool
-                  </div>
+                  </h2>
                   <ul >
                       {% for tools in orgs_of_use%}
                           <li><a href="{{tools.link}}"><i>{{tools.name}}</i></a></li>
@@ -182,9 +186,9 @@
 
 
               {% if zenodo_citation is defined and zenodo_citation|length %}
-                  <div class = "ref">
+                  <h2>
                       Citation
-                  </div>
+                </h2>
                   <ul id = "assocaited_tools">
 
                       <li><a href="{{'https://zenodo.org/badge/latestdoi/' ~ zenodo_citation}}"><img src="{{'https://zenodo.org/badge/' ~ zenodo_citation ~'.svg'}}" alt="DOI"></a></li>
@@ -205,9 +209,9 @@
 
 
 
-              <div class = "ref">
+              <h2>
               Code Repository Badges
-              </div>
+              </h2>
                   {% if shields_badges is defined and shields_badges|length %}
 
                       {% for tools in shields_badges%}
