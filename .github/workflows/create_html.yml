@@ -26,7 +26,7 @@ jobs:
       run: |
         python create_tool_landing_page.py
         python create_catalog_landing_page.py Browse_config.json
-        # note that static images and FIMS landing page (index.html) are
+        # note that static images and FIT landing page (index.html) are
         # already in the deploy folder.
         # for now, don't create individual drawer pages
     - name: upload

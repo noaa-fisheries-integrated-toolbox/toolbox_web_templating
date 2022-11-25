@@ -420,7 +420,6 @@ background-color: #0055A4;
 
 button:disabled,
 button:[disabled]{
-
   background-color: grey;
   display: none;
 
@@ -536,11 +535,6 @@ font-weight: normal;
 font-style: normal;
 text-decoration: none;
 text-align: left;
-}
-
-.main{
-
-
 }
 
 .infoText {

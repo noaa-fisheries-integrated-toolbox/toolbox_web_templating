@@ -1,10 +1,10 @@
 # Big picture
 
-![The setup for the FIMS repo](fit-deploy-sketch.png)
+![The setup for the FIT repo](fit-deploy-sketch.png)
 
 1. Try out new changes in a feature branch off of main (or off of dev)
 2. Merge changes into dev. Once merged in, use a github action to build the html pages and deploy them to 3.
-3. The fit-dev repo is hosted on github pages. Navigate to noaa-fisheries-integrated-toolbox.github.io/fit-dev to preview the FIMS website.
+3. The fit-dev repo is hosted on github pages. Navigate to noaa-fisheries-integrated-toolbox.github.io/fit-dev to preview the FIT website.
 4. Once confirming the dev pages look good, merge changes into 4. Once merged in, use a github acion to build the html pages and deploy them to 5.
 5. This is the production version of the NOAA fisheries site, advertised to the public.
 
