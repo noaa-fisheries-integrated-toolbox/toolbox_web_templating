@@ -5,11 +5,11 @@
   "badge_level": "",
   "documentation_link": "https://github.com/nmfs-fish-tools/Donut_Tool/blob/master/docs/QuickStart_Guide_Donut_Tool.pdf",
   "download_app_link": "https://github.com/nmfs-fish-tools/Donut_Tool/releases",
-  "github_link": "https://github.com/nmfs-fish-tools/Donut_Tool",
+  "code_repository_link": "https://github.com/nmfs-fish-tools/Donut_Tool",
   "model_abbrev": "Donut_Tool",
   "model_name": "Prey Preference and Diet Composition Tool",
   "model_type": "",
-  "website": "",
+  "website_link": "",
   "online_app_link": "",
   "pdf_download": "",
   "references": [

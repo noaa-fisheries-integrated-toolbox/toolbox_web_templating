@@ -51,14 +51,14 @@ Explanation:
   "background_text": "THIS TEXT WILL BE THE MAIN TEXT ON THE MODEL LANDING PAGE",
   "badge_level": "",** for the most part this is no longer used but can be left in older ones
   "contact":"EMAIL FOR MAIN CONTACT use fisheries.toolbox@noaa.gov if no other email is known",
-  "documentation_link": "LINK TO EXTERNAL DOUMENTATION OR LOCAL PATH TO FILE WITH DOCUMENTATION",
+  "online_app_link": "IF THERE IS A SHINY APP OR OTHER ONLINE VERSION PUT LINK HERE OTHERWISE LEAVE AS EMPTY QUOTES, no space",
   "download_app_link": "LINK TO DOWNLOAD APPLICATION IF EXE OR RELEASE VERSION, CAN JUST USE LINK TO RELEASE PAGE",
-  "github_link": "LINK TO GITHUB CODE REPO",
+  "website_link": "" **link to the website, if there is a separate one from the FIT.
+  "documentation_link": "LINK TO EXTERNAL DOUMENTATION OR LOCAL PATH TO FILE WITH DOCUMENTATION",
+  "code_repository_link": "LINK TO GITHUB CODE REPO",
   "model_abbrev": "SHORT ABBREVIATION OF TOOL USED AT TOP OF TILE ON LANDING PAGE",
   "model_name": "COOMPLETE NAME OF TOOL SHOWN IN TILE ON SECOND ROW",
   "model_type": "SPECIFIY TYPE OF MODEL< THIS SHOWS UP IN THE TILE OR CAN BE LEFT AS JUST EMPTY QUOTES",
-  "model_link_page":"LINK TO LANDING PAGE FOR TOOL, IF EMPTY WILL BE FILLED IN BY THE CURRENT ORG GITHUB.IO page.",
-  "online_app_link": "IF THERE IS A SHINY APP OR OTHER ONLINE VERSION PUT LINK HERE OTHERWISE LEAVE AS EMPTY QUOTES, no space",
   "pdf_download": "",
   "release_badge":"IF THE REPO UESE RELEASES ON GITHUB, JUST PUT THE ORG/REPO HERE TO LINK. IF ITS A TAG AND NOT A RELEASE YOU MAY NEED TO MAKE A FIX DIRECTLY IN THE HTML AFTER THE FACT  , EXAMPLE FOR RELEASES: NMFS-ecosystem-tools/MSCAA",
   "references": ["ref1", "ref2"],**LEAVE AS EMPTY LIST [] IF NONE
@@ -68,6 +68,6 @@ Explanation:
   "version_number": "0.9.0",** add version number only if it is not linked to a release_badge above
   "toolbox_drawer": ["fisheries", "general"], ** options are: "fisheries", "ecosystem", "human_dimensions", "protected_species", and "general"**
   "keywords": ["Economics", "R", "Web App"] **keywords to sort through tools**,
-  "website": "" **link to the website, if there is a separate one from the FIT.
+
 }
 ```

@@ -111,7 +111,7 @@ body:
     id: 
     attributes:
       label: Tool website
-      description: Please link the website for the tool, if it already has one
+      description: Please link the website_link for the tool, if it already has one
       placeholder: https://vlab.noaa.gov/web/stock-synthesis
     validations:
       required: false

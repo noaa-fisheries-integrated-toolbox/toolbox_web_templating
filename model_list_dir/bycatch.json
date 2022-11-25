@@ -6,11 +6,11 @@
   "contact":"eric.ward@noaa.gov",
   "documentation_link": "",
   "download_app_link": "https://ericward-noaa.github.io/bycatch/",
-  "github_link": "https://github.com/ericward-noaa/bycatch/",
+  "code_repository_link": "https://github.com/ericward-noaa/bycatch/",
   "model_abbrev": "bycatch",
   "model_name": "bycatch",
   "model_type": "",
-  "website":"https://ericward-noaa.github.io/bycatch/",
+  "website_link":"https://ericward-noaa.github.io/bycatch/",
   "online_app_link": "",
   "pdf_download": "",
   "references": [

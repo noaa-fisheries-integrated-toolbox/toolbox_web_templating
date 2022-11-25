@@ -6,11 +6,11 @@
   "contact":"eli.holmes@noaa.gov",
   "documentation_link": "https://nwfsc-timeseries.github.io/MARSS-wiki/",
   "download_app_link": "",
-  "github_link": "https://github.com/nwfsc-timeseries/MARSS",
+  "code_repository_link": "https://github.com/nwfsc-timeseries/MARSS",
   "model_abbrev": "MARSS",
   "model_name": "Multivariate Autoregressive State-Space Modeling with R",
   "model_type": "",
-  "website":"https://nwfsc-timeseries.github.io/MARSS/",
+  "website_link":"https://nwfsc-timeseries.github.io/MARSS/",
   "online_app_link": "",
   "pdf_download": "https://cran.r-project.org/web/packages/MARSS/vignettes/UserGuide.pdf",
   "references": [

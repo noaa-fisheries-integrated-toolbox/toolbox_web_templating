@@ -6,7 +6,7 @@
   "contact":"jim.ianelli@noaa.gov",
   "documentation_link": "https://github.com/seacode/gmacs/wiki",
   "download_app_link": "",
-  "github_link": "https://github.com/seacode/gmacs",
+  "code_repository_link": "https://github.com/seacode/gmacs",
   "model_abbrev": "GMACS",
   "model_name": "General Model for Assessing Crustacean Stocks",
   "model_type": "Statistical Catch-at-Length",

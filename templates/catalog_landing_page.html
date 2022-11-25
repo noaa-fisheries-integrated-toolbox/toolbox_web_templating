@@ -101,11 +101,7 @@
 
           {% for key, value in configs.items() %}
           <div class = "box">
-              {% if value['model_link_page'] is defined and value['model_link_page'] %}
-              {% set my_string = value['model_link_page'] %}
-              {% else %}
               {% set my_string = value['model_abbrev']  %}
-              {% endif %}
               <a class = "shortTitle" href= {{my_string}} target= "_blank"> {{value['model_abbrev']}} </a>
               <div class = "longTitle">{{value['model_name']}}</div>
               <div class = "modelType">{{value['tool_type']}}</div>
@@ -129,8 +125,8 @@
                   <button class = "icon_small down" disabled></button>
                 {% endif %}
 
-                {% if value['github_link'] is defined and value['github_link']|length %}
-                 <button class = "icon_small github" onclick="location.href='{{value.github_link}}';" value="Go to online app" ></button>
+                {% if value['code_repository_link'] is defined and value['code_repository_link']|length %}
+                 <button class = "icon_small github" onclick="location.href='{{value.code_repository_link}}';" value="Go to online app" ></button>
                  {% else %}
                   <button class = "icon_small github" disabled></button>
                 {% endif %}

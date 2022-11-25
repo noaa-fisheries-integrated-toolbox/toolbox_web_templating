@@ -6,7 +6,7 @@
   "contact":"smwoodman",
   "documentation_link": "",
   "download_app_link": "",
-  "github_link": "https://github.com/smwoodman/eSDM",
+  "code_repository_link": "https://github.com/smwoodman/eSDM",
   "model_abbrev": "eSDM",
   "model_name": "Ensemble tool for predictions from Species Distribution Models",
   "model_type": "",

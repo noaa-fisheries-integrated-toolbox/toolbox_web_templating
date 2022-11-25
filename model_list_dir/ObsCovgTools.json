@@ -6,7 +6,7 @@
   "contact":"alex.curtis@noaa.gov",
   "documentation_link": "",
   "download_app_link": "",
-  "github_link": "https://github.com/kacurtis/ObsCovgTools",
+  "code_repository_link": "https://github.com/kacurtis/ObsCovgTools",
   "model_abbrev": "ObsCovgTools",
   "model_name": "Observer Coverage Simulator Tool",
   "model_type": "",

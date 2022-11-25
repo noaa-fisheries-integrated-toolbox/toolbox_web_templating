@@ -5,11 +5,11 @@
   "badge_level": "",
   "documentation_link": "",
   "download_app_link": "https://cloud.r-project.org/package=mizer",
-  "github_link": "https://github.com/sizespectrum/mizer/",
+  "code_repository_link": "https://github.com/sizespectrum/mizer/",
   "model_abbrev": "MIZER",
   "model_name": "Multi-species size spectrum modelling in R",
   "model_type": "Multi-Species Size-Spectrum",
-  "website": "https://sizespectrum.org/mizer/index.html",
+  "website_link": "https://sizespectrum.org/mizer/index.html",
   "online_app_link": "",
   "pdf_download": "",
   "references": [

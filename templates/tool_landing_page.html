@@ -47,8 +47,8 @@
                 </button>
               {% endif %}
 
-              {% if website is defined and website|length %}
-               <button class = "codelink" title="link to website" onclick=" window.open('{{website}}', '_blank'); return false;">
+              {% if website_link is defined and website_link|length %}
+               <button class = "codelink" title="link to website" onclick=" window.open('{{website_link}}', '_blank'); return false;">
                 Website
                 </button>
               {% else %}
@@ -68,8 +68,8 @@
                 </button>
               {% endif %}
 
-              {% if github_link is defined and github_link|length %}
-               <button class = "codelink" title="link to Code Repository" onclick=" window.open('{{github_link}}', '_blank'); return false;">
+              {% if code_repository_link is defined and code_repository_link|length %}
+               <button class = "codelink" title="link to Code Repository" onclick=" window.open('{{code_repository_link}}', '_blank'); return false;">
                 Code Repository
                 </button>
               {% else %}

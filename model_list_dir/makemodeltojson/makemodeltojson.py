@@ -16,7 +16,7 @@ def into_pandas(f):
        "references",
       "online_app_link",
       "download_app_link",
-      "github_link",
+      "code_repository_link",
       "version_number",
       "pdf_download",
       "badge_level",

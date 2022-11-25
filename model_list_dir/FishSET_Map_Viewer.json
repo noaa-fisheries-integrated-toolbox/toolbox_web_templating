@@ -6,7 +6,7 @@
   "badge_level": "1",
   "documentation_link": "./documentationLandingPage.html",
   "download_app_link": "",
-  "github_link": "https://github.com/nmfs-fish-tools/FishSET-Map-Viewer.git",
+  "code_repository_link": "https://github.com/nmfs-fish-tools/FishSET-Map-Viewer.git",
   "model_abbrev": "FishSET_Map_Viewer",
   "model_name": "FishSET-Map-Viewer",
   "model_type": "",

@@ -6,7 +6,7 @@
   "contact":"ron.klaskey@noaa.gov",
   "documentation_link": "https://github.com/nmfs-fish-tools/MSSPM/blob/master/docs/QuickStart_Guide_MSSPM.pdf",
   "download_app_link": "https://github.com/nmfs-fish-tools/MSCAA/releases",
-  "github_link": "https://github.com/nmfs-fish-tools/MSCAA",
+  "code_repository_link": "https://github.com/nmfs-fish-tools/MSCAA",
   "model_abbrev": "MSCAA",
   "model_name": "Multi-Species Statistical Catch-At-Age",
   "model_type": "",
