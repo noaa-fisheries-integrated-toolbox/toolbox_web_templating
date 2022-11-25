@@ -49,7 +49,7 @@
   }
   
   a{
-   text-decoration: none;
+   text-decoration: underline;
    color: black;
   }
   
@@ -250,7 +250,7 @@
     flex-direction: column;
   }
   
-  #assocaited_tools{
+  #associated_tools{
   list-style-type: none;
   }
   
