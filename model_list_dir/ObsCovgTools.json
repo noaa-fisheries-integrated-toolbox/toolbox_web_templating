@@ -7,10 +7,11 @@
   "documentation_link": "",
   "download_app_link": "",
   "code_repository_link": "https://github.com/kacurtis/ObsCovgTools",
+  "website_link": "https://kacurtis.github.io/ObsCovgTools/",
   "model_abbrev": "ObsCovgTools",
   "model_name": "Observer Coverage Simulator Tool",
   "model_type": "",
-  "online_app_link": "https://connect.fisheries.noaa.gov/content/bb44513d-4956-44dd-b0a6-673c9f2a3e3a/",
+  "online_app_link": "https://connect.fisheries.noaa.gov/ObsCovg",
   "pdf_download": "",
   "references": [
   ],

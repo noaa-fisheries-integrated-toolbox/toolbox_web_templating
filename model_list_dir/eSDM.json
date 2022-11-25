@@ -4,21 +4,21 @@
   "background_text": "",
   "badge_level": "",
   "contact":"smwoodman",
-  "documentation_link": "",
+  "documentation_link": "https://smwoodman.github.io/eSDM/reference/index.html",
   "download_app_link": "",
   "code_repository_link": "https://github.com/smwoodman/eSDM",
+  "website_link":" https://smwoodman.github.io/eSDM/",
   "model_abbrev": "eSDM",
   "model_name": "Ensemble tool for predictions from Species Distribution Models",
   "model_type": "",
   "online_app_link": "https://swoodman.shinyapps.io/eSDM/",
   "pdf_download": "https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.13283",
-  "references": [
-  ],
+  "references": [ "Woodman, SM, Forney, KA, Becker, EA, et al. esdm: A tool for creating and exploring ensembles of predictions from species distribution and abundance models. Methods Ecol Evol. 2019; 10: 1923–1933. https://doi.org/10.1111/2041-210X.13283"],
   "release_badge":"smwoodman/eSDM",
   "support_level": "internal_active",
   "tool_type":"",
   "shields_badges":["https://www.repostatus.org/badges/latest/active.svg"],
   "version_number": "",
   "toolbox_drawer": ["protected_species"], 
-  "keywords": ["Web App", "Shiny", "Ensemble Modeling"]
+  "keywords": ["Web App", "Shiny", "Ensemble Modeling", "R package"]
 }
