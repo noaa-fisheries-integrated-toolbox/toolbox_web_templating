@@ -4,7 +4,7 @@
   "background_text": "The Multi-Species Surplus Production Model (MSSPM) allows the user to 1) define a model, using choices of growth, harvest, competition, and predation forms, 2) run the model, which estimates the necessary parameters using choices for optimization algorithms, and 3) visualize the estimated data.",
   "badge_level": "",
   "contact": "ron.klaskey@noaa.gov",
-  "documentation_link": "./QuickStart_Guide_MSSPM.pdf",
+  "documentation_link": "https://github.com/nmfs-fish-tools/MSSPM/blob/master/docs/QuickStart_Guide_MSSPM.pdf",
   "download_app_link": "https://github.com/nmfs-fish-tools/MSSPM/releases",
   "github_link": "https://github.com/nmfs-fish-tools/MSSPM",
   "model_abbrev": "MSSPM",

@@ -62,11 +62,12 @@ Explanation:
   "pdf_download": "",
   "release_badge":"IF THE REPO UESE RELEASES ON GITHUB, JUST PUT THE ORG/REPO HERE TO LINK. IF ITS A TAG AND NOT A RELEASE YOU MAY NEED TO MAKE A FIX DIRECTLY IN THE HTML AFTER THE FACT  , EXAMPLE FOR RELEASES: NMFS-ecosystem-tools/MSCAA",
   "references": ["ref1", "ref2"],**LEAVE AS EMPTY LIST [] IF NONE
-  "support_level": "external_active",** CHOICES ARE external_active OR internal_active OR interal_inactive
+  "support_level": "external_active",** CHOICES ARE external_active OR internal_active OR internal_inactive
   "tool_type":"SPECIFIY TYPE OF TOOL ( MORE GENERAL THEN MODEL) THIS SHOWS UP IN THE TITLE OR CAN BE LEFT AS JUST EMPTY QUOTES",
   "shields_badges":["https://www.repostatus.org/badges/latest/active.svg","https://img.shields.io/badge/platform-linux%20%7Cwin-lightgrey"],** add any extra badges here from repostatus or shields in a list
   "version_number": "0.9.0",** add version number only if it is not linked to a release_badge above
   "toolbox_drawer": ["fisheries", "general"], ** options are: "fisheries", "ecosystem", "human_dimensions", "protected_species", and "general"**
-  "keywords": ["Economics", "R", "Web App"] **keywords to sort through tools**
+  "keywords": ["Economics", "R", "Web App"] **keywords to sort through tools**,
+  "website": "" **link to the website, if there is a separate one from the FIT.
 }
 ```
