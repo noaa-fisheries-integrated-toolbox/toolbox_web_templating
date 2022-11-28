@@ -459,10 +459,10 @@
   }
   
   .checkmarkN{
-    background-image: url("badge_internal_N.png");
+    background-image: url("n_icon_white_filled.png");
   }
   .checkmarkE{
-    background-image: url("badge_external_E.png");
+    background-image: url("e_icon_white_filled.png");
   }
   /*.internal_inactive{
     background-image: url("icons8-checkmark-24-internal-inactive.png");
@@ -477,7 +477,7 @@
   }
   
   .internal_active{
-    background-image: url("badge_internal_N.png");
+    background-image: url("n_icon_white_filled.png");
     background-repeat: none;
     background-size: cover;
   }
@@ -489,7 +489,7 @@
   }*/
   
   .external_active{
-    background-image: url("badge_external_E.png");
+    background-image: url("e_icon_white_filled.png");
     background-repeat: none;
     background-size: cover;
   }
