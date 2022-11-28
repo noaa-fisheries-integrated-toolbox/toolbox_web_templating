@@ -12,9 +12,8 @@
 
  - FIT landing page (https://noaa-fisheries-integrated-toolbox.github.io/ ; no change)
  - browse landing page (https://noaa-fisheries-integrated-toolbox.github.io/browse; new page)
- - individual drawer landing pages (https://noaa-fisheries-integrated-toolbox.github.io/nmfs-fish-tools , for example; CHANGE from nmfs-fish-tools.github.io)
+ - individual drawer landing pages (if we still want these) (https://noaa-fisheries-integrated-toolbox.github.io/nmfs-fish-tools , for example; CHANGE from nmfs-fish-tools.github.io). 
  - individual tool landing pages, toolbox hosted (https://noaa-fisheries-integrated-toolbox.github.io/ASAP, for example; CHANGE from nmfs-fish-tools.github.io/ASAP)
- - individual tool landing pages, maintained by tool developer (whatever desired - or require individual tool landing pages for all tools and link to others??)
 
  # redirect pages
  - will need the nmfs-fish-tools.github.io (and other org .io repos) to redirect; same with nmfs-fish-tools.github.io/toolname. Maybe just upload a new link to post for a bit.
