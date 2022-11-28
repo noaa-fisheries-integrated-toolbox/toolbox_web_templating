@@ -18,5 +18,5 @@
   "version_number": "2.5.0",
   "release_badge":"nmfs-fish-tools/AIM",
   "toolbox_drawer": ["fisheries"], 
-  "keywords": ["Stock Assessment Model", "Data Limited Method", "Legacy"]
+  "keywords": ["Stock Assessment Model", "Data Limited Method", "Legacy Tool"]
 }

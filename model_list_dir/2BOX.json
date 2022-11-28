@@ -18,6 +18,6 @@
   "version_number": "3.05",
   "release_badge":"nmfs-fish-tools/2BOX",
   "toolbox_drawer": ["fisheries"], 
-  "keywords": ["Legacy", "Virtual Population Analysis", "Stock Assessment Model"]
+  "keywords": ["Legacy Tool", "Virtual Population Analysis", "Stock Assessment Model"]
 }
 

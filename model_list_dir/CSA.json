@@ -20,5 +20,5 @@
   "version_number": "4.3",
   "release_badge":"nmfs-fish-tools/CSA",
   "toolbox_drawer": ["fisheries"],
-  "keywords": ["Legacy", "Stock Assessment Model", "Data Limited Method", "Guided User Interface"]
+  "keywords": ["Legacy Tool", "Stock Assessment Model", "Data Limited Method", "Guided User Interface"]
 }

@@ -25,5 +25,5 @@
   "version_number": "1.0.11",
   "release_badge":"nmfs-fish-tools/SCALE",
   "toolbox_drawer": ["fisheries"], 
-  "keywords": ["Stock Assessment Model", "Length Based Model", "ADMB", "Guided User Interface"]
+  "keywords": ["Stock Assessment Model", "Length Based Model", "ADMB", "Guided User Interface", "Legacy Tool"]
 }

@@ -19,5 +19,5 @@
   "version_number": "2.0.0",
   "release_badge":"nmfs-fish-tools/RIVARD",
   "toolbox_drawer": ["fisheries"], 
-  "keywords": ["Calculator", "User Utilities", "Guided User Interface"]
+  "keywords": ["Calculator", "User Utilities", "Guided User Interface", "Legacy Tool"]
 }

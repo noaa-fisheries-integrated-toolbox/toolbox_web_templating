@@ -18,5 +18,5 @@
   "version_number": "8.2.0",
   "release_badge":"nmfs-fish-tools/POPSIM-A",
   "toolbox_drawer": ["fisheries"], 
-  "keywords": ["Simulation Tool", "Guided User Interface"]
+  "keywords": ["Simulation Tool", "Guided User Interface", "Legacy Tool"]
 }

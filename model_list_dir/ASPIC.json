@@ -26,5 +26,5 @@
   "version_number": "5.34.6",
   "release_badge":"nmfs-fish-tools/ASPIC",
   "toolbox_drawer": ["fisheries"],
-  "keywords": ["Stock Assessment Model", "Surplus Production Model", "Legacy", "Guided User Interface"]
+  "keywords": ["Stock Assessment Model", "Surplus Production Model", "Legacy Tool", "Guided User Interface"]
 }

@@ -18,5 +18,5 @@
   "version_number": "4.3",
   "release_badge":"nmfs-fish-tools/MCOMP",
   "toolbox_drawer": ["fisheries"],
-  "keywords": ["Model Comparision", "Output Visualization", "Guided User Interface"]
+  "keywords": ["Model Comparision", "Output Visualization", "Guided User Interface", "Legacy Tool"]
 }
