@@ -103,7 +103,7 @@
               {% if release_badge is defined and release_badge %}
               {% set release = "https://img.shields.io/github/v/release/"   ~ release_badge  ~ "?color=%230093D0&include_prereleases&label=%20" %}
               <img class = "versionButton" alt="GitHub release (latest by date)" src= {{release}}>
-              {% else %}
+              {% elif version_number is defined and version_number %}
                <button class = "versionButton">
                 v{{version_number}}
                 </button>
@@ -216,6 +216,13 @@
                           <img src="{{tools}}">
                       {% endfor %}
                   {% endif %}
+                  
+            <h2>
+             Keywords
+            </h2>
+            <p> 
+              {{keywords}}
+            </p>              
       </div>
 
       <div class = "divider"></div>
