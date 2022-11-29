@@ -457,6 +457,10 @@
   .checkmark{
     background-image: url("icons8-checkmark-24.png");
   }
+
+  .legacy{
+    background-image: url("legacy_icon.png");
+  }
   
   .checkmarkN{
     background-image: url("n_icon_white_filled.png");
