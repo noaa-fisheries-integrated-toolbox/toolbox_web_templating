@@ -221,8 +221,9 @@
                 box_each = box[i].getElementsByClassName("longTitle")[0];
                 box_each_abbrev = box[i].getElementsByClassName("shortTitle")[0];
                 box_each_keywords = box[i].getElementsByClassName("keywords")[0];
+                box_each_drawer = box[i].getElementsByClassName("toolbox_drawer")[0];
                 //console.log(box_each_keywords); // For Debugging 
-                txtValue = box_each.textContent + " " + box_each_abbrev.innerText + " " + box_each_keywords.innerText;
+                txtValue = box_each.textContent + " " + box_each_abbrev.innerText + " " + box_each_keywords.innerText + " " + box_each_drawer.innerText;
                 if (txtValue.toUpperCase().indexOf(filter) > -1) {
                     box[i].style.display = "";
                 } else {
