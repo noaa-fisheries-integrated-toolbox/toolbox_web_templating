@@ -67,7 +67,7 @@
 
               <div class = "box2">
                   <div class ="row"><img class="icon_small online"><h2>Web Application</h2></div>
-                    Tools is available as a web-based application.
+                    Tool is available as a web-based application.
                 </div>
                 <div class = "box2">
                   <div class ="row"><img class="icon_small down" ><h2> Executable</h2></div>
@@ -150,10 +150,9 @@
 
                   <button class = "icon_small cert" disabled></button>
                 <!-- {% endif %} -->
-                {% if value['support_level'] is defined and value['support_level']|length %}
-                 <button class = "icon_small {{value.support_level}} " ></button>
-
-                 {% else %}
+                {% if value['support_level'] is defined and value['support_level']|length and value['support_level']!="internal_inactive"%}
+                  <button class = "icon_small {{value.support_level}} " ></button>
+                {% else %}
                   <button class = "icon_small checkmark" disabled></button>
                 {% endif %}
 
