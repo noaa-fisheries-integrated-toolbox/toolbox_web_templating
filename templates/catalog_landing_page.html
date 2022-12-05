@@ -39,14 +39,14 @@
 
 
 
-            <div class="tabs">
+            <!-- <div class="tabs">
               <div class="tab">
                 <input type="checkbox" id="chck1">
                 <label class="tab-label" for="chck1">Legacy Tool</label>
                 <div class="tab-content">
                  <input type="button" value="Legacy Tool" onclick="simpleSearch(this.value)">
-                 <!-- <input type="button" value="Length structured" onclick="simpleSearch(this.value)">
-                 <input type="button" value="Age length structured" onclick="simpleSearch(this.value)"> -->
+                 <input type="button" value="Length structured" onclick="simpleSearch(this.value)">
+                 <input type="button" value="Age length structured" onclick="simpleSearch(this.value)">
                 </div>
               </div>
               <div class="tab">
@@ -57,7 +57,7 @@
             </div>
               <div class="tab">
               <input type="button" value="Input Processor" onclick="simpleSearch(this.value)">
-            </div>
+            </div> -->
 
             </div>
             <div id = "menu" tabindex="-1">
@@ -67,7 +67,6 @@
               </div>
 
               <div class = "box2">
-                <input type="button" value="Legacy Tool" onclick="simpleSearch(this.value)">
                   <div class ="row"><img class="icon_small online">
                     <input type="button" value="Web App" onclick="simpleSearch(this.value)">
                   </div>
@@ -97,7 +96,9 @@
                       Authored by developers external to NOAA.
                 </div>
                 <div class = "box2">
-                  <div class ="row"><img class="icon_small legacy"> <h2>Legacy Tool</h2></div>
+                  <div class ="row"><img class="icon_small legacy"> 
+                    <input type="button" value="Legacy Tool" onclick="simpleSearch(this.value)">
+                  </div>
                       A tool that is no longer maintained. It is recommended to update to a replacement tool.
                 </div>
                 </div>
