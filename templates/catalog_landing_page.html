@@ -36,39 +36,34 @@
                   <div class="bar3" aria-hidden=”true”></div>
               </div>
 
-
-
-
-            <div class="tabs">
-              <div class="tab">
-                <input type="checkbox" id="chck1">
-                <label class="tab-label" for="chck1">Toolbox Drawer</label>
-                <div class="tab-content">
-                  <input type="button" value="Ecosystem" onclick="drawerSearch('ecosystem')">
-                  <input type="button" value="Fish and Fisheries" onclick="drawerSearch('fisheries')">
-                  <input type="button" value="Human Dimensions" onclick="drawerSearch('human_dimensions')">
-                  <input type="button" value="Protected Resources" onclick="drawerSearch('protected_species')">
-                  <input type="button" value="General Modeling Tools" onclick="drawerSearch('general')">
-                </div>
-              </div>
-              <!-- <div class="tab">
-              <input type="button" value="Advanced estimation engine" onclick="simpleSearch(this.value)">
-            </div> -->
-              <!-- <div class="tab">
-              <input type="button" value="Data simulator" onclick="simpleSearch(this.value)">
-            </div> -->
-              <!-- <div class="tab">
-              <input type="button" value="Input Processor" onclick="simpleSearch(this.value)">
-            </div> -->
-
-            </div>
-
-
-
             <div id = "menu" tabindex="-1">
 
               <div class = "box2">
                 <input class = "boxInput" type="text" id="myInput" onkeyup="simpleSearch()" placeholder="Search for models" title="Type in a name">
+              </div>
+
+              <div class="tabs">
+                <div class="tab">
+                  <input type="checkbox" id="chck1">
+                  <label class="tab-label" for="chck1">Toolbox Drawer</label>
+                  <div class="tab-content">
+                    <input type="button" value="Ecosystem" onclick="drawerSearch('ecosystem')">
+                    <input type="button" value="Fish and Fisheries" onclick="drawerSearch('fisheries')">
+                    <input type="button" value="Human Dimensions" onclick="drawerSearch('human_dimensions')">
+                    <input type="button" value="Protected Resources" onclick="drawerSearch('protected_species')">
+                    <input type="button" value="General Modeling Tools" onclick="drawerSearch('general')">
+                  </div>
+                </div>
+                <!-- <div class="tab">
+                <input type="button" value="Advanced estimation engine" onclick="simpleSearch(this.value)">
+              </div> -->
+                <!-- <div class="tab">
+                <input type="button" value="Data simulator" onclick="simpleSearch(this.value)">
+              </div> -->
+                <!-- <div class="tab">
+                <input type="button" value="Input Processor" onclick="simpleSearch(this.value)">
+              </div> -->
+  
               </div>
 
               <div class = "box2">
@@ -131,19 +126,19 @@
               <div class = "iconrow">
                 {% if value['online_app_link'] is defined and value['online_app_link']|length %}
                  <button class = "icon_small online" onclick="location.href= '{{value.online_app_link}}';" value="Go to online app" ></button>
-                 {% else %}
+                {% else %}
                  <button class = "icon_small online" disabled></button>
                 {% endif %}
 
                 {% if value['download_app_link'] is defined and value['download_app_link']|length %}
                  <button class = "icon_small down" onclick="location.href='{{value.download_app_link}}';" value="download app" ></button>
-                 {% else %}
+                {% else %}
                   <button class = "icon_small down" disabled></button>
                 {% endif %}
 
                 {% if value['code_repository_link'] is defined and value['code_repository_link']|length %}
                  <button class = "icon_small github" onclick="location.href='{{value.code_repository_link}}';" value="Go to online app" ></button>
-                 {% else %}
+                {% else %}
                   <button class = "icon_small github" disabled></button>
                 {% endif %}
 
