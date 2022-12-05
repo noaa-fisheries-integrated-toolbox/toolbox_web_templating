@@ -39,9 +39,13 @@
             <div id = "menu" tabindex="-1">
 
               <div class = "box2">
-                <input class = "boxInput" type="text" id="myInput" onkeyup="simpleSearch()" placeholder="Search for models" title="Type in a name">
+                <input class = "boxInput" type="text" id="myInput" onkeyup="simpleSearch()" placeholder="Search for tools" title="Type in a name">
               </div>
-
+              // See all models
+              <div class="tab">
+                <input type="button" value="See all tools" onclick="resetSearch()">
+              </div>
+              // Filter by drawer
               <div class="tabs">
                 <div class="tab">
                   <input type="checkbox" id="chck1">
@@ -206,7 +210,7 @@
             // sidenav[0].style.display="none";
 
         function simpleSearch(val) {
-            var input, filter, ul, box, box_each, box_each_abbrev, i, txtValue;
+            var input, filter, ul, box, box_each, box_each_abbrev, box_each_keywords, box_each_drawer, i, txtValue;
             if(val === undefined){
               input = document.getElementById("myInput");
               filter = input.value.toUpperCase();
@@ -214,8 +218,6 @@
             else {
               filter = val.toUpperCase();
             }
-
-
             box = document.getElementsByClassName("box");
             for (i = 0; i < box.length; i++) {
                 box_each = box[i].getElementsByClassName("longTitle")[0];
@@ -233,7 +235,7 @@
         }
 
         function drawerSearch(val) {
-            var input, filter, ul, box, box_each, box_each_abbrev, i, txtValue;
+            var input, filter, ul, box, box_each, i, txtValue;
             if(val === undefined){
               input = document.getElementById("myInput");
               filter = input.value.toUpperCase();
@@ -250,6 +252,14 @@
                 } else {
                     box[i].style.display = "none";
                 }
+            }
+        }
+
+        function resetSearch() {
+            var box, i;
+            box = document.getElementsByClassName("box");
+            for (i = 0; i < box.length; i++) {
+              box[i].style.display = "";
             }
         }
 
