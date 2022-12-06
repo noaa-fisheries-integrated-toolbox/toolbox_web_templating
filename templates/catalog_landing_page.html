@@ -60,6 +60,8 @@
                 </div>
 
                 // Filter by keywords
+                // To update this, run parsejson.R get_html_snippet()
+                // And copy/paste over the output below div class= "tab-content"
                 <div class="tabs">
                   <div class="tab">
                     <input type="checkbox" id="chck2">
@@ -184,8 +186,20 @@
               {% set my_string = value['model_abbrev']  %}
               <a class = "shortTitle" href= {{my_string}} target= "_blank"> {{value['model_abbrev']}} </a>
               <div class = "longTitle">{{value['model_name']}}</div>
-              <div class = "toolbox_drawer">{{value['toolbox_drawer']}}</div>
-              <div class = "keywords">{{value['keywords']}}</div>
+              <div class = "toolbox_drawer">
+                Toolbox drawer(s):\s
+                {% for kwd in value['toolbox_drawer']%}
+                  {{kwd}}\s
+                {% endfor %}
+              </div>
+              <div class = "keywords">
+                Keywords:\n
+                {% if value['keywords'] is defined and value['keywords']|length %}
+                  {% for kwd in value['keywords']%}
+                    <li>{{kwd}}</li>
+                  {% endfor %}
+                {% endif %}     
+              </div>
               <!-- <div class = "modelType">{{value['tool_type']}}</div>
               <div class = "modelType">{{value['model_type']}}</div> -->
               {% if value['release_badge'] is defined and value['release_badge'] %}
