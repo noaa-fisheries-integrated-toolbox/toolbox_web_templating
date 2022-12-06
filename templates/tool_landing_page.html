@@ -220,16 +220,11 @@
             <h2>
              Keywords
             </h2>
-            <p> 
               {% if keywords is defined and keywords|length %}
-                {% for k in keywords%}
-                  {{k}}
-                  {% if k != length(keywords)%}
-                  ,
-                  {% endif %}
+                {% for key in keywords%}
+                  <li>{{key}}</li>
                 {% endfor %}
-              {% endif %}
-            </p>              
+              {% endif %}          
       </div>
 
       <div class = "divider"></div>
