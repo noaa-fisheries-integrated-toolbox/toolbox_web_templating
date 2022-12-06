@@ -378,15 +378,32 @@
     color: #0055A4;
     font-family: Cambria,Georgia,serif;
   }
-  
-  
+
+  .toolbox_drawer{
+    text-align: left;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 5px;
+    padding-left: 5px;
+    color: #000000;
+    line-height: 15px;
+  }
+
+  .toolbox_drawer{
+    text-align: left;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 5px;
+    padding-left: 5px;
+    color: #000000;
+    line-height: 15px;
+  }
   
   .language{
     color: rgb(26, 138, 45);
     font-weight:bold;
       padding-right: 5px;
     padding-left: 5px;
-  
   }
   
   .row{
