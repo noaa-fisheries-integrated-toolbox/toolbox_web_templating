@@ -20,5 +20,5 @@
   "version_number": "",
   "release_badge": "sizespectrum/mizer", 
   "toolbox_drawer": ["ecosystem"], 
-  "keywords": ["R Package", "Multispecies Modeling", "Fisheries", "Size Spectra Modeling"]
+  "keywords": ["R Package", "Multispecies Model", "Fisheries", "Size Spectra Model"]
 }

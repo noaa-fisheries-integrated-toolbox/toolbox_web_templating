@@ -18,5 +18,5 @@
   "version_number": "",
   "release_badge":"NOAA-LHP/LHsampling",
   "toolbox_drawer": ["fisheries"], 
-  "keywords": ["Individual Based Model", "Sampling Decision Tool", "Spatial Model", "R package"]
+  "keywords": ["Individual Based Model", "Sampling Decision Tool", "Spatial Model", "R Package"]
 }

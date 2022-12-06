@@ -20,5 +20,5 @@
   "version_number": "",
   "release_badge":"nmfs-fish-tools/agTrend",
   "toolbox_drawer": ["protected_species", "general"],
-  "keywords": ["R package"]
+  "keywords": ["R Package"]
 }

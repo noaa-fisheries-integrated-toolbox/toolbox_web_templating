@@ -20,5 +20,5 @@
   "version_number": "4.3.4",
 "release_badge":"PIFSCstockassessments/AGEPRO-GUI",
 "toolbox_drawer": ["fisheries"],
-"keywords": ["Stock Assessment Projections", "Age-Structured", "Guided User Interface"]
+"keywords": ["Stock Assessment Projections", "Age Structured Model", "Guided User Interface"]
 }

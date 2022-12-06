@@ -18,5 +18,5 @@
   "version_number": "1.4.1",
   "release_badge":"nmfs-fish-tools/STATCAM",
   "toolbox_drawer": ["fisheries"], 
-  "keywords": ["Age Based Model", "ADMB", "Guided User Interface", "Legacy Tool"]
+  "keywords": ["Age Structured Model", "ADMB", "Guided User Interface", "Legacy Tool"]
 }

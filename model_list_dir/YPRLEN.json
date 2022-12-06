@@ -20,5 +20,5 @@
   "version_number": "2.1",
   "release_badge": "nmfs-fish-tools/YPRLEN",
   "toolbox_drawer": ["fisheries"],  
-  "keywords": ["Reference Points Model", "Stock Assessment", "Legacy Tool", "Visualization", "Length Based Model"]
+  "keywords": ["Reference Points Model", "Stock Assessment Tool", "Legacy Tool", "Visualization", "Length Structured Model"]
 }

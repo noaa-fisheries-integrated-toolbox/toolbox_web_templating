@@ -33,5 +33,5 @@
   "shields_badges":["https://www.repostatus.org/badges/latest/active.svg","https://img.shields.io/badge/platform-linux%20%7Cwin-lightgrey"],
   "version_number": "", 
   "toolbox_drawer": ["ecosystem", "fisheries"], 
-  "keywords": ["User Utilities", "Guided User Interface", "Multispecies Modeling"]
+  "keywords": ["User Utilities", "Guided User Interface", "Multispecies Model"]
 }

@@ -19,5 +19,5 @@
   "version_number": "3.4.3",
   "release_badge":"nmfs-fish-tools/MSE",
   "toolbox_drawer": ["fisheries"], 
-  "keywords": ["Management Strategy Evaluation", "Guided User Interface", "Simulation Tool", "Risk Assessment Tool", "Legacy Tool"]
+  "keywords": ["Management Strategy Evaluation", "Guided User Interface", "Simulation", "Risk Assessment Tool", "Legacy Tool"]
 }

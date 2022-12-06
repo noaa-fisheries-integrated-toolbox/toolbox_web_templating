@@ -20,5 +20,5 @@
   "shield_badges":["https://www.repostatus.org/badges/latest/active.svg"],
   "version_number": "",
   "toolbox_drawer": ["general", "fisheries"],
-  "keywords": ["R package", "Bayesian Modeling"]
+  "keywords": ["R Package", "Bayesian Modeling"]
 }

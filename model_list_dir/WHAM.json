@@ -32,5 +32,5 @@
   "tool_type": "Stock Assessment Model",
   "version_number": "",
   "toolbox_drawer": ["fisheries"], 
-  "keywords": ["Stock Assessment Model", "Age Structured Model", "TMB", "R package"]
+  "keywords": ["Stock Assessment Model", "Age Structured Model", "TMB", "R Package"]
 }

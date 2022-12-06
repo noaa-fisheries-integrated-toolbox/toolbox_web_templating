@@ -25,5 +25,5 @@
   "version_number": "0.1.2",
   "release_badge": "", 
   "toolbox_drawer": ["ecosystem", "fisheries"], 
-  "keywords": ["R Package", "Multispecies", "Ecosystem", "Fisheries"]
+  "keywords": ["R Package", "Multispecies Model", "Ecosystem", "Fisheries"]
 }

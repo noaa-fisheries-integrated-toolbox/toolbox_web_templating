@@ -21,5 +21,5 @@
   "shields_badges":["https://www.repostatus.org/badges/latest/active.svg"],
   "version_number": "",
   "toolbox_drawer": ["protected_species", "fisheries"],
-  "keywords": ["Bycatch", "R package", "Shiny", "Guided User Interface"]
+  "keywords": ["Bycatch", "R Package", "Shiny", "Guided User Interface"]
 }
