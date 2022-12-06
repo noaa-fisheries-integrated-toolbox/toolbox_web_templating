@@ -187,18 +187,20 @@
               <a class = "shortTitle" href= {{my_string}} target= "_blank"> {{value['model_abbrev']}} </a>
               <div class = "longTitle">{{value['model_name']}}</div>
               <div class = "toolbox_drawer">
-                Toolbox drawer(s):\s
+                Toolbox drawer(s):&nbsp;
                 {% for kwd in value['toolbox_drawer']%}
-                  {{kwd}}\s
+                  {{kwd}}&nbsp;
                 {% endfor %}
               </div>
               <div class = "keywords">
-                Keywords:\n
-                {% if value['keywords'] is defined and value['keywords']|length %}
-                  {% for kwd in value['keywords']%}
-                    <li>{{kwd}}</li>
-                  {% endfor %}
-                {% endif %}     
+                <p>
+                  Keywords:<br>
+                  {% if value['keywords'] is defined and value['keywords']|length %}
+                    {% for kwd in value['keywords']%}
+                      {{kwd}}<br>
+                    {% endfor %}
+                  {% endif %}
+                </p>     
               </div>
               <!-- <div class = "modelType">{{value['tool_type']}}</div>
               <div class = "modelType">{{value['model_type']}}</div> -->
