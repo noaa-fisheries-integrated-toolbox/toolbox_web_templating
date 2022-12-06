@@ -221,7 +221,14 @@
              Keywords
             </h2>
             <p> 
-              {{keywords}}
+              {% if keywords is defined and keywords|length %}
+                {% for k in keywords%}
+                  {{k}}
+                  {% if k != length(keywords)%}
+                  ,
+                  {% endif %}
+                {% endfor %}
+              {% endif %}
             </p>              
       </div>
 
