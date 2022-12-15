@@ -382,11 +382,11 @@
   .toolbox_drawer{
     text-align: left;
     padding-top: 5px;
-    padding-bottom: 0px;
+    padding-bottom: 5px;
     padding-right: 5px;
     padding-left: 5px;
     color: #000000;
-    line-height: 5px;
+    line-height: 20px;
   }
 
   .keywords{
@@ -396,7 +396,7 @@
     padding-right: 5px;
     padding-left: 5px;
     color: #000000;
-    line-height: 5px;
+    line-height: 20px;
   }
   
   .language{
