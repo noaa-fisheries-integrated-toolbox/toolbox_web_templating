@@ -167,13 +167,14 @@ height: fit-content;
 .contact,
 .contact:any-link,
 .contact:-webkit-any-link,
+a,
 a.contact:link{
-color: #007078;
+color: #0055A4;
 text-decoration: underline;
 }
 
 a.contact{
-color: #007078;
+color: #0055A4;
 text-decoration: underline;
 }
 
