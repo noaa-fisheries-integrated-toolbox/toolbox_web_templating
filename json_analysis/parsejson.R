@@ -26,7 +26,10 @@ get_html_snippet <- function() {
     keywords <- sort(unique(keywords))
     # create the html snippits
     snippet <- paste0('<input type="button" value="', keywords, '" onclick="simpleSearch(this.value)">')
+    gh_form_snippet <- paste0('- label: "', keywords, '"')
     write.table(snippet, file = file.path("json_analysis", "keywords_html_snippet.txt"), 
+    row.names = FALSE, col.names = FALSE, quote = FALSE)
+    write.table(gh_form_snippet, file = file.path("json_analysis", "keywords_gh_form_snippet.txt"), 
     row.names = FALSE, col.names = FALSE, quote = FALSE)
 }
 
