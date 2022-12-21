@@ -13,7 +13,6 @@
   "code_repository_link": "https://github.com/NOAA-EDAB/Rpath",
   "model_abbrev": "RPATH",
   "model_name": "R implementation of the Ecopath with Ecosim",
-  "model_type": "mass balance food web algorithm",
   "website_link": "https://noaa-edab.github.io/Rpath/",
   "online_app_link": "",
   "pdf_download": "",

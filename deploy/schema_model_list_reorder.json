@@ -47,8 +47,7 @@
         },
         "release_badge": {"type": "string"},
         "version_number": {"type": "string"}, 
-        // not used currently, (to deprecate)
-        "model_type": {"type": "string"},        
+        // not used currently, (to deprecate)    
         "badge_level": {"type": "string"},
         "support_level": {"type": "string"},
         "tool_type": {"type": "string"}

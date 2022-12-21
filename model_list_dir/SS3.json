@@ -27,7 +27,6 @@
   "code_repository_link": "https://github.com/nmfs-stock-synthesis/stock-synthesis",
   "model_abbrev": "SS3",
   "model_name": "Stock Synthesis",
-  "model_type": "Statistical Catch-at-Length",
   "online_app_link": "https://connect.fisheries.noaa.gov/ss3-helper",
   "pdf_download": "",
   "references": [

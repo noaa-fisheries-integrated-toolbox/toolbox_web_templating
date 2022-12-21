@@ -8,7 +8,6 @@
   "fit_repo": "https://github.com/nmfs-fish-tools/SEINE.git",
   "model_abbrev": "SEINE",
   "model_name": "Survival Estimation in Non-Equilibrium situations",
-  "model_type": "Data-Limited",
   "online_app_link": "",
   "pdf_download": "",
   "references": [

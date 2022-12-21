@@ -8,7 +8,6 @@
   "fit_repo": "https://github.com/nmfs-fish-tools/SCALE.git",
   "model_abbrev": "SCALE",
   "model_name": "Statistical Catch at Length Model",
-  "model_type": "Statistical Catch-at-Length",
   "online_app_link": "",
   "pdf_download": "",
   "references": [

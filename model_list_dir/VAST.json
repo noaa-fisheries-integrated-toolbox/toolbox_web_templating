@@ -1,7 +1,7 @@
 {
   "model_name": "Vector Autoregressive Spatio-Temporal Model",
   "model_abbrev": "VAST",
-  "model_type": "",
+  
   "tool_type":"",
   "website_link":"",
   "author_name": "James T Thorson",
