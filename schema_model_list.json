@@ -48,6 +48,12 @@
       "items": {
          "type": "string"
       }
+    },
+    "user_groups": {
+      "type": "array", 
+      "items": {
+      "type": "string"
+      }
     }
   }
 }

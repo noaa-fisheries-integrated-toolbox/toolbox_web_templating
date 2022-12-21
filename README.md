@@ -64,6 +64,6 @@ JSON data can be (partially) validated using [schema](https://json-schema.org/un
   "shields_badges":["https://www.repostatus.org/badges/latest/active.svg","https://img.shields.io/badge/platform-linux%20%7Cwin-lightgrey"],//** add any extra badges here from repostatus or shields in a list
   "version_number": "",//** add version number only if it is not linked to a release_badge above
   "toolbox_drawer": ["fisheries", "general"], //** options are: "fisheries", "ecosystem", "human_dimensions", "protected_species", and "general"*. Put all that apply to the tool.
-  "keywords": ["Economics", "R", "Web App"] //**keywords to sort through tools.,
-}
+  "keywords": ["Economics", "R", "Web App"], //**keywords to sort through tools.,
+  "user_groups": ["SEFSC", "NWFSC", "SWFSC"] //operational users of the tool
 ```

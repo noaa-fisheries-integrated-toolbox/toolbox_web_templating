@@ -13,6 +13,12 @@
             "type": "array", 
             "items": {"type": "string"}
         },
+        "user_groups": {
+            "type": "array", 
+            "items": {
+            "type": "string"
+            }
+        },
         "associated_tools":{
             "type": "array", 
             "items": {
