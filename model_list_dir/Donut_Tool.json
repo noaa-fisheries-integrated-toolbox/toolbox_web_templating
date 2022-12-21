@@ -16,7 +16,7 @@
   ],
   "shields_badges":["https://www.repostatus.org/badges/latest/active.svg","https://img.shields.io/badge/platform-linux%20%7Cwin-lightgrey"],
   "support_level": "internal_active",
-  "tool_type": "",
+  
   "version_number": "",
   "release_badge": "nmfs-fish-tools/Donut_Tool", 
   "toolbox_drawer": ["ecosystem"],

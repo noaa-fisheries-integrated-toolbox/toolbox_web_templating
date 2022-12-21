@@ -17,7 +17,6 @@
   ],
   "shields_badges":["https://www.repostatus.org/badges/latest/inactive.svg"],
   "support_level": "internal_inactive",
-  "tool_type": "Associated Tool",
   "version_number": "3.3",
   "release_badge":"nmfs-fish-tools/YPR",
   "toolbox_drawer": ["fisheries"], 

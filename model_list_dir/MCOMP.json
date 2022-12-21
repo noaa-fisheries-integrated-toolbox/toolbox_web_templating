@@ -14,7 +14,6 @@
   "references": [],
   "shields_badges":["https://www.repostatus.org/badges/latest/inactive.svg"],
   "support_level": "internal_inactive",
-  "tool_type": "Model Comparison Tool",
   "version_number": "4.3",
   "release_badge":"nmfs-fish-tools/MCOMP",
   "toolbox_drawer": ["fisheries"],

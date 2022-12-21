@@ -19,7 +19,6 @@
   "pdf_download": "",
   "references": [],
   "support_level": "internal_active",
-  "tool_type": "Associated Tool",
   "shields_badges": [
     "https://www.repostatus.org/badges/latest/active.svg",
     "https://img.shields.io/github/watchers/nmfs-fish-tools/ssmse.svg?style=social"

@@ -8,7 +8,6 @@
   "fit_repo": "https://github.com/nmfs-fish-tools/STATCAM.git",
   "model_abbrev": "STATCAM",
   "model_name": "Statistical Catch at Age Model",
-  "tool_type":"Stock Assessment Model",
   "online_app_link": "",
   "pdf_download": "",
   "references": [],

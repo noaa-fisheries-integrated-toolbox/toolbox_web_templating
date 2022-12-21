@@ -16,7 +16,6 @@
   "release_badge":"nmfs-fish-tools/nmfspalette",
   "references": [],
   "support_level": "internal_active",
-  "tool_type": "Visualization",
   "shields_badges":[ "https://img.shields.io/github/last-commit/nmfs-fish-tools/nmfspalette.svg?style=plastic","https://www.repostatus.org/badges/latest/active.svg"],
   "version_number": "",
   "toolbox_drawer": ["general"], 

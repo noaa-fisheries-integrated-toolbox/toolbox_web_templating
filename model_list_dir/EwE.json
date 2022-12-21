@@ -17,7 +17,6 @@
     "Walters, C., Christensen, V., and Pauly, D. 1997. Structuring dynamic models of exploited ecosystems from trophic mass-balance assessments. Rev. Fish. Biol. Fish. 7: 139-172."
   ],
   "support_level": "external_active",
-  "tool_type":"modeling software suite",
   "shields_badges":["https://www.repostatus.org/badges/latest/active.svg"],
   "version_number": "6.6.1", 
   "toolbox_drawer": ["ecosystem"], 

@@ -22,7 +22,6 @@
     "https://img.shields.io/github/last-commit/nmfs-fish-tools/ATL.svg?style=plastic"
   ],
   "support_level": "internal_active",
-  "tool_type": "Model Builder",
   "version_number": "1.0.0",
   "toolbox_drawer": ["general"],
   "keywords": ["Maximum Likelihood Estimation", "Model Builder", "Gradient Solver"]

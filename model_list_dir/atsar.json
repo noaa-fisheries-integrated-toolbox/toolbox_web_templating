@@ -14,7 +14,7 @@
   "references": [],
   "shields_badges":["https://www.repostatus.org/badges/latest/active.svg", "https://github.com/atsa-es/atsar/workflows/R-CMD-check/badge.svg"],
   "support_level": "internal_active",
-  "tool_type": "",
+  
   "version_number": "",
   "release_badge":"atsa-es/atsar",
   "toolbox_drawer": ["general"],

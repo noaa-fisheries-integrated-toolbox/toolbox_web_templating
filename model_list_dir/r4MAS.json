@@ -18,7 +18,6 @@
   "references": [],
   "shields_badges":["https://www.repostatus.org/badges/latest/active.svg", "https://github.com/nmfs-fish-tools/r4MAS/workflows/R-CMD-check/badge.svg"],
   "support_level": "internal_active",
-  "tool_type": "Input/Output Processor",
   "version_number": "1.0",
   "release_badge":"nmfs-fish-tools/r4MAS",
   "toolbox_drawer": ["fisheries"], 

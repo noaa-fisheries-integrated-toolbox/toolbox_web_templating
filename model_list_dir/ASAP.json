@@ -14,7 +14,6 @@
     "M Legault, Christopher & Restrepo, Victor. (1999). A Flexible Forward Age-Structured Assessment Program. ICCAT Coll. Vol. Sci. Pap.. 49. "
   ],
   "support_level": "internal_inactive",
-  "tool_type": "Stock Assessment Model",
   "version_number": "3.0.16",
   "release_badge":"nmfs-fish-tools/ASAP",
   "toolbox_drawer": ["fisheries"],

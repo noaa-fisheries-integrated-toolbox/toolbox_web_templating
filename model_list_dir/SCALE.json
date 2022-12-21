@@ -20,7 +20,6 @@
   ],
   "shields_badges":["https://www.repostatus.org/badges/latest/inactive.svg"],
   "support_level": "internal_inactive",
-  "tool_type": "Stock Assessment Model",
   "version_number": "1.0.11",
   "release_badge":"nmfs-fish-tools/SCALE",
   "toolbox_drawer": ["fisheries"], 

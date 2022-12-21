@@ -15,7 +15,7 @@
   "references": [],
   "shields_badges":[],
   "support_level": "internal_inactive",
-  "tool_type": "",
+  
   "version_number": "",
   "release_badge":"nmfs-fish-tools/agTrend",
   "toolbox_drawer": ["protected_species", "general"],

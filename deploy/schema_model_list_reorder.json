@@ -49,8 +49,6 @@
         "version_number": {"type": "string"}, 
         // not used currently, (to deprecate)    
         "badge_level": {"type": "string"},
-        "support_level": {"type": "string"},
-        "tool_type": {"type": "string"}
-        
+        "support_level": {"type": "string"}
     }
 }

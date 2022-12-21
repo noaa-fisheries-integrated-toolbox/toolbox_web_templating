@@ -29,7 +29,6 @@
       "items": {"type": "string"}
     }, 
     "support_level": {"type": "string"},
-    "tool_type": {"type": "string"},
     "shields_badges": {
       "type" : "array",
       "items": {
