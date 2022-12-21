@@ -9,7 +9,7 @@
   ],
   "author_name": "Tim Miller and Brian Stock",
   "background_text": "A state-space age-structured assessment model that can include state-space covariate models and effects on recruitment and internal estimation of biological reference points. See the vignettes provided with the package for example applications.",
-  "badge_level": "",
+
   "documentation_link": "",
   "download_app_link": "",
   "code_repository_link": "https://github.com/timjmiller/wham",

@@ -2,7 +2,6 @@
   "associated_tools": [],
   "author_name": "MacCall, A.",
   "background_text": "The Depletion-Corrected Average Catch is a method for estimating sustainable yields for data-poor fisheries.  Based on the idea that the average catch has been sustainable if abundance has not changed, DCAC makes a correction to that average if abundance has increased or decreased (which may be the subject of an educated guess based on subjective impressions).  The magnitude of the correction depends on the approximate natural mortality rate, which should be about 0.2 or smaller to apply this model.  Uncertainty is recognized in all of the parameters in the model, and is reflected in the output probability distribution.",
-  "badge_level": "badge_internal_inactive",
   "documentation_link": "",
   "download_app_link": "https://github.com/nmfs-fish-tools/DCAC/releases/download/2.1.1/DCACV211.zip",
   "fit_repo": "https://github.com/nmfs-fish-tools/DCAC.git",

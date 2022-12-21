@@ -13,7 +13,6 @@
     }, 
     "author_name": {"type": "string"},
     "background_text": {"type": "string"},
-    "badge_level": {"type": "string"},
     "contact": {"type": "string"},
     "documentation_link": {"type": "string"},
     "download_app_link": {"type": "string"},
