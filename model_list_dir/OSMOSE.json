@@ -17,7 +17,8 @@
   "release_badge":"osmose-model/osmose",
   "references": ["Shin Y.-J., P. Cury, 2004. Using an individual-based model of fish assemblages to study the response of size spectra to changes in fishing. Canadian Journal of Fisheries and Aquatic Sciences, 61: 414-431."
   ],
-  "support_level": "external_active",
+    "active_dev": true,
+  "NOAA_internal": false,
   "shields_badges":["https://www.repostatus.org/badges/latest/active.svg"],
   "version_number": "", 
   "toolbox_drawer": ["ecosystem", "fisheries"], 

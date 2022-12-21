@@ -35,7 +35,8 @@
   ],
   "release_badge": "nmfs-stock-synthesis/stock-synthesis",
   "shields_badges":["https://www.repostatus.org/badges/latest/active.svg"],
-  "support_level": "internal_active",
+    "active_dev": true,
+  "NOAA_internal": true,
   "version_number": "",
   "toolbox_drawer": ["fisheries"], 
   "keywords": ["Stock Assessment Model", "Age Structured Model", "Length Structured Model", "ADMB", "Guided User Interface"]

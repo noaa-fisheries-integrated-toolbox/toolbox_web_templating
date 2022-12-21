@@ -1,6 +1,8 @@
 {
     "type": "object", 
     "properties": {
+        "NOAA_internal": {"type": "boolean"}, 
+        "active_dev": {"type": "boolean"},
         "model_name": {"type": "string"},
         "model_abbrev": {"type": "string"},
         "author_name": {"type": "string"},
@@ -46,8 +48,6 @@
             }
         },
         "release_badge": {"type": "string"},
-        "version_number": {"type": "string"}, 
-        // not used currently, (to deprecate)    
-        "support_level": {"type": "string"}
+        "version_number": {"type": "string"} 
     }
 }

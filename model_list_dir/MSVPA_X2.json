@@ -27,7 +27,8 @@
     "https://www.repostatus.org/badges/latest/active.svg",
     "https://img.shields.io/badge/platform-linux%20%7CCwin-lightgrey"
   ],
-  "support_level": "internal_active",
+    "active_dev": true,
+  "NOAA_internal": true,
   "version_number": "0.9.0", 
   "toolbox_drawer": ["ecosystem",  "fisheries"], 
   "keywords": ["Multispecies Model", "Virtual Population Analysis", "Guided User Interface"]

@@ -14,7 +14,8 @@
   "pdf_download": "",
   "references": [
   ],
-  "support_level": "external_active",
+    "active_dev": true,
+  "NOAA_internal": false,
   "shields_badges":["https://www.repostatus.org/badges/latest/active.svg"],
   "version_number": "",
   "release_badge": "ericward-noaa/phenomix",

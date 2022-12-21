@@ -210,19 +210,20 @@
               {% endif %}
 
               <div class = "language"></div>
+              <!-- web app button -->
               <div class = "iconrow">
                 {% if value['online_app_link'] is defined and value['online_app_link']|length %}
                  <button class = "icon_small online" onclick="location.href= '{{value.online_app_link}}';" value="Go to online app" ></button>
                 {% else %}
                  <button class = "icon_small online" disabled></button>
                 {% endif %}
-
+                <!-- executable button -->
                 {% if value['download_app_link'] is defined and value['download_app_link']|length %}
                  <button class = "icon_small down" onclick="location.href='{{value.download_app_link}}';" value="download app" ></button>
                 {% else %}
                   <button class = "icon_small down" disabled></button>
                 {% endif %}
-
+                <!-- code repository button -->
                 {% if value['code_repository_link'] is defined and value['code_repository_link']|length %}
                  <button class = "icon_small github" onclick="location.href='{{value.code_repository_link}}';" value="Go to online app" ></button>
                 {% else %}
@@ -235,20 +236,26 @@
                   <!-- {% else %} -->
                   <!-- {% if badge_level %}
                 <button class = "icon_small {{badge_level}}"></button> -->
-
-                {% else %}
-                <button class = "icon_small cert" disabled></button>
-
-                {% endif %}
-
-                  <button class = "icon_small cert" disabled></button>
+                <!-- {% else %}
+                <button class = "icon_small cert" disabled></button> -->
                 <!-- {% endif %} -->
-                {% if value['support_level'] is defined and value['support_level']|length and value['support_level']!="internal_inactive"%}
-                  <button class = "icon_small {{value.support_level}} " ></button>
-                {% else %}
-                  <button class = "icon_small checkmark" disabled></button>
-                {% endif %}
 
+                  <!-- <button class = "icon_small cert" disabled></button> -->
+                <!-- {% endif %} -->
+                <!-- NOAA support button -->
+                {% if value['NOAA_internal'] is defined and value['active_dev'] is defined and value['NOAA_internal'] == true and value['active_dev'] == true%}
+                  <button class = "icon_small internal_active" ></button>
+                {% else %}
+                  <button class = "icon_small internal_active" disabled></button>
+                {% endif %}
+                <!-- External Tool Icon -->
+                {% if value['NOAA_internal'] is defined and value['active_dev'] is defined and value['NOAA_internal'] == false and value['active_dev'] == true%}
+                  <button class = "icon_small external_active" ></button>
+                {% else %}
+                  <button class = "icon_small external_active" disabled></button>
+                {% endif %}
+                <!-- Legacy Tool Icon -->
+                <!-- May want to use NOAA_internal and active_dev in the future to determine if this button should be added -->
                 {% if value['keywords'] is defined and 'Legacy Tool' in value['keywords'] %}
                   <button class = "icon_small legacy" ></button>
                 {% else %}

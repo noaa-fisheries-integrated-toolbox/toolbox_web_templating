@@ -18,7 +18,8 @@
     "Walters, C., and S. Martell. 2004. Fisheries ecology and management. Princeton University Press. 399 p."
   ],
   "shields_badges":["https://www.repostatus.org/badges/latest/inactive.svg"],
-  "support_level": "internal_inactive",
+    "active_dev": false,
+  "NOAA_internal": true,
   "version_number": "2.1.1",
   "release_badge":"nmfs-fish-tools/DCAC",
   "toolbox_drawer": ["fisheries"], 

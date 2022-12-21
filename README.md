@@ -40,6 +40,8 @@ Each landing page can be created using the correct config file.
 JSON data can be (partially) validated using [schema](https://json-schema.org/understanding-json-schema/about.html)
 ```json
 {
+  "active_dev": true,     //in active development? true or false
+  "NOAA_internal": false, //Maintained by NOAA? true or false.
   "associated_tools": [
     {"name":"NAME OF TOOL","link":"LINK TO TOOL"},
     {"name":"NAME OF TOOL","link":"LINK TO TOOL"}
@@ -58,7 +60,6 @@ JSON data can be (partially) validated using [schema](https://json-schema.org/un
   "pdf_download": "", //A URL to a pdf that might be helpful for users.
   "release_badge":"NMFS-ecosystem-tools/MSCAA"//IF THE REPO UESE RELEASES ON GITHUB, JUST PUT THE ORG/REPO HERE TO LINK.
   "references": ["ref1", "ref2"], //** Formatted publication references. LEAVE AS EMPTY LIST [] IF NONE. Please include DOI if available.
-  "support_level": "external_active", //** CHOICES ARE external_active OR internal_active OR internal_inactive
   "shields_badges":["https://www.repostatus.org/badges/latest/active.svg","https://img.shields.io/badge/platform-linux%20%7Cwin-lightgrey"],//** add any extra badges here from repostatus or shields in a list
   "version_number": "",//** add version number only if it is not linked to a release_badge above
   "toolbox_drawer": ["fisheries", "general"], //** options are: "fisheries", "ecosystem", "human_dimensions", "protected_species", and "general"*. Put all that apply to the tool.

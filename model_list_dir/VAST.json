@@ -11,7 +11,8 @@
   "version_number": "3.2.0",
   "pdf_download": "",
 
-  "support_level": "internal_active",
+    "active_dev": true,
+  "NOAA_internal": true,
   "documentation_link": "https://github.com/James-Thorson/VAST#user-resources-for-learning-about-vast",
   "associated_tools": [{"name":"VASTWestCoast","link":  "https://github.com/nwfsc-assess/VASTWestCoast"}, {"name":"VASTGAP"}],
   "shields_badges":[ "https://img.shields.io/github/last-commit/James-Thorson-NOAA/VAST.svg?style=plastic",""],

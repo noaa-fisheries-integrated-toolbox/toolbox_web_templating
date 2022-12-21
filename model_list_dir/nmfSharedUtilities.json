@@ -28,7 +28,8 @@
   "release_badge":"nmfs-fish-tools/nmfSharedUtilities",
   "references": [
   ],
-  "support_level": "external_active",
+    "active_dev": true,
+  "NOAA_internal": false,
   "shields_badges":["https://www.repostatus.org/badges/latest/active.svg","https://img.shields.io/badge/platform-linux%20%7Cwin-lightgrey"],
   "version_number": "", 
   "toolbox_drawer": ["ecosystem", "fisheries"], 

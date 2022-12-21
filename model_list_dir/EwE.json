@@ -16,7 +16,8 @@
   "references": ["Christensen, V., and C. Walters, 2004. Ecopath with Ecosim: methods, capabilities, and limitations. Ecological Modelling 172: 109-139.",
     "Walters, C., Christensen, V., and Pauly, D. 1997. Structuring dynamic models of exploited ecosystems from trophic mass-balance assessments. Rev. Fish. Biol. Fish. 7: 139-172."
   ],
-  "support_level": "external_active",
+    "active_dev": true,
+  "NOAA_internal": false,
   "shields_badges":["https://www.repostatus.org/badges/latest/active.svg"],
   "version_number": "6.6.1", 
   "toolbox_drawer": ["ecosystem"], 

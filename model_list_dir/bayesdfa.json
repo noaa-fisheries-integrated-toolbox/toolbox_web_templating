@@ -13,7 +13,8 @@
   "pdf_download": "",
   "references": [],
   "shields_badges":["https://www.repostatus.org/badges/latest/active.svg"],
-  "support_level": "internal_active",
+    "active_dev": true,
+  "NOAA_internal": true,
   
   "version_number": "",
   "release_badge":"fate-ewi/bayesdfa",

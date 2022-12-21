@@ -13,7 +13,8 @@
   "references": [
     "ADMB reference: Fournier, D.A., Skaug, H.J., Ancheta, J., Ianelli, J., Magnusson, A., Maunder, M.N., Nielsen, A., and Sibert, J. 2012. AD Model Builder: using automatic differentiation for statistical inference of highly parameterized complex nonlinear models. Optim. Methods Softw. 27:233-249."
   ],
-  "support_level": "internal_active",
+    "active_dev": true,
+  "NOAA_internal": true,
   "shields_badges":["https://www.repostatus.org/badges/latest/active.svg","https://img.shields.io/github/watchers/seacode/gmacs.svg?style=social","https://img.shields.io/badge/documentation-in--progress-yellow.svg","https://img.shields.io/travis/com/seacode/gmacs.svg"],
   "version_number": "",
   "release_badge":"",

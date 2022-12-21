@@ -13,7 +13,8 @@
   "pdf_download": "",
   "references": [
   ],
-  "support_level": "internal_active",
+  "active_dev": true,
+  "NOAA_internal": true,
   "shields_badges":["https://www.repostatus.org/badges/latest/active.svg"],
   "version_number": "",
   "toolbox_drawer": ["protected_species"], 

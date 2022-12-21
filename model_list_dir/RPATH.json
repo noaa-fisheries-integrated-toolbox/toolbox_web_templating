@@ -19,7 +19,8 @@
   "references": [
     "S.M.Lucey, S. K. Gaichasa, and K. Y. Aydin. 2020. Conducting reproducible ecosystem modeling using the open source mass balance model Rpath. Ecological Modelling 427. https://doi.org/10.1016/j.ecolmodel.2020.109057"],
   "shields_badges":["https://www.repostatus.org/badges/latest/active.svg",""],
-  "support_level": "internal_active",
+    "active_dev": true,
+  "NOAA_internal": true,
   
   "version_number": "0.1.2",
   "release_badge": "", 

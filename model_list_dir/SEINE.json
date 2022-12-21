@@ -16,7 +16,8 @@
     "Gedamke, T., and J. M. Hoenig. 2006. Estimating mortality from mean length data in nonequilibrium situations, with application to the assessment of goosefish. Transactions of the American Fisheries Society 135:476–487."
   ],
   "shields_badges":["https://www.repostatus.org/badges/latest/inactive.svg"],
-  "support_level": "internal_inactive",
+    "active_dev": false,
+  "NOAA_internal": true,
   "version_number": "1.3.0",
   "release_badge":"nmfs-fish-tools/SEINE",
   "toolbox_drawer": ["fisheries"], 

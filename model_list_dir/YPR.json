@@ -16,7 +16,8 @@
     "Thompson, W.F. and F.H Bell. 1934. Biological statistics of the Pacific halibut fishery. (2) Effects of changes in intensity upon total yield and yield per unit of gear. International Fisheries Commission Report, No. 8, 1934."
   ],
   "shields_badges":["https://www.repostatus.org/badges/latest/inactive.svg"],
-  "support_level": "internal_inactive",
+    "active_dev": false,
+  "NOAA_internal": true,
   "version_number": "3.3",
   "release_badge":"nmfs-fish-tools/YPR",
   "toolbox_drawer": ["fisheries"], 
