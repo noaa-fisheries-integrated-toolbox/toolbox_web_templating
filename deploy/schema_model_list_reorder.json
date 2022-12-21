@@ -8,10 +8,11 @@
         "author_name": {"type": "string"},
         "contact": {"type": "string"},
         "background_text": {"type": "string"},
+        "citation": {"type": "string"},
         "references": {
             "type": "array", 
             "items": {"type": "string"}
-        }, 
+        },
         "associated_tools":{
             "type": "array", 
             "items": {
@@ -21,8 +22,7 @@
                   "link": {"type": "string"}
                }
             }
-         },
-        
+        },
         "online_app_link": {"type": "string"},
         "download_app_link": {"type": "string"},
         "website_link": {"type": "string"},
@@ -34,7 +34,7 @@
             "items": {
               "type": "string"
             }
-          },
+        },
         "toolbox_drawer": {
             "type": "array", 
             "items": {

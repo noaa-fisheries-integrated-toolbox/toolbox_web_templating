@@ -15,6 +15,7 @@
     "author_name": {"type": "string"},
     "background_text": {"type": "string"},
     "contact": {"type": "string"},
+    "citation": {"type": "string"},
     "documentation_link": {"type": "string"},
     "download_app_link": {"type": "string"},
     "website_link": {"type": "string"},
