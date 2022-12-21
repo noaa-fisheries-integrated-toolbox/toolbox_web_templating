@@ -55,6 +55,7 @@ JSON data can be (partially) validated using [schema](https://json-schema.org/un
   "website_link": "", //**link to the website, if it exists; otherwise, leave blank.
   "documentation_link": "", //**LINK TO EXTERNAL DOCUMENTATION. Not necessary if it is the same as the website_link or code_repository_link.
   "code_repository_link": "", //LINK TO GITHUB CODE REPO
+  "citation": "", //How to cite the package. Ideally an article with DOI.
   "model_abbrev": "MODABBREV", //SHORT ABBREVIATION OF TOOL USED AT TOP OF TILE ON LANDING PAGE. Must Match the name of the JSON file. Required.
   "model_name": "Complete Name of Model Tool", //required
   "pdf_download": "", //A URL to a pdf that might be helpful for users.
