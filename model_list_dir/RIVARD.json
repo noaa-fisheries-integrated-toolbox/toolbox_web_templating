@@ -13,7 +13,7 @@
   "online_app_link": "",
   "pdf_download_link": "",
   "references": [],
-  "shields_badges":["https://www.repostatus.org/badges/latest/inactive.svg"],
+  "software_badges":["https://www.repostatus.org/badges/latest/inactive.svg"],
     "active_development": false,
   "NOAA_internal": true,
   "version_number": "2.0.0",

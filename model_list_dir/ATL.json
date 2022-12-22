@@ -18,7 +18,7 @@
     "Fournier, D.A., Skaug, H.J., Ancheta, J., Ianelli, J., Magnusson, A., Maunder, M.N., Nielsen, A., and Sibert, J. 2012. AD Model Builder: using automatic differentiation for statistical inference of highly parameterized complex nonlinear models. Optim. Methods Softw. 27:233-249.",
     "Kasper Kristensen and Anders Nielsen and Casper W. Berg and Hans Skaug and Bradley M. Bell, 2016,  TMB: Automatic Differentiation and Laplace Approximation, Journal of Statistical Software, 70:1-21 "
   ],
-  "shields_badges": [
+  "software_badges": [
     "https://img.shields.io/github/last-commit/nmfs-fish-tools/ATL.svg?style=plastic"
   ],
   "active_development": true,

@@ -34,7 +34,7 @@
     "ADMB reference: Fournier, D.A., Skaug, H.J., Ancheta, J., Ianelli, J., Magnusson, A., Maunder, M.N., Nielsen, A., and Sibert, J. 2012. AD Model Builder: using automatic differentiation for statistical inference of highly parameterized complex nonlinear models. Optim. Methods Softw. 27:233-249."
   ],
   "release_badge": "nmfs-stock-synthesis/stock-synthesis",
-  "shields_badges":["https://www.repostatus.org/badges/latest/active.svg"],
+  "software_badges":["https://www.repostatus.org/badges/latest/active.svg"],
     "active_development": true,
   "NOAA_internal": true,
   "version_number": "",

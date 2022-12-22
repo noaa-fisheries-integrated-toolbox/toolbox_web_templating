@@ -15,7 +15,7 @@
   "NOAA_internal": true,
   "documentation_link": "https://github.com/James-Thorson/VAST#user-resources-for-learning-about-vast",
   "associated_tools": [{"name":"VASTWestCoast","link":  "https://github.com/nwfsc-assess/VASTWestCoast"}, {"name":"VASTGAP"}],
-  "shields_badges":[ "https://img.shields.io/github/last-commit/James-Thorson-NOAA/VAST.svg?style=plastic",""],
+  "software_badges":[ "https://img.shields.io/github/last-commit/James-Thorson-NOAA/VAST.svg?style=plastic",""],
   "release_badge":"James-Thorson-NOAA/VAST",
   "toolbox_drawer": ["general", "fisheries"], 
   "keywords": ["Time Series", "Spatial Model", "TMB", "Species Distribution Model"]

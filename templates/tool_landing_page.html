@@ -207,9 +207,9 @@
               <h2>
               Code Repository Badges
               </h2>
-                  {% if shields_badges is defined and shields_badges|length %}
+                  {% if software_badges is defined and software_badges|length %}
 
-                      {% for tools in shields_badges%}
+                      {% for tools in software_badges%}
                           <img src="{{tools}}">
                       {% endfor %}
                   {% endif %}

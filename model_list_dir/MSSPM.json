@@ -14,7 +14,7 @@
   "pdf_download_link": "",
   "release_badge":"nmfs-fish-tools/MSSPM",
   "references": [],
-  "shields_badges": [
+  "software_badges": [
     "https://www.repostatus.org/badges/latest/active.svg",
     "https://img.shields.io/badge/platform-linux-lightgrey"
   ],

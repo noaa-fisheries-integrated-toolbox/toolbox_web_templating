@@ -18,7 +18,7 @@
   ],
     "active_development": true,
   "NOAA_internal": false,
-  "shields_badges":["https://www.repostatus.org/badges/latest/active.svg","https://img.shields.io/badge/platform-linux%20%7Cwin-lightgrey"],
+  "software_badges":["https://www.repostatus.org/badges/latest/active.svg","https://img.shields.io/badge/platform-linux%20%7Cwin-lightgrey"],
   "version_number": "", 
   "toolbox_drawer": ["ecosystem", "fisheries"], 
   "keywords": ["Ecosystem", "Fisheries", "Multispecies Model"]

@@ -21,7 +21,7 @@
     "Patterson K.R. and G.P. Kirkwood. 1995. Comparative performance of Adapt and Laurec-Shepherd methods for estimating fish population parameters and in stock management. ICES Journal of Marine Science 52 (2): 183-196.",
     "Pope J. G. 1972. An investigation of the accuracy of virtual population analysis using cohort analysis. ICNAF Res. Bull. 9:65-74."
   ],
-  "shields_badges":["https://www.repostatus.org/badges/latest/inactive.svg"],
+  "software_badges":["https://www.repostatus.org/badges/latest/inactive.svg"],
     "active_development": false,
   "NOAA_internal": true,
   "version_number": "3.4.4",

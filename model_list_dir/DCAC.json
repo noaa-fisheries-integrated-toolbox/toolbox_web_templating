@@ -17,7 +17,7 @@
     "MacCall, A. 2007. Depletion-adjusted average catch. pp. 27-31 In: Rosenberg, A., Agnew, D., Babcock, E., Mogensen, C., O’Boyle, R., Powers, J., Stefansson, G., Swasey, J. 2007. Setting annual catch limits for U.S. fisheries: An expert working group report. Lenfest Ocean Program, 1025 F Street NW, Suite 900, Washington, D.C.",
     "Walters, C., and S. Martell. 2004. Fisheries ecology and management. Princeton University Press. 399 p."
   ],
-  "shields_badges":["https://www.repostatus.org/badges/latest/inactive.svg"],
+  "software_badges":["https://www.repostatus.org/badges/latest/inactive.svg"],
     "active_development": false,
   "NOAA_internal": true,
   "version_number": "2.1.1",

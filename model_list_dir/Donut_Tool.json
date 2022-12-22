@@ -14,7 +14,7 @@
   "references": [
     "Jason S. Link (2004) A General Model of Selectivity for Fish Feeding: A Rank Proportion Algorithm, Transactions of the American Fisheries Society, 133:3, 655-673, DOI: 10.1577/T02-142.1"
   ],
-  "shields_badges":["https://www.repostatus.org/badges/latest/active.svg","https://img.shields.io/badge/platform-linux%20%7Cwin-lightgrey"],
+  "software_badges":["https://www.repostatus.org/badges/latest/active.svg","https://img.shields.io/badge/platform-linux%20%7Cwin-lightgrey"],
     "active_development": true,
   "NOAA_internal": true,
   
