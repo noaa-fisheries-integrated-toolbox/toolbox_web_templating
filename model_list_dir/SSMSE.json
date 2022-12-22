@@ -11,7 +11,7 @@
   "maintainer_email": "fisheries.toolbox@noaa.gov",
   "documentation_link": "https://nmfs-fish-tools.github.io/SSMSE/manual",
   "executable_link": "",
-  "code_repository_link": "https://github.com/nmfs-fish-tools/SSMSE",
+  "source_code_link": "https://github.com/nmfs-fish-tools/SSMSE",
   "website_link": "https://nmfs-fish-tools.github.io/SSMSE",
   "tool_abbreviation": "SSMSE",
   "tool_name": "Management Strategy Evaluation for SS3",

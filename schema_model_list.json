@@ -34,7 +34,7 @@
         "executable_link": {"type": "string"},
         "website_link": {"type": "string"},
         "documentation_link": {"type": "string"},
-        "code_repository_link": {"type": "string"},
+        "source_code_link": {"type": "string"},
         "pdf_download": {"type": "string"},
         "shields_badges": {
             "type" : "array",

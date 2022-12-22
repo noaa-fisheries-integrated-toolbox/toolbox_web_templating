@@ -8,7 +8,7 @@
 
   "documentation_link": "",
   "executable_link": "",
-  "code_repository_link": "https://github.com/nmfs-fish-tools/r4MAS",
+  "source_code_link": "https://github.com/nmfs-fish-tools/r4MAS",
   "website_link": "https://nmfs-fish-tools.github.io/r4MAS",
   "tool_abbreviation": "r4MAS",
   "tool_name": "R interface to Metapopulation Assessment System",

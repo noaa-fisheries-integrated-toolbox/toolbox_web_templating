@@ -6,7 +6,7 @@
   "maintainer_email":"daniel.howell@imr.no",
   "documentation_link": "http://hdl.handle.net/11250/100625",
   "executable_link": "https://github.com/gadget-framework/gadget2/tags",
-  "code_repository_link": "https://github.com/gadget-framework/gadget2",
+  "source_code_link": "https://github.com/gadget-framework/gadget2",
   "tool_abbreviation": "GADGET",
   "tool_name": "Globally applicable Area-Disaggregated General Ecosystem Toolbox",
   

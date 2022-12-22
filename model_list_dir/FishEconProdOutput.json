@@ -6,7 +6,7 @@
   "maintainer_email": "emily.markowitz@noaa.gov",
   "documentation_link": "https://emilymarkowitz-noaa.github.io/FishEconProdOutput/reference/index.html",
   "executable_link": "",
-  "code_repository_link": "https://github.com/EmilyMarkowitz-NOAA/FishEconProdOutput",
+  "source_code_link": "https://github.com/EmilyMarkowitz-NOAA/FishEconProdOutput",
   "tool_abbreviation": "FishEconProdOutput",
   "website_link":"https://emilymarkowitz-noaa.github.io/FishEconProdOutput",
   "tool_name": "Price Method Fisheries Economics Total Factor Productivity Outputs for the U.S. Fisheries",

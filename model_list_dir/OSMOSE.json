@@ -7,7 +7,7 @@
   "maintainer_email":"maintainer_email@osmose-model.org",
   "documentation_link": "https://documentation.osmose-model.org/index.html",
   "executable_link": "https://github.com/osmose-model/osmose/releases",
-  "code_repository_link": "https://github.com/osmose-model/osmose",
+  "source_code_link": "https://github.com/osmose-model/osmose",
   "tool_abbreviation": "OSMOSE",
   "tool_name": "Object-oriented Simulator of Marine Ecosystems",
   

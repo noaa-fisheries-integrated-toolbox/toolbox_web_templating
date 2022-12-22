@@ -65,8 +65,8 @@
                 </button>
               {% endif %}
 
-              {% if code_repository_link is defined and code_repository_link|length %}
-               <button class = "codelink" title="link to Code Repository" onclick=" window.open('{{code_repository_link}}', '_blank'); return false;">
+              {% if source_code_link is defined and source_code_link|length %}
+               <button class = "codelink" title="link to Code Repository" onclick=" window.open('{{source_code_link}}', '_blank'); return false;">
                 Code Repository
                 </button>
               {% else %}

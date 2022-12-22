@@ -5,7 +5,7 @@
 
   "documentation_link": "https://cran.r-project.org/web/packages/glmmfields/vignettes/spatial-glms.html",
   "executable_link": "",
-  "code_repository_link": "https://github.com/seananderson/glmmfields",
+  "source_code_link": "https://github.com/seananderson/glmmfields",
   "tool_abbreviation": "glmmfields",
   "tool_name": "Spatial GLMMs in R with Stan",
   

@@ -24,7 +24,7 @@
   "documentation_link": "https://github.com/nmfs-stock-synthesis/doc/releases",
   "executable_link": "https://github.com/nmfs-stock-synthesis/stock-synthesis/releases",
   "website_link":"https://vlab.noaa.gov/web/stock-synthesis",
-  "code_repository_link": "https://github.com/nmfs-stock-synthesis/stock-synthesis",
+  "source_code_link": "https://github.com/nmfs-stock-synthesis/stock-synthesis",
   "tool_abbreviation": "SS3",
   "tool_name": "Stock Synthesis",
   "online_app_link": "https://connect.fisheries.noaa.gov/ss3-helper",

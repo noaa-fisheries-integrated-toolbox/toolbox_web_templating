@@ -5,7 +5,7 @@
   "maintainer_email":"jim.ianelli@noaa.gov",
   "documentation_link": "https://github.com/seacode/gmacs/wiki",
   "executable_link": "",
-  "code_repository_link": "https://github.com/seacode/gmacs",
+  "source_code_link": "https://github.com/seacode/gmacs",
   "tool_abbreviation": "GMACS",
   "tool_name": "General Model for Assessing Crustacean Stocks",
   "online_app_link": "",

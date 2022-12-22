@@ -5,7 +5,7 @@
   "maintainer_email":"eli.holmes@noaa.gov",
   "documentation_link": "https://cran.r-project.org/web/packages/MARSS/vignettes/Quick_Start.pdf",
   "executable_link": "",
-  "code_repository_link": "https://github.com/nwfsc-timeseries/MARSS",
+  "source_code_link": "https://github.com/nwfsc-timeseries/MARSS",
   "tool_abbreviation": "MARSS",
   "tool_name": "Multivariate Autoregressive State-Space Modeling with R",
   

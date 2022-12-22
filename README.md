@@ -53,8 +53,8 @@ JSON data can be (partially) validated using [schema](https://json-schema.org/un
   "online_app_link": "", //IF THERE IS A SHINY APP OR OTHER ONLINE APP, PUT LINK HERE OTHERWISE LEAVE AS EMPTY QUOTES, no spaces.
   "executable_link": "", //**LINK TO DOWNLOAD APPLICATION IF EXE exists. Please leave blank if there is not an compiled exe distributed.
   "website_link": "", //**link to the website, if it exists; otherwise, leave blank.
-  "documentation_link": "", //**LINK TO EXTERNAL DOCUMENTATION. Not necessary if it is the same as the website_link or code_repository_link.
-  "code_repository_link": "", //LINK TO GITHUB CODE REPO
+  "documentation_link": "", //**LINK TO EXTERNAL DOCUMENTATION. Not necessary if it is the same as the website_link or source_code_link.
+  "source_code_link": "", //LINK TO GITHUB CODE REPO
   "citation": "", //How to cite the package. Ideally an article with DOI.
   "tool_abbreviation": "MODABBREV", //SHORT ABBREVIATION OF TOOL USED AT TOP OF TILE ON LANDING PAGE. Must Match the name of the JSON file. Required.
   "tool_name": "Complete Name of Model Tool", //required

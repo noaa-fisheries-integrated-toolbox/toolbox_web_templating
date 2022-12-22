@@ -6,7 +6,7 @@
   "maintainer_email": "fisheries.toolbox@noaa.gov",
   "documentation_link": "https://nwecon.psmfc.org/RegionalImpactAnalysis_UserManual.pdf",
   "executable_link": "",
-  "code_repository_link": "",
+  "source_code_link": "",
   "tool_abbreviation": "REIA",
   "website_link":"https://nwecon.psmfc.org/",
   "tool_name": "Regional Economic Impact Analysis for North Pacific Fisheries",

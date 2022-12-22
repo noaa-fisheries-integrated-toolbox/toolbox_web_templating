@@ -19,7 +19,7 @@
   "maintainer_email":"ronald.klasky@noaa.gov",
   "documentation_link": "",
   "executable_link": "",
-  "code_repository_link": "https://github.com/nmfs-fish-tools/nmfSharedUtilities",
+  "source_code_link": "https://github.com/nmfs-fish-tools/nmfSharedUtilities",
   "tool_abbreviation": "nmfSharedUtilities",
   "tool_name": "nmfSharedUtilities",
   

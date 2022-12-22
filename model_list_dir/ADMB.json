@@ -5,7 +5,7 @@
   "documentation_link": "http://www.admb-project.org/docs/manuals/",
   "executable_link": "http://www.admb-project.org/downloads/",
   "website_link": "http://www.admb-project.org",
-  "code_repository_link": "https://github.com/admb-project/admb",
+  "source_code_link": "https://github.com/admb-project/admb",
   "tool_abbreviation": "ADMB",
   "tool_name": "AD Model Builder",
   "online_app_link": "",

@@ -5,7 +5,7 @@
   "maintainer_email":"fisheries.toolbox@noaa.gov",
   "documentation_link": "",
   "executable_link": "",
-  "code_repository_link": "https://github.com/nmfs-fish-tools/DST",
+  "source_code_link": "https://github.com/nmfs-fish-tools/DST",
   "tool_abbreviation": "DST",
   "tool_name": "Decision Support Tool for SS",
   "online_app_link": "",
