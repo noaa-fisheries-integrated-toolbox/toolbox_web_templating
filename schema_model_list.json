@@ -1,4 +1,8 @@
 {
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://github.com/noaa-fisheries-integrated-toolbox/toolbox_web_templating/blob/dev/schema_model_list.json",
+    "title": "Tool List",
+    "description": "Information about a Tool onboarded to FIMS",
     "type": "object", 
     "properties": {
         "active_development": {"type": "boolean"},
@@ -57,5 +61,19 @@
         "uses_github_releases": {"type":"boolean"},
         "static_version_number": {"type": "string"},
         "release_badge": {"type": "string"}
-    }
+    },
+    "required": [
+        "active_development",
+        "tool_name",
+        "tool_abbreviation",
+        "authors",
+        "noaa_internal",
+        "maintainer_name",
+        "maintainer_email",
+        "background_text",
+        "citation",
+        "toolbox_drawers", 
+        "keywords",
+        "uses_github_releases"
+    ]
 }
