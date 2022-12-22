@@ -7,7 +7,7 @@
   "download_app_link": "https://github.com/nmfs-fish-tools/RIVARD/releases/download/2.0.0/RivardCalcV2-0.zip",
   "fit_repo": "https://github.com/nmfs-fish-tools/RIVARD.git",
   "website_link": "",
-  "model_abbrev": "RIVARD",
+  "tool_abbreviation": "RIVARD",
   "tool_name": "Rivard Calculator",
   
   "online_app_link": "",

@@ -6,7 +6,7 @@
   "documentation_link": "",
   "download_app_link": "https://github.com/nmfs-fish-tools/YPR/releases/download/3.3.0/YPRV33.zip",
   "code_repository_link": "",
-  "model_abbrev": "YPR",
+  "tool_abbreviation": "YPR",
   "tool_name": "Yield Per Recruit",
   
   "online_app_link": "",

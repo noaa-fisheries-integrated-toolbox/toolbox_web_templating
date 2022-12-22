@@ -6,7 +6,7 @@
   "documentation_link": "https://github.com/PIFSCstockassessments/AGEPRO-GUI/blob/master/doc/AGEPRO_v4.2_Reference_Manual.pdf",
   "download_app_link": "https://github.com/PIFSCstockassessments/AGEPRO-GUI/releases/latest",
   "code_repository_link": "https://github.com/PIFSCstockassessments/AGEPRO-GUI",
-  "model_abbrev": "AGEPRO",
+  "tool_abbreviation": "AGEPRO",
   "tool_name": "Age Structured Projection Model",
   "website_link" : "https://pifscstockassessments.github.io/packages/AGEPRO/",
   "online_app_link": "",

@@ -5,7 +5,7 @@
   "documentation_link": "https://github.com/NOAA-LHP/LHsampling/blob/main/LH_Sampling_documentation.pdf",
   "download_app_link": "",
   "code_repository_link": "https://github.com/NOAA-LHP/LHsampling",
-  "model_abbrev": "LHSampling",
+  "tool_abbreviation": "LHSampling",
   "tool_name": "Life History Sampling",
   
   "website_link":"https://noaa-lhp.github.io/LHsampling",   

@@ -5,7 +5,7 @@
   "documentation_link": "",
   "download_app_link": "https://github.com/nmfs-fish-tools/ASAP/releases/download/3.0.16/ASAPV30.zip",
   "fit_repo": "https://github.com/nmfs-fish-tools/ASAP",
-  "model_abbrev": "ASAP",
+  "tool_abbreviation": "ASAP",
   "tool_name": "Age Structured Assessment Program",
   "online_app_link": "",
   "pdf_download": "https://www.researchgate.net/publication/266334996_A_Flexible_Forward_Age-Structured_Assessment_Program/download",

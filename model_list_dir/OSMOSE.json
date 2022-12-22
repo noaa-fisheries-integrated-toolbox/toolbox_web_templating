@@ -8,7 +8,7 @@
   "documentation_link": "https://documentation.osmose-model.org/index.html",
   "download_app_link": "https://github.com/osmose-model/osmose/releases",
   "code_repository_link": "https://github.com/osmose-model/osmose",
-  "model_abbrev": "OSMOSE",
+  "tool_abbreviation": "OSMOSE",
   "tool_name": "Object-oriented Simulator of Marine Ecosystems",
   
   "website_link":"http://www.osmose-model.org/",

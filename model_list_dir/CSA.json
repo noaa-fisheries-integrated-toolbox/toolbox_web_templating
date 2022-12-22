@@ -5,7 +5,7 @@
   "documentation_link": "",
   "download_app_link": "https://github.com/nmfs-fish-tools/CSA/releases/download/4.3/CSAV43.zip",
   "fit_repo": "https://github.com/nmfs-fish-tools/CSA.git",
-  "model_abbrev": "CSA",
+  "tool_abbreviation": "CSA",
   "tool_name": "Collie-Sissenwine Analysis",
   "online_app_link": "",
   "pdf_download": "",

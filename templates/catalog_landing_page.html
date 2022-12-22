@@ -183,8 +183,8 @@
 
           {% for key, value in configs.items() %}
           <div class = "box">
-              {% set my_string = value['model_abbrev']  %}
-              <a class = "shortTitle" href= {{my_string}} target= "_blank"> {{value['model_abbrev']}} </a>
+              {% set my_string = value['tool_abbreviation']  %}
+              <a class = "shortTitle" href= {{my_string}} target= "_blank"> {{value['tool_abbreviation']}} </a>
               <div class = "longTitle">{{value['tool_name']}}</div>
               <div class = "toolbox_drawer">
                 Toolbox drawer(s):&nbsp;

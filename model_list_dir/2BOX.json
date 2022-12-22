@@ -5,7 +5,7 @@
   "documentation_link": "",
   "download_app_link": "https://github.com/nmfs-fish-tools/2BOX/releases/download/3.05/2BOX305.zip",
   "fit_repo": "https://github.com/nmfs-fish-tools/2BOX.git",
-  "model_abbrev": "2BOX",
+  "tool_abbreviation": "2BOX",
   "tool_name": "Dual Zone Virtual Population Analysis",
   "online_app_link": "",
   "pdf_download": "",

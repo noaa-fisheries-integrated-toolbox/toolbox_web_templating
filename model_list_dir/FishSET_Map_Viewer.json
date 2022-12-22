@@ -6,7 +6,7 @@
   "documentation_link": "https://nmfs-fish-tools.github.io/FishSET-Map-Viewer/documentationLandingPage.html",
   "download_app_link": "",
   "code_repository_link": "https://github.com/nmfs-fish-tools/FishSET-Map-Viewer.git",
-  "model_abbrev": "FishSET_Map_Viewer",
+  "tool_abbreviation": "FishSET_Map_Viewer",
   "tool_name": "FishSET-Map-Viewer",
   "online_app_link": "",
   "pdf_download": "",

@@ -7,7 +7,7 @@
   "download_app_link": "",
   "code_repository_link": "https://github.com/NIWAFisheriesModelling/CASAL2",
   "website_link": "https://casal2.github.io/",
-  "model_abbrev": "CASAL2",
+  "tool_abbreviation": "CASAL2",
   "tool_name": "C++ Algorithmic Stock Assessment Laboratory version 2",
   "website_link":"https://niwa.co.nz/fisheries/tools-resources/casal",
   "online_app_link": "",

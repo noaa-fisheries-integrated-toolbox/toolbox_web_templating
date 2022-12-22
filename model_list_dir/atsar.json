@@ -6,7 +6,7 @@
   "documentation_link": "https://atsa-es.github.io/atsar/#documentation",
   "download_app_link": "",
   "code_repository_link": "https://github.com/atsa-es/atsar",
-  "model_abbrev": "atsar",
+  "tool_abbreviation": "atsar",
   "tool_name": "Applied time series analysis in R with Stan",
   "website_link":"https://atsa-es.github.io/atsar/",
   "online_app_link": "",

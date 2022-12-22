@@ -5,7 +5,7 @@
   "documentation_link": "",
   "download_app_link": "https://github.com/nmfs-fish-tools/MSE/releases/download/3.4.3/MSEV40.1.zip",
   "fit_repo": "https://github.com/nmfs-fish-tools/MSE.git",
-  "model_abbrev": "MSE",
+  "tool_abbreviation": "MSE",
   "tool_name": "Management Strategy Evaluation",
   "website_link": "",
   

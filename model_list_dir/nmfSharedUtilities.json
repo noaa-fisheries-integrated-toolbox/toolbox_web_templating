@@ -20,7 +20,7 @@
   "documentation_link": "",
   "download_app_link": "",
   "code_repository_link": "https://github.com/nmfs-fish-tools/nmfSharedUtilities",
-  "model_abbrev": "nmfSharedUtilities",
+  "tool_abbreviation": "nmfSharedUtilities",
   "tool_name": "nmfSharedUtilities",
   
   "online_app_link": "",

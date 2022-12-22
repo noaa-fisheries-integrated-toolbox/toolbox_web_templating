@@ -7,7 +7,7 @@
   "documentation_link": "https://github.com/nmfs-fish-tools/MSSPM/blob/master/docs/QuickStart_Guide_MSSPM.pdf",
   "download_app_link": "https://github.com/nmfs-fish-tools/MSSPM/releases",
   "code_repository_link": "https://github.com/nmfs-fish-tools/MSSPM",
-  "model_abbrev": "MSSPM",
+  "tool_abbreviation": "MSSPM",
   "tool_name": "Multi-Species Surplus Production Model",
   
   "online_app_link": "",

@@ -6,7 +6,7 @@
   "download_app_link": "https://github.com/nmfs-fish-tools/PSA/releases/download/1.4.0/PSA-1-4.zip",
   "fit_repo": "https://github.com/nmfs-fish-tools/PSA.git",
   "website_link": "",
-  "model_abbrev": "PSA",
+  "tool_abbreviation": "PSA",
   "tool_name": "Productivity and Susceptibility Analysis",
   "online_app_link": "",
   "pdf_download": "",

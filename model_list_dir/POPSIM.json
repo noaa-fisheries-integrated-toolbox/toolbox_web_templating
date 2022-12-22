@@ -5,7 +5,7 @@
   "documentation_link": "",
   "download_app_link": "https://github.com/nmfs-fish-tools/POPSIM/releases/download/7.5.0/POPSIMV75.zip",
   "fit_repo": "https://github.com/nmfs-fish-tools/POPSIM.git",
-  "model_abbrev": "POPSIM",
+  "tool_abbreviation": "POPSIM",
   "tool_name": "Population Simulator",
   
   "online_app_link": "",

@@ -6,7 +6,7 @@
   "documentation_link": "",
   "download_app_link": "https://github.com/nmfs-fish-tools/VRD/releases/download/1.6.1/VisualReportV161.zip",
   "fit_repo": "https://github.com/nmfs-fish-tools/VRD.git",
-  "model_abbrev": "VRD",
+  "tool_abbreviation": "VRD",
   "tool_name": "Visual Report Designer",
   
   "online_app_link": "",

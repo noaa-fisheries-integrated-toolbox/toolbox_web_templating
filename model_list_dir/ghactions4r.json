@@ -7,7 +7,7 @@
   "documentation_link": "https://nmfs-fish-tools.github.io/ghactions4r/reference/index.html",
   "download_app_link": "",
   "code_repository_link": "https://github.com/nmfs-fish-tools/ghactions4r",
-  "model_abbrev": "ghactions4r",
+  "tool_abbreviation": "ghactions4r",
   "tool_name": "ghactions4r",
   
   "website_link": "https://nmfs-fish-tools.github.io/ghactions4r/",

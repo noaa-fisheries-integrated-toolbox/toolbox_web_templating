@@ -7,7 +7,7 @@
   "documentation_link": "http://sources.ecopath.org/trac/Ecopath/wiki/UsersGuide",
   "download_app_link": "https://ecopath.org/downloads/",
   "code_repository_link": "http://sources.ecopath.org/trac/Ecopath",
-  "model_abbrev": "EwE",
+  "tool_abbreviation": "EwE",
   "tool_name": "Ecopath with Ecosim",
   "website_link":"http://ecopath.org/",
   "online_app_link": "",

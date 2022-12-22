@@ -6,7 +6,7 @@
   "documentation_link": "",
   "download_app_link": "https://github.com/nmfs-fish-tools/SEINE/releases/download/1.3.0/SEINEV13.zip",
   "fit_repo": "https://github.com/nmfs-fish-tools/SEINE.git",
-  "model_abbrev": "SEINE",
+  "tool_abbreviation": "SEINE",
   "tool_name": "Survival Estimation in Non-Equilibrium situations",
   "online_app_link": "",
   "pdf_download": "",

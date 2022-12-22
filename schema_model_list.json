@@ -3,7 +3,7 @@
     "properties": {
         "active_development": {"type": "boolean"},
         "tool_name": {"type": "string"},
-        "model_abbrev": {"type": "string"},
+        "tool_abbreviation": {"type": "string"},
         "author_name": {"type": "string"},
         "noaa_internal": {"type": "boolean"}, 
         "contact": {"type": "string"},

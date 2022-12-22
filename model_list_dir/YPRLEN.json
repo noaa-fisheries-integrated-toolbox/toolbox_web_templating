@@ -6,7 +6,7 @@
   "documentation_link": "",
   "download_app_link": "https://github.com/nmfs-fish-tools/YPRLEN/releases/download/2.1.0/YPRLENV21.zip",
   "fit_repo": "https://github.com/nmfs-fish-tools/YPRLEN.git",
-  "model_abbrev": "YPRLEN",
+  "tool_abbreviation": "YPRLEN",
   "tool_name": "Length Based Yield Per Recruit",
   
   "online_app_link": "",

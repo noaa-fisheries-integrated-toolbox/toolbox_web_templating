@@ -6,7 +6,7 @@
   "documentation_link": "",
   "download_app_link": "https://github.com/nmfs-fish-tools/SCALE/releases/download/1.0.11/SCALEV1.11.zip",
   "fit_repo": "https://github.com/nmfs-fish-tools/SCALE.git",
-  "model_abbrev": "SCALE",
+  "tool_abbreviation": "SCALE",
   "tool_name": "Statistical Catch at Length Model",
   "online_app_link": "",
   "pdf_download": "",

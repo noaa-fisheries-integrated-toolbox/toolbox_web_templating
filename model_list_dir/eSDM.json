@@ -8,7 +8,7 @@
   "download_app_link": "",
   "code_repository_link": "https://github.com/smwoodman/eSDM",
   "website_link":" https://smwoodman.github.io/eSDM/",
-  "model_abbrev": "eSDM",
+  "tool_abbreviation": "eSDM",
   "tool_name": "Ensemble tool for predictions from Species Distribution Models",
   "online_app_link": "https://swoodman.shinyapps.io/eSDM/",
   "pdf_download": "https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.13283",

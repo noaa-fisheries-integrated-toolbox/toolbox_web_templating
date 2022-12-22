@@ -56,7 +56,7 @@ JSON data can be (partially) validated using [schema](https://json-schema.org/un
   "documentation_link": "", //**LINK TO EXTERNAL DOCUMENTATION. Not necessary if it is the same as the website_link or code_repository_link.
   "code_repository_link": "", //LINK TO GITHUB CODE REPO
   "citation": "", //How to cite the package. Ideally an article with DOI.
-  "model_abbrev": "MODABBREV", //SHORT ABBREVIATION OF TOOL USED AT TOP OF TILE ON LANDING PAGE. Must Match the name of the JSON file. Required.
+  "tool_abbreviation": "MODABBREV", //SHORT ABBREVIATION OF TOOL USED AT TOP OF TILE ON LANDING PAGE. Must Match the name of the JSON file. Required.
   "tool_name": "Complete Name of Model Tool", //required
   "pdf_download": "", //A URL to a pdf that might be helpful for users.
   "release_badge":"NMFS-ecosystem-tools/MSCAA"//IF THE REPO UESE RELEASES ON GITHUB, JUST PUT THE ORG/REPO HERE TO LINK.

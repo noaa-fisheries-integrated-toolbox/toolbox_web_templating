@@ -13,7 +13,7 @@
   "download_app_link": "",
   "code_repository_link": "https://github.com/nmfs-fish-tools/SSMSE",
   "website_link": "https://nmfs-fish-tools.github.io/SSMSE",
-  "model_abbrev": "SSMSE",
+  "tool_abbreviation": "SSMSE",
   "tool_name": "Management Strategy Evaluation for SS3",
   "online_app_link": "",
   "pdf_download": "",

@@ -6,7 +6,7 @@
   "documentation_link": "",
   "download_app_link": "https://cloud.r-project.org/package=mizer",
   "code_repository_link": "https://github.com/sizespectrum/mizer/",
-  "model_abbrev": "MIZER",
+  "tool_abbreviation": "MIZER",
   "tool_name": "Multi-species size spectrum modelling in R",
   "website_link": "https://sizespectrum.org/mizer/index.html",
   "online_app_link": "",

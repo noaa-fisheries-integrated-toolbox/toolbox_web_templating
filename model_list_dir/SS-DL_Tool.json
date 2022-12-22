@@ -21,7 +21,7 @@
   "download_app_link": "",
   "website_link":"",
   "code_repository_link": "https://github.com/shcaba/SS-DL-tool",
-  "model_abbrev": "SS-DL_Tool",
+  "tool_abbreviation": "SS-DL_Tool",
   "tool_name": "Stock Synthesis - Data Limited Tool",
   "online_app_link": "",
   "pdf_download": "",

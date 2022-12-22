@@ -6,7 +6,7 @@
   "download_app_link": "https://github.com/nmfs-fish-tools/KALMAN/releases/download/2.3/KalmanFilterV2-3.zip",
   "fit_repo": "https://github.com/nmfs-fish-tools/KALMAN.git",
   "website_link": "",
-  "model_abbrev": "KALMAN",
+  "tool_abbreviation": "KALMAN",
   "tool_name": "Kalman Filter",
   
   "online_app_link": "",

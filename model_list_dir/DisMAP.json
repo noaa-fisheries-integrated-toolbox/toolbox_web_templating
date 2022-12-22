@@ -7,7 +7,7 @@
   "documentation_link": "",
   "download_app_link": "",
   "code_repository_link": "https://github.com/nmfs-fish-tools/DisMAP",
-  "model_abbrev": "DisMAP",
+  "tool_abbreviation": "DisMAP",
   "tool_name": "The Distribution Mapping and Analysis Portal",
   "online_app_link": "https://apps-st.fisheries.noaa.gov/dismap/DisMAP.html",
   "pdf_download": "",
