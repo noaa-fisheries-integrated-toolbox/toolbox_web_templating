@@ -1,8 +1,9 @@
 {
     "type": "object", 
     "properties": {
+        "active_development": {"type": "boolean"},
         "NOAA_internal": {"type": "boolean"}, 
-        "active_dev": {"type": "boolean"},
+        
         "model_name": {"type": "string"},
         "model_abbrev": {"type": "string"},
         "author_name": {"type": "string"},

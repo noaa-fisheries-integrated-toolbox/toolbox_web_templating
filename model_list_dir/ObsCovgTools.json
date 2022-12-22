@@ -15,7 +15,7 @@
   "references": [
   ],
   "release_badge":"kacurtis/ObsCovgTools",
-    "active_dev": true,
+    "active_development": true,
   "NOAA_internal": true,
   "shields_badges":["https://www.repostatus.org/badges/latest/active.svg"],
   "version_number": "",

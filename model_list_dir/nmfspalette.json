@@ -15,7 +15,7 @@
   "pdf_download": "",
   "release_badge":"nmfs-fish-tools/nmfspalette",
   "references": [],
-    "active_dev": true,
+    "active_development": true,
   "NOAA_internal": true,
   "shields_badges":[ "https://img.shields.io/github/last-commit/nmfs-fish-tools/nmfspalette.svg?style=plastic","https://www.repostatus.org/badges/latest/active.svg"],
   "version_number": "",

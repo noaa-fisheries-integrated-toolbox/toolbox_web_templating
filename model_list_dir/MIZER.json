@@ -14,7 +14,7 @@
   "references": [
     "https://sizespectrum.org/mizer/articles/publications.html#publications-using-mizer" ],
   "shields_badges":["https://www.repostatus.org/badges/latest/active.svg"],
-    "active_dev": true,
+    "active_development": true,
   "NOAA_internal": false,
   "version_number": "",
   "release_badge": "sizespectrum/mizer", 

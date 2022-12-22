@@ -17,7 +17,7 @@
     "Audzijonyte, A., Gorton, R., Kaplan, I. and Fulton, E.A. 2017. Atlantis User’s Guide Part I: General Overview, Physics & Ecology. CSIRO living document",
     "Audzijonyte, A., Gorton, R., Kaplan, I. and Fulton, E.A. 2017. Atlantis User’s Guide Part II: Socio-Economics. CSIRO living document"
   ],
-  "active_dev": true,
+  "active_development": true,
   "NOAA_internal": false,
   "shields_badges":["https://www.repostatus.org/badges/latest/active.svg"],
   "version_number": "", 

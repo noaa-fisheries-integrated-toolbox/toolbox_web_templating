@@ -12,7 +12,7 @@
   "references": [
     "M Legault, Christopher & Restrepo, Victor. (1999). A Flexible Forward Age-Structured Assessment Program. ICCAT Coll. Vol. Sci. Pap.. 49. "
   ],
-  "active_dev": false,
+  "active_development": false,
   "NOAA_internal": true,
   "version_number": "3.0.16",
   "release_badge":"nmfs-fish-tools/ASAP",

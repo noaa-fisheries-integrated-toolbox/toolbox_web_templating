@@ -40,7 +40,7 @@ Each landing page can be created using the correct config file.
 JSON data can be (partially) validated using [schema](https://json-schema.org/understanding-json-schema/about.html)
 ```json
 {
-  "active_dev": true,     //in active development? true or false
+  "active_development": true,     //in active development? true or false
   "NOAA_internal": false, //Maintained by NOAA? true or false.
   "associated_tools": [
     {"name":"NAME OF TOOL","link":"LINK TO TOOL"},

@@ -18,7 +18,7 @@
   "version_number": "2.0.0",
   "pdf_download": "",
 
-    "active_dev": true,
+    "active_development": true,
   "NOAA_internal": true,
   "documentation_link": "",
   "associated_tools": [

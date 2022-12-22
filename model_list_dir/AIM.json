@@ -11,7 +11,7 @@
   "pdf_download": "",
   "references": [],
   "shields_badges":["https://www.repostatus.org/badges/latest/inactive.svg"],
-  "active_dev": false,
+  "active_development": false,
   "NOAA_internal": true,
   "version_number": "2.5.0",
   "release_badge":"nmfs-fish-tools/AIM",

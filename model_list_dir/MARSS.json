@@ -14,7 +14,7 @@
   "pdf_download": "https://cran.r-project.org/web/packages/MARSS/vignettes/UserGuide.pdf",
   "references": [
   ],
-    "active_dev": true,
+    "active_development": true,
   "NOAA_internal": false,
   "shields_badges":["https://www.repostatus.org/badges/latest/active.svg"],
   "version_number": "",

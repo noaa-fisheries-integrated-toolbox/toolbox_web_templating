@@ -15,7 +15,7 @@
   "release_badge":"nmfs-fish-tools/MSCAA",
   "references": [
   ],
-    "active_dev": true,
+    "active_development": true,
   "NOAA_internal": true,
   "shields_badges":["https://www.repostatus.org/badges/latest/active.svg","https://img.shields.io/badge/platform-linux%20%7Cwin-lightgrey"],
   "version_number": "0.9.0", 

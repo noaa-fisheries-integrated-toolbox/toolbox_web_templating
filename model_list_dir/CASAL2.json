@@ -14,7 +14,7 @@
   "pdf_download": "",
   "references": [ "Ian Doonan, Kath Large, Alistair Dunn, Scott Rasmussen, Craig Marsh, and Sophie Mormede, Casal2: New Zealand’s integrated population modelling tool, Fisheries Research, Volume 183, 2016, Pages 498-505, https://doi.org/10.1016/j.fishres.2016.04.024."],
   "shields_badges":["https://www.repostatus.org/badges/latest/active.svg"],
-    "active_dev": true,
+    "active_development": true,
   "NOAA_internal": false,
   "version_number": "2.3",
   "release_badge":"",

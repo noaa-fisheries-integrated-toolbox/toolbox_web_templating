@@ -16,7 +16,7 @@
     "Jiang, H.H., K.H. Pollock, C. Brownie, J.M. Hoenig, R.J. Latour, B.K. Wells, and J.E. Hightower. 2007. Tag return models allowing for harvest and catch and release: evidence of environmental and management impacts on striped bass fishing and natural mortality rates. N. Amer. J. Fish. Man. 27: 387-396."
   ],
   "shields_badges":["https://www.repostatus.org/badges/latest/inactive.svg"],
-    "active_dev": false,
+    "active_development": false,
   "NOAA_internal": true,
   "version_number": "2.0.0",
   "release_badge":"nmfs-fish-tools/IRATE",

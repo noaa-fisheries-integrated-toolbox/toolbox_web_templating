@@ -12,7 +12,7 @@
   "online_app_link": "",
   "pdf_download": "https://doi.org/10.1371/journal.pone.0197954",
   "references": [],
-  "active_dev": true,
+  "active_development": true,
   "NOAA_internal": true,
   "release_badge": "Cole-Monnahan-NOAA/adnuts",
   "shield_badges":["https://www.repostatus.org/badges/latest/active.svg"],

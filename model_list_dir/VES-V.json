@@ -31,7 +31,7 @@
   "shields_badges": [
     "https://www.repostatus.org/badges/latest/active.svg"
   ],
-    "active_dev": true,
+    "active_development": true,
   "NOAA_internal": true,
   "version_number": "1.37", 
   "toolbox_drawer": ["ecosystem", "fisheries"], 

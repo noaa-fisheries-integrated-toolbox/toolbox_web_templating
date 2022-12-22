@@ -12,7 +12,7 @@
   "pdf_download": "",
   "references": [
     ],
-    "active_dev": true,
+    "active_development": true,
   "NOAA_internal": false,
   "shields_badges":["https://www.repostatus.org/badges/latest/wip.svg","https://img.shields.io/github/watchers/nmfs-fish-tools/dst.svg?style=social"],
   "version_number": "",

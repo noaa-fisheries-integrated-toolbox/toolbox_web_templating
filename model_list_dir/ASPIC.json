@@ -19,7 +19,7 @@
     "Schaefer, M. B. 1957. A study of the dynamics of the fishery for yellowfin tuna in the eastern tropical Pacific Ocean. Inter-Am. Trop. Tuna Comm. Bull. 2: 247–268."
   ],
   "shields_badges":["https://www.repostatus.org/badges/latest/inactive.svg"],
-  "active_dev": false,
+  "active_development": false,
   "NOAA_internal": true,
   "version_number": "5.34.6",
   "release_badge":"nmfs-fish-tools/ASPIC",

@@ -35,7 +35,7 @@
   ],
   "release_badge": "nmfs-stock-synthesis/stock-synthesis",
   "shields_badges":["https://www.repostatus.org/badges/latest/active.svg"],
-    "active_dev": true,
+    "active_development": true,
   "NOAA_internal": true,
   "version_number": "",
   "toolbox_drawer": ["fisheries"], 

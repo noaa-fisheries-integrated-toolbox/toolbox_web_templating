@@ -27,7 +27,7 @@
     "https://www.repostatus.org/badges/latest/active.svg",
     "https://img.shields.io/badge/platform-linux%20%7CCwin-lightgrey"
   ],
-    "active_dev": true,
+    "active_development": true,
   "NOAA_internal": true,
   "version_number": "0.9.0", 
   "toolbox_drawer": ["ecosystem",  "fisheries"], 

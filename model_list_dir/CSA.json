@@ -13,7 +13,7 @@
     "Collie, J. S. and M. P. Sissenwine, 1983. Estimating population size from relative abundance data measured with error. Can. J. Fish. Aquat. Sci., 40: 1871-1879."
   ],
   "shields_badges":["https://www.repostatus.org/badges/latest/inactive.svg"],
-    "active_dev": false,
+    "active_development": false,
   "NOAA_internal": true,
   "version_number": "4.3",
   "release_badge":"nmfs-fish-tools/CSA",

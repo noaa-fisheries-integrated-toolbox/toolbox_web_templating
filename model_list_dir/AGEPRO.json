@@ -13,7 +13,7 @@
   "pdf_download": "",
   "references": ["Brodziak, J., P. Rago, and R. Conser. 1998. A general approach for making short-term stochastic projections from an age-structured fisheries assessment model. In F. Funk, T. Quinn II, J. Heifetz, J. Ianelli, J. Powers, J. Schweigert, P. Sullivan, and C.-I. Zhang (Eds.), Proceedings of the International Symposium on Fishery Stock Assessment Models for the 21st Century. Alaska Sea Grant College Program, Univ. of Alaska, Fairbanks, AK."],
   "shields_badges":["https://www.repostatus.org/badges/latest/active.svg"],
-  "active_dev": true,
+  "active_development": true,
   "NOAA_internal": true,
   "version_number": "4.3.4",
 "release_badge":"PIFSCstockassessments/AGEPRO-GUI",
