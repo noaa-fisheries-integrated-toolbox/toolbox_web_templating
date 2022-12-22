@@ -1,6 +1,4 @@
 {
-    "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "https://github.com/noaa-fisheries-integrated-toolbox/toolbox_web_templating/blob/dev/schema_model_list.json",
     "title": "Tool List",
     "description": "Information about a Tool onboarded to FIMS",
     "type": "object", 
