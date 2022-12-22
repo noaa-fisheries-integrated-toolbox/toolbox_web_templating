@@ -58,7 +58,7 @@ JSON data can be (partially) validated using [schema](https://json-schema.org/un
   "citation": "", //How to cite the package. Ideally an article with DOI.
   "tool_abbreviation": "MODABBREV", //SHORT ABBREVIATION OF TOOL USED AT TOP OF TILE ON LANDING PAGE. Must Match the name of the JSON file. Required.
   "tool_name": "Complete Name of Model Tool", //required
-  "pdf_download": "", //A URL to a pdf that might be helpful for users.
+  "pdf_download_link": "", //A URL to a pdf that might be helpful for users.
   "release_badge":"NMFS-ecosystem-tools/MSCAA"//IF THE REPO UESE RELEASES ON GITHUB, JUST PUT THE ORG/REPO HERE TO LINK.
   "references": ["ref1", "ref2"], //** Formatted publication references. LEAVE AS EMPTY LIST [] IF NONE. Please include DOI if available.
   "shields_badges":["https://www.repostatus.org/badges/latest/active.svg","https://img.shields.io/badge/platform-linux%20%7Cwin-lightgrey"],//** add any extra badges here from repostatus or shields in a list

@@ -11,7 +11,7 @@
   "tool_abbreviation": "StockSMART",
   "tool_name": "Stock Status, Management, Assessments & Resource Trends",
   "online_app_link": "https://www.st.nmfs.noaa.gov/stocksmart",
-  "pdf_download": "",
+  "pdf_download_link": "",
   "references": [
      ],
   "shields_badges":["https://www.repostatus.org/badges/latest/active.svg"],

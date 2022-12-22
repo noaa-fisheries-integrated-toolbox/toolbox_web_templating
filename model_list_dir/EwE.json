@@ -11,7 +11,7 @@
   "tool_name": "Ecopath with Ecosim",
   "website_link":"http://ecopath.org/",
   "online_app_link": "",
-  "pdf_download": "",
+  "pdf_download_link": "",
   "release_badge":"",
   "references": ["Christensen, V., and C. Walters, 2004. Ecopath with Ecosim: methods, capabilities, and limitations. Ecological Modelling 172: 109-139.",
     "Walters, C., Christensen, V., and Pauly, D. 1997. Structuring dynamic models of exploited ecosystems from trophic mass-balance assessments. Rev. Fish. Biol. Fish. 7: 139-172."

@@ -15,7 +15,7 @@
   "tool_name": "R implementation of the Ecopath with Ecosim",
   "website_link": "https://noaa-edab.github.io/Rpath/",
   "online_app_link": "",
-  "pdf_download": "",
+  "pdf_download_link": "",
   "references": [
     "S.M.Lucey, S. K. Gaichasa, and K. Y. Aydin. 2020. Conducting reproducible ecosystem modeling using the open source mass balance model Rpath. Ecological Modelling 427. https://doi.org/10.1016/j.ecolmodel.2020.109057"],
   "shields_badges":["https://www.repostatus.org/badges/latest/active.svg",""],

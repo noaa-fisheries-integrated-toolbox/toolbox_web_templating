@@ -11,7 +11,7 @@
   
   "website_link":"https://nwfsc-timeseries.github.io/MARSS/",
   "online_app_link": "",
-  "pdf_download": "https://cran.r-project.org/web/packages/MARSS/vignettes/UserGuide.pdf",
+  "pdf_download_link": "https://cran.r-project.org/web/packages/MARSS/vignettes/UserGuide.pdf",
   "references": [
   ],
     "active_development": true,

@@ -11,7 +11,7 @@
   "tool_name": "Observer Coverage Simulator Tool",
   
   "online_app_link": "https://connect.fisheries.noaa.gov/ObsCovg",
-  "pdf_download": "",
+  "pdf_download_link": "",
   "references": [
   ],
   "release_badge":"kacurtis/ObsCovgTools",

@@ -10,7 +10,7 @@
   "website_link": "",
   "tool_name": "Analytics Template Library",
   "online_app_link": "",
-  "pdf_download": "",
+  "pdf_download_link": "",
   "references": [
     "Andreas Griewank, Andrea Walther [Introduction to Automatic Differentiation]. PAMM Proc. Appl. Math. Mech. 2, 45?49 (2003).",
     "Andreas Griewank [On Automatic Differentiation]. Center for Research on Parallel Computation, 1989.",

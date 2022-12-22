@@ -90,9 +90,9 @@
               </h2>
 
 
-              {% if pdf_download is defined and pdf_download|length %}
+              {% if pdf_download_link is defined and pdf_download_link|length %}
               <a class = "pdfIcon" title="download pdf"
-                href="{{pdf_download}}" download>
+                href="{{pdf_download_link}}" download>
               </a>
               {% endif %}
 

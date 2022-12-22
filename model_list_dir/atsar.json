@@ -10,7 +10,7 @@
   "tool_name": "Applied time series analysis in R with Stan",
   "website_link":"https://atsa-es.github.io/atsar/",
   "online_app_link": "",
-  "pdf_download": "",
+  "pdf_download_link": "",
   "references": [],
   "shields_badges":["https://www.repostatus.org/badges/latest/active.svg", "https://github.com/atsa-es/atsar/workflows/R-CMD-check/badge.svg"],
     "active_development": true,

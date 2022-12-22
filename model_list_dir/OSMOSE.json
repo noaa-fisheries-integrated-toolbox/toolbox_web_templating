@@ -13,7 +13,7 @@
   
   "website_link":"http://www.osmose-model.org/",
   "online_app_link": "",
-  "pdf_download": "",
+  "pdf_download_link": "",
   "release_badge":"osmose-model/osmose",
   "references": ["Shin Y.-J., P. Cury, 2004. Using an individual-based model of fish assemblages to study the response of size spectra to changes in fishing. Canadian Journal of Fisheries and Aquatic Sciences, 61: 414-431."
   ],

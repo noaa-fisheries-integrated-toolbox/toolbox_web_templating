@@ -9,7 +9,7 @@
   "tool_abbreviation": "GMACS",
   "tool_name": "General Model for Assessing Crustacean Stocks",
   "online_app_link": "",
-  "pdf_download": "",
+  "pdf_download_link": "",
   "references": [
     "ADMB reference: Fournier, D.A., Skaug, H.J., Ancheta, J., Ianelli, J., Magnusson, A., Maunder, M.N., Nielsen, A., and Sibert, J. 2012. AD Model Builder: using automatic differentiation for statistical inference of highly parameterized complex nonlinear models. Optim. Methods Softw. 27:233-249."
   ],

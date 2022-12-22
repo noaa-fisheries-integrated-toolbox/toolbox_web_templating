@@ -24,7 +24,7 @@
   "tool_abbreviation": "SS-DL_Tool",
   "tool_name": "Stock Synthesis - Data Limited Tool",
   "online_app_link": "",
-  "pdf_download": "",
+  "pdf_download_link": "",
   "references": [],
   "shields_badges":["https://www.repostatus.org/badges/latest/active.svg"],
     "active_development": true,

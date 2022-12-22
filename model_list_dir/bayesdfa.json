@@ -10,7 +10,7 @@
   "tool_name": "Bayesian Dynamic Factor Analysis with Stan",
   "website_link":"https://fate-ewi.github.io/bayesdfa/",
   "online_app_link": "",
-  "pdf_download": "",
+  "pdf_download_link": "",
   "references": [],
   "shields_badges":["https://www.repostatus.org/badges/latest/active.svg"],
     "active_development": true,

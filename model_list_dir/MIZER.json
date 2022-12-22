@@ -10,7 +10,7 @@
   "tool_name": "Multi-species size spectrum modelling in R",
   "website_link": "https://sizespectrum.org/mizer/index.html",
   "online_app_link": "",
-  "pdf_download": "",
+  "pdf_download_link": "",
   "references": [
     "https://sizespectrum.org/mizer/articles/publications.html#publications-using-mizer" ],
   "shields_badges":["https://www.repostatus.org/badges/latest/active.svg"],

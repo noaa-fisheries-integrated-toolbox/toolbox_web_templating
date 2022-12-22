@@ -35,7 +35,7 @@
         "website_link": {"type": "string"},
         "documentation_link": {"type": "string"},
         "source_code_link": {"type": "string"},
-        "pdf_download": {"type": "string"},
+        "pdf_download_link": {"type": "string"},
         "shields_badges": {
             "type" : "array",
             "items": {
