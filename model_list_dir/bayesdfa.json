@@ -18,6 +18,6 @@
   
   "version_number": "",
   "release_badge":"fate-ewi/bayesdfa",
-  "toolbox_drawer": ["general"],
+  "toolbox_drawers": ["general"],
   "keywords": ["Bayesian Modeling", "Time Series", "R Package"]
 }

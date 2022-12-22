@@ -19,6 +19,6 @@
   "NOAA_internal": true,
   "version_number": "2.1",
   "release_badge": "nmfs-fish-tools/YPRLEN",
-  "toolbox_drawer": ["fisheries"],  
+  "toolbox_drawers": ["fisheries"],  
   "keywords": ["Reference Points Model", "Stock Assessment Tool", "Legacy Tool", "Visualization", "Length Structured Model"]
 }

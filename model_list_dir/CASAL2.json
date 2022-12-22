@@ -18,6 +18,6 @@
   "NOAA_internal": false,
   "version_number": "2.3",
   "release_badge":"",
-  "toolbox_drawer": ["fisheries"],
+  "toolbox_drawers": ["fisheries"],
   "keywords": ["C++", "Stock Assessment Model", "Age Structured Model"]
 }

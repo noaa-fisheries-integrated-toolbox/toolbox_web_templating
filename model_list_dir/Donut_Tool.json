@@ -20,6 +20,6 @@
   
   "version_number": "",
   "release_badge": "nmfs-fish-tools/Donut_Tool", 
-  "toolbox_drawer": ["ecosystem"],
+  "toolbox_drawers": ["ecosystem"],
   "keywords": ["Guided User Interface"]
 }

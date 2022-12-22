@@ -186,9 +186,9 @@
               {% set my_string = value['tool_abbreviation']  %}
               <a class = "shortTitle" href= {{my_string}} target= "_blank"> {{value['tool_abbreviation']}} </a>
               <div class = "longTitle">{{value['tool_name']}}</div>
-              <div class = "toolbox_drawer">
+              <div class = "toolbox_drawers">
                 Toolbox drawer(s):&nbsp;
-                {% for kwd in value['toolbox_drawer']%}
+                {% for kwd in value['toolbox_drawers']%}
                   {{kwd}}&nbsp;
                 {% endfor %}
               </div>
@@ -313,7 +313,7 @@
                 box_each = box[i].getElementsByClassName("longTitle")[0];
                 box_each_abbrev = box[i].getElementsByClassName("shortTitle")[0];
                 box_each_keywords = box[i].getElementsByClassName("keywords")[0];
-                box_each_drawer = box[i].getElementsByClassName("toolbox_drawer")[0];
+                box_each_drawer = box[i].getElementsByClassName("toolbox_drawers")[0];
                 //console.log(box_each_keywords); // For Debugging 
                 txtValue = box_each.textContent + " " + box_each_abbrev.innerText + " " + box_each_keywords.innerText + " " + box_each_drawer.innerText;
                 if (txtValue.toUpperCase().indexOf(filter) > -1) {
@@ -335,7 +335,7 @@
             }
             box = document.getElementsByClassName("box");
             for (i = 0; i < box.length; i++) {
-                box_each = box[i].getElementsByClassName("toolbox_drawer")[0];
+                box_each = box[i].getElementsByClassName("toolbox_drawers")[0];
                 txtValue = box_each.textContent;
                 if (txtValue.toUpperCase().indexOf(filter) > -1) {
                     box[i].style.display = "";

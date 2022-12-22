@@ -30,6 +30,6 @@
     "active_development": true,
   "NOAA_internal": true,
   "version_number": "",
-  "toolbox_drawer": ["fisheries"], 
+  "toolbox_drawers": ["fisheries"], 
   "keywords": ["Stock Assessment Model", "Age Structured Model", "TMB", "R Package"]
 }

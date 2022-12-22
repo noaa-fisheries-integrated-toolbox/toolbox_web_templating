@@ -17,6 +17,6 @@
     "active_development": true,
   "NOAA_internal": true,
   "version_number": "0.9.0",
-  "toolbox_drawer": ["fisheries"],
+  "toolbox_drawers": ["fisheries"],
   "keywords": ["Web App"]
 }

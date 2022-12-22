@@ -19,6 +19,6 @@
   
   "version_number": "",
   "release_badge":"eeholmes/VRAP",
-  "toolbox_drawer": ["protected_species", "fisheries"], 
+  "toolbox_drawers": ["protected_species", "fisheries"], 
   "keywords": ["Risk Assessment Tool", "Simulation", "Fisheries", "R Package", "Shiny", "Web App"]
 }

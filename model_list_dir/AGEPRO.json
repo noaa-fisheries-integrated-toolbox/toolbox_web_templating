@@ -17,6 +17,6 @@
   "NOAA_internal": true,
   "version_number": "4.3.4",
 "release_badge":"PIFSCstockassessments/AGEPRO-GUI",
-"toolbox_drawer": ["fisheries"],
+"toolbox_drawers": ["fisheries"],
 "keywords": ["Stock Assessment Projections", "Age Structured Model", "Guided User Interface"]
 }

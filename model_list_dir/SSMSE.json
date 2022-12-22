@@ -26,6 +26,6 @@
   ],
   "version_number": "",
   "release_badge": "nmfs-fish-tools/SSMSE",
-  "toolbox_drawer": ["fisheries"], 
+  "toolbox_drawers": ["fisheries"], 
   "keywords": ["R Package", "Management Strategy Evaluation", "ADMB", "Risk Assessment Tool", "Decision Support Tool"]
 }

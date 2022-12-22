@@ -31,6 +31,6 @@
   "NOAA_internal": true,
   "sheild_badges":"",
   "version_number": "3.30.13",
-  "toolbox_drawer": ["fisheries"], 
+  "toolbox_drawers": ["fisheries"], 
   "keywords": ["Data Limited Method", "R Package", "Shiny", "Web App", "Guided User Interface", "Stock Assessment Model"]
 }

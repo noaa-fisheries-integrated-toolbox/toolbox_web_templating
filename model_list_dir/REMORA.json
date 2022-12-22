@@ -19,6 +19,6 @@
   "NOAA_internal": false,
   "software_badges":["https://www.repostatus.org/badges/latest/active.svg","https://img.shields.io/badge/platform-linux%20%7Cwin-lightgrey"],
   "version_number": "", 
-  "toolbox_drawer": ["ecosystem"], 
+  "toolbox_drawers": ["ecosystem"], 
   "keywords": ["Guided User Interface", "Decision Support Tool", "Projection Modeling"]
 }

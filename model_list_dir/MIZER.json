@@ -18,6 +18,6 @@
   "NOAA_internal": false,
   "version_number": "",
   "release_badge": "sizespectrum/mizer", 
-  "toolbox_drawer": ["ecosystem"], 
+  "toolbox_drawers": ["ecosystem"], 
   "keywords": ["R Package", "Multispecies Model", "Fisheries", "Size Spectra Model"]
 }

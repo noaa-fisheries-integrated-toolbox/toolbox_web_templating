@@ -17,6 +17,6 @@
   "software_badges":[ "https://img.shields.io/github/last-commit/nmfs-general-modeling-tools/FishSET-Map-Viewer.svg?style=plastic","https://www.repostatus.org/badges/latest/active.svg"],
   "version_number": "0.1.0",
   "zenodo_citation":"187419043",
-  "toolbox_drawer": ["general"], 
+  "toolbox_drawers": ["general"], 
   "keywords": ["Economics", "Guided User Interface", "Fisheries"]
 }

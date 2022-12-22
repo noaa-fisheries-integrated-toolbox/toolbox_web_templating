@@ -34,6 +34,6 @@
     "active_development": true,
   "NOAA_internal": true,
   "version_number": "1.37", 
-  "toolbox_drawer": ["ecosystem", "fisheries"], 
+  "toolbox_drawers": ["ecosystem", "fisheries"], 
   "keywords": ["Guided User Interface", "Visualization", "Simulation", "Fisheries"]
 }

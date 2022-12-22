@@ -32,6 +32,6 @@
     ""
   ],
   "release_badge": "James-Thorson-NOAA/FishLife",
-  "toolbox_drawer": ["general"], 
+  "toolbox_drawers": ["general"], 
   "keywords": ["R Package", "Fisheries", "Fish Biology", "Web App", "Shiny"]
 }

@@ -17,6 +17,6 @@
   "NOAA_internal": true,
   "version_number": "3.4.3",
   "release_badge":"nmfs-fish-tools/MSE",
-  "toolbox_drawer": ["fisheries"], 
+  "toolbox_drawers": ["fisheries"], 
   "keywords": ["Management Strategy Evaluation", "Guided User Interface", "Simulation", "Risk Assessment Tool", "Legacy Tool"]
 }

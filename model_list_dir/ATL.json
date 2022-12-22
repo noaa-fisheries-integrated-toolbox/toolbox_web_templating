@@ -24,6 +24,6 @@
   "active_development": true,
   "NOAA_internal": true,
   "version_number": "1.0.0",
-  "toolbox_drawer": ["general"],
+  "toolbox_drawers": ["general"],
   "keywords": ["Maximum Likelihood Estimation", "Model Builder", "Gradient Solver"]
 }

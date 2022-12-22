@@ -42,7 +42,7 @@
               "type": "string"
             }
         },
-        "toolbox_drawer": {
+        "toolbox_drawers": {
             "type": "array", 
             "items": {
             "type": "string"

@@ -26,6 +26,6 @@
   "NOAA_internal": true,
   "version_number": "3.4.4",
   "release_badge":"nmfs-fish-tools/VPA",
-  "toolbox_drawer": ["fisheries"], 
+  "toolbox_drawers": ["fisheries"], 
   "keywords": ["Virtual Population Analysis", "Stock Assessment Model", "Guided User Interface", "Legacy Tool"]
 }

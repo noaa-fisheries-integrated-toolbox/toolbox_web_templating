@@ -21,6 +21,6 @@
                     "https://img.shields.io/badge/lifecycle-maturing-blue.svg"],
   "version_number": "",
   "release_badge": "EmilyMarkowitz-NOAA/FishEconProdOutput",
-  "toolbox_drawer": ["human_dimensions"], 
+  "toolbox_drawers": ["human_dimensions"], 
   "keywords": ["Economics", "R Package"]
 }

@@ -17,6 +17,6 @@
   "software_badges":["https://www.repostatus.org/badges/latest/wip.svg","https://img.shields.io/github/watchers/nmfs-fish-tools/dst.svg?style=social"],
   "version_number": "",
   "release_badge":"nmfs-fish-tools/DST",
-  "toolbox_drawer": ["fisheries"], 
+  "toolbox_drawers": ["fisheries"], 
   "keywords": ["Web App", "Shiny"]
 }

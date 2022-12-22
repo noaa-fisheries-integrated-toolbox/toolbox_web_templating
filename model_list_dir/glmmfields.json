@@ -19,6 +19,6 @@
   
   "version_number": "",
   "release_badge":"",
-  "toolbox_drawer": ["general"], 
+  "toolbox_drawers": ["general"], 
   "keywords": ["Bayesian Modeling", "R Package"]
 }

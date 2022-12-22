@@ -19,6 +19,6 @@
   "NOAA_internal": true,
   "software_badges":["https://www.repostatus.org/badges/latest/active.svg","https://img.shields.io/badge/platform-linux%20%7Cwin-lightgrey"],
   "version_number": "0.9.0", 
-  "toolbox_drawer": ["ecosystem", "fisheries"], 
+  "toolbox_drawers": ["ecosystem", "fisheries"], 
   "keywords": ["Multispecies Model", "Fisheries", "Guided User Interface", "Output Visualization"]
 }

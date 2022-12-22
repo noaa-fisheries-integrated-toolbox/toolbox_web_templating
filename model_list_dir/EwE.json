@@ -20,6 +20,6 @@
   "NOAA_internal": false,
   "software_badges":["https://www.repostatus.org/badges/latest/active.svg"],
   "version_number": "6.6.1", 
-  "toolbox_drawer": ["ecosystem"], 
+  "toolbox_drawers": ["ecosystem"], 
   "keywords": ["Ecosystem"]
 }

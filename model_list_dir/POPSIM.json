@@ -16,6 +16,6 @@
   "NOAA_internal": true,
   "version_number": "7.5.0",
 "release_badge":"nmfs-fish-tools/POPSIM",
-"toolbox_drawer": ["fisheries"], 
+"toolbox_drawers": ["fisheries"], 
 "keywords": ["Simulation", "Guided User Interface", "Legacy Tool"]
 }

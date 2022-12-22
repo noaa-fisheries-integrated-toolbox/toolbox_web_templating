@@ -22,6 +22,6 @@
   
   "software_badges": ["https://www.repostatus.org/badges/latest/active.svg", "https://github.com/nmfs-fish-tools/ghBackup/actions/workflows/call-r-cmd-check.yml/badge.svg"],
   "version_number": "",
-  "toolbox_drawer": ["general"], 
+  "toolbox_drawers": ["general"], 
   "keywords": ["R Package", "Developer Utilities"]
 }

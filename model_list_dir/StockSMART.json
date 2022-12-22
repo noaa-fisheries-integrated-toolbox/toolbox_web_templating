@@ -19,6 +19,6 @@
   "NOAA_internal": true,
   "sheild_badges":"",
   "version_number": "1.0.0",
-  "toolbox_drawer": ["fisheries"], 
+  "toolbox_drawers": ["fisheries"], 
   "keywords": ["Web App", "Data Visualization"]
 }

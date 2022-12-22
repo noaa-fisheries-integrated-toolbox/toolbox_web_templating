@@ -30,6 +30,6 @@
     "active_development": true,
   "NOAA_internal": true,
   "version_number": "0.9.0", 
-  "toolbox_drawer": ["ecosystem",  "fisheries"], 
+  "toolbox_drawers": ["ecosystem",  "fisheries"], 
   "keywords": ["Multispecies Model", "Virtual Population Analysis", "Guided User Interface"]
 }
