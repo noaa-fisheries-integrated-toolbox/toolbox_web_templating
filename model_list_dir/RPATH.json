@@ -12,7 +12,7 @@
   "download_app_link": "",
   "code_repository_link": "https://github.com/NOAA-EDAB/Rpath",
   "model_abbrev": "RPATH",
-  "model_name": "R implementation of the Ecopath with Ecosim",
+  "tool_name": "R implementation of the Ecopath with Ecosim",
   "website_link": "https://noaa-edab.github.io/Rpath/",
   "online_app_link": "",
   "pdf_download": "",

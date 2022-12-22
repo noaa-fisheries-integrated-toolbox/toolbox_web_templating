@@ -6,7 +6,7 @@
   "download_app_link": "https://github.com/nmfs-fish-tools/DCAC/releases/download/2.1.1/DCACV211.zip",
   "fit_repo": "https://github.com/nmfs-fish-tools/DCAC.git",
   "model_abbrev": "DCAC",
-  "model_name": "Depletion-Corrected Average Catch",
+  "tool_name": "Depletion-Corrected Average Catch",
   "online_app_link": "",
   "pdf_download": "",
   "references": [

@@ -6,7 +6,7 @@
   "download_app_link": "https://github.com/nmfs-fish-tools/AIM/releases/download/2.5/AIMV25.zip",
   "fit_repo": "https://github.com/nmfs-fish-tools/AIM",
   "model_abbrev": "AIM",
-  "model_name": "An Index Method",
+  "tool_name": "An Index Method",
   "online_app_link": "",
   "pdf_download": "",
   "references": [],

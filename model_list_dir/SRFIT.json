@@ -7,7 +7,7 @@
   "download_app_link": "https://github.com/nmfs-fish-tools/SRFIT/releases/download/7.0.1/SRFITV70.zip",
   "fit_repo": "https://github.com/nmfs-fish-tools/SRFIT.git",
   "model_abbrev": "SRFIT",
-  "model_name": "Stock Recruitment Fitting Model",
+  "tool_name": "Stock Recruitment Fitting Model",
   
   "online_app_link": "",
   "pdf_download": "",

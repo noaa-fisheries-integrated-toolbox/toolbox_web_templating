@@ -6,7 +6,7 @@
   "download_app_link": "https://github.com/nmfs-fish-tools/IRATE/releases/download/2.0.0/IRATEV2.zip",
   "fit_repo": "https://github.com/nmfs-fish-tools/IRATE.git",
   "model_abbrev": "IRATE",
-  "model_name": "Instantaneous Rates",
+  "tool_name": "Instantaneous Rates",
   
   "online_app_link": "",
   "pdf_download": "",

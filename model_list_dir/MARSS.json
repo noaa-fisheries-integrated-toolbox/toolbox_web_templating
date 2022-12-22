@@ -7,7 +7,7 @@
   "download_app_link": "",
   "code_repository_link": "https://github.com/nwfsc-timeseries/MARSS",
   "model_abbrev": "MARSS",
-  "model_name": "Multivariate Autoregressive State-Space Modeling with R",
+  "tool_name": "Multivariate Autoregressive State-Space Modeling with R",
   
   "website_link":"https://nwfsc-timeseries.github.io/MARSS/",
   "online_app_link": "",

@@ -9,7 +9,7 @@
   "contact": "fisheries.toolbox@noaa.gov",
   "model_abbrev": "nmfspalette",
   "website_link": "https://nmfs-fish-tools.github.io/nmfspalette/",
-  "model_name": "nmfspalette",
+  "tool_name": "nmfspalette",
   
   "online_app_link": "",
   "pdf_download": "",

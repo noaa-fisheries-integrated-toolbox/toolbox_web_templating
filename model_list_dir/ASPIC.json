@@ -6,7 +6,7 @@
   "download_app_link": "https://github.com/nmfs-fish-tools/ASPIC/releases/download/5.34.6/ASPIC534.zip",
   "fit_repo": "https://github.com/nmfs-fish-tools/ASPIC.git",
   "model_abbrev": "ASPIC",
-  "model_name": "A Stock Production Model Incorporating Covariates",
+  "tool_name": "A Stock Production Model Incorporating Covariates",
   "website_link": "https://www.mhprager.com/aspic.html",
   "online_app_link": "",
   "pdf_download": "",

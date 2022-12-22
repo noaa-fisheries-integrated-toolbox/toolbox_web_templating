@@ -10,7 +10,7 @@
   "download_app_link": "",
   "code_repository_link": "https://github.com/nmfs-fish-tools/ghBackup",
   "model_abbrev": "ghBackup",
-  "model_name": "ghBackup",
+  "tool_name": "ghBackup",
   
   "website_link": "https://nmfs-fish-tools.github.io/ghBackup/",
   "online_app_link": "",

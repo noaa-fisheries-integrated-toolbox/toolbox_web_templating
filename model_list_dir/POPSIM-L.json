@@ -7,7 +7,7 @@
   "fit_repo": "https://github.com/nmfs-fish-tools/POPSIM-L.git",
   "website_link": "",
   "model_abbrev": "POPSIM-L",
-  "model_name": "Length Population Simulator",
+  "tool_name": "Length Population Simulator",
   "online_app_link": "",
   "pdf_download": "",
   "references": [],

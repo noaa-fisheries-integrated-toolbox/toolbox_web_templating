@@ -8,7 +8,7 @@
   "download_app_link": "https://github.com/nmfs-fish-tools/MSCAA/releases",
   "code_repository_link": "https://github.com/nmfs-fish-tools/MSCAA",
   "model_abbrev": "MSCAA",
-  "model_name": "Multi-Species Statistical Catch-At-Age",
+  "tool_name": "Multi-Species Statistical Catch-At-Age",
   
   "online_app_link": "",
   "pdf_download": "",

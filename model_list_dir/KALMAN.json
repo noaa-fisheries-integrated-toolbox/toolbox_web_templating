@@ -7,7 +7,7 @@
   "fit_repo": "https://github.com/nmfs-fish-tools/KALMAN.git",
   "website_link": "",
   "model_abbrev": "KALMAN",
-  "model_name": "Kalman Filter",
+  "tool_name": "Kalman Filter",
   
   "online_app_link": "",
   "pdf_download": "",

@@ -2,11 +2,10 @@
     "type": "object", 
     "properties": {
         "active_development": {"type": "boolean"},
-        "NOAA_internal": {"type": "boolean"}, 
-        
-        "model_name": {"type": "string"},
+        "tool_name": {"type": "string"},
         "model_abbrev": {"type": "string"},
         "author_name": {"type": "string"},
+        "noaa_internal": {"type": "boolean"}, 
         "contact": {"type": "string"},
         "background_text": {"type": "string"},
         "citation": {"type": "string"},

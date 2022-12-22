@@ -7,7 +7,7 @@
   "download_app_link": "https://github.com/nmfs-fish-tools/VPA/releases/download/3.4.4/VPAV34.zip",
   "fit_repo": "https://github.com/nmfs-fish-tools/VPA.git",
   "model_abbrev": "VPA",
-  "model_name": "Virtual Population Analysis",
+  "tool_name": "Virtual Population Analysis",
   "online_app_link": "",
   "pdf_download": "",
   "references": [

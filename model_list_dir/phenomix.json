@@ -7,7 +7,7 @@
   "download_app_link": "",
   "code_repository_link": "https://github.com/ericward-noaa/phenomix",
   "model_abbrev": "phenomix",
-  "model_name": "phenomix",
+  "tool_name": "phenomix",
   
   "website_link":"https://ericward-noaa.github.io/phenomix/",
   "online_app_link": "",

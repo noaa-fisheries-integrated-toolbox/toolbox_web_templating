@@ -9,7 +9,7 @@
   "code_repository_link": "https://github.com/EmilyMarkowitz-NOAA/FishEconProdOutput",
   "model_abbrev": "FishEconProdOutput",
   "website_link":"https://emilymarkowitz-noaa.github.io/FishEconProdOutput",
-  "model_name": "Price Method Fisheries Economics Total Factor Productivity Outputs for the U.S. Fisheries",
+  "tool_name": "Price Method Fisheries Economics Total Factor Productivity Outputs for the U.S. Fisheries",
   "online_app_link": "",
   "pdf_download": "",
   "references": ["Wang, Sun Ling., John B. Walden, and Emily H. Markowitz. 2021. Measuring Output, Inputs, and Total Factor Productivity for the U.S. Commercial Fishery: A Proposal. NOAA Tech. Memo. NMFS-F/SPO-217, 14 p. https://spo.nmfs.noaa.gov/sites/default/files/TM217.pdf"],

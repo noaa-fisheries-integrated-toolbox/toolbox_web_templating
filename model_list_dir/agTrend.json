@@ -8,7 +8,7 @@
   "code_repository_link": "https://github.com/dsjohnson/agTrend.gam",
   "website_link": "https://nmfs-fish-tools.github.io/agTrend/",
   "model_abbrev": "agTrend",
-  "model_name": "A Bayesian approach for estimating trends of aggregated abundance",
+  "tool_name": "A Bayesian approach for estimating trends of aggregated abundance",
   "online_app_link": "",
   "pdf_download": "",
   "references": [],
