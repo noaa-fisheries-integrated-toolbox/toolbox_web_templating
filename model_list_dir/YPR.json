@@ -8,7 +8,6 @@
   "source_code_link": "",
   "tool_abbreviation": "YPR",
   "tool_name": "Yield Per Recruit",
-  
   "online_app_link": "",
   "pdf_download_link": "",
   "references": [
@@ -16,9 +15,10 @@
     "Thompson, W.F. and F.H Bell. 1934. Biological statistics of the Pacific halibut fishery. (2) Effects of changes in intensity upon total yield and yield per unit of gear. International Fisheries Commission Report, No. 8, 1934."
   ],
   "software_badges":["https://www.repostatus.org/badges/latest/inactive.svg"],
-    "active_development": false,
+  "active_development": false,
   "NOAA_internal": true,
   "static_version_number": "3.3",
+  "uses_github_releases": false,
   "release_badge":"nmfs-fish-tools/YPR",
   "toolbox_drawers": ["fisheries"], 
   "keywords": ["Reference Points Model", "Stock Assessment Tool", "Legacy Tool", "Visualization"]

@@ -25,6 +25,7 @@
     "https://img.shields.io/github/watchers/nmfs-fish-tools/ssmse.svg?style=social"
   ],
   "static_version_number": "",
+  "uses_github_releases": true,
   "release_badge": "nmfs-fish-tools/SSMSE",
   "toolbox_drawers": ["fisheries"], 
   "keywords": ["R Package", "Management Strategy Evaluation", "ADMB", "Risk Assessment Tool", "Decision Support Tool"]

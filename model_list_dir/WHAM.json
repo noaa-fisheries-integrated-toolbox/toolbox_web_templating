@@ -9,7 +9,6 @@
   ],
   "authors": "Tim Miller and Brian Stock",
   "background_text": "A state-space age-structured assessment model that can include state-space covariate models and effects on recruitment and internal estimation of biological reference points. See the vignettes provided with the package for example applications.",
-
   "documentation_link": "",
   "executable_link": "",
   "source_code_link": "https://github.com/timjmiller/wham",
@@ -30,6 +29,7 @@
     "active_development": true,
   "NOAA_internal": true,
   "static_version_number": "",
+  "uses_github_releases": true,
   "toolbox_drawers": ["fisheries"], 
   "keywords": ["Stock Assessment Model", "Age Structured Model", "TMB", "R Package"]
 }
