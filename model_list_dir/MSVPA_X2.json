@@ -5,7 +5,7 @@
 
   "maintainer_email": "ron.klaskey@noaa.gov",
   "documentation_link": "https://github.com/nmfs-fish-tools/MSVPA_X2/blob/master/docs/QuickStart_Guide_MSVPA_X2.pdf",
-  "download_app_link": "https://github.com/nmfs-fish-tools/MSVPA_X2/releases",
+  "executable_link": "https://github.com/nmfs-fish-tools/MSVPA_X2/releases",
   "code_repository_link": "https://github.com/nmfs-fish-tools/MSVPA_X2",
   "tool_abbreviation": "MSVPA_X2",
   "website_link": "",

@@ -13,7 +13,7 @@
     "Rudd, M.B., Thorson, J.T., Sagarese, S.R., 2019. Ensemble models for data-poor assessment: accounting for uncertainty in life-history information. ICES J. Mar. Sci. 76, 870–883. https://doi.org/10.1093/icesjms/fsz012"
   ],
   "online_app_link": "https://james-thorson.shinyapps.io/FishLife/",
-  "download_app_link": "",
+  "executable_link": "",
   "code_repository_link": "https://github.com/James-Thorson-NOAA/FishLife",
   "version_number": "2.0.0",
   "pdf_download": "",

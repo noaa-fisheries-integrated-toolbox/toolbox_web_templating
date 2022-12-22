@@ -4,7 +4,7 @@
   "background_text": "The Viability and Risk Assessment Procedure (VRAP) model was adapted from the Risk Assessment Procedure (RAP) original developed by Jim Scott (WDFW) and Bob Hayman (Skagit Coop) in the 1990’s. The original purpose of the model was to assess the impact of various harvest rates on salmon populations based on the variance in returns and in management precision, including a harvest rate scale based on size of the returns. The model was based on the assumption of density dependence in recruits per spawner and introduced stochasticity in the estimates with variance estimates around the fit of the data to the predicted spawner-recruit curve and in management error. The model has since been expanded to assess the level of productivity and capacity (the two parameters of density dependent spawner recruit functions) needed to sustain a viable population given a level of desired harvest and the estimated variance in returns and management precision.",
 
   "documentation_link": "",
-  "download_app_link":"",
+  "executable_link":"",
   "code_repository_link": "https://github.com/eeholmes/VRAP",
   "tool_abbreviation": "VRAP",
   "tool_name": "Viability and Risk Assessment Procedure",

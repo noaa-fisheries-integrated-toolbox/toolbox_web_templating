@@ -11,7 +11,7 @@
   "background_text": "A state-space age-structured assessment model that can include state-space covariate models and effects on recruitment and internal estimation of biological reference points. See the vignettes provided with the package for example applications.",
 
   "documentation_link": "",
-  "download_app_link": "",
+  "executable_link": "",
   "code_repository_link": "https://github.com/timjmiller/wham",
   "tool_abbreviation": "WHAM",
   "website_link": "https://timjmiller.github.io/wham",

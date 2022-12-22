@@ -3,7 +3,7 @@
   "authors": "",
   "background_text": "This tool allows the display of various data on a map, built specifically for fishing data wherein thir is a location to thte start and end of a fishing haul.  Data associated to an individaul haul is shown on the map and colored based on the value of a choosen variable associated to that data.  The data is also spatially grouped based on the users choice of grid.",
   "documentation_link": "http://www.admb-project.org/docs/manuals/",
-  "download_app_link": "http://www.admb-project.org/downloads/",
+  "executable_link": "http://www.admb-project.org/downloads/",
   "website_link": "http://www.admb-project.org",
   "code_repository_link": "https://github.com/admb-project/admb",
   "tool_abbreviation": "ADMB",

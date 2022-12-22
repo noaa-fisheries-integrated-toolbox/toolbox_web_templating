@@ -9,7 +9,7 @@
 
   "citation":["Whitehouse, G. A., and K. Y. Aydin. 2020. Assessing the sensitivity of three Alaska marine food webs to perturbations: an example of Ecosim simulations using Rpath. Ecological Modelling 429. https://doi.org/10.1016/j.ecolmodel.2020.109074", "Lucey, SM, KY Aydin, SK Gaichas, SX Cadrin, G Fay, MJ Fogarty, and A Punt. 2020. Evaluating fishery management strategies using an ecosystem model as an operating model. Fisheries Research doi: https://doi.org/10.1016/j.fishres.2020.105780"],
   "documentation_link": "https://github.com/NOAA-EDAB/Rpath/wiki",
-  "download_app_link": "",
+  "executable_link": "",
   "code_repository_link": "https://github.com/NOAA-EDAB/Rpath",
   "tool_abbreviation": "RPATH",
   "tool_name": "R implementation of the Ecopath with Ecosim",

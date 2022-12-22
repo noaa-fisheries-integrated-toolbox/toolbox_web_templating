@@ -51,7 +51,7 @@ JSON data can be (partially) validated using [schema](https://json-schema.org/un
   "maintainer_email": "fisheries.toolbox@noaa.gov", //**Email for main contact. Please put a noaa.gov email address that someone will check.
   //Note: At least one of the 5 following links need to be filled out for your tool to be found. Please fill in as many as apply.
   "online_app_link": "", //IF THERE IS A SHINY APP OR OTHER ONLINE APP, PUT LINK HERE OTHERWISE LEAVE AS EMPTY QUOTES, no spaces.
-  "download_app_link": "", //**LINK TO DOWNLOAD APPLICATION IF EXE exists. Please leave blank if there is not an compiled exe distributed.
+  "executable_link": "", //**LINK TO DOWNLOAD APPLICATION IF EXE exists. Please leave blank if there is not an compiled exe distributed.
   "website_link": "", //**link to the website, if it exists; otherwise, leave blank.
   "documentation_link": "", //**LINK TO EXTERNAL DOCUMENTATION. Not necessary if it is the same as the website_link or code_repository_link.
   "code_repository_link": "", //LINK TO GITHUB CODE REPO
@@ -65,5 +65,5 @@ JSON data can be (partially) validated using [schema](https://json-schema.org/un
   "version_number": "",//** add version number only if it is not linked to a release_badge above
   "toolbox_drawer": ["fisheries", "general"], //** options are: "fisheries", "ecosystem", "human_dimensions", "protected_species", and "general"*. Put all that apply to the tool.
   "keywords": ["Economics", "R", "Web App"], //**keywords to sort through tools.,
-  "user_groups": ["SEFSC", "NWFSC", "SWFSC"] //operational users of the tool
+  "user_organizations": ["SEFSC", "NWFSC", "SWFSC"] //operational users of the tool
 ```

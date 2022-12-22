@@ -22,7 +22,7 @@
 
   "maintainer_email":"nmfs.stock.synthesis@noaa.gov",
   "documentation_link": "https://github.com/nmfs-stock-synthesis/doc/releases",
-  "download_app_link": "https://github.com/nmfs-stock-synthesis/stock-synthesis/releases",
+  "executable_link": "https://github.com/nmfs-stock-synthesis/stock-synthesis/releases",
   "website_link":"https://vlab.noaa.gov/web/stock-synthesis",
   "code_repository_link": "https://github.com/nmfs-stock-synthesis/stock-synthesis",
   "tool_abbreviation": "SS3",

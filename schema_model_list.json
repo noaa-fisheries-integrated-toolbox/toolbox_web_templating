@@ -14,12 +14,6 @@
             "type": "array", 
             "items": {"type": "string"}
         },
-        "user_groups": {
-            "type": "array", 
-            "items": {
-            "type": "string"
-            }
-        },
         "associated_tools":{
             "type": "array", 
             "items": {
@@ -30,8 +24,14 @@
                }
             }
         },
+        "user_organizations": {
+            "type": "array", 
+            "items": {
+            "type": "string"
+            }
+        },
         "online_app_link": {"type": "string"},
-        "download_app_link": {"type": "string"},
+        "executable_link": {"type": "string"},
         "website_link": {"type": "string"},
         "documentation_link": {"type": "string"},
         "code_repository_link": {"type": "string"},

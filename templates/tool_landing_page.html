@@ -34,8 +34,8 @@
                 </button>
               {% endif%}
 
-              {% if download_app_link is defined and download_app_link|length %}
-              <button class = "codelink" title="link to download application" onclick=" window.open('{{download_app_link}}', '_blank'); return false;">
+              {% if executable_link is defined and executable_link|length %}
+              <button class = "codelink" title="link to download application" onclick=" window.open('{{executable_link}}', '_blank'); return false;">
                 Download Application
                 </button>
               {% else %}

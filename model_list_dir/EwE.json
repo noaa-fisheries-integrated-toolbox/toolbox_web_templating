@@ -5,7 +5,7 @@
 
   "maintainer_email":"ecopath.international@gmail.com ",
   "documentation_link": "http://sources.ecopath.org/trac/Ecopath/wiki/UsersGuide",
-  "download_app_link": "https://ecopath.org/downloads/",
+  "executable_link": "https://ecopath.org/downloads/",
   "code_repository_link": "http://sources.ecopath.org/trac/Ecopath",
   "tool_abbreviation": "EwE",
   "tool_name": "Ecopath with Ecosim",

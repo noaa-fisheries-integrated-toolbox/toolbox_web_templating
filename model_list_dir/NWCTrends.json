@@ -4,7 +4,7 @@
   "background_text": "NWCTrends runs the standardized trends metrics used in the 2015 and 2020 5-year NWFSC PNW Salmonid Viability Report which support the 5-year Status Reviews prepared by WRO.",
 
   "documentation_link": "https://nwfsc-math-bio.github.io/NWCTrends/reference/index.html",
-  "download_app_link": "",
+  "executable_link": "",
   "code_repository_link": "https://github.com/nwfsc-math-bio/NWCTrends",
   "tool_abbreviation": "NWCTrends",
   "tool_name": "Standardized trends metrics in 2015 5-year Status Review Update for listed PNW salmonids",

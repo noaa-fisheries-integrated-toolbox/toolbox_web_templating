@@ -5,7 +5,7 @@
 
   "maintainer_email":"melissa.karp@noaa.gov",
   "documentation_link": "",
-  "download_app_link": "",
+  "executable_link": "",
   "code_repository_link": "https://github.com/nmfs-fish-tools/DisMAP",
   "tool_abbreviation": "DisMAP",
   "tool_name": "The Distribution Mapping and Analysis Portal",

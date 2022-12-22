@@ -218,8 +218,8 @@
                  <button class = "icon_small online" disabled></button>
                 {% endif %}
                 <!-- executable button -->
-                {% if value['download_app_link'] is defined and value['download_app_link']|length %}
-                 <button class = "icon_small down" onclick="location.href='{{value.download_app_link}}';" value="download app" ></button>
+                {% if value['executable_link'] is defined and value['executable_link']|length %}
+                 <button class = "icon_small down" onclick="location.href='{{value.executable_link}}';" value="download app" ></button>
                 {% else %}
                   <button class = "icon_small down" disabled></button>
                 {% endif %}

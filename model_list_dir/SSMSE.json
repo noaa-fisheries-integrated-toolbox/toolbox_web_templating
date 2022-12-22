@@ -10,7 +10,7 @@
 
   "maintainer_email": "fisheries.toolbox@noaa.gov",
   "documentation_link": "https://nmfs-fish-tools.github.io/SSMSE/manual",
-  "download_app_link": "",
+  "executable_link": "",
   "code_repository_link": "https://github.com/nmfs-fish-tools/SSMSE",
   "website_link": "https://nmfs-fish-tools.github.io/SSMSE",
   "tool_abbreviation": "SSMSE",

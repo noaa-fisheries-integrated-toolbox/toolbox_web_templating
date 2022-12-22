@@ -6,7 +6,7 @@
   "maintainer_email":"Beth.Fulton@csiro.au",
   "citation":["https://research.csiro.au/atlantis/home/useful-references/"],
   "documentation_link": "https://research.csiro.au/atlantis/home/links/",
-  "download_app_link": "https://research.csiro.au/atlantis/home/links/",
+  "executable_link": "https://research.csiro.au/atlantis/home/links/",
   "tool_abbreviation": "Atlantis",
   "tool_name": "Atlantis",
   "website_link":"https://research.csiro.au/atlantis",
