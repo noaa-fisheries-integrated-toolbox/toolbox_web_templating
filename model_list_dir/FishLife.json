@@ -15,7 +15,7 @@
   "online_app_link": "https://james-thorson.shinyapps.io/FishLife/",
   "executable_link": "",
   "source_code_link": "https://github.com/James-Thorson-NOAA/FishLife",
-  "version_number": "2.0.0",
+  "static_version_number": "2.0.0",
   "pdf_download_link": "",
 
     "active_development": true,

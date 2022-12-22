@@ -14,7 +14,7 @@
   "references": [],
   "software_badges":["https://www.repostatus.org/badges/latest/inactive.svg"],
   "supprt_level": "internal_inactive",
-  "version_number": "1.6.1",
+  "static_version_number": "1.6.1",
   "release_badge":"nmfs-fish-tools/VRD",
   "toolbox_drawers": ["fisheries"], 
   "keywords": ["Guided User Interface", "User Utilities", "Legacy Tool"]

@@ -17,7 +17,7 @@
     "active_development": true,
   "NOAA_internal": false,
   "software_badges":["https://www.repostatus.org/badges/latest/active.svg"],
-  "version_number": "",
+  "static_version_number": "",
   "release_badge": "ericward-noaa/phenomix",
   "toolbox_drawers": ["protected_species", "fisheries"],
   "keywords": ["Salmon", "Time Series", "Fisheries"]

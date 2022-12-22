@@ -19,7 +19,7 @@
   "software_badges": ["https://img.shields.io/github/last-commit/EmilyMarkowitz-NOAA/FishEconProdOutput.svg", 
                     "https://img.shields.io/badge/devel%20version-0.1.1-blue.svg", 
                     "https://img.shields.io/badge/lifecycle-maturing-blue.svg"],
-  "version_number": "",
+  "static_version_number": "",
   "release_badge": "EmilyMarkowitz-NOAA/FishEconProdOutput",
   "toolbox_drawers": ["human_dimensions"], 
   "keywords": ["Economics", "R Package"]

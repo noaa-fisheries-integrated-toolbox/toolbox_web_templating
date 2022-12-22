@@ -13,7 +13,7 @@
   "software_badges":["https://www.repostatus.org/badges/latest/inactive.svg"],
   "active_development": false,
   "NOAA_internal": true, 
-  "version_number": "3.05",
+  "static_version_number": "3.05",
   "release_badge":"nmfs-fish-tools/2BOX",
   "toolbox_drawers": ["fisheries"], 
   "keywords": ["Legacy Tool", "Virtual Population Analysis", "Stock Assessment Model"]

@@ -16,7 +16,7 @@
   "software_badges":["https://www.repostatus.org/badges/latest/inactive.svg"],
     "active_development": false,
   "NOAA_internal": true,
-  "version_number": "2.0.0",
+  "static_version_number": "2.0.0",
   "release_badge":"nmfs-fish-tools/RIVARD",
   "toolbox_drawers": ["fisheries"], 
   "keywords": ["Calculator", "User Utilities", "Guided User Interface", "Legacy Tool"]

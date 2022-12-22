@@ -16,7 +16,7 @@
     "active_development": true,
   "NOAA_internal": false,
   "software_badges": [],
-  "version_number": "",
+  "static_version_number": "",
   "release_badge": "",
   "toolbox_drawers": ["human_dimensions", "fisheries"], 
   "keywords": ["Economics", "North Pacific", "Fisheries"]

@@ -16,7 +16,7 @@
   "software_badges":["https://www.repostatus.org/badges/latest/active.svg"],
     "active_development": true,
   "NOAA_internal": false,
-  "version_number": "2.3",
+  "static_version_number": "2.3",
   "release_badge":"",
   "toolbox_drawers": ["fisheries"],
   "keywords": ["C++", "Stock Assessment Model", "Age Structured Model"]

@@ -15,7 +15,7 @@
   "software_badges":["https://www.repostatus.org/badges/latest/active.svg"],
   "active_development": true,
   "NOAA_internal": true,
-  "version_number": "4.3.4",
+  "static_version_number": "4.3.4",
 "release_badge":"PIFSCstockassessments/AGEPRO-GUI",
 "toolbox_drawers": ["fisheries"],
 "keywords": ["Stock Assessment Projections", "Age Structured Model", "Guided User Interface"]

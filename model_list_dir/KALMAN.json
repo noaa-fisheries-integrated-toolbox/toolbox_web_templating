@@ -17,7 +17,7 @@
   "software_badges":["https://www.repostatus.org/badges/latest/inactive.svg"],
     "active_development": false,
   "NOAA_internal": true,
-  "version_number": "2.3",
+  "static_version_number": "2.3",
   "release_badge":"nmfs-fish-tools/KALMAN",
   "toolbox_drawers": ["general"], 
   "keywords": ["Time Series", "Guided User Interface", "Legacy Tool"]

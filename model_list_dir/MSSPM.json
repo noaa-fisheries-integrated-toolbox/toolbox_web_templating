@@ -21,7 +21,7 @@
     "active_development": true,
   "NOAA_internal": true,
   
-  "version_number": "0.9.0", 
+  "static_version_number": "0.9.0", 
   "toolbox_drawers": ["ecosystem", "fisheries"],
   "keywords": ["Surplus Production Model", "Multispecies Model", "Guided User Interface"] 
 

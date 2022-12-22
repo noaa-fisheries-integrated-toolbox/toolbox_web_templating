@@ -22,7 +22,7 @@
     "active_development": true,
   "NOAA_internal": true,
   
-  "version_number": "0.1.2",
+  "static_version_number": "0.1.2",
   "release_badge": "", 
   "toolbox_drawers": ["ecosystem", "fisheries"], 
   "keywords": ["R Package", "Multispecies Model", "Ecosystem", "Fisheries"]

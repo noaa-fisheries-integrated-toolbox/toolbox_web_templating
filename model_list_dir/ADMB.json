@@ -14,7 +14,7 @@
   "active_development": true,
   "NOAA_internal": false,
   "shield_badges":[ ],
-  "version_number": "",
+  "static_version_number": "",
   "toolbox_drawers": ["general", "fisheries"],
   "keywords": ["Bayesian Modeling", "Maximum Likelihood Estimation", "Model Builder", "Gradient Solver"]
 }

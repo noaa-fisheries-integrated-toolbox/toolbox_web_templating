@@ -24,7 +24,7 @@
     "https://www.repostatus.org/badges/latest/active.svg",
     "https://img.shields.io/github/watchers/nmfs-fish-tools/ssmse.svg?style=social"
   ],
-  "version_number": "",
+  "static_version_number": "",
   "release_badge": "nmfs-fish-tools/SSMSE",
   "toolbox_drawers": ["fisheries"], 
   "keywords": ["R Package", "Management Strategy Evaluation", "ADMB", "Risk Assessment Tool", "Decision Support Tool"]

@@ -18,7 +18,7 @@
     "active_development": true,
   "NOAA_internal": true,
   "software_badges":["https://www.repostatus.org/badges/latest/active.svg"],
-  "version_number": "",
+  "static_version_number": "",
   "toolbox_drawers": ["protected_species", "fisheries"],
   "keywords": ["Bycatch", "R Package", "Shiny", "Guided User Interface"]
 }

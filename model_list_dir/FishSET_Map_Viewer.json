@@ -15,7 +15,7 @@
     "active_development": true,
   "NOAA_internal": true,
   "software_badges":[ "https://img.shields.io/github/last-commit/nmfs-general-modeling-tools/FishSET-Map-Viewer.svg?style=plastic","https://www.repostatus.org/badges/latest/active.svg"],
-  "version_number": "0.1.0",
+  "static_version_number": "0.1.0",
   "zenodo_citation":"187419043",
   "toolbox_drawers": ["general"], 
   "keywords": ["Economics", "Guided User Interface", "Fisheries"]

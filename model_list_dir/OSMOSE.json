@@ -20,7 +20,7 @@
     "active_development": true,
   "NOAA_internal": false,
   "software_badges":["https://www.repostatus.org/badges/latest/active.svg"],
-  "version_number": "", 
+  "static_version_number": "", 
   "toolbox_drawers": ["ecosystem", "fisheries"], 
   "keywords": ["Simulation", "Individual Based Model", "Spatial Model"]
 }

@@ -17,7 +17,7 @@
     "active_development": true,
   "NOAA_internal": false,
   "software_badges":["https://www.repostatus.org/badges/latest/active.svg"],
-  "version_number": "",
+  "static_version_number": "",
   "toolbox_drawers": ["general", "protected_species"], 
   "keywords":["Time Series", "R Package"]
 }

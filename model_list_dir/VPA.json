@@ -24,7 +24,7 @@
   "software_badges":["https://www.repostatus.org/badges/latest/inactive.svg"],
     "active_development": false,
   "NOAA_internal": true,
-  "version_number": "3.4.4",
+  "static_version_number": "3.4.4",
   "release_badge":"nmfs-fish-tools/VPA",
   "toolbox_drawers": ["fisheries"], 
   "keywords": ["Virtual Population Analysis", "Stock Assessment Model", "Guided User Interface", "Legacy Tool"]
