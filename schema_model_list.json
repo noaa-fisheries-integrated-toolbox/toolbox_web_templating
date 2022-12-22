@@ -56,7 +56,6 @@
         },
         "uses_github_releases": {"type":"boolean"},
         "static_version_number": {"type": "string"},
-        //to deprecate:
         "release_badge": {"type": "string"}
     }
 }
