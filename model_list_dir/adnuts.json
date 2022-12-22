@@ -1,7 +1,7 @@
 {
   "associated_tools": [{"name":"ADMB","link":"http://www.admb-project.org/"}
   ],
-  "author_name": "Cole Monnahan",
+  "authors": "Cole Monnahan",
   "background_text": "The aim of ‘adnuts’ (pronounced A-D NUTS like A-D MB) is to provide advanced MCMC sampling for ‘ADMB’ and ‘TMB’ models. It mimics ‘Stan’ in functionality and feel, specifically providing no-U-turn (NUTS) sampling with adaptive mass matrix and parallel execution.",
   "documentation_link": "https://cloud.r-project.org/web/packages/adnuts/adnuts.pdf",
   "download_app_link": "",

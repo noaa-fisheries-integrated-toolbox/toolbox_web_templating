@@ -1,6 +1,6 @@
 {
   "associated_tools": [],
-  "author_name": "Eric Ward",
+  "authors": "Eric Ward",
   "background_text": "The atsar R package implements Bayesian time series models using Stan, primarily for illustrative purposes and teaching.",
 
   "documentation_link": "https://atsa-es.github.io/atsar/#documentation",

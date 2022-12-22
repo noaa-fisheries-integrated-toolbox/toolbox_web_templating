@@ -1,6 +1,6 @@
 {
   "associated_tools": [],
-  "author_name": "Klasky, R., Townsend, H., and J. Link",
+  "authors": "Klasky, R., Townsend, H., and J. Link",
   "background_text": "This is a prey preference and diet composition tool based upon a rank proportion algorithm. The user is able to designate various prey species for various predator species to predict the prey preference and diet composition of each predator.",
 
   "documentation_link": "https://github.com/nmfs-fish-tools/Donut_Tool/blob/master/docs/QuickStart_Guide_Donut_Tool.pdf",

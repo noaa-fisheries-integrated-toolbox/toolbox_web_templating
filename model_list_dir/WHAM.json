@@ -7,7 +7,7 @@
       "name": "Template Model Builder, Kristensen, K., Nielsen, A., Berg, C. W., Skaug, H., and Bell, B. M. 2016. TMB: Automatic differentiation and Laplace approximation. Journal of Statistical Software 70(5): 1–21."
     }
   ],
-  "author_name": "Tim Miller and Brian Stock",
+  "authors": "Tim Miller and Brian Stock",
   "background_text": "A state-space age-structured assessment model that can include state-space covariate models and effects on recruitment and internal estimation of biological reference points. See the vignettes provided with the package for example applications.",
 
   "documentation_link": "",

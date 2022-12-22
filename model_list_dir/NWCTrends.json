@@ -1,6 +1,6 @@
 {
   "associated_tools": [],
-  "author_name": "E.E. Holmes",
+  "authors": "E.E. Holmes",
   "background_text": "NWCTrends runs the standardized trends metrics used in the 2015 and 2020 5-year NWFSC PNW Salmonid Viability Report which support the 5-year Status Reviews prepared by WRO.",
 
   "documentation_link": "https://nwfsc-math-bio.github.io/NWCTrends/reference/index.html",

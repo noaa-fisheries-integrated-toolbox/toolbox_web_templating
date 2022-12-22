@@ -13,10 +13,10 @@
       "link":"https://github.com/ss3sim/ss3sim"
     }
   ],
-  "author_name": "J. Cope",
+  "authors": "J. Cope",
   "background_text": "The SS-DL tool uses Stock Synthesis to implement several common data-limited assessment methods all in one modelling framework. Under a unified modelling framework, additional data can be added as it becomes available. The tool builds Stock Synthesis files for provided data and life history information. It produces plots and tables for each model run via the r4ss package, as well as additional screen output for easy interpretation and provide a variety of additional applications to diagnose and explore model behavior.",
 
-  "contact":"",
+  "maintainer_email":"",
   "documentation_link": "",
   "download_app_link": "",
   "website_link":"",

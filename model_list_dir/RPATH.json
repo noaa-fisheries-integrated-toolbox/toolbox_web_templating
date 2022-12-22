@@ -4,7 +4,7 @@
     "link": "https://ecopath.org/"
     }
   ],
-  "author_name": "Lucey,S.,  K. Aydin, S. Gaichas, and  A.Whitehouse",
+  "authors": "Lucey,S.,  K. Aydin, S. Gaichas, and  A.Whitehouse",
   "background_text": "Rpath is an R implementation of the Ecopath mass balance and Ecosim dynamic food web algorithms geared towards fisheries research; Ecopath/Ecosim models have seen worldwide use in the study of fisheries interactions with marine food webs. Rpath is designed to allow for cross-platform use and to aid in the reproducibility of studies using this framework. ",
 
   "citation":["Whitehouse, G. A., and K. Y. Aydin. 2020. Assessing the sensitivity of three Alaska marine food webs to perturbations: an example of Ecosim simulations using Rpath. Ecological Modelling 429. https://doi.org/10.1016/j.ecolmodel.2020.109074", "Lucey, SM, KY Aydin, SK Gaichas, SX Cadrin, G Fay, MJ Fogarty, and A Punt. 2020. Evaluating fishery management strategies using an ecosystem model as an operating model. Fisheries Research doi: https://doi.org/10.1016/j.fishres.2020.105780"],

@@ -1,9 +1,9 @@
 {
   "associated_tools": [],
-  "author_name": "Doering, K., B. Li, and K. Johnson",
+  "authors": "Doering, K., B. Li, and K. Johnson",
   "background_text": "Reusable github actions workflows for R packages.",
 
-  "contact": "kathryn.doering@noaa.gov",
+  "maintainer_email": "kathryn.doering@noaa.gov",
   "documentation_link": "https://nmfs-fish-tools.github.io/ghactions4r/reference/index.html",
   "download_app_link": "",
   "code_repository_link": "https://github.com/nmfs-fish-tools/ghactions4r",

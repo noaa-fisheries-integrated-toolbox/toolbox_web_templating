@@ -3,9 +3,9 @@
   "tool_abbreviation": "FishLife",
   
   
-  "contact": "James.Thorson@noaa.gov",
+  "maintainer_email": "James.Thorson@noaa.gov",
   "website_link": "",
-  "author_name": "James T Thorson Stephan B. Munch, Jason M. Cope, Jin Gao",
+  "authors": "James T Thorson Stephan B. Munch, Jason M. Cope, Jin Gao",
   "background_text": "FishLife is an R Package that includes software, data, and associated results for a simple evolutionary model of life-history parameters for fishes.  The model approximates the co-evolution of life-history parameters representing adult growth, size, mortality, and maturity, as well as stock-recruit parameters representing maximum spawners per spawner, Beverton-Holt 'steepness', and variability in recruitment.  Given these adult and stock-recruit predictions, the model can then predict life-cycle parameters including generation time, intrinsic growth rate, and fishing mortality reference point proxies. The model includes predictions of these life-history parameters (and associated multivariate predictive uncertainty) for all described fishes, while shrinking the predicted value of each parameter towards available data for that species, data for related species, and predicted values given available data for other parameters for that species.",
   "references": [
     "Thorson, J.T., n.d. Predicting recruitment density dependence and intrinsic growth rate for all fishes worldwide using a data-integrated life-history model. Fish Fish. n/a. https://doi.org/10.1111/faf.12427",

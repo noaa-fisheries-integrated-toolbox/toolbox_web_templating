@@ -2,10 +2,10 @@
   "associated_tools": [
     {"name":"rjson","link":"https://github.com/alexcb/rjson"}
   ],
-  "author_name": "B. Li and G. Schmitz",
+  "authors": "B. Li and G. Schmitz",
   "background_text": "ghBackup is an R package that backs up your GitHub repositories. It uses a GitHub personal access token to clone repositories from a GitHub organization and save the files in the destination directory. The website_link of the tool provides simple examples of how to back up repositories and upload backup files to a Google Drive folder on a schedule.",
 
-  "contact": "bai.li@noaa.gov",
+  "maintainer_email": "bai.li@noaa.gov",
   "documentation_link": "https://nmfs-fish-tools.github.io/ghBackup/",
   "download_app_link": "",
   "code_repository_link": "https://github.com/nmfs-fish-tools/ghBackup",

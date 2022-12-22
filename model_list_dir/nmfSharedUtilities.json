@@ -13,10 +13,10 @@
       "link": "https://nmfs-fish-tools.github.io/MSVPA_X2/"
     }
   ],
-  "author_name": "Klasky, R.",
+  "authors": "Klasky, R.",
   "background_text": "Common C++ utilities for Multi-Species tools: MSSPM, MSCAA, and MSVPA_X2",
 
-  "contact":"ronald.klasky@noaa.gov",
+  "maintainer_email":"ronald.klasky@noaa.gov",
   "documentation_link": "",
   "download_app_link": "",
   "code_repository_link": "https://github.com/nmfs-fish-tools/nmfSharedUtilities",

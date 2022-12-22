@@ -1,6 +1,6 @@
 {
   "associated_tools": [],
-  "author_name": "Seaver, A.",
+  "authors": "Seaver, A.",
   "background_text": "Yield per Recruit (YPR) is a major revision of earlier implementations of the basic Thompson-Bell model for estimating the expected lifetime yield and biomass from a cohort subjected to varying levels of fishing mortality.  The present version estimates life-history parameters such as mean age, mean generation time, and expected number of spawnings.  In addition the user can investigate the resulting age composition of catch and abundance under different levels of fishing mortality.  The latest version of YPR allows the user to incorporate uncertainty in weights at age, natural mortality, maturity, and fishery selectivity.  The user can optionally enter the coefficients of either a Beverton-Holt or Ricker stock recruitment relationship and perform a Sissenwine-Shepherd analysis for equilibrium estimates of maximum sustainable yield (MSY) reference points (FMSY and BMSY).  The user can also conduct sensitivity analyses for any model parameter. Data visualization methods are emphasized to allow exploration of the population consequences of changes in fishing mortality.",
 
   "documentation_link": "",

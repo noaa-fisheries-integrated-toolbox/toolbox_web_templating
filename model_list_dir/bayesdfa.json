@@ -1,6 +1,6 @@
 {
   "associated_tools": [],
-  "author_name": "Eric Ward",
+  "authors": "Eric Ward",
   "background_text": "bayesdfa implements Bayesian Dynamic Factor Analysis (DFA) with Stan.",
 
   "documentation_link": "https://cran.r-project.org/web/packages/bayesdfa/bayesdfa.pdf",

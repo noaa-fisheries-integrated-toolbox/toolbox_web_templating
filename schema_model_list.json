@@ -4,9 +4,10 @@
         "active_development": {"type": "boolean"},
         "tool_name": {"type": "string"},
         "tool_abbreviation": {"type": "string"},
-        "author_name": {"type": "string"},
-        "noaa_internal": {"type": "boolean"}, 
-        "contact": {"type": "string"},
+        "authors": {"type": "string"},
+        "noaa_internal": {"type": "boolean"},
+        "maintainer_name": {"type": "string"},
+        "maintainer_email": {"type": "string"},
         "background_text": {"type": "string"},
         "citation": {"type": "string"},
         "references": {
