@@ -15,7 +15,8 @@
   "active_development": true,
   "NOAA_internal": true,
   "release_badge": "Cole-Monnahan-NOAA/adnuts",
-  "shield_badges":["https://www.repostatus.org/badges/latest/active.svg"],
+  "uses_github_releases": true,
+  "software_badges":["https://www.repostatus.org/badges/latest/active.svg"],
   "static_version_number": "",
   "toolbox_drawers": ["general", "fisheries"],
   "keywords": ["R Package", "Bayesian Modeling"]

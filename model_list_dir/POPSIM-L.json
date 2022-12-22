@@ -12,10 +12,11 @@
   "pdf_download_link": "",
   "references": [],
   "software_badges":["https://www.repostatus.org/badges/latest/inactive.svg"],
-    "active_development": false,
+  "active_development": false,
   "NOAA_internal": true,
   "static_version_number": "8.0.0",
   "release_badge":"nmfs-fish-tools/POPSIM-L",
   "toolbox_drawers": ["fisheries"], 
+  "uses_github_releases": false,
   "keywords": ["Simulation", "Guided User Interface", "Legacy Tool"]
 }

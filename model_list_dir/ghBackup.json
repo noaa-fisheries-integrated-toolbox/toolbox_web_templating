@@ -4,24 +4,21 @@
   ],
   "authors": "B. Li and G. Schmitz",
   "background_text": "ghBackup is an R package that backs up your GitHub repositories. It uses a GitHub personal access token to clone repositories from a GitHub organization and save the files in the destination directory. The website_link of the tool provides simple examples of how to back up repositories and upload backup files to a Google Drive folder on a schedule.",
-
   "maintainer_email": "bai.li@noaa.gov",
   "documentation_link": "https://nmfs-fish-tools.github.io/ghBackup/",
   "executable_link": "",
   "source_code_link": "https://github.com/nmfs-fish-tools/ghBackup",
   "tool_abbreviation": "ghBackup",
   "tool_name": "ghBackup",
-  
   "website_link": "https://nmfs-fish-tools.github.io/ghBackup/",
   "online_app_link": "",
   "pdf_download_link": "",
   "release_badge": "nmfs-fish-tools/ghactions4r",
   "references": [],
-    "active_development": true,
+  "active_development": true,
   "NOAA_internal": true,
-  
   "software_badges": ["https://www.repostatus.org/badges/latest/active.svg", "https://github.com/nmfs-fish-tools/ghBackup/actions/workflows/call-r-cmd-check.yml/badge.svg"],
-  "static_version_number": "",
+  "uses_github_releases": false,
   "toolbox_drawers": ["general"], 
   "keywords": ["R Package", "Developer Utilities"]
 }

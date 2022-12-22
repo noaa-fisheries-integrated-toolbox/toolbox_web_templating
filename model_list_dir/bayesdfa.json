@@ -2,7 +2,6 @@
   "associated_tools": [],
   "authors": "Eric Ward",
   "background_text": "bayesdfa implements Bayesian Dynamic Factor Analysis (DFA) with Stan.",
-
   "documentation_link": "https://cran.r-project.org/web/packages/bayesdfa/bayesdfa.pdf",
   "executable_link": "",
   "source_code_link": "https://github.com/fate-ewi/bayesdfa/issues",
@@ -13,9 +12,9 @@
   "pdf_download_link": "",
   "references": [],
   "software_badges":["https://www.repostatus.org/badges/latest/active.svg"],
-    "active_development": true,
+  "active_development": true,
   "NOAA_internal": true,
-  
+  "uses_github_releases": true, 
   "static_version_number": "",
   "release_badge":"fate-ewi/bayesdfa",
   "toolbox_drawers": ["general"],

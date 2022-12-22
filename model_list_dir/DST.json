@@ -15,7 +15,7 @@
     "active_development": true,
   "NOAA_internal": false,
   "software_badges":["https://www.repostatus.org/badges/latest/wip.svg","https://img.shields.io/github/watchers/nmfs-fish-tools/dst.svg?style=social"],
-  "static_version_number": "",
+  "uses_github_releases": false, 
   "release_badge":"nmfs-fish-tools/DST",
   "toolbox_drawers": ["fisheries"], 
   "keywords": ["Web App", "Shiny"]

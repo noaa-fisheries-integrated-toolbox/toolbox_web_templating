@@ -7,14 +7,14 @@
   "fit_repo": "https://github.com/nmfs-fish-tools/POPSIM-A.git",
   "tool_abbreviation": "POPSIM-A",
   "tool_name": "Age Population Simulator",
-  
   "online_app_link": "",
   "pdf_download_link": "",
   "references": [],
   "software_badges":["https://www.repostatus.org/badges/latest/inactive.svg"],
-    "active_development": false,
+  "active_development": false,
   "NOAA_internal": true,
   "static_version_number": "8.2.0",
+  "uses_github_releases": false,
   "release_badge":"nmfs-fish-tools/POPSIM-A",
   "toolbox_drawers": ["fisheries"], 
   "keywords": ["Simulation", "Guided User Interface", "Legacy Tool"]

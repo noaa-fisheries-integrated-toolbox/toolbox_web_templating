@@ -15,7 +15,8 @@
   "NOAA_internal": true, 
   "static_version_number": "3.05",
   "release_badge":"nmfs-fish-tools/2BOX",
-  "toolbox_drawers": ["fisheries"], 
+  "toolbox_drawers": ["fisheries"],
+  "uses_github_releases": false,
   "keywords": ["Legacy Tool", "Virtual Population Analysis", "Stock Assessment Model"]
 }
 

@@ -1,8 +1,6 @@
 {
   "tool_name": "FishLife",
   "tool_abbreviation": "FishLife",
-  
-  
   "maintainer_email": "James.Thorson@noaa.gov",
   "website_link": "",
   "authors": "James T Thorson Stephan B. Munch, Jason M. Cope, Jin Gao",
@@ -17,8 +15,7 @@
   "source_code_link": "https://github.com/James-Thorson-NOAA/FishLife",
   "static_version_number": "2.0.0",
   "pdf_download_link": "",
-
-    "active_development": true,
+  "active_development": true,
   "NOAA_internal": true,
   "documentation_link": "",
   "associated_tools": [
@@ -32,6 +29,7 @@
     ""
   ],
   "release_badge": "James-Thorson-NOAA/FishLife",
+  "uses_github_releases": true, 
   "toolbox_drawers": ["general"], 
   "keywords": ["R Package", "Fisheries", "Fish Biology", "Web App", "Shiny"]
 }

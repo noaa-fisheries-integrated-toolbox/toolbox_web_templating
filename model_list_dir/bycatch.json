@@ -13,11 +13,12 @@
   "pdf_download_link": "",
   "references": [
   ],
-    "active_development": true,
+  "active_development": true,
   "NOAA_internal": false,
   "software_badges":["https://www.repostatus.org/badges/latest/active.svg"],
   "static_version_number": "",
   "release_badge": "ericward-noaa/bycatch",
+  "uses_github_releases": true, 
   "toolbox_drawers": ["protected_species", "fisheries"],
   "keywords": ["R Package", "Bayesian Modeling"]
 }

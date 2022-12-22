@@ -16,6 +16,7 @@
     "active_development": false,
   "NOAA_internal": true,
   "static_version_number": "4.3",
+  "uses_github_releases": false, 
   "release_badge":"nmfs-fish-tools/CSA",
   "toolbox_drawers": ["fisheries"],
   "keywords": ["Legacy Tool", "Stock Assessment Model", "Data Limited Method", "Guided User Interface"]

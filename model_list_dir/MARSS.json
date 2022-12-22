@@ -8,16 +8,16 @@
   "source_code_link": "https://github.com/nwfsc-timeseries/MARSS",
   "tool_abbreviation": "MARSS",
   "tool_name": "Multivariate Autoregressive State-Space Modeling with R",
-  
   "website_link":"https://nwfsc-timeseries.github.io/MARSS/",
   "online_app_link": "",
   "pdf_download_link": "https://cran.r-project.org/web/packages/MARSS/vignettes/UserGuide.pdf",
   "references": [
   ],
-    "active_development": true,
+  "active_development": true,
   "NOAA_internal": false,
   "software_badges":["https://www.repostatus.org/badges/latest/active.svg"],
   "static_version_number": "",
+  "uses_github_releases": true,
   "toolbox_drawers": ["general", "protected_species"], 
   "keywords":["Time Series", "R Package"]
 }

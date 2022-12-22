@@ -9,16 +9,15 @@
   "website_link": "https://kacurtis.github.io/ObsCovgTools/",
   "tool_abbreviation": "ObsCovgTools",
   "tool_name": "Observer Coverage Simulator Tool",
-  
   "online_app_link": "https://connect.fisheries.noaa.gov/ObsCovg",
   "pdf_download_link": "",
   "references": [
   ],
   "release_badge":"kacurtis/ObsCovgTools",
-    "active_development": true,
+  "active_development": true,
   "NOAA_internal": true,
   "software_badges":["https://www.repostatus.org/badges/latest/active.svg"],
-  "static_version_number": "",
+  "uses_github_releases": true,
   "toolbox_drawers": ["protected_species", "fisheries"],
   "keywords": ["Bycatch", "R Package", "Shiny", "Guided User Interface"]
 }

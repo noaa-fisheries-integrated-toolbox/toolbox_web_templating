@@ -16,7 +16,7 @@
   "software_badges":["https://www.repostatus.org/badges/latest/active.svg"],
     "active_development": true,
   "NOAA_internal": false,
-  "static_version_number": "",
+  "uses_github_releases": true,
   "release_badge": "sizespectrum/mizer", 
   "toolbox_drawers": ["ecosystem"], 
   "keywords": ["R Package", "Multispecies Model", "Fisheries", "Size Spectra Model"]

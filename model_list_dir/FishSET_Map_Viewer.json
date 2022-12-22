@@ -12,10 +12,10 @@
   "pdf_download_link": "",
   "release_badge":"nmfs-fish-tools/FishSET-Map-Viewer",
   "references": [],
-    "active_development": true,
+  "active_development": true,
   "NOAA_internal": true,
   "software_badges":[ "https://img.shields.io/github/last-commit/nmfs-general-modeling-tools/FishSET-Map-Viewer.svg?style=plastic","https://www.repostatus.org/badges/latest/active.svg"],
-  "static_version_number": "0.1.0",
+  "uses_github_releases": true, 
   "zenodo_citation":"187419043",
   "toolbox_drawers": ["general"], 
   "keywords": ["Economics", "Guided User Interface", "Fisheries"]

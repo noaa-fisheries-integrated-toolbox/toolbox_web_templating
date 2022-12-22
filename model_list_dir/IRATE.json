@@ -7,7 +7,6 @@
   "fit_repo": "https://github.com/nmfs-fish-tools/IRATE.git",
   "tool_abbreviation": "IRATE",
   "tool_name": "Instantaneous Rates",
-  
   "online_app_link": "",
   "pdf_download_link": "",
   "references": [
@@ -16,9 +15,10 @@
     "Jiang, H.H., K.H. Pollock, C. Brownie, J.M. Hoenig, R.J. Latour, B.K. Wells, and J.E. Hightower. 2007. Tag return models allowing for harvest and catch and release: evidence of environmental and management impacts on striped bass fishing and natural mortality rates. N. Amer. J. Fish. Man. 27: 387-396."
   ],
   "software_badges":["https://www.repostatus.org/badges/latest/inactive.svg"],
-    "active_development": false,
+  "active_development": false,
   "NOAA_internal": true,
   "static_version_number": "2.0.0",
+  "uses_github_releases": false,
   "release_badge":"nmfs-fish-tools/IRATE",
   "toolbox_drawers": ["fisheries"], 
   "keywords": ["Legacy Tool", "Tag Data Model"]

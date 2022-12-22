@@ -2,7 +2,6 @@
   "associated_tools": [],
   "authors": "Christine Stawitz",
   "background_text": "nmfspalette is an open-source R package to implement the color palette for ggplot2 using NOAA Fisheries official colors.",
-
   "documentation_link": "https://github.com/nmfs-fish-tools/nmfspalette/blob/main/README.md",
   "executable_link": "",
   "source_code_link": "https://github.com/nmfs-fish-tools/nmfspalette",
@@ -10,15 +9,14 @@
   "tool_abbreviation": "nmfspalette",
   "website_link": "https://nmfs-fish-tools.github.io/nmfspalette/",
   "tool_name": "nmfspalette",
-  
   "online_app_link": "",
   "pdf_download_link": "",
   "release_badge":"nmfs-fish-tools/nmfspalette",
   "references": [],
-    "active_development": true,
+  "active_development": true,
   "NOAA_internal": true,
   "software_badges":[ "https://img.shields.io/github/last-commit/nmfs-fish-tools/nmfspalette.svg?style=plastic","https://www.repostatus.org/badges/latest/active.svg"],
-  "static_version_number": "",
+  "uses_github_releases": true,
   "toolbox_drawers": ["general"], 
   "keywords": ["User Utilities", "Developer Utilities", "NOAA Branding"]
 }

@@ -18,6 +18,7 @@
   "software_badges": [],
   "static_version_number": "",
   "release_badge": "",
+  "uses_github_releases": false,
   "toolbox_drawers": ["human_dimensions", "fisheries"], 
   "keywords": ["Economics", "North Pacific", "Fisheries"]
 }

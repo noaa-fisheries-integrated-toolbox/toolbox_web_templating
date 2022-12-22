@@ -5,14 +5,12 @@
   ],
   "authors": "C. Stawitz, M. Supernaw, C. Bassin, and B. Li",
   "background_text": "The Metapopulation Assessment System (MAS) is a modular tool for creating and fitting fisheries stock assessment models. The R interface to MAS (r4MAS) allows users to build and run MAS models directly using the R language. It also includes functions to help translate between MAS and other stock assessment software and to plot outputs of MAS models, including estimates of key biological and observation parameters and derived quantities such as biological reference points, estimated biomass, and estimated numbers-at-age.",
-
   "documentation_link": "",
   "executable_link": "",
   "source_code_link": "https://github.com/nmfs-fish-tools/r4MAS",
   "website_link": "https://nmfs-fish-tools.github.io/r4MAS",
   "tool_abbreviation": "r4MAS",
   "tool_name": "R interface to Metapopulation Assessment System",
-  
   "online_app_link": "",
   "pdf_download_link": "",
   "references": [],
@@ -20,6 +18,7 @@
     "active_development": true,
   "NOAA_internal": true,
   "static_version_number": "1.0",
+  "uses_github_releases": false,
   "release_badge":"nmfs-fish-tools/r4MAS",
   "toolbox_drawers": ["fisheries"], 
   "keywords": ["Stock Assessment Model", "R Package"]

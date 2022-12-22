@@ -16,6 +16,7 @@
   "NOAA_internal": true,
   "static_version_number": "3.0.16",
   "release_badge":"nmfs-fish-tools/ASAP",
+  "uses_github_releases": false,
   "toolbox_drawers": ["fisheries"],
   "keywords": ["Stock Assessment Model", "Age Structured Model", "Guided User Interface", "Legacy Tool"]
 }

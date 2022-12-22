@@ -12,10 +12,10 @@
   "online_app_link": "https://dataexplorer.northwestscience.fisheries.noaa.gov/fisheye/",
   "pdf_download_link": "",
   "references": [],
-    "active_development": true,
+  "active_development": true,
   "NOAA_internal": true,
   "software_badges": [],
-  "static_version_number": "",
+  "uses_github_releases": false,
   "release_badge": "",
   "toolbox_drawers": ["human_dimensions"],
   "keywords": ["Web App", "Economics"]

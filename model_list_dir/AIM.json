@@ -15,6 +15,7 @@
   "NOAA_internal": true,
   "static_version_number": "2.5.0",
   "release_badge":"nmfs-fish-tools/AIM",
+  "uses_github_releases": false,
   "toolbox_drawers": ["fisheries"], 
   "keywords": ["Stock Assessment Model", "Data Limited Method", "Legacy Tool"]
 }

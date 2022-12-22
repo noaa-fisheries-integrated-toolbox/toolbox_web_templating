@@ -17,6 +17,7 @@
   "NOAA_internal": true,
   "static_version_number": "",
   "release_badge":"nmfs-fish-tools/agTrend",
+  "uses_github_releases": true,
   "toolbox_drawers": ["protected_species", "general"],
   "keywords": ["R Package"]
 }

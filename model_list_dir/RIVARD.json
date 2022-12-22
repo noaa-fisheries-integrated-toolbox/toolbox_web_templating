@@ -2,22 +2,22 @@
   "associated_tools": [],
   "authors": "Seaver, A.",
   "background_text": "The Rivard Weights Calculation Program allows the user to convert a matrix of mid-year weights at age for a number of years to Jan-1 or other time of the year. The program uses the same algorithm as presently employed in the NFT Toolbox Virtual Population Analysis (VPA) program.  This utility allows users of other assessment methods within the NFT Toolbox to access the Rivard methodology in a convenient manner.",
-
   "documentation_link": "",
   "executable_link": "https://github.com/nmfs-fish-tools/RIVARD/releases/download/2.0.0/RivardCalcV2-0.zip",
   "fit_repo": "https://github.com/nmfs-fish-tools/RIVARD.git",
   "website_link": "",
   "tool_abbreviation": "RIVARD",
   "tool_name": "Rivard Calculator",
-  
   "online_app_link": "",
   "pdf_download_link": "",
   "references": [],
   "software_badges":["https://www.repostatus.org/badges/latest/inactive.svg"],
-    "active_development": false,
+  "active_development": false,
   "NOAA_internal": true,
   "static_version_number": "2.0.0",
   "release_badge":"nmfs-fish-tools/RIVARD",
+  "uses_github_releases": false,
   "toolbox_drawers": ["fisheries"], 
   "keywords": ["Calculator", "User Utilities", "Guided User Interface", "Legacy Tool"]
+    "uses_github_releases": false,
 }

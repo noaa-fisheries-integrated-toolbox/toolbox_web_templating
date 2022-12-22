@@ -8,17 +8,17 @@
   "source_code_link": "https://github.com/ericward-noaa/phenomix",
   "tool_abbreviation": "phenomix",
   "tool_name": "phenomix",
-  
   "website_link":"https://ericward-noaa.github.io/phenomix/",
   "online_app_link": "",
   "pdf_download_link": "",
   "references": [
   ],
-    "active_development": true,
+  "active_development": true,
   "NOAA_internal": false,
   "software_badges":["https://www.repostatus.org/badges/latest/active.svg"],
-  "static_version_number": "",
+  "uses_github_releases": true,
   "release_badge": "ericward-noaa/phenomix",
   "toolbox_drawers": ["protected_species", "fisheries"],
+
   "keywords": ["Salmon", "Time Series", "Fisheries"]
 }

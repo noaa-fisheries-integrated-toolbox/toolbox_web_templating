@@ -7,15 +7,13 @@
   "source_code_link": "https://github.com/NOAA-LHP/LHsampling",
   "tool_abbreviation": "LHSampling",
   "tool_name": "Life History Sampling",
-  
   "website_link":"https://noaa-lhp.github.io/LHsampling",   
   "online_app_link": "",
   "pdf_download_link": "",
   "references": ["Eva Schemmel, Erin C Bohaboy, Michael J Kinney, Joseph M O'Malley, An assessment of sampling approaches for estimating growth from fishery-dependent biological samples, ICES Journal of Marine Science, Volume 79, Issue 5, July 2022, Pages 1497–1514, https://doi.org/10.1093/icesjms/fsac075"],
-    "active_development": false,
+  "active_development": false,
   "NOAA_internal": true,
-  
-  "static_version_number": "",
+  "uses_github_releases": false,
   "release_badge":"NOAA-LHP/LHsampling",
   "toolbox_drawers": ["fisheries"], 
   "keywords": ["Individual Based Model", "Sampling Decision Tool", "Spatial Model", "R Package"]

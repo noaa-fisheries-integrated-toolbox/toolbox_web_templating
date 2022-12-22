@@ -13,11 +13,13 @@
   "online_app_link": "https://www.st.nmfs.noaa.gov/data-and-tools/social-indicators/",
   "pdf_download_link": "",
   "references": [],
-    "active_development": true,
+  
+  "active_development": true,
   "NOAA_internal": true,
   "software_badges": [],
   "static_version_number": "",
   "release_badge": "",
+  "uses_github_releases": false,
   "toolbox_drawers": ["human_dimensions"], 
   "keywords": ["Web App", "Data Exploration", "Socioeconomics"]
 }
