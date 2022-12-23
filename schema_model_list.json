@@ -1,10 +1,16 @@
 {
-    "title": "Tool List",
-    "description": "Information about a Tool onboarded to FIMS",
+    "title": "Tool Details",
+    "description": "Information about a tool onboarded to FIT",
     "type": "object", 
     "properties": {
-        "active_development": {"type": "boolean"},
-        "tool_name": {"type": "string"},
+        "active_development": {
+            "description": "If the source code is actively developed",
+            "type": "boolean"
+        },
+        "tool_name": {
+            "description": "The full name of the tool",
+            "type": "string"
+        },
         "tool_abbreviation": {"type": "string"},
         "authors": {"type": "string"},
         "noaa_internal": {"type": "boolean"},
