@@ -29,8 +29,7 @@
         },
         "maintainer_email": {
             "description": "Email address of the maintainer. One email only.",
-            "type": "string",
-            "pattern": "^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$"
+            "type": "string"
         },
         "background_text": {
             "description": "A paragraph of background text that describes the tool.",
