@@ -11,62 +11,129 @@
             "description": "The full name of the tool",
             "type": "string"
         },
-        "tool_abbreviation": {"type": "string"},
-        "authors": {"type": "string"},
-        "noaa_internal": {"type": "boolean"},
-        "maintainer_name": {"type": "string"},
-        "maintainer_email": {"type": "string"},
-        "background_text": {"type": "string"},
-        "citation": {"type": "string"},
+        "tool_abbreviation": {
+            "description": "Short name for the tool",
+            "type": "string"
+        },
+        "authors": {
+            "description": "All authors of the tool",
+            "type": "string"
+        },
+        "noaa_internal": {
+            "description": "Was this developed in part by NOAA employees or affiliates?",
+            "type": "boolean"
+        },
+        "maintainer_name": {
+            "description": "Name of the primary maintainer. One name only.",
+            "type": "string"
+        },
+        "maintainer_email": {
+            "description": "Email address of the maintainer. One email only.",
+            "type": "string",
+            "pattern": "^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$"
+        },
+        "background_text": {
+            "description": "A paragraph of background text that describes the tool.",
+            "type": "string"
+        },
+        "citation": {
+            "description": "Primary way to cite the tool",
+            "type": "string"
+        },
         "references": {
+            "description": "References related to the tool, not the citation",
             "type": "array", 
             "items": {"type": "string"}
         },
         "associated_tools":{
+            "description": "Other software tools related to this one. Can be part of FIT or not.",
             "type": "array", 
             "items": {
                "type": "object", 
                "properties" : {
-                  "name": {"type": "string"},
-                  "link": {"type": "string"}
-               }
+                  "name": {
+                    "description": "Name of the associated tool",
+                    "type": "string"
+                  },
+                  "link": {
+                    "description": "URL to the associated tool",
+                    "type": "string"
+                  }
+               },
+               "required": ["name", "link"]
             }
         },
         "user_organizations": {
+            "description": "Any organizations that use the tool operationally",
             "type": "array", 
             "items": {
             "type": "string"
             }
         },
-        "online_app_link": {"type": "string"},
-        "executable_link": {"type": "string"},
-        "website_link": {"type": "string"},
-        "documentation_link": {"type": "string"},
-        "source_code_link": {"type": "string"},
-        "pdf_download_link": {"type": "string"},
+        "online_app_link": {
+            "description": "link to the web app for the tool, if available",
+            "type": "string"
+        },
+        "executable_link": {
+            "description": "link to the executable(s) for the tool, if available",
+            "type": "string"
+        },
+        "website_link": {
+            "description": "link to the website for the tool, if available",
+            "type": "string"
+        },
+        "documentation_link": {
+            "description": "link to the documentation for the tool, if available and different than other links provided",
+            "type": "string"
+        },
+        "source_code_link": {
+            "description": "Link to the source code, if available.",
+            "type": "string"
+        },
+        "pdf_download_link": {
+            "description": "Link to a pdf to download from the FIT tool page. Should be different than other links provided if used.",
+            "type": "string"
+        },
         "software_badges": {
+            "description": "Link to up to 3 software badges (e.g., from github actions, shields.io) to display for the tool",
             "type" : "array",
             "items": {
               "type": "string"
-            }
-        },
-        "toolbox_drawers": {
-            "type": "array", 
-            "items": {
-            "type": "string"
-            }
-        },
-        "keywords": {
-            "type": "array", 
-            "items": {
-            "type": "string"
             },
-            "minItems": 5,
+            "maxItems": 3,
             "uniqueItems": true
         },
-        "uses_github_releases": {"type":"boolean"},
-        "static_version_number": {"type": "string"},
-        "release_badge": {"type": "string"}
+        "toolbox_drawers": {
+            "description": "The toolbox drawers that the tool belongs in. Choose all that apply.",
+            "type": "array", 
+            "items": {
+            "type": "string"
+            },            
+            "minItems": 1,
+            "uniqueItems": true
+        },
+        "keywords": {
+            "description": "Keywords for the tool. Choose up to 5.",
+            "type": "array", 
+            "items": {
+              "type": "string"
+            },
+            "minItems": 1,
+            "maxItems": 5,
+            "uniqueItems": true
+        },
+        "uses_github_releases": {
+            "description": "Does the tool use github releases? If so, the current version number will be pulled from the releases.",
+            "type":"boolean"
+        },
+        "static_version_number": {
+            "description": "Static version number, only used if the tool is unlikely to be updated often.",
+            "type": "string"
+        },
+        "release_badge": {
+            "description": "The github org/repo if using the release badge. Plan to deprecate this and info from source_code_link and use_github_releases instead",
+            "type": "string"
+        }
     },
     "required": [
         "active_development",
