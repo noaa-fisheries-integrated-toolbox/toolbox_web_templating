@@ -2,6 +2,7 @@
   "associated_tools": [],
   "authors": "Lisa Colburn",
   "background_text": "An interactive tool for exploring economic data from West Coast commercial fisheries. Data summarized comes from the Economic Data Collection Program and PacFIN.",
+  "maintainer_name": "Lisa Colburn",
   "maintainer_email": "fisheries.toolbox@noaa.gov",
   "documentation_link": "",
   "executable_link": "",

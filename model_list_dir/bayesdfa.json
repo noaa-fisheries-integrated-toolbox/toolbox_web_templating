@@ -1,6 +1,8 @@
 {
   "associated_tools": [],
   "authors": "Eric Ward",
+  "maintainer_name": "Eric Ward",
+  "maintainer_email": "eric.ward@noaa.gov",
   "background_text": "bayesdfa implements Bayesian Dynamic Factor Analysis (DFA) with Stan.",
   "documentation_link": "https://cran.r-project.org/web/packages/bayesdfa/bayesdfa.pdf",
   "executable_link": "",

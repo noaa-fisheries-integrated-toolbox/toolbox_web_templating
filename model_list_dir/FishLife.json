@@ -1,6 +1,7 @@
 {
   "tool_name": "FishLife",
   "tool_abbreviation": "FishLife",
+  "maintainer_name": "James Thorson",
   "maintainer_email": "James.Thorson@noaa.gov",
   "website_link": "",
   "authors": "James T Thorson Stephan B. Munch, Jason M. Cope, Jin Gao",

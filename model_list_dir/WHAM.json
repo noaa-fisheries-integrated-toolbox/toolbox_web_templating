@@ -8,6 +8,8 @@
     }
   ],
   "authors": "Tim Miller and Brian Stock",
+  "maintainer_name":"Tim Miller",
+  "maintainer_email": "timothy.j.miller@noaa.gov",
   "background_text": "A state-space age-structured assessment model that can include state-space covariate models and effects on recruitment and internal estimation of biological reference points. See the vignettes provided with the package for example applications.",
   "documentation_link": "",
   "executable_link": "",

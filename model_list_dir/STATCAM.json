@@ -1,6 +1,8 @@
 {
   "associated_tools": [],
   "authors": "Brodziak, J.",
+  "maintainer_name": "orphaned",
+  "maintainer_email": "fisheries.toolbox@noaa.gov",
   "background_text": "STATCAM is a statistical catch-at-age model.  It is a likelihood-based assessment model for joint analyses of age-specific fishery and survey data. Age-structured population stock dynamics are modeled using standard forward-projection methods for statistical catch-at-age analyses. The population dynamics model is fit to observed fishery and survey data using an iterative maximum likelihood estimation approach.   The calculation engine was developed by Dr. Jon Brodziak, NMFS Pacific Islands Fishery Science Center, using AD Model Builder.",
   "documentation_link": "",
   "executable_link": "https://github.com/nmfs-fish-tools/STATCAM/releases/download/1.4.1/statcam141.1.zip",

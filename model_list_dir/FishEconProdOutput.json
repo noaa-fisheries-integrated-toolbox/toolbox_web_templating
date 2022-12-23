@@ -3,6 +3,7 @@
   ],
   "authors": "Emily Markowitz",
   "background_text": "This package provides guidelines on fishery productivity measurement at the individual fishery and aggregate sector levels. Attention is given to the constructions of output and total factor productivity based on available data and a bottom-up approach. Given that there is no nation-wide standard cost survey, we recommend starting with measuring TFP at the fishery level based on a translog gross output production possibility frontier using index number techniques. Special attention is given to measuring quality-adjusted physical capital inputs in the bottom-up approach.",
+  "maintainer_name": "Emily Markowitz",
   "maintainer_email": "emily.markowitz@noaa.gov",
   "documentation_link": "https://emilymarkowitz-noaa.github.io/FishEconProdOutput/reference/index.html",
   "executable_link": "",

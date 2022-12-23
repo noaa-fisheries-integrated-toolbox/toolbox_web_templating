@@ -15,8 +15,8 @@
   ],
   "authors": "J. Cope",
   "background_text": "The SS-DL tool uses Stock Synthesis to implement several common data-limited assessment methods all in one modelling framework. Under a unified modelling framework, additional data can be added as it becomes available. The tool builds Stock Synthesis files for provided data and life history information. It produces plots and tables for each model run via the r4ss package, as well as additional screen output for easy interpretation and provide a variety of additional applications to diagnose and explore model behavior.",
-
-  "maintainer_email":"",
+  "maintainer_name": "Jason Cope",
+  "maintainer_email":"jason.cope@noaa.gov",
   "documentation_link": "",
   "executable_link": "",
   "website_link":"",
@@ -29,7 +29,6 @@
   "software_badges":["https://www.repostatus.org/badges/latest/active.svg"],
     "active_development": true,
   "NOAA_internal": true,
-  "software_badges":"",
   "static_version_number": "3.30.13",
   "uses_github_releases": false,
   "toolbox_drawers": ["fisheries"], 

@@ -1,6 +1,8 @@
 {
   "associated_tools": [],
   "authors": "Klasky, R., Townsend, H., and J. Link",
+  "maintainer_name": "Ronald Klasky",
+  "maintainer_email": "fisheries.toolbox@noaa.gov",
   "background_text": "This is a prey preference and diet composition tool based upon a rank proportion algorithm. The user is able to designate various prey species for various predator species to predict the prey preference and diet composition of each predator.",
   "documentation_link": "https://github.com/nmfs-fish-tools/Donut_Tool/blob/master/docs/QuickStart_Guide_Donut_Tool.pdf",
   "executable_link": "https://github.com/nmfs-fish-tools/Donut_Tool/releases",
@@ -11,7 +13,7 @@
     "Jason S. Link (2004) A General Model of Selectivity for Fish Feeding: A Rank Proportion Algorithm, Transactions of the American Fisheries Society, 133:3, 655-673, DOI: 10.1577/T02-142.1"
   ],
   "software_badges":["https://www.repostatus.org/badges/latest/active.svg","https://img.shields.io/badge/platform-linux%20%7Cwin-lightgrey"],
-    "active_development": true,
+  "active_development": true,
   "NOAA_internal": true,
   "uses_github_releases": true,
   "release_badge": "nmfs-fish-tools/Donut_Tool", 

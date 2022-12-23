@@ -15,6 +15,7 @@
   ],
   "authors": "Klasky, R.",
   "background_text": "Common C++ utilities for Multi-Species tools: MSSPM, MSCAA, and MSVPA_X2",
+  "maintainer_name": "Ronald Klasky",
   "maintainer_email":"ronald.klasky@noaa.gov",
   "documentation_link": "",
   "executable_link": "",

@@ -8,6 +8,8 @@
   "fit_repo": "https://github.com/nmfs-fish-tools/2BOX.git",
   "tool_abbreviation": "2BOX",
   "tool_name": "Dual Zone Virtual Population Analysis",
+  "maintainer_name": "orphaned", 
+  "maintainer_email": "fisheries.toolbox@noaa.gov",
   "online_app_link": "",
   "pdf_download_link": "",
   "references": [],
