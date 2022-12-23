@@ -28,7 +28,6 @@
   "tool_abbreviation": "SS3",
   "tool_name": "Stock Synthesis",
   "online_app_link": "https://connect.fisheries.noaa.gov/ss3-helper",
-  "pdf_download_link": "",
   "references": [
     "SS reference: Methot and Wetzel 2013. Stock synthesis: A biological and statistical framework for fish stock assessment and fishery management. https://doi.org/10.1016/j.fishres.2012.10.012",
     "ADMB reference: Fournier, D.A., Skaug, H.J., Ancheta, J., Ianelli, J., Magnusson, A., Maunder, M.N., Nielsen, A., and Sibert, J. 2012. AD Model Builder: using automatic differentiation for statistical inference of highly parameterized complex nonlinear models. Optim. Methods Softw. 27:233-249."
@@ -37,7 +36,6 @@
   "software_badges":["https://www.repostatus.org/badges/latest/active.svg"],
     "active_development": true,
   "noaa_internal": true,
-  "static_version_number": "",
   "uses_github_releases": true,
   "toolbox_drawers": ["fisheries"], 
   "keywords": ["Stock Assessment Model", "Age Structured Model", "Length Structured Model", "ADMB", "Guided User Interface"]

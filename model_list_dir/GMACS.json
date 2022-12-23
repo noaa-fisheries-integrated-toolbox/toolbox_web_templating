@@ -5,12 +5,9 @@
   "maintainer_name": "Jim Ianelli",
   "maintainer_email":"jim.ianelli@noaa.gov",
   "documentation_link": "https://github.com/seacode/gmacs/wiki",
-  "executable_link": "",
   "source_code_link": "https://github.com/seacode/gmacs",
   "tool_abbreviation": "GMACS",
   "tool_name": "General Model for Assessing Crustacean Stocks",
-  "online_app_link": "",
-  "pdf_download_link": "",
   "references": [
     "ADMB reference: Fournier, D.A., Skaug, H.J., Ancheta, J., Ianelli, J., Magnusson, A., Maunder, M.N., Nielsen, A., and Sibert, J. 2012. AD Model Builder: using automatic differentiation for statistical inference of highly parameterized complex nonlinear models. Optim. Methods Softw. 27:233-249."
   ],
@@ -18,7 +15,6 @@
   "noaa_internal": true,
   "software_badges":["https://www.repostatus.org/badges/latest/active.svg","https://img.shields.io/github/watchers/seacode/gmacs.svg?style=social","https://img.shields.io/badge/documentation-in--progress-yellow.svg","https://img.shields.io/travis/com/seacode/gmacs.svg"],
   "uses_github_releases": true,
-  "release_badge":"",
   "toolbox_drawers": ["fisheries"], 
   "keywords": ["Size Structured Model", "Stock Assessment Model"]
 }

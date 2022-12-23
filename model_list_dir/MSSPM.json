@@ -1,5 +1,4 @@
 {
-  "associated_tools": [],
   "authors": "Klasky, R., Townsend, Link. J., H., Gamble R., Beet A., and  E. Wurst",
   "background_text": "The Multi-Species Surplus Production Model (MSSPM) allows the user to 1) define a model, using choices of growth, harvest, competition, and predation forms, 2) run the model, which estimates the necessary parameters using choices for optimization algorithms, and 3) visualize the estimated data.",
   "maintainer_name": "Ronald Klasky",
@@ -9,10 +8,7 @@
   "source_code_link": "https://github.com/nmfs-fish-tools/MSSPM",
   "tool_abbreviation": "MSSPM",
   "tool_name": "Multi-Species Surplus Production Model",
-  "online_app_link": "",
-  "pdf_download_link": "",
   "release_badge":"nmfs-fish-tools/MSSPM",
-  "references": [],
   "software_badges": [
     "https://www.repostatus.org/badges/latest/active.svg",
     "https://img.shields.io/badge/platform-linux-lightgrey"

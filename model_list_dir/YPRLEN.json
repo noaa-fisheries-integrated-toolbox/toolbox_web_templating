@@ -1,17 +1,12 @@
 {
-  "associated_tools": [],
   "authors": "Seaver, A.",
   "maintainer_name": "orphaned", 
   "maintainer_email": "fisheries.toolbox@noaa.gov",
   "background_text": "Length Based Yield per Recruit (YPRLEN) is an implementation of the basic Thompson-Bell model for estimating the expected lifetime yield and biomass from a cohort subjected to varying levels of fishing mortality.  In the length-based model the user provides parameters of a von Bertalanffy growth equation. Age is taken as relative with the model starting at age zero. The user also provides parameters for equations relating weight, selectivity and maturity to length.  The user provides a small age step as an integration factor. This is converted to length by the von Bertalanffy equation and the other required data is derived from length.  This approach may in many cases provide a more accurate lifetime yield and biomass curve than the traditional age-based YPR model.  In the September 2004 update of YPRLEN, several alternative selectivity models were introduced.  Users can export an age-based file that can be used as input to the age-based YPR model.",
-  "documentation_link": "",
   "executable_link": "https://github.com/nmfs-fish-tools/YPRLEN/releases/download/2.1.0/YPRLENV21.zip",
   "fit_repo": "https://github.com/nmfs-fish-tools/YPRLEN.git",
   "tool_abbreviation": "YPRLEN",
   "tool_name": "Length Based Yield Per Recruit",
-  "online_app_link": "",
-  "pdf_download_link": "",
-  "references": [],
   "software_badges": [
     "https://www.repostatus.org/badges/latest/inactive.svg"
   ],

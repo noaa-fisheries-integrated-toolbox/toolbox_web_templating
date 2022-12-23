@@ -1,5 +1,4 @@
 {
-  "associated_tools": [],
   "authors": "Jones",
   "maintainer_name": "orphaned", 
   "maintainer_email": "fisheries.toolbox@noaa.gov",
@@ -7,12 +6,8 @@
   "documentation_link": "https://repository.library.noaa.gov/view/noaa/3713",
   "executable_link": "https://github.com/nmfs-fish-tools/PSA/releases/download/1.4.0/PSA-1-4.zip",
   "fit_repo": "https://github.com/nmfs-fish-tools/PSA.git",
-  "website_link": "",
   "tool_abbreviation": "PSA",
   "tool_name": "Productivity and Susceptibility Analysis",
-  "online_app_link": "",
-  "pdf_download_link": "",
-  "references": [],
   "software_badges":["https://www.repostatus.org/badges/latest/inactive.svg"],
   "active_development": false,
   "noaa_internal": true,

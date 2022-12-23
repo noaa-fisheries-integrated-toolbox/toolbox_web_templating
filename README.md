@@ -50,19 +50,19 @@ JSON data can be (partially) validated using [schema](https://json-schema.org/un
   "background_text": "Information on this tool goes here and will be displayed on the tool page", //** Please Write up to a paragraph.
   "maintainer_email": "fisheries.toolbox@noaa.gov", //**Email for main contact. Please put a noaa.gov email address that someone will check.
   //Note: At least one of the 5 following links need to be filled out for your tool to be found. Please fill in as many as apply.
-  "online_app_link": "", //IF THERE IS A SHINY APP OR OTHER ONLINE APP, PUT LINK HERE OTHERWISE LEAVE AS EMPTY QUOTES, no spaces.
-  "executable_link": "", //**LINK TO DOWNLOAD APPLICATION IF EXE exists. Please leave blank if there is not an compiled exe distributed.
-  "website_link": "", //**link to the website, if it exists; otherwise, leave blank.
-  "documentation_link": "", //**LINK TO EXTERNAL DOCUMENTATION. Not necessary if it is the same as the website_link or source_code_link.
-  "source_code_link": "", //LINK TO GITHUB CODE REPO
-  "citation": "", //How to cite the package. Ideally an article with DOI.
+  "online_app_link": "https://some.link.noaa.gov", //IF THERE IS A SHINY APP OR OTHER ONLINE APP, PUT LINK HERE OTHERWISE leave out this element.
+  "executable_link": "https://some.link.noaa.gov", //**LINK TO DOWNLOAD APPLICATION IF EXE exists. Leave out this element if exe does not exist
+  "website_link": "https://some.link.noaa.gov", //**link to the website, if it exists; otherwise, leave out.
+  "documentation_link": "https://some.link.noaa.gov", //**LINK TO EXTERNAL DOCUMENTATION. Leave element out if does not exist or link is already entered elsewhere (e.g., on the website)
+  "source_code_link": "https://github.com/org/repo", //LINK TO GITHUB CODE REPO, if exists.
+  "citation": "https://doi.org/10.32614/RJ-2012-002", //How to cite the package. Ideally an article with DOI.
   "tool_abbreviation": "MODABBREV", //SHORT ABBREVIATION OF TOOL USED AT TOP OF TILE ON LANDING PAGE. Must Match the name of the JSON file. Required.
   "tool_name": "Complete Name of Model Tool", //required
-  "pdf_download_link": "", //A URL to a pdf that might be helpful for users.
+  "pdf_download_link": "https://somelink.org/my.pdf", //A URL to a pdf that might be helpful for users.
   "release_badge":"NMFS-ecosystem-tools/MSCAA"//IF THE REPO UESE RELEASES ON GITHUB, JUST PUT THE ORG/REPO HERE TO LINK.
-  "references": ["ref1", "ref2"], //** Formatted publication references. LEAVE AS EMPTY LIST [] IF NONE. Please include DOI if available.
+  "references": ["ref1", "ref2"], //** Formatted publication references.Please include DOI if available.
   "software_badges":["https://www.repostatus.org/badges/latest/active.svg","https://img.shields.io/badge/platform-linux%20%7Cwin-lightgrey"],//** add any extra badges here from repostatus or shields in a list
-  "static_version_number": "",//** add version number only if it is not linked to a release_badge above
+  "static_version_number": "1.0.0",//** add version number only if it is not using github releases and the version is unlikely to change. Omit this element if not used.
   "toolbox_drawers": ["fisheries", "general"], //** options are: "fisheries", "ecosystem", "human_dimensions", "protected_species", and "general"*. Put all that apply to the tool.
   "keywords": ["Economics", "R", "Web App"], //**keywords to sort through tools.,
   "user_organizations": ["SEFSC", "NWFSC", "SWFSC"] //operational users of the tool

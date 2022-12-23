@@ -4,21 +4,14 @@
   "background_text": "REMORA is a REsource Management Option Review and Analysis tool. It features an intuitive user interface to simplify forecast modeling and analysis.",
   "maintainer_name": "Ronald Klasky",
   "maintainer_email":"ronald.klasky@noaa.gov",
-  "documentation_link": "",
-  "executable_link": "",
   "source_code_link": "https://github.com/nmfs-fish-tools/REMORA",
   "tool_abbreviation": "REMORA",
   "tool_name": "REsource Management Option Review and Analysis Tool",
-  "online_app_link": "",
-  "pdf_download_link": "",
   "release_badge":"nmfs-fish-tools/REMORA",
   "uses_github_releases": true,
-  "references": [
-  ],
-    "active_development": true,
+  "active_development": true,
   "noaa_internal": false,
   "software_badges":["https://www.repostatus.org/badges/latest/active.svg","https://img.shields.io/badge/platform-linux%20%7Cwin-lightgrey"],
-  "static_version_number": "", 
   "toolbox_drawers": ["ecosystem"], 
   "keywords": ["Guided User Interface", "Decision Support Tool", "Projection Modeling"]
 }

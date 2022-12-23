@@ -1,17 +1,11 @@
 {
-  "associated_tools": [],
   "authors": "Matthew Supernaw",
   "maintainer_name": "Matthew Supernaw",
   "maintainer_email": "fisheries.toolbox@noaa.gov",
   "background_text": "The Analytics Template Library (ATL) is a scientific computing library with an emphasis on gradient based optimization. ATL leverages the power of template metaprogramming for flexibility, extensibility, and speed. This guide is intended to give the user a basic understanding of how to develop programs in ATL. The information in this document is intended for anyone interested in scientific computing in C++ and it is expected that the reader will have a basic understanding of the C++ programming language, as well as scientific computing.",
-  "documentation_link": "",
-  "executable_link": "",
   "source_code_link": "https://github.com/nmfs-fish-tools/ATL",
   "tool_abbreviation": "ATL",
-  "website_link": "",
   "tool_name": "Analytics Template Library",
-  "online_app_link": "",
-  "pdf_download_link": "",
   "references": [
     "Andreas Griewank, Andrea Walther [Introduction to Automatic Differentiation]. PAMM Proc. Appl. Math. Mech. 2, 45?49 (2003).",
     "Andreas Griewank [On Automatic Differentiation]. Center for Research on Parallel Computation, 1989.",

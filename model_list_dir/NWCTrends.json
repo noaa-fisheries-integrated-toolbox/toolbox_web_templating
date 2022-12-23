@@ -1,23 +1,17 @@
 {
-  "associated_tools": [],
   "authors": "E.E. Holmes",
   "maintainer_name": "Eli Holmes", 
   "maintainer_email": "eli.holmes@noaa.gov",
   "background_text": "NWCTrends runs the standardized trends metrics used in the 2015 and 2020 5-year NWFSC PNW Salmonid Viability Report which support the 5-year Status Reviews prepared by WRO.",
   "documentation_link": "https://nwfsc-math-bio.github.io/NWCTrends/reference/index.html",
-  "executable_link": "",
   "source_code_link": "https://github.com/nwfsc-math-bio/NWCTrends",
   "tool_abbreviation": "NWCTrends",
   "tool_name": "Standardized trends metrics in 2015 5-year Status Review Update for listed PNW salmonids",
   "website_link":"https://nwfsc-math-bio.github.io/NWCTrends/",
-  "online_app_link": "",
-  "pdf_download_link": "",
-  "references": [],
   "software_badges":["https://www.repostatus.org/badges/latest/active.svg"],
   "active_development": true,
   "noaa_internal": true,
   "uses_github_releases": true,
-  "release_badge":"",
   "toolbox_drawers": ["protected_species", "fisheries"], 
   "keywords": ["Salmon", "Time Series", "R Package", "Standardized Reporting"]
 }
