@@ -60,7 +60,9 @@
             "type": "array", 
             "items": {
             "type": "string"
-            }
+            },
+            "minItems": 1,
+            "uniqueItems": true
         },
         "uses_github_releases": {"type":"boolean"},
         "static_version_number": {"type": "string"},
