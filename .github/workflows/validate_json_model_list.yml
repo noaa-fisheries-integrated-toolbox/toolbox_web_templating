@@ -3,11 +3,12 @@ name: Validate model list JSONs
 on:
   workflow_dispatch:
   push:
-    paths:
-      - 'model_list_dir/**/**.json'
-      - 'model_list_dir/**.json'
+    # paths:
+    #   - 'model_list_dir/**/**.json'
+    #   - 'model_list_dir/**.json'
     branches:
       - main
+      - dev
 
 
 jobs:

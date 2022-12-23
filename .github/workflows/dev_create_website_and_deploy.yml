@@ -5,9 +5,9 @@ name: Create and Deploy Dev HTMl site
 # Includes building automatically when either of the relavent JSON files update on the main branch or on the push of a button
 on: 
   workflow_dispatch:
-  push:
-    branches: 
-      - dev
+  # push:
+  #   branches: 
+  #     - dev
 
 jobs:
   build:
