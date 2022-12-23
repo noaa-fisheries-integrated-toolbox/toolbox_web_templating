@@ -61,7 +61,7 @@
             "items": {
             "type": "string"
             },
-            "minItems": 1,
+            "minItems": 5,
             "uniqueItems": true
         },
         "uses_github_releases": {"type":"boolean"},
