@@ -15,7 +15,7 @@
   "references": [],
   "software_badges":["https://www.repostatus.org/badges/latest/active.svg", "https://github.com/atsa-es/atsar/workflows/R-CMD-check/badge.svg"],
   "active_development": true,
-  "NOAA_internal": true,
+  "noaa_internal": true,
   "uses_github_releases": true,
   "release_badge":"atsa-es/atsar",
   "toolbox_drawers": ["general"],

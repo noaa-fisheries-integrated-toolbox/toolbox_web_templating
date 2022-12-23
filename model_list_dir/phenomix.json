@@ -15,7 +15,7 @@
   "references": [
   ],
   "active_development": true,
-  "NOAA_internal": false,
+  "noaa_internal": false,
   "software_badges":["https://www.repostatus.org/badges/latest/active.svg"],
   "uses_github_releases": true,
   "release_badge": "ericward-noaa/phenomix",

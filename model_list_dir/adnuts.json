@@ -15,7 +15,7 @@
   "pdf_download_link": "https://doi.org/10.1371/journal.pone.0197954",
   "references": [],
   "active_development": true,
-  "NOAA_internal": true,
+  "noaa_internal": true,
   "release_badge": "Cole-Monnahan-NOAA/adnuts",
   "uses_github_releases": true,
   "software_badges":["https://www.repostatus.org/badges/latest/active.svg"],

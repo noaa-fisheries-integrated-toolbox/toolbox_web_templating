@@ -16,7 +16,7 @@
   "citation": "https://doi.org/10.25923/67f4-e184",
   "references": [],
     "active_development": true,
-  "NOAA_internal": false,
+  "noaa_internal": false,
   "software_badges": [],
   "static_version_number": "",
   "release_badge": "",

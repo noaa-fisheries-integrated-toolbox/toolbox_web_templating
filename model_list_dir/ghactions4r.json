@@ -15,7 +15,7 @@
   "release_badge": "nmfs-fish-tools/ghactions4r",
   "references": [],
   "active_development": true,
-  "NOAA_internal": true,
+  "noaa_internal": true,
   "software_badges": ["https://www.repostatus.org/badges/latest/active.svg", "https://github.com/nmfs-fish-tools/ghactions4r/actions/workflows/call-r-cmd-check.yml/badge.svg","https://img.shields.io/badge/lifecycle-experimental-orange.svg"],
   "uses_github_releases": true,
   "toolbox_drawers": ["general"], 

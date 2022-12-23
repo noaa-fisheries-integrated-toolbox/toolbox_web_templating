@@ -243,19 +243,19 @@
                   <!-- <button class = "icon_small cert" disabled></button> -->
                 <!-- {% endif %} -->
                 <!-- NOAA support button -->
-                {% if value['NOAA_internal'] is defined and value['active_development'] is defined and value['NOAA_internal'] == true and value['active_development'] == true%}
+                {% if value['noaa_internal'] is defined and value['active_development'] is defined and value['noaa_internal'] == true and value['active_development'] == true%}
                   <button class = "icon_small internal_active" ></button>
                 {% else %}
                   <button class = "icon_small internal_active" disabled></button>
                 {% endif %}
                 <!-- External Tool Icon -->
-                {% if value['NOAA_internal'] is defined and value['active_development'] is defined and value['NOAA_internal'] == false and value['active_development'] == true%}
+                {% if value['noaa_internal'] is defined and value['active_development'] is defined and value['noaa_internal'] == false and value['active_development'] == true%}
                   <button class = "icon_small external_active" ></button>
                 {% else %}
                   <button class = "icon_small external_active" disabled></button>
                 {% endif %}
                 <!-- Legacy Tool Icon -->
-                <!-- May want to use NOAA_internal and active_development in the future to determine if this button should be added -->
+                <!-- May want to use noaa_internal and active_development in the future to determine if this button should be added -->
                 {% if value['keywords'] is defined and 'Legacy Tool' in value['keywords'] %}
                   <button class = "icon_small legacy" ></button>
                 {% else %}

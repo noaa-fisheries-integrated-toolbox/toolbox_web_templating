@@ -22,7 +22,7 @@
   ],
   "software_badges":["https://www.repostatus.org/badges/latest/inactive.svg"],
   "active_development": false,
-  "NOAA_internal": true,
+  "noaa_internal": true,
   "static_version_number": "5.34.6",
   "release_badge":"nmfs-fish-tools/ASPIC",
   "uses_github_releases": false,

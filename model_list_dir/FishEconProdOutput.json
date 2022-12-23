@@ -15,7 +15,7 @@
   "pdf_download_link": "",
   "references": ["Wang, Sun Ling., John B. Walden, and Emily H. Markowitz. 2021. Measuring Output, Inputs, and Total Factor Productivity for the U.S. Commercial Fishery: A Proposal. NOAA Tech. Memo. NMFS-F/SPO-217, 14 p. https://spo.nmfs.noaa.gov/sites/default/files/TM217.pdf"],
   "active_development": true,
-  "NOAA_internal": true,
+  "noaa_internal": true,
   "software_badges": ["https://img.shields.io/github/last-commit/EmilyMarkowitz-NOAA/FishEconProdOutput.svg", 
                     "https://img.shields.io/badge/devel%20version-0.1.1-blue.svg", 
                     "https://img.shields.io/badge/lifecycle-maturing-blue.svg"],

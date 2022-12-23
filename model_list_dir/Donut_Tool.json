@@ -14,7 +14,7 @@
   ],
   "software_badges":["https://www.repostatus.org/badges/latest/active.svg","https://img.shields.io/badge/platform-linux%20%7Cwin-lightgrey"],
   "active_development": true,
-  "NOAA_internal": true,
+  "noaa_internal": true,
   "uses_github_releases": true,
   "release_badge": "nmfs-fish-tools/Donut_Tool", 
   "toolbox_drawers": ["ecosystem"],

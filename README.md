@@ -41,7 +41,7 @@ JSON data can be (partially) validated using [schema](https://json-schema.org/un
 ```json
 {
   "active_development": true,     //in active development? true or false
-  "NOAA_internal": false, //Maintained by NOAA? true or false.
+  "noaa_internal": false, //Maintained by NOAA? true or false.
   "associated_tools": [
     {"name":"NAME OF TOOL","link":"LINK TO TOOL"},
     {"name":"NAME OF TOOL","link":"LINK TO TOOL"}

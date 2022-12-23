@@ -27,7 +27,7 @@
     "https://img.shields.io/badge/platform-linux%20%7CCwin-lightgrey"
   ],
   "active_development": true,
-  "NOAA_internal": true,
+  "noaa_internal": true,
   "uses_github_releases": true,
   "toolbox_drawers": ["ecosystem",  "fisheries"], 
   "keywords": ["Multispecies Model", "Virtual Population Analysis", "Guided User Interface"]

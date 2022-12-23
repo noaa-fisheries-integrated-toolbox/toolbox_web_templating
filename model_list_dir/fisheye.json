@@ -14,7 +14,7 @@
   "pdf_download_link": "",
   "references": [],
   "active_development": true,
-  "NOAA_internal": true,
+  "noaa_internal": true,
   "software_badges": [],
   "uses_github_releases": false,
   "release_badge": "",

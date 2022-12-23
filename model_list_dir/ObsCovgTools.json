@@ -16,7 +16,7 @@
   ],
   "release_badge":"kacurtis/ObsCovgTools",
   "active_development": true,
-  "NOAA_internal": true,
+  "noaa_internal": true,
   "software_badges":["https://www.repostatus.org/badges/latest/active.svg"],
   "uses_github_releases": true,
   "toolbox_drawers": ["protected_species", "fisheries"],

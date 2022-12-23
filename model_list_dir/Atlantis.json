@@ -18,7 +18,7 @@
     "Audzijonyte, A., Gorton, R., Kaplan, I. and Fulton, E.A. 2017. Atlantis User’s Guide Part II: Socio-Economics. CSIRO living document"
   ],
   "active_development": true,
-  "NOAA_internal": false,
+  "noaa_internal": false,
   "software_badges":["https://www.repostatus.org/badges/latest/active.svg"],
   "static_version_number": "", 
   "uses_github_releases": false,

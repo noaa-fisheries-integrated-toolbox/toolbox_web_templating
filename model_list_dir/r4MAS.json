@@ -18,7 +18,7 @@
   "references": [],
   "software_badges":["https://www.repostatus.org/badges/latest/active.svg", "https://github.com/nmfs-fish-tools/r4MAS/workflows/R-CMD-check/badge.svg"],
     "active_development": true,
-  "NOAA_internal": true,
+  "noaa_internal": true,
   "static_version_number": "1.0",
   "uses_github_releases": false,
   "release_badge":"nmfs-fish-tools/r4MAS",

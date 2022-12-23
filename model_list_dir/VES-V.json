@@ -31,7 +31,7 @@
     "https://www.repostatus.org/badges/latest/active.svg"
   ],
   "active_development": true,
-  "NOAA_internal": true,
+  "noaa_internal": true,
   "static_version_number": "1.37",
   "uses_github_releases": false,
   "toolbox_drawers": ["ecosystem", "fisheries"], 

@@ -21,7 +21,7 @@
   ],
   "software_badges":["https://www.repostatus.org/badges/latest/inactive.svg"],
   "active_development": false,
-  "NOAA_internal": true,
+  "noaa_internal": true,
   "static_version_number": "1.0.11",
   "release_badge":"nmfs-fish-tools/SCALE",
   "toolbox_drawers": ["fisheries"],

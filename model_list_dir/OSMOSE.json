@@ -17,7 +17,7 @@
   "references": ["Shin Y.-J., P. Cury, 2004. Using an individual-based model of fish assemblages to study the response of size spectra to changes in fishing. Canadian Journal of Fisheries and Aquatic Sciences, 61: 414-431."
   ],
   "active_development": true,
-  "NOAA_internal": false,
+  "noaa_internal": false,
   "software_badges":["https://www.repostatus.org/badges/latest/active.svg"],
   "uses_github_releases": true,
   "toolbox_drawers": ["ecosystem", "fisheries"], 

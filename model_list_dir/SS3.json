@@ -36,7 +36,7 @@
   "release_badge": "nmfs-stock-synthesis/stock-synthesis",
   "software_badges":["https://www.repostatus.org/badges/latest/active.svg"],
     "active_development": true,
-  "NOAA_internal": true,
+  "noaa_internal": true,
   "static_version_number": "",
   "uses_github_releases": true,
   "toolbox_drawers": ["fisheries"], 

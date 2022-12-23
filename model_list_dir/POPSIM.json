@@ -14,7 +14,7 @@
   "references": [],
   "software_badges":["https://www.repostatus.org/badges/latest/inactive.svg"],
   "active_development": false,
-  "NOAA_internal": true,
+  "noaa_internal": true,
   "static_version_number": "7.5.0",
   "uses_github_releases": false,
   "release_badge":"nmfs-fish-tools/POPSIM",

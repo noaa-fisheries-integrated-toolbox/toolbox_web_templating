@@ -14,7 +14,7 @@
   "references": [ "Woodman, SM, Forney, KA, Becker, EA, et al. esdm: A tool for creating and exploring ensembles of predictions from species distribution and abundance models. Methods Ecol Evol. 2019; 10: 1923–1933. https://doi.org/10.1111/2041-210X.13283"],
   "release_badge":"smwoodman/eSDM",
   "active_development": true,
-  "NOAA_internal": true,
+  "noaa_internal": true,
   "software_badges":["https://www.repostatus.org/badges/latest/active.svg"],
   "uses_github_releases": true,
   "toolbox_drawers": ["protected_species"], 

@@ -14,7 +14,7 @@
   "references": [
   ],
   "active_development": true,
-  "NOAA_internal": true,
+  "noaa_internal": true,
   "software_badges":["https://www.repostatus.org/badges/latest/active.svg"],
   "static_version_number": "",
   "uses_github_releases": false,

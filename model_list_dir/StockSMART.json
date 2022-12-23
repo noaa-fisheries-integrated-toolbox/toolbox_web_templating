@@ -16,7 +16,7 @@
      ],
   "software_badges":["https://www.repostatus.org/badges/latest/active.svg"],
   "active_development": true,
-  "NOAA_internal": true,
+  "noaa_internal": true,
   "uses_github_releases": false,
   "static_version_number": "1.0.0",
   "toolbox_drawers": ["fisheries"], 

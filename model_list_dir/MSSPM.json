@@ -18,7 +18,7 @@
     "https://img.shields.io/badge/platform-linux-lightgrey"
   ],
   "active_development": true,
-  "NOAA_internal": true,
+  "noaa_internal": true,
   "uses_github_releases": true, 
   "toolbox_drawers": ["ecosystem", "fisheries"],
   "keywords": ["Surplus Production Model", "Multispecies Model", "Guided User Interface"] 

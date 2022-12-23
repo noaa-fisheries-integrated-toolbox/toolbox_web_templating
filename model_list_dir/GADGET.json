@@ -16,7 +16,7 @@
   "references": ["Begley, J.S. and Howell, D. 2004. An overview of Gadget, the Globally applicable Area-Disaggregated General Ecosystem Toolbox. https://imr.brage.unit.no/imr-xmlui/handle/11250/100625"
   ],
   "active_development": true,
-  "NOAA_internal": false,
+  "noaa_internal": false,
   "software_badges":["https://www.repostatus.org/badges/latest/active.svg","https://img.shields.io/badge/platform-linux%20%7Cwin-lightgrey"],
   "uses_github_releases": false,
   "toolbox_drawers": ["ecosystem", "fisheries"], 
