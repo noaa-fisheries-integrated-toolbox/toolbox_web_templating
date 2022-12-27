@@ -1,6 +1,7 @@
 {
   "associated_tools": [{"name":
-    "Metapopulation Assessment System"
+    "Metapopulation Assessment System", 
+    "link": "https://github.com/nmfs-fish-tools/MAS"
   }
   ],
   "authors": "C. Stawitz, M. Supernaw, C. Bassin, and B. Li",

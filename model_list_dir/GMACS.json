@@ -13,7 +13,7 @@
   ],
   "active_development": true,
   "noaa_internal": true,
-  "software_badges":["https://www.repostatus.org/badges/latest/active.svg","https://img.shields.io/github/watchers/seacode/gmacs.svg?style=social","https://img.shields.io/badge/documentation-in--progress-yellow.svg","https://img.shields.io/travis/com/seacode/gmacs.svg"],
+  "software_badges":["https://www.repostatus.org/badges/latest/active.svg","https://img.shields.io/github/watchers/seacode/gmacs.svg?style=social","https://img.shields.io/badge/documentation-in--progress-yellow.svg"],
   "uses_github_releases": true,
   "toolbox_drawers": ["fisheries"], 
   "keywords": ["Size Structured Model", "Stock Assessment Model"]

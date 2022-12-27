@@ -1,10 +1,8 @@
 {
   "associated_tools": [
     {
-      "name": "R Core Team. 2019. R: A Language and Environment for Statistical Computing. R Foundation for Statistical Computing, Vienna, Austria."
-    },
-    {
-      "name": "Template Model Builder, Kristensen, K., Nielsen, A., Berg, C. W., Skaug, H., and Bell, B. M. 2016. TMB: Automatic differentiation and Laplace approximation. Journal of Statistical Software 70(5): 1–21."
+      "name": "Template Model Builder",
+       "link": "https://github.com/kaskr/adcomp"  
     }
   ],
   "authors": "Tim Miller and Brian Stock",

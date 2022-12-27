@@ -26,5 +26,5 @@
   "static_version_number": "3.30.13",
   "uses_github_releases": false,
   "toolbox_drawers": ["fisheries"], 
-  "keywords": ["Data Limited Method", "R Package", "Shiny", "Web App", "Guided User Interface", "Stock Assessment Model"]
+  "keywords": ["Data Limited Method", "Shiny", "Web App", "Guided User Interface", "Stock Assessment Model"]
 }
