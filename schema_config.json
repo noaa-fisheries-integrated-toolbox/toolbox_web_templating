@@ -1,18 +1,38 @@
 {
+  "title": "Tool List Config", 
+  "description": "Information needed to create a webpage listing toolbox tools.",
   "type": "object", 
   "properties": {
-    "general_info_text": { "type": "string"}, 
-    "general_title": { "type": "string"}, 
-    "githubpage": { "type": "string"}, 
+    "general_info_text": {
+      "description": "Text describing the webpage, will show up on the page",
+      "type": "string"
+    }, 
+    "general_title": {
+      "description": "Title of the webpage",
+       "type": "string"
+    }, 
+    "githubpage": {
+      "description": "The webpage's web address",
+      "type": "string"}, 
     "list_of_models": {
+      "description": "The models in the location_of_model_list directory that should be shown on the webpage. They must be spelled (case sensitive) as the .json files are named.",
       "type": "array", 
       "items" : {
         "type": "string"
        }
     }, 
-    "location_of_model_list": { "type": "string"},
-    "main_title": { "type": "string"}, 
-    "google_analytics": { "type": "string"}, 
-    "google_analytics_code": { "type": "string"}
+    "location_of_model_list": { 
+      "description": "The path to the directory where the model file json specifications are located.", 
+      "type": "string"
+    },
+    "main_title": { 
+      "description": "Title of page shown in the browser tab next to the favicon",
+      "type": "string"}, 
+    "google_analytics": { 
+      "description": " A webaddress needed for google analytics",
+      "type": "string"}, 
+    "google_analytics_code": { 
+    "description": "A code needed for google analytics",  
+    "type": "string"}
   }
 }
