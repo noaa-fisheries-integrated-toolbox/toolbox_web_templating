@@ -32,7 +32,7 @@ jobs:
         id: setinputjsons
         run: |
           tmpinputjsons=$(cat files_to_check.txt)
-          echo "::set-output name=inputjsons::${tmpinputjsons}"
+          echo "inputjsons=${tmpinputjsons}" >> $GITHUB_OUTPUT
       - name: Validate JSON 
         uses: docker://orrosenblatt/validate-json-action:latest
         env:
