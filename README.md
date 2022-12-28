@@ -67,3 +67,17 @@ JSON data can be (partially) validated using [schema](https://json-schema.org/un
   "keywords": ["Economics", "R", "Web App"], //**keywords to sort through tools.,
   "user_organizations": ["SEFSC", "NWFSC", "SWFSC"] //operational users of the tool
 ```
+
+# Creating Webpages Locally From Templates
+
+Python and Jinja2 need to be installed locally.
+
+From bash, run:
+
+```
+python create_tool_landing_page.py
+python create_catalog_landing_page.py Browse_config.json
+```
+
+This is just the commands in create_html.yml. Note that this will create new
+webpages that should not be saved to the repository.
