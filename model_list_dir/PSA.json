@@ -14,6 +14,6 @@
   "static_version_number": "1.4.0",
   "uses_github_releases": false,
   "release_badge":"nmfs-fish-tools/PSA",
-  "toolbox_drawers": ["fisheries"],
-  "keywords": ["Risk Assessment Tool", "Fisheries", "Simulation", "Legacy Tool"]
+  "toolbox_drawers": ["Fish and Fisheries"],
+  "keywords": ["Risk Assessment Tool", "Fish and Fisheries", "Simulation", "Legacy Tool"]
 }

@@ -14,6 +14,6 @@
     "active_development": true,
   "noaa_internal": false,
   "uses_github_releases": false,
-  "toolbox_drawers": ["human_dimensions", "fisheries"], 
-  "keywords": ["Economics", "North Pacific", "Fisheries"]
+  "toolbox_drawers": ["Human Dimensions", "Fish and Fisheries"], 
+  "keywords": ["Economics", "North Pacific", "Fish and Fisheries"]
 }

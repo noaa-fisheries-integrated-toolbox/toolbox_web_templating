@@ -13,7 +13,7 @@
   "software_badges":["https://www.repostatus.org/badges/latest/active.svg"],
   "uses_github_releases": true,
   "release_badge": "ericward-noaa/phenomix",
-  "toolbox_drawers": ["protected_species", "fisheries"],
+  "toolbox_drawers": ["Protected Species", "Fish and Fisheries"],
 
-  "keywords": ["Salmon", "Time Series", "Fisheries"]
+  "keywords": ["Salmon", "Time Series", "Fish and Fisheries"]
 }

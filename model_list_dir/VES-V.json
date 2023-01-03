@@ -31,6 +31,6 @@
   "noaa_internal": true,
   "static_version_number": "1.37",
   "uses_github_releases": false,
-  "toolbox_drawers": ["ecosystem", "fisheries"], 
-  "keywords": ["Guided User Interface", "Visualization", "Simulation", "Fisheries"]
+  "toolbox_drawers": ["Ecosystem", "Fish and Fisheries"], 
+  "keywords": ["Guided User Interface", "Visualization", "Simulation", "Fish and Fisheries"]
 }

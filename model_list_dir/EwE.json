@@ -16,6 +16,6 @@
   "software_badges":["https://www.repostatus.org/badges/latest/active.svg"],
   "static_version_number": "6.6.1",
   "uses_github_releases": false,
-  "toolbox_drawers": ["ecosystem"], 
+  "toolbox_drawers": ["Ecosystem"], 
   "keywords": ["Ecosystem"]
 }

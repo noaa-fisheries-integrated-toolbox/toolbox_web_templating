@@ -16,6 +16,6 @@
   "static_version_number": "3.3",
   "uses_github_releases": false,
   "release_badge":"nmfs-fish-tools/YPR",
-  "toolbox_drawers": ["fisheries"], 
+  "toolbox_drawers": ["Fish and Fisheries"], 
   "keywords": ["Reference Points Model", "Stock Assessment Tool", "Legacy Tool", "Visualization"]
 }

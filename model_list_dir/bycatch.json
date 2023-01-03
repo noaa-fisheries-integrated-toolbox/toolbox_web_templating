@@ -13,6 +13,6 @@
   "software_badges":["https://www.repostatus.org/badges/latest/active.svg"],
   "release_badge": "ericward-noaa/bycatch",
   "uses_github_releases": true, 
-  "toolbox_drawers": ["protected_species", "fisheries"],
+  "toolbox_drawers": ["Protected Species", "Fish and Fisheries"],
   "keywords": ["R Package", "Bayesian Modeling"]
 }

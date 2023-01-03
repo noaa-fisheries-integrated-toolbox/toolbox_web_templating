@@ -9,6 +9,6 @@
   "active_development": true,
   "noaa_internal": true,
   "uses_github_releases": false,
-  "toolbox_drawers": ["human_dimensions"], 
+  "toolbox_drawers": ["Human Dimensions"], 
   "keywords": ["Web App", "Data Exploration", "Socioeconomics"]
 }

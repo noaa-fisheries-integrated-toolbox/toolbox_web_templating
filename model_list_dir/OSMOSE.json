@@ -18,6 +18,6 @@
   "noaa_internal": false,
   "software_badges":["https://www.repostatus.org/badges/latest/active.svg"],
   "uses_github_releases": true,
-  "toolbox_drawers": ["ecosystem", "fisheries"], 
+  "toolbox_drawers": ["Ecosystem", "Fish and Fisheries"], 
   "keywords": ["Simulation", "Individual Based Model", "Spatial Model"]
 }

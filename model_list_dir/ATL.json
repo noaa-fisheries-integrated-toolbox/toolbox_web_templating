@@ -20,6 +20,6 @@
   "noaa_internal": true,
   "static_version_number": "1.0.0",
   "uses_github_releases": false,
-  "toolbox_drawers": ["general"],
+  "toolbox_drawers": ["General Modeling and Productivity Tools"],
   "keywords": ["Maximum Likelihood Estimation", "Model Builder", "Gradient Solver"]
 }

@@ -17,6 +17,6 @@
   "noaa_internal": false,
   "software_badges":["https://www.repostatus.org/badges/latest/active.svg"],
   "uses_github_releases": false,
-  "toolbox_drawers": ["ecosystem", "fisheries"],
+  "toolbox_drawers": ["Ecosystem", "Fish and Fisheries"],
   "keywords": ["Socioeconomics", "Ecosystem"]
 }

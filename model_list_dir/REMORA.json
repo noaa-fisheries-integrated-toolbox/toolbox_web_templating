@@ -12,6 +12,6 @@
   "active_development": true,
   "noaa_internal": false,
   "software_badges":["https://www.repostatus.org/badges/latest/active.svg","https://img.shields.io/badge/platform-linux%20%7Cwin-lightgrey"],
-  "toolbox_drawers": ["ecosystem"], 
+  "toolbox_drawers": ["Ecosystem"], 
   "keywords": ["Guided User Interface", "Decision Support Tool", "Projection Modeling"]
 }
