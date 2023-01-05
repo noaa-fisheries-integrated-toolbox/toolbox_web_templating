@@ -60,6 +60,26 @@ margin-right:20px;
 
 }
 
+.header_button{
+  width:  50px;
+  height: 50px;
+  margin:0 auto 0 auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #0055A4;
+  color: white;
+}
+
+.main_button{
+  width:  150px;
+  height: 150px;
+  margin:0 auto 0 auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #0055A4;
+  color: white;
+}
+
 .divider{
 
 width: 100%;

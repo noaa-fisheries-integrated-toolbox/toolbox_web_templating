@@ -432,6 +432,17 @@
   background-color: #0055A4;
   }
   
+
+  .header_button{
+    width:  50px;
+    height: 50px;
+    margin:0 auto 0 auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #0055A4;
+    color: white;
+  }
+
   .icon_small_grey,
   .icon_small{
     width:  25px;
