@@ -12,7 +12,7 @@
   "noaa_internal": true,
   "static_version_number": "8.0.0",
   "release_badge":"nmfs-fish-tools/POPSIM-L",
-  "toolbox_drawers": ["fisheries"], 
+  "toolbox_drawers": ["Fish and Fisheries"], 
   "uses_github_releases": false,
   "keywords": ["Simulation", "Guided User Interface", "Legacy Tool"]
 }

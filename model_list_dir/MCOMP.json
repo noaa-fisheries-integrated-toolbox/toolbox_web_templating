@@ -13,6 +13,6 @@
   "static_version_number": "4.3",
   "uses_github_releases": false,
   "release_badge":"nmfs-fish-tools/MCOMP",
-  "toolbox_drawers": ["fisheries"],
+  "toolbox_drawers": ["Fish and Fisheries"],
   "keywords": ["Model Comparision", "Output Visualization", "Guided User Interface", "Legacy Tool"]
 }

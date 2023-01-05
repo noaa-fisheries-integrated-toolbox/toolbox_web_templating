@@ -12,6 +12,6 @@
   "noaa_internal": true,
   "release_badge":"eeholmes/VRAP",
   "uses_github_releases": true,
-  "toolbox_drawers": ["protected_species", "fisheries"], 
-  "keywords": ["Risk Assessment Tool", "Simulation", "Fisheries", "Shiny", "Web App"]
+  "toolbox_drawers": ["Protected Species", "Fish and Fisheries"], 
+  "keywords": ["Risk Assessment Tool", "Simulation", "Fish and Fisheries", "Shiny", "Web App"]
 }

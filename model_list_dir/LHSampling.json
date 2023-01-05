@@ -13,6 +13,6 @@
   "noaa_internal": true,
   "uses_github_releases": false,
   "release_badge":"NOAA-LHP/LHsampling",
-  "toolbox_drawers": ["fisheries"], 
+  "toolbox_drawers": ["Fish and Fisheries"], 
   "keywords": ["Individual Based Model", "Sampling Decision Tool", "Spatial Model", "R Package"]
 }

@@ -51,11 +51,11 @@
                   <input type="checkbox" id="chck1">
                   <label class="tab-label" for="chck1">Toolbox Drawer</label>
                   <div class="tab-content">
-                    <input type="button" value="Ecosystem" onclick="drawerSearch('ecosystem')">
-                    <input type="button" value="Fish and Fisheries" onclick="drawerSearch('fisheries')">
-                    <input type="button" value="Human Dimensions" onclick="drawerSearch('human_dimensions')">
-                    <input type="button" value="Protected Resources" onclick="drawerSearch('protected_species')">
-                    <input type="button" value="General Modeling Tools" onclick="drawerSearch('general')">
+                    <input type="button" value="Ecosystem" onclick="drawerSearch('Ecosystem')">
+                    <input type="button" value="Fish and Fisheries" onclick="drawerSearch('Fish and Fisheries')">
+                    <input type="button" value="Human Dimensions" onclick="drawerSearch('Human Dimensions')">
+                    <input type="button" value="Protected Resources" onclick="drawerSearch('Protected Species')">
+                    <input type="button" value="General Modeling Tools" onclick="drawerSearch('General Modeling and Productivity Tools')">
                   </div>
                 </div>
 
@@ -204,10 +204,10 @@
               </div>
               <!-- <div class = "modelType">{{value['tool_type']}}</div>
               <div class = "modelType">{{value['model_type']}}</div> -->
-              {% if value['release_badge'] is defined and value['release_badge'] %}
+              <!-- {% if value['release_badge'] is defined and value['release_badge'] %}
               {% set release = "https://img.shields.io/github/v/release/"   ~ value['release_badge']  ~ "?color=%230093D0&include_prereleases" %}
               <div class = "release"><img alt="GitHub release (latest by date)" src= "{{release}}"></div>
-              {% endif %}
+              {% endif %} -->
 
               <div class = "language"></div>
               <!-- web app button -->
@@ -280,8 +280,7 @@
        <div class = "divider"></div>
 
         <footer >
-             <img src="https://raw.githubusercontent.com/noaa-fisheries-integrated-toolbox/FIT_graphics/main/FIT_logo/logo_pngs/FIT_logo_2022_color.png" alt="NOAA Fisheries Integrated Toolbox Logo" height="75">
-             <img src="./static/noaa-fisheries-rgb-2line-horizontal-small.png" alt="NOAA Fisheries Logo" height="75" >
+             <img src="https://raw.githubusercontent.com/noaa-fisheries-integrated-toolbox/FIT_graphics/main/NOAA_logos/noaa-fisheries-rgb-2line-horizontal-small.png" alt="NOAA Fisheries Logo" height="75" >
          <div class="mywrap_center">
           <a class ="mylink line" href="https://www.commerce.gov/">U.S. Department of Commerce</a>
           <a class ="mylink line" href="https://www.noaa.gov">National Oceanographic and Atmospheric Administration</a>

@@ -13,6 +13,6 @@
   "noaa_internal": true,
   "software_badges":["https://www.repostatus.org/badges/latest/active.svg"],
   "uses_github_releases": true,
-  "toolbox_drawers": ["protected_species", "fisheries"],
+  "toolbox_drawers": ["Protected Species", "Fish and Fisheries"],
   "keywords": ["Bycatch", "R Package", "Shiny", "Guided User Interface"]
 }

@@ -12,6 +12,6 @@
   "active_development": true,
   "noaa_internal": true,
   "uses_github_releases": true,
-  "toolbox_drawers": ["protected_species", "fisheries"], 
+  "toolbox_drawers": ["Protected Species", "Fish and Fisheries"], 
   "keywords": ["Salmon", "Time Series", "R Package", "Standardized Reporting"]
 }

@@ -16,7 +16,7 @@
   "active_development": true,
   "noaa_internal": true,
   "uses_github_releases": true, 
-  "toolbox_drawers": ["ecosystem", "fisheries"],
+  "toolbox_drawers": ["Ecosystem", "Fish and Fisheries"],
   "keywords": ["Surplus Production Model", "Multispecies Model", "Guided User Interface"] 
 
 }

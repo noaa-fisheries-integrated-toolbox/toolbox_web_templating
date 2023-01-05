@@ -16,6 +16,6 @@
   "noaa_internal": true,
   "uses_github_releases": true,
   "release_badge": "nmfs-fish-tools/Donut_Tool", 
-  "toolbox_drawers": ["ecosystem"],
+  "toolbox_drawers": ["Ecosystem"],
   "keywords": ["Guided User Interface"]
 }

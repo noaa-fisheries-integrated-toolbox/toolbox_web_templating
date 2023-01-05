@@ -63,7 +63,7 @@ JSON data can be (partially) validated using [schema](https://json-schema.org/un
   "references": ["ref1", "ref2"], //** Formatted publication references.Please include DOI if available.
   "software_badges":["https://www.repostatus.org/badges/latest/active.svg","https://img.shields.io/badge/platform-linux%20%7Cwin-lightgrey"],//** add any extra badges here from repostatus or shields in a list
   "static_version_number": "1.0.0",//** add version number only if it is not using github releases and the version is unlikely to change. Omit this element if not used.
-  "toolbox_drawers": ["fisheries", "general"], //** options are: "fisheries", "ecosystem", "human_dimensions", "protected_species", and "general"*. Put all that apply to the tool.
+  "toolbox_drawers": ["Fish and Fisheries", "General Modeling and Productivity Tools"], //** options are: "Fish and Fisheries", "Ecosystem"", "Human Dimensions", "Protected Species", and "General Modeling and Productivity Tools"*. Put all that apply to the tool.
   "keywords": ["Economics", "R", "Web App"], //**keywords to sort through tools.,
   "user_organizations": ["SEFSC", "NWFSC", "SWFSC"] //operational users of the tool
 ```

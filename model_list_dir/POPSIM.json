@@ -13,6 +13,6 @@
   "static_version_number": "7.5.0",
   "uses_github_releases": false,
   "release_badge":"nmfs-fish-tools/POPSIM",
-  "toolbox_drawers": ["fisheries"], 
+  "toolbox_drawers": ["Fish and Fisheries"], 
   "keywords": ["Simulation", "Guided User Interface", "Legacy Tool"]
 }

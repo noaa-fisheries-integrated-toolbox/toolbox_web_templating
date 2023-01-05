@@ -13,6 +13,6 @@
   "noaa_internal": true,
   "software_badges":["https://www.repostatus.org/badges/latest/active.svg","https://img.shields.io/badge/platform-linux%20%7Cwin-lightgrey"],
   "uses_github_releases": true, 
-  "toolbox_drawers": ["ecosystem", "fisheries"], 
-  "keywords": ["Multispecies Model", "Fisheries", "Guided User Interface", "Output Visualization"]
+  "toolbox_drawers": ["Ecosystem", "Fish and Fisheries"], 
+  "keywords": ["Multispecies Model", "Fish and Fisheries", "Guided User Interface", "Output Visualization"]
 }

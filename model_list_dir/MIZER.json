@@ -16,6 +16,6 @@
   "noaa_internal": false,
   "uses_github_releases": true,
   "release_badge": "sizespectrum/mizer", 
-  "toolbox_drawers": ["ecosystem"], 
-  "keywords": ["R Package", "Multispecies Model", "Fisheries", "Size Spectra Model"]
+  "toolbox_drawers": ["Ecosystem"], 
+  "keywords": ["R Package", "Multispecies Model", "Fish and Fisheries", "Size Spectra Model"]
 }

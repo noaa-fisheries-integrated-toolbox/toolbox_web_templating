@@ -21,7 +21,7 @@
   "noaa_internal": true,
   "static_version_number": "1.0.11",
   "release_badge":"nmfs-fish-tools/SCALE",
-  "toolbox_drawers": ["fisheries"],
+  "toolbox_drawers": ["Fish and Fisheries"],
   "uses_github_releases": false,
   "keywords": ["Stock Assessment Model", "Length Structured Model", "ADMB", "Guided User Interface", "Legacy Tool"]
 }

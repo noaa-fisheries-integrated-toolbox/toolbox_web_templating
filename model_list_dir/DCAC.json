@@ -21,6 +21,6 @@
   "static_version_number": "2.1.1",
   "uses_github_releases": false, 
   "release_badge":"nmfs-fish-tools/DCAC",
-  "toolbox_drawers": ["fisheries"], 
+  "toolbox_drawers": ["Fish and Fisheries"], 
   "keywords": ["Stock Assessment Model", "Data Limited Method", "Legacy Tool"]
 }

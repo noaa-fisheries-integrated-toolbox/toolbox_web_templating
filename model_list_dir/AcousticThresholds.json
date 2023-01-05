@@ -10,6 +10,6 @@
   "noaa_internal": true,
   "software_badges":["https://www.repostatus.org/badges/latest/active.svg"],
   "uses_github_releases": false,
-  "toolbox_drawers": ["protected_species"], 
+  "toolbox_drawers": ["Protected Species"], 
   "keywords": ["Web App", "Marine Mammals"]
 }
