@@ -1,47 +1,32 @@
-
-.container{
+.container {
   display: flex;
-  flex-direction:column;
-  font-family: Arial Narrow,Arial,sans-serif;
-  color:#0055A4;
-  margin:40px;
+  flex-direction: column;
+  font-family: Arial Narrow, Arial, sans-serif;
+  color: #0055A4;
+  margin: 40px;
   font-size: 16px;
-
-}
-.mywrap_center{
-display: flex;
-flex-direction:row;
-margin:auto;
 }
 
-
-li a{
-text-decoration: none;
-color: white;
+.mywrap_center {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
 }
 
-.mywrap_left{
-  /* display:flex; */
+.mywrap {
+  display: flex;
   /* flex-direction:row; */
-  /* align-items:left; */
+  align-items: center;
   /* justify-content: center; */
-  /* padding: 40px; */
+  padding: 40px;
 }
 
-.mywrap{
-display:flex;
-/* flex-direction:row; */
-align-items:center;
-/* justify-content: center; */
-padding: 40px;
-}
-
-h1{
+h1 {
   min-width: 200px;
-  margin-right:auto;
+  margin-right: auto;
   font-weight: bold;
   color: #0055A4;
-  font-family: Cambria,Georgia,serif;
+  font-family: Cambria, Georgia, serif;
   font-size: 2.2em;
   text-align: left;
   vertical-align: middle;
@@ -53,134 +38,81 @@ h1{
   color: white;
   font-size: 1.625em;
   padding: 5px;
-  font-family: Cambria,Georgia,serif;
-}
-.box{
-background-color:  #0055A4;
-min-width: 250px;
-margin-right:20px;
+  font-family: Cambria, Georgia, serif;
 }
 
-.main_button{
-  width:  300px;
+.main_button {
+  width: 300px;
   height: 60px;
-  margin:0 auto 0 auto;
+  margin: 0 auto 0 auto;
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #0055A4;
   border-color: #0055A4;
   color: white;
-  font-size:1.6em;
+  font-size: 1.6em;
 }
 
-.main_button:hover{
+.main_button:hover {
   background-color: #0093D0;
   cursor: pointer;
 }
 
-.divider{
-
-width: 100%;
-height: 8px;
-background-color:#0055A4;
-border: 0 none;
-margin-top: 20px;
-margin-bottom:20px;
-
-}
-
-
-
-.boxcontainer{
-padding: 40px 40px 0 40px;
-display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-
-}
-
-
-.row{
-display: flex;
-flex-direction: row;
-align-items: center;
-
-
-}
-
-
-.main{
-
-
+.divider {
+  width: 100%;
+  height: 8px;
+  background-color: #0055A4;
+  border: 0 none;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .infoText {
-
-width: auto;
-height: auto;
-color: #000000;
-font-size: 1.2em;
-text-align: justify;
-padding: 20px 80px 20px 80px;
-font-family: Arial Narrow,Arial,sans-serif;
-color:#0055A4;
-
+  width: auto;
+  height: auto;
+  font-size: 1.2em;
+  text-align: justify;
+  padding: 20px 80px 20px 80px;
+  font-family: Arial Narrow, Arial, sans-serif;
+  color: #0055A4;
 }
 
-
-
-
-
-
-ul{
-padding: 0;
-margin-bottom: auto;
-
-}
-li {
-padding: 10px;
-/*line-height: 40px;*/
-font-size: 1.5em;
-color: white;
-list-style: none;
-width: auto;
-height:auto;
-text-align: center;
+img {
+  pointer-events: none;
+  padding-right: 15px;
 }
 
-
-
-img{
-pointer-events: none;
-padding-right: 15px;
-}
-footer{
-display: flex;
-flex-direction: row;
-font-size: 1em;
-color:black;
-padding-left:60px;
- padding-right:260px;
- font-family: Cambria,Georgia,serif;
-
-}
-.line{
-border-right:1px solid black;
+footer {
+  display: flex;
+  flex-direction: row;
+  font-size: 1em;
+  color: #0055A4;
+  padding-left: 60px;
+  padding-right: 260px;
+  font-family: Cambria, Georgia, serif;
 }
 
-.mylink{padding: 5px;
-font-size: 0.875em;}
+.line {
+  border-right: 1px solid black;
+}
+
+.mylink {
+  padding: 5px;
+  font-size: 0.875em;
+}
 
 .mylink:any-link {
-color:black;
-height: fit-content;
+  color: #0055A4;
+  ;
+  height: fit-content;
 }
 
 
 /* WebKit browsers */
 .mylink:-webkit-any-link {
-color:black;
-height: fit-content;
+  color: #0055A4;
+  ;
+  height: fit-content;
 }
 
 
@@ -188,16 +120,15 @@ height: fit-content;
 .contact:any-link,
 .contact:-webkit-any-link,
 a,
-a.contact:link{
-color: #0055A4;
-text-decoration: underline;
+a.contact:link {
+  color: #0055A4;
+  text-decoration: underline;
 }
 
-a.contact{
-color: #0055A4;
-text-decoration: underline;
+a.contact {
+  color: #0055A4;
+  text-decoration: underline;
 }
-
 
 a.title_link:link,
 a.title_link:visited,
@@ -208,25 +139,11 @@ a.title_link:-wekit-any-link,
 .title a,
 .title a:link,
 .title a:visited {
-color: white;
-text-decoration: none;
-}
-
-a.header_title{
-  min-width: 200px;
-  margin-right:auto;
-  font-weight: normal;
   color: #0055A4;
-  font-family: Cambria,Georgia,serif;
-  font-size: 2.5em;
-  text-align: left;
-  vertical-align: middle;
-  padding: 5px;
+  text-decoration: underline;
 }
-
 
 /* selected li
 
 
 /* selected link */
-
