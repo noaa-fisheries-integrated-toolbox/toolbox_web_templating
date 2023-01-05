@@ -227,6 +227,18 @@
       text-align: left;
       padding: 5px;
   }
+
+  .header_title {
+    min-width: 200px;
+    margin-right:auto;
+    font-weight: normal;
+    color: #0055A4;
+    font-family: Cambria,Georgia,serif;
+    font-size: 2.5em;
+    text-align: left;
+    vertical-align: middle;
+    padding: 5px;
+  }
   
   .badge{
     width: 81px;
@@ -651,6 +663,18 @@
   
   }
   
+  a.header_title{
+    min-width: 200px;
+    margin-right:auto;
+    font-weight: normal;
+    color: #0055A4;
+    font-family: Cambria,Georgia,serif;
+    font-size: 2.5em;
+    text-align: left;
+    vertical-align: middle;
+    padding: 5px;
+  }
+
   .mylink{padding: 5px;
   font-size: 14px;}
   

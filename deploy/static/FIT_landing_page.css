@@ -41,6 +41,7 @@ padding: 40px;
   font-family: Cambria,Georgia,serif;
   font-size: 2.5em;
   text-align: left;
+  vertical-align: middle;
   padding: 5px;
 }
 
@@ -192,9 +193,16 @@ color: white;
 text-decoration: none;
 }
 
-a.title_link{
-color:white;
-text-decoration: none;
+a.header_title{
+  min-width: 200px;
+  margin-right:auto;
+  font-weight: normal;
+  color: #0055A4;
+  font-family: Cambria,Georgia,serif;
+  font-size: 2.5em;
+  text-align: left;
+  vertical-align: middle;
+  padding: 5px;
 }
 
 
