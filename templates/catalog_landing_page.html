@@ -31,11 +31,13 @@
         <div class ="mywrap">
           <h2 class ="title"> {{org_config.general_title}}</h2>
         </div>
-
+        <div class="mywrap">
+          <p>Use the menu bar at the left to search for or filter tools.</p>
+        </div>
         <div class="mywrap">
           <div class="mywrap">
             <nav class ="sidenav" role="navigation">
-              <button class="menu-toggle" id=”menu-toggle” onclick="menuClick(this)"  aria-label=”toggle the menu” aria-expanded="false" aria-controls="menu"></button>
+              <button class="menu-toggle" id=”menu-toggle” onclick="menuClick(this)"  aria-label=”toggle the menu” aria-expanded="true" aria-controls="menu"></button>
               <div class="menulabel">
                   <div class="bar1" aria-hidden=”true”></div>
                   <div class="bar2" aria-hidden=”true”></div>
@@ -193,20 +195,22 @@
               <a class = "shortTitle" href= {{my_string}} target= "_blank"> {{value['tool_abbreviation']}} </a>
               <div class = "longTitle">{{value['tool_name']}}</div>
               <div class = "toolbox_drawers">
-                Toolbox drawer(s):&nbsp;
+                <h3>Toolbox drawer(s):</h3>
+                <ul>
                 {% for kwd in value['toolbox_drawers']%}
-                  {{kwd}}&nbsp;
+                 <li>{{kwd}}</li>
                 {% endfor %}
+                </ul>
               </div>
               <div class = "keywords">
-                <p>
-                  Keywords:<br>
+                  <h3>Keywords:</h3>
                   {% if value['keywords'] is defined and value['keywords']|length %}
+                  <ul>
                     {% for kwd in value['keywords']%}
-                      {{kwd}}<br>
+                      <li>{{kwd}}</li>
                     {% endfor %}
-                  {% endif %}
-                </p>     
+                  </ul>
+                  {% endif %} 
               </div>
               <!-- <div class = "modelType">{{value['tool_type']}}</div>
               <div class = "modelType">{{value['model_type']}}</div> -->
