@@ -2,22 +2,16 @@
 .container{
   display: flex;
   flex-direction:column;
-font-family: Arial Narrow,Arial,sans-serif;
-color:#0055A4;
-margin:40px;
-font-size: 16px;
+  font-family: Arial Narrow,Arial,sans-serif;
+  color:#0055A4;
+  margin:40px;
+  font-size: 16px;
 
 }
 .mywrap_center{
 display: flex;
 flex-direction:row;
 margin:auto;
-
-
-}
-
-h1{
-margin:0;
 }
 
 
@@ -25,15 +19,24 @@ li a{
 text-decoration: none;
 color: white;
 }
-.mywrap{
-display: flex;
-flex-direction:row;
-justify-content: center;
-padding: 40px;
 
+.mywrap_left{
+  /* display:flex; */
+  /* flex-direction:row; */
+  /* align-items:left; */
+  /* justify-content: center; */
+  /* padding: 40px; */
 }
 
-.header_title {
+.mywrap{
+display:flex;
+/* flex-direction:row; */
+align-items:center;
+/* justify-content: center; */
+padding: 40px;
+}
+
+h1{
   min-width: 200px;
   margin-right:auto;
   font-weight: normal;
@@ -57,10 +60,9 @@ background-color:  #0055A4;
 min-width: 250px;
 margin-right:20px;
 }
-
 .header_button{
-  width:  50px;
-  height: 20px;
+  width:  100px;
+  height: 40px;
   margin:0 auto 0 auto;
   background-repeat: no-repeat;
   background-size: cover;
@@ -70,11 +72,12 @@ margin-right:20px;
 
 .header_button:hover{
   background-color: #00467F;
+  cursor: pointer;
 }
 
 .main_button{
-  width:  150px;
-  height: 30px;
+  width:  300px;
+  height: 60px;
   margin:0 auto 0 auto;
   background-repeat: no-repeat;
   background-size: cover;
@@ -84,6 +87,7 @@ margin-right:20px;
 
 .main_button:hover{
   background-color: #00467F;
+  cursor: pointer;
 }
 
 .divider{
