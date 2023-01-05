@@ -670,11 +670,7 @@ button.icon_small[disabled] {
   margin-bottom: 25px;
 }
 
-li {
-  padding: 5px;
-  line-height: 40px;
-  font-size: 24px;
-}
+
 
 .modelType {
   font-size: 14px;
@@ -780,6 +776,20 @@ h1 {
   padding: 5px;
 }
 
- p{
+h3{
+  font-size: 16px;
+  color:#0055A4;
+}
+
+p{
   font-size: 1.4em;
+}
+
+
+li{
+  padding: 0px;
+  line-height: 20px;
+  font-size: 24px;
+  font-size:16px;
+  color:#0055A4;
 }
