@@ -1,13 +1,12 @@
-# Convert info from a Github issue into json. This is
-# an important step toward making the toolbox 
-# onboarding automated.
+# Convert info from a Github issue into json. This is an important step #
+# toward making the toolbox onboarding automated.
 
 # Note that this is currently coded as an example for one repo only.
 library(gh)
 library(jsonlite)
 
 issue_info <- gh("/repos/{owner}/{repo}/issues/{issue_number}",
-owner = "noaa-fisheries-integrated-toolbox", 
+owner = "noaa-fisheries-integrated-toolbox",
 repo = "onboard-and-update",
 issue_number = "1"
 )
@@ -131,14 +130,16 @@ issue_body$release_badge <- unbox(issue_body$release_badge)
 # to write to a file:
 #jsonlite::write_json(issue_body, "test.JSON", pretty = TRUE)
 
-markdown_txt <- paste("```",
-jsonlite::toJSON(issue_body, pretty = TRUE), 
-"```", sep = "\n"
+markdown_txt <- paste(
+  "Thanks for submitting a tool onboarding request! Below is the JSON equivalent of your responses:"
+  "```",
+  jsonlite::toJSON(issue_body, pretty = TRUE),
+  "```", sep = "\n"
 )
 
 # post json as a comment on the issue
-gh("POST /repos/{owner}/{repo}/issues/{issue_number}/comments", 
+gh("POST /repos/{owner}/{repo}/issues/{issue_number}/comments",
    owner = "noaa-fisheries-integrated-toolbox",
-   repo = "onboard-and-update", 
-   issue_number = 1, 
+   repo = "onboard-and-update",
+   issue_number = 1,
    body = markdown_txt)
