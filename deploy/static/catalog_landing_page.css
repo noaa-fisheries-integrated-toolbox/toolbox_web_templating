@@ -454,74 +454,74 @@
   
   
   .online{
-    background-image: url("icons8-tune-24.png");
+    background-image: url("https://raw.githubusercontent.com/noaa-fisheries-integrated-toolbox/FIT_graphics/main/icons/icons8-tune-24.png");
   }
   
   .github{
-    background-image: url("icons8-code-fork-24.png");
+    background-image: url("https://raw.githubusercontent.com/noaa-fisheries-integrated-toolbox/FIT_graphics/main/icons/icons8-code-fork-24.png");
   }
   
   .down{
-    background-image: url("icons8-lightning-bolt-filled-50.png");
+    background-image: url("https://raw.githubusercontent.com/noaa-fisheries-integrated-toolbox/FIT_graphics/main/icons/icons8-lightning-bolt-filled-50.png");
   }
   
   
   
   .cert{
-    background-image: url("icons8-approval-filled-50.png");
+    background-image: url("https://raw.githubusercontent.com/noaa-fisheries-integrated-toolbox/FIT_graphics/main/icons/icons8-approval-filled-50.png");
   }
   
   .checkmark{
-    background-image: url("icons8-checkmark-24.png");
+    background-image: url("https://raw.githubusercontent.com/noaa-fisheries-integrated-toolbox/FIT_graphics/main/icons/icons8-checkmark-24.png");
   }
 
   .legacy{
-    background-image: url("legacy_icon.png");
+    background-image: url("https://raw.githubusercontent.com/noaa-fisheries-integrated-toolbox/FIT_graphics/main/icons/legacy_icon.png");
   }
   
   .checkmarkN{
-    background-image: url("n_icon_white_filled.png");
+    background-image: url("https://raw.githubusercontent.com/noaa-fisheries-integrated-toolbox/FIT_graphics/main/icons/n_icon_white_filled.png");
   }
   .checkmarkE{
-    background-image: url("e_icon_white_filled.png");
+    background-image: url("https://raw.githubusercontent.com/noaa-fisheries-integrated-toolbox/FIT_graphics/main/icons/e_icon_white_filled.png");
   }
   /*.internal_inactive{
-    background-image: url("icons8-checkmark-24-internal-inactive.png");
+    background-image: url("https://raw.githubusercontent.com/noaa-fisheries-integrated-toolbox/FIT_graphics/main/icons/icons8-checkmark-24-internal-inactive.png");
     background-repeat: none;
     background-size: cover;
   }*/
   
   .internal_inactive{
-    background-image: url("n_icon_white_filled.png");
+    background-image: url("https://raw.githubusercontent.com/noaa-fisheries-integrated-toolbox/FIT_graphics/main/icons/n_icon_white_filled.png");
     background-repeat: none;
     background-size: cover;
   }
   
   .internal_active{
-    background-image: url("n_icon_white_filled.png");
+    background-image: url("https://raw.githubusercontent.com/noaa-fisheries-integrated-toolbox/FIT_graphics/main/icons/n_icon_white_filled.png");
     background-repeat: none;
     background-size: cover;
   }
   
   /*.internal_active{
-    background-image: url("icons8-checkmark-24-internal-active.png");
+    background-image: url("https://raw.githubusercontent.com/noaa-fisheries-integrated-toolbox/FIT_graphics/main/icons/icons8-checkmark-24-internal-active.png");
     background-repeat: none;
     background-size: cover;
   }*/
   
   .external_active{
-    background-image: url("e_icon_white_filled.png");
+    background-image: url("https://raw.githubusercontent.com/noaa-fisheries-integrated-toolbox/FIT_graphics/main/icons/e_icon_white_filled.png");
     background-repeat: none;
     background-size: cover;
   }
   
   /*.external_active{
-    background-image: url("icons8-checkmark-24-external-active.png");
+    background-image: url("https://raw.githubusercontent.com/noaa-fisheries-integrated-toolbox/FIT_graphics/main/icons/icons8-checkmark-24-external-active.png");
     background-repeat: none;
     background-size: cover;
   }*/
   #email{
-      background-image: url("icons8-email-send-24.png");
+      background-image: url("https://raw.githubusercontent.com/noaa-fisheries-integrated-toolbox/FIT_graphics/main/icons/icons8-email-send-24.png");
     background-repeat: none;
     background-size: cover;
     border:none;
