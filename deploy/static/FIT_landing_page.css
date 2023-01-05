@@ -60,20 +60,6 @@ background-color:  #0055A4;
 min-width: 250px;
 margin-right:20px;
 }
-.header_button{
-  width:  100px;
-  height: 40px;
-  margin:0 auto 0 auto;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: #0055A4;
-  color: white;
-}
-
-.header_button:hover{
-  background-color: #00467F;
-  cursor: pointer;
-}
 
 .main_button{
   width:  300px;
@@ -82,11 +68,13 @@ margin-right:20px;
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #0055A4;
+  border-color: #0055A4;
   color: white;
+  font-size:1.6em;
 }
 
 .main_button:hover{
-  background-color: #00467F;
+  background-color: #0093D0;
   cursor: pointer;
 }
 
@@ -131,10 +119,11 @@ align-items: center;
 width: auto;
 height: auto;
 color: #000000;
-font-size: 1em;
+font-size: 1.2em;
 text-align: justify;
 padding: 20px 80px 20px 80px;
-
+font-family: Arial Narrow,Arial,sans-serif;
+color:#0055A4;
 
 }
 
