@@ -224,10 +224,10 @@ input:checked~.tab-content {
 
 .mywrap_head {
   display: flex;
-  flex-direction: row;
-  /* align-items:left; */
-  /* justify-content:center; */
-  /* padding: 40px; */
+  /* flex-direction:row; */
+  align-items: center;
+  /* justify-content: center; */
+  padding: 5px;
 }
 
 
@@ -766,4 +766,16 @@ footer {
   justify-content: flex-end;
   font-size: 10px;
   color: grey;
+}
+
+h1 {
+  min-width: 200px;
+  margin-right: auto;
+  font-weight: bold;
+  color: #0055A4;
+  font-family: Cambria, Georgia, serif;
+  font-size: 2.2em;
+  text-align: left;
+  vertical-align: middle;
+  padding: 5px;
 }
