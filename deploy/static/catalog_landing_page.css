@@ -1,3 +1,4 @@
+/* menu css */
 .menu-toggle {
   display: inline-block;
   cursor: pointer;
@@ -188,10 +189,6 @@ input:checked~.tab-content {
 
 /* Main content */
 
-
-
-
-
 .container {
   display: flex;
   flex-direction: column;
@@ -199,13 +196,6 @@ input:checked~.tab-content {
   color: #0055A4;
   margin: 40px;
   margin-bottom: 16px;
-}
-
-.mywrap_end {
-  display: flex;
-  flex-direction: row;
-  align-content: center;
-  justify-content: flex-end;
 }
 
 .mywrap {
@@ -236,9 +226,9 @@ input:checked~.tab-content {
   margin-right: auto;
   font-family: Cambria, Georgia, serif;
   color: #0055A4;
-  font-size: 36px;
+  font-size: 30px;
   text-align: left;
-  padding: 5px;
+  padding: 0px;
 }
 
 .header_title {
@@ -253,43 +243,7 @@ input:checked~.tab-content {
   padding: 5px;
 }
 
-.badge {
-  width: 81px;
-  height: 84px;
-  color: #9C27B0;
-  font-size: 70px;
-  font-weight: bold;
-  background: linear-gradient(to bottom right, rgba(255, 255, 255, 0), rgba(240, 240, 240, 0));
-  border: none;
-  text-align: center;
-}
-
-#check {
-
-  color: #49D24E;
-  border: 4px solid #49D24E;
-
-}
-
-.codelink {
-  width: 109px;
-  height: 40px;
-  color: #000000;
-  font-family: 'Source Sans Pro';
-  font-size: 12px;
-  font-weight: normal;
-  font-style: normal;
-  text-decoration: none;
-  text-align: center;
-  background: #FFFFFF;
-  border: 3px dotted #0055A4;
-  border-radius: 21px;
-  margin-right: 10px;
-
-}
-
 .divider {
-
   width: 100%;
   height: 8px;
   background-color: #0055A4;
@@ -297,49 +251,6 @@ input:checked~.tab-content {
   margin-top: 20px;
   margin-bottom: 20px;
 }
-
-.label {
-
-  width: auto;
-  height: 25px;
-  color: #0055A4;
-  font-family: 'Source Sans Pro';
-  font-size: 16px;
-  font-weight: bold;
-  font-style: normal;
-  text-decoration: none;
-  text-align: left;
-  padding: 5px;
-  background: white;
-  cursor: pointer;
-  background-size: contain;
-  background-repeat: no-repeat;
-  display: inline-block;
-  border: 1px solid #0055A4;
-  border-bottom: 3px solid white;
-  margin: 0 0 -3px;
-}
-
-.pdfIcon {
-  width: 68px;
-  height: 45px;
-  color: #0055A4;
-  font-size: 24px;
-  font-weight: normal;
-  background: rgba(255, 255, 255, 0.4);
-  border: none;
-  border-radius: 100%;
-}
-
-.icon {
-  width: 30px;
-  height: 30px;
-  font-size: 24px;
-  font-weight: normal;
-  border: none;
-
-}
-
 
 .boxcontainer {
   padding: 40px 40px 0 40px;
@@ -353,7 +264,6 @@ input:checked~.tab-content {
   width: 200px;
   height: 350px;
   border: 1px solid black;
-
   /*border-width: 0 1px 0 1px;*/
   margin-left: 40px;
   margin-bottom: 40px;
@@ -469,8 +379,6 @@ h2 {
   background-color: #0055A4;
 }
 
-
-.icon_small_grey,
 .icon_small {
   width: 25px;
   height: 25px;
@@ -548,17 +456,11 @@ button.icon_small[disabled] {
   background-image: url("https://raw.githubusercontent.com/noaa-fisheries-integrated-toolbox/FIT_graphics/main/icons/e_icon_white_filled.png");
 }
 
-/*.internal_inactive{
-    background-image: url("https://raw.githubusercontent.com/noaa-fisheries-integrated-toolbox/FIT_graphics/main/icons/icons8-checkmark-24-internal-inactive.png");
-    background-repeat: none;
-    background-size: cover;
-  }*/
-
-.internal_inactive {
+/* .internal_inactive {
   background-image: url("https://raw.githubusercontent.com/noaa-fisheries-integrated-toolbox/FIT_graphics/main/icons/n_icon_white_filled.png");
   background-repeat: none;
   background-size: cover;
-}
+} */
 
 .internal_active {
   background-image: url("https://raw.githubusercontent.com/noaa-fisheries-integrated-toolbox/FIT_graphics/main/icons/n_icon_white_filled.png");
@@ -566,23 +468,12 @@ button.icon_small[disabled] {
   background-size: cover;
 }
 
-/*.internal_active{
-    background-image: url("https://raw.githubusercontent.com/noaa-fisheries-integrated-toolbox/FIT_graphics/main/icons/icons8-checkmark-24-internal-active.png");
-    background-repeat: none;
-    background-size: cover;
-  }*/
-
 .external_active {
   background-image: url("https://raw.githubusercontent.com/noaa-fisheries-integrated-toolbox/FIT_graphics/main/icons/e_icon_white_filled.png");
   background-repeat: none;
   background-size: cover;
 }
 
-/*.external_active{
-    background-image: url("https://raw.githubusercontent.com/noaa-fisheries-integrated-toolbox/FIT_graphics/main/icons/icons8-checkmark-24-external-active.png");
-    background-repeat: none;
-    background-size: cover;
-  }*/
 #email {
   background-image: url("https://raw.githubusercontent.com/noaa-fisheries-integrated-toolbox/FIT_graphics/main/icons/icons8-email-send-24.png");
   background-repeat: none;
@@ -590,102 +481,6 @@ button.icon_small[disabled] {
   border: none;
 
 }
-
-.versionButton {
-
-  width: 97px;
-  height: 45px;
-  color: #FFFFFF;
-  font-family: 'Source Sans Pro';
-  font-size: 12px;
-  font-weight: bold;
-  font-style: normal;
-  text-decoration: none;
-  text-align: center;
-  background: rgba(63, 81, 181, 0.5);
-  border: none;
-  border-radius: 21px;
-  box-shadow: 0 5px 5px -5px #333;
-  margin-left: auto;
-}
-
-
-.authName {
-  width: 240px;
-  height: 40px;
-  color: #000000;
-  font-family: 'Source Sans Pro';
-  font-size: 12px;
-  font-weight: normal;
-  font-style: normal;
-  text-decoration: none;
-  text-align: left;
-}
-
-.main {}
-
-.infoText {
-
-  width: auto;
-  height: auto;
-  max-height: 250px;
-  overflow-y: scroll;
-  color: #000000;
-  font-size: 16px;
-  text-align: left;
-  padding: 20px 40px 20px 40px;
-  border-style: dashed;
-  border-color: #0055A4;
-  border-width: 0 0 2px 0;
-
-}
-
-.filtering {
-  /*background-color: #0055A4;*/
-  width: auto;
-  height: 200px;
-  margin-top: 20px;
-}
-
-.ref {
-
-  width: 441px;
-  height: 40px;
-  color: #0055A4;
-  font-family: 'Source Sans Pro';
-  font-size: 14px;
-  font-weight: normal;
-  font-style: normal;
-  text-decoration: none;
-  text-align: left;
-}
-
-
-.IconButton {
-
-  width: 33px;
-  height: 30px;
-  color: #FFFFFF;
-  font-family: 'Source Sans Pro';
-  font-size: 14px;
-  font-weight: normal;
-  font-style: normal;
-  text-decoration: none;
-  background: rgba(63, 81, 181, 0.4);
-  border: 1px solid #FFFFFF;
-  border-radius: 10px;
-  box-shadow: 0 5px 5px -5px #333;
-  text-align: center;
-}
-
-.bottom {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  margin-bottom: 25px;
-}
-
-
 
 .modelType {
   font-size: 14px;
@@ -698,26 +493,8 @@ button.icon_small[disabled] {
   padding: 5px 5px 0px 5px;
 }
 
-.icon_small_grey {
-  background-color: grey;
-}
-
-
 img {
   pointer-events: none;
-
-}
-
-a.header_title {
-  min-width: 200px;
-  margin-right: auto;
-  font-weight: normal;
-  color: #0055A4;
-  font-family: Cambria, Georgia, serif;
-  font-size: 2.5em;
-  text-align: left;
-  vertical-align: middle;
-  padding: 5px;
 }
 
 .mylink {
@@ -737,26 +514,6 @@ a.header_title {
   height: fit-content;
 }
 
-.fit_link {
-  padding: 5px;
-  font-size: 14px;
-  text-decoration: none;
-}
-
-.fit_link:any-link {
-  color: #0093D0;
-  height: fit-content;
-  text-decoration: none;
-}
-
-
-/* WebKit browsers */
-.fit_link:-webkit-any-link {
-  color: #0093D0;
-  height: fit-content;
-  text-decoration: none;
-}
-
 .line {
   border-right: 1px solid #0055A4;
 }
@@ -769,7 +526,6 @@ footer {
   padding-left: 60px;
   padding-right: 260px;
   font-family: Cambria, Georgia, serif;
-
 }
 
 .attribution {
