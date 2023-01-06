@@ -23,16 +23,6 @@
             <h2 class ="title">
               Tool: {{tool_name}} ({{tool_abbreviation}})
             </h2>
-              {% if support_level is defined and support_level|length %}
-              <div class = "badge" data-md-tooltip={{support_level}} id = {{support_level}} >
-              <!-- &#10039; -->
-              </div>
-              {% else %}
-              <!-- <div class = "badge" data-md-tooltip="Not Validated" id="greycheck"> -->
-              <!-- &#10039; -->
-              <!-- </div> -->
-              {% endif%}
-
         </div>
         <div class="mywrap">
               {% if online_app_link is defined and online_app_link|length %}
@@ -106,7 +96,7 @@
       </div>
 
 
-      <div class ="main">
+      <div class ="mywrap">
           
         {% if authors is defined and authors|length > 1 %}
         <h3>Authors</h3>
@@ -120,47 +110,39 @@
         </p>
         {% endif %}
 
+        <h3>Description</h3>
+        <p>
+          {{background_text}}
+        </p>
 
-        {% if main_image is defined and main_image %}
-
-        <div data-md-tooltip="{{main_image.alt}}" class = "mainImage">
-          <a href="{{main_image.link}}" target="_blank"><img id="mainImage" src="{{main_image.image}}" alt = "{{main_image.alt}}" ></a>
-        </div>
-
-        {% endif %}
-          
-          <h3>Description</h3>
-          <p>
-            {{background_text}}
-          </p>
-          {% if references is defined and references|length%}
-          <h3>References</h3>
-              <ul>
-                {% for ref in references %}
-                <li>{{ref}}</li>
-                {% endfor %}
-              </ul>
-         {% endif %}
-
-
-          {% if associated_tools is defined and associated_tools|length %}
-          <h3>
-          Associated Tools
-          </h3>
-              <ul id = "associated_tools">
-              {% for tools in associated_tools%}
-                <li><a href="{{tools.link}}"><i>{{tools.name}}</i></a></li>
+        {% if references is defined and references|length%}
+        <h3>References</h3>
+            <ul>
+              {% for ref in references %}
+              <li>{{ref}}</li>
               {% endfor %}
-              </ul>
-          {% endif %}
+            </ul>
+        {% endif %}
+
+
+        {% if associated_tools is defined and associated_tools|length %}
+        <h3>
+        Associated Tools
+        </h3>
+            <ul id = "associated_tools">
+            {% for tools in associated_tools%}
+              <li><a href="{{tools.link}}">{{tools.name}}</a></li>
+            {% endfor %}
+            </ul>
+        {% endif %}
 
           {% if orgs_of_use is defined and orgs_of_use|length %}
           <h3>
           Organizations using {{tool_abbreviation}}
           </h3>
             <ul >
-                {% for tools in orgs_of_use%}
-                <li><a href="{{tools.link}}"><i>{{tools.name}}</i></a></li>
+                {% for org in orgs_of_use%}
+                <li><a href="{{org.link}}">{{org.name}}</a></li>
                 {% endfor %}
             </ul>
           {% endif %}
