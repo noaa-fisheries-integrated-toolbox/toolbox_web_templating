@@ -8,10 +8,21 @@
 </head>
 <body>
     <div class="container">
+      <div class="mywrap_head">
+        <img src="https://raw.githubusercontent.com/noaa-fisheries-integrated-toolbox/FIT_graphics/main/FIT_logo/logo_pngs/FIT_logo_2022_color_no_text.png" alt="NOAA Fisheries Integrated Toolbox Logo" height="75">&nbsp;&nbsp;&nbsp;
+        <h1 class ="header_title">NOAA Fisheries Integrated Toolbox</h1>
+    </div>
+    <div class = "divider"></div>
+      <div class ="mywrap_head">
+        <button class="header_button" onclick="location.href='/';" value="FIT homepage">FIT Homepage</button>
+        <button class="header_button" onclick="location.href='/resources';" value="Explore Resources" >Explore Resources</button>
+        <button class="header_button" onclick="location.href='/resources/noaa%20fit/contact';" value="Contact FIT" >Contact FIT</button>
+      </div>
+    <div class = "divider"></div>
         <div class="mywrap">
-            <h1 class ="title">
-              {{tool_name}}
-            </h1>
+            <h2 class ="title">
+              Tool: {{tool_name}} ({{tool_abbreviation}})
+            </h2>
               {% if support_level is defined and support_level|length %}
               <div class = "badge" data-md-tooltip={{support_level}} id = {{support_level}} >
               <!-- &#10039; -->
@@ -19,7 +30,7 @@
               {% else %}
               <!-- <div class = "badge" data-md-tooltip="Not Validated" id="greycheck"> -->
               <!-- &#10039; -->
-              </div>
+              <!-- </div> -->
               {% endif%}
 
         </div>
@@ -74,28 +85,12 @@
                 Code Repository
                 </button>
               {% endif %}
-              <button class = "IconButton" title="e-mail fisheries.toolbox@noaa.gov" id ="email" onclick='location.href= "mailto:fisheries.toolbox@noaa.gov;"'>
-              </button>
-
-        </div>
-      <div class = "divider">
-      </div>
-
-
-      <div class ="main">
-        <div class="mywrap">
-              <h2>
-                {{tool_name}} ({{tool_abbreviation}})
-
-              </h2>
-
 
               {% if pdf_download_link is defined and pdf_download_link|length %}
               <a class = "pdfIcon" title="download pdf"
                 href="{{pdf_download_link}}" download>
               </a>
               {% endif %}
-
 
               {% if release_badge is defined and release_badge %}
               {% set release = "https://img.shields.io/github/v/release/"   ~ release_badge  ~ "?color=%230093D0&include_prereleases&label=%20" %}
@@ -106,32 +101,23 @@
                 </button>
               {% endif %}
 
-
         </div>
+      <div class = "divider_thin">
+      </div>
 
-        
-            <!-- {% if model_type %}
-            <h2>Type</h2>
-            <div class ="label">
-              {{model_type}}
-            </div>
-            {% elif tool_type%}
-            <h2>Type</h2>
-            <div class ="label">
-              {{tool_type}}
-            </div>
-            {% endif %} -->
-        
+
+      <div class ="main">
+          
         {% if authors is defined and authors|length > 1 %}
-        <h2>Authors</h2>
-        <div class = "authName">
+        <h3>Authors</h3>
+        <p>
         {{authors}}
-        </div >
+        </p>
         {% elif authors is defined and authors %}
-        <h2>Author</h2>
-        <div class = "authName">
+        <h3>Author</h3>
+        <p>
         {{authors}}
-        </div >
+        </p>
         {% endif %}
 
 
@@ -143,85 +129,65 @@
 
         {% endif %}
           
-          <h2>Description</h2>
-          <div class ="mainText">
+          <h3>Description</h3>
+          <p>
             {{background_text}}
-          </div>
-              {% if references is defined and references|length%}
-                  <h2>References</h2>
-                  <ul>
-                      {% for ref in references %}
-                          <li>{{ref}}</li>
-                      {% endfor %}
-                  </ul>
-              {% endif %}
-
-
-              {% if associated_tools is defined and associated_tools|length %}
-                  <h2>
-                      Associated Tools
-                  </h2>
-                  <ul id = "associated_tools">
-                      {% for tools in associated_tools%}
-                          <li><a href="{{tools.link}}"><i>{{tools.name}}</i></a></li>
-                      {% endfor %}
-                  </ul>
-              {% endif %}
-
-              {% if orgs_of_use is defined and orgs_of_use|length %}
-                  <h2>
-                      Organizations using this Tool
-                  </h2>
-                  <ul >
-                      {% for tools in orgs_of_use%}
-                          <li><a href="{{tools.link}}"><i>{{tools.name}}</i></a></li>
-                      {% endfor %}
-                  </ul>
-              {% endif %}
-
-
-              {% if zenodo_citation is defined and zenodo_citation|length %}
-                  <h2>
-                      Citation
-                </h2>
-                  <ul id = "associated_tools">
-
-                      <li><a href="{{'https://zenodo.org/badge/latestdoi/' ~ zenodo_citation}}"><img src="{{'https://zenodo.org/badge/' ~ zenodo_citation ~'.svg'}}" alt="DOI"></a></li>
-
-                  </ul>
-              {% endif %}
-
-              {% if multi_download is defined and multi_download|length %}
-                  <div id = "Executables" class = "ref">
-                      Downloadable Executables
-                  </div>
-                  <ul >
-                      {% for tools in multi_download%}
-                          <li><a href="{{tools.link}}"><i>{{tools.name}}</i></a></li>
-                      {% endfor %}
-                  </ul>
-              {% endif %}
-
-
-
-              <h2>
-              Code Repository Badges
-              </h2>
-                  {% if software_badges is defined and software_badges|length %}
-
-                      {% for tools in software_badges%}
-                          <img src="{{tools}}">
-                      {% endfor %}
-                  {% endif %}
-                  
-            <h2>
-             Keywords
-            </h2>
-              {% if keywords is defined and keywords|length %}
-                {% for key in keywords%}
-                  <li>{{key}}</li>
+          </p>
+          {% if references is defined and references|length%}
+          <h3>References</h3>
+              <ul>
+                {% for ref in references %}
+                <li>{{ref}}</li>
                 {% endfor %}
-              {% endif %}          
+              </ul>
+         {% endif %}
+
+
+          {% if associated_tools is defined and associated_tools|length %}
+          <h3>
+          Associated Tools
+          </h3>
+              <ul id = "associated_tools">
+              {% for tools in associated_tools%}
+                <li><a href="{{tools.link}}"><i>{{tools.name}}</i></a></li>
+              {% endfor %}
+              </ul>
+          {% endif %}
+
+          {% if orgs_of_use is defined and orgs_of_use|length %}
+          <h3>
+          Organizations using {{tool_abbreviation}}
+          </h3>
+            <ul >
+                {% for tools in orgs_of_use%}
+                <li><a href="{{tools.link}}"><i>{{tools.name}}</i></a></li>
+                {% endfor %}
+            </ul>
+          {% endif %}
+
+          {% if citation is defined and citation|length %}
+          <h3>
+          Citation
+          </h3>
+            <p>{{citation}}</p>
+          {% endif %}
+          {% if software_badges is defined and software_badges|length %}
+          <h3>
+          Code Repository Badges
+          </h3>
+            {% for tools in software_badges%}
+            <img src="{{tools}}">
+            {% endfor %}
+          {% endif %}
+                  
+          <h3>
+          Keywords
+          </h3>
+          {% if keywords is defined and keywords|length %}
+          {% for key in keywords%}
+            <li>{{key}}</li>
+          {% endfor %}
+          {% endif %}          
       </div>
 
       <div class = "divider"></div>

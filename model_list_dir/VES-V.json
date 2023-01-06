@@ -9,20 +9,6 @@
   "main_image": {"image":"VES-V.jpg","link":"http://www.perspectx.com/VES-V/VESVdemoSept12WestCoast.mp4","alt":"image of VES-V interface and link to video overview"},
   "tool_abbreviation": "VES-V",
   "tool_name": "Virtual Ecosystem Scenario Viewer",
-  "multi_download": [
-    {
-      "link": "http://www.perspectx.com/VES-V/NOAA_VES-V_v144_PC.zip",
-      "name": "VES-V 1.44 for PC/Windows"
-    },
-    {
-      "link": "http://www.perspectx.com/VES-V/NOAA_VES-V_v144_OSX.zip",
-      "name": "VES-V 1.44 for Mac/OS"
-    },
-    {
-      "link": "http://www.perspectx.com/VES-V/NOAA_VES-V_v144_linux.zip",
-      "name": "VES-V 1.44 for Linux"
-    }
-  ],
   "online_app_link": "http://www.perspectx.com/VES-V/v144/",
   "software_badges": [
     "https://www.repostatus.org/badges/latest/active.svg"
