@@ -397,10 +397,14 @@ input:checked~.tab-content {
   cursor: pointer;
 }
 
-
 h2 {
   font-size: 16px;
   padding-left: 2px;
+}
+
+.title{
+  padding-top:0px;
+  padding-bottom:0px;
 }
 
 .shortTitle {
@@ -503,14 +507,25 @@ button.icon_small[disabled] {
   background-image: url("https://raw.githubusercontent.com/noaa-fisheries-integrated-toolbox/FIT_graphics/main/icons/icons8-tune-24.png");
 }
 
+.online:hover{
+    cursor: pointer;
+}
+
 .github {
   background-image: url("https://raw.githubusercontent.com/noaa-fisheries-integrated-toolbox/FIT_graphics/main/icons/icons8-code-fork-24.png");
 }
 
+.github:hover{
+  cursor: pointer;
+}
+
+
 .down {
   background-image: url("https://raw.githubusercontent.com/noaa-fisheries-integrated-toolbox/FIT_graphics/main/icons/icons8-lightning-bolt-filled-50.png");
 }
-
+.down:hover{
+  cursor: pointer;
+}
 
 
 .cert {
