@@ -6,7 +6,6 @@
   "documentation_link": "https://github.com/nmfs-fish-tools/VES-V/blob/master/docs/VES-V_Manual_v118_final.pdf",
   "executable_link": "https://github.com/nmfs-fish-tools/VES-V/blob/master/Executables.md",
   "source_code_link": "https://github.com/nmfs-fish-tools/VES-V",
-  "main_image": {"image":"VES-V.jpg","link":"http://www.perspectx.com/VES-V/VESVdemoSept12WestCoast.mp4","alt":"image of VES-V interface and link to video overview"},
   "tool_abbreviation": "VES-V",
   "tool_name": "Virtual Ecosystem Scenario Viewer",
   "online_app_link": "http://www.perspectx.com/VES-V/v144/",
