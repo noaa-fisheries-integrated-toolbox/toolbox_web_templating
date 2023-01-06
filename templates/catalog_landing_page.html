@@ -194,7 +194,7 @@
               {% set my_string = value['tool_abbreviation']  %}
               <a class = "shortTitle" href= {{my_string}} target= "_blank"> {{value['tool_abbreviation']}} </a>
               <div class = "longTitle">{{value['tool_name']}}</div>
-              <div class = "toolbox_drawers">
+              <div class = "toolbox_drawers_keywords">
                 <h3>Toolbox drawer(s):</h3>
                 <ul>
                 {% for kwd in value['toolbox_drawers']%}
@@ -202,7 +202,7 @@
                 {% endfor %}
                 </ul>
               </div>
-              <div class = "keywords">
+              <div class = "toolbox_drawers_keywords">
                   <h3>Keywords:</h3>
                   {% if value['keywords'] is defined and value['keywords']|length %}
                   <ul>

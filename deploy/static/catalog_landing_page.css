@@ -192,6 +192,7 @@ input:checked~.tab-content {
 .container {
   display: flex;
   flex-direction: column;
+  height: 100%;
   font-family: Arial Narrow, Arial, sans-serif;
   color: #0055A4;
   margin: 40px;
@@ -252,6 +253,81 @@ input:checked~.tab-content {
   margin-bottom: 20px;
 }
 
+.divider_thin{
+  width: 100%;
+  height: 2px;
+  background-color:#0055A4;
+  border: 0 none;
+  margin-top: 40px;
+  margin-bottom:20px;
+
+  }
+
+  .label {
+  
+    width: auto;
+    height: 30px;
+    color: #0055A4;
+    font-weight: bold;
+    font-style: normal;
+    text-decoration: none;
+    text-align: left;
+    margin-right: auto;
+    line-height: 30px;
+    font-size: large;
+    }
+    
+    .pdfIcon{
+    width:35px;
+    height: 35px;
+    color: #0055A4;
+    font-size: 24px;
+    font-weight: normal;
+    background-image: url("https://raw.githubusercontent.com/noaa-fisheries-integrated-toolbox/FIT_graphics/main/icons/icons8-pdf-50.png");
+    border: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+    }
+    
+    .githubIcon{
+        width: 35px;
+    height: 35px;
+    color: #444444;
+    font-size: 24px;
+    font-weight: normal;
+    border: none;
+    background-image: url("https://raw.githubusercontent.com/noaa-fisheries-integrated-toolbox/FIT_graphics/main/icons/icons8-github-24.png");
+    border: 1px solid #00000066;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 4px;
+    }
+    
+    .versionButton{
+    
+    width: 97px;
+    height: 45px;
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: normal;
+    text-decoration: none;
+    text-align: center;
+    background: #0093D0;
+    border: none;
+    border-radius: 21px;
+    margin-left: auto;
+    }
+    
+    .main{
+  
+      font-size:16px;
+      padding: 0px 40px 0px 40px;
+     
+}
+
 .boxcontainer {
   padding: 40px 40px 0 40px;
   display: flex;
@@ -307,14 +383,17 @@ input:checked~.tab-content {
   cursor: pointer;
 }
 
-h2 {
-  font-size: 16px;
-  padding-left: 2px;
-}
+
 
 .title{
   padding-top:0px;
   padding-bottom:0px;
+  min-width: 200px;
+  margin-right: auto;
+  font-family: Cambria, Georgia, serif;
+  color: #0055A4;
+  font-size: 30px;
+  text-align: left;
 }
 
 .shortTitle {
@@ -328,7 +407,7 @@ h2 {
 }
 
 .longTitle {
-  font-style: italic;
+  font-style:italic;
   text-align: center;
   padding-top: 7px;
   padding-bottom: 7px;
@@ -338,24 +417,48 @@ h2 {
   font-family: Cambria, Georgia, serif;
 }
 
-.toolbox_drawers {
+.codelink.nolink{
+  color:#d1d3de;
+  pointer-events: none;
+
+}
+
+.badge{
+  width: 60px;
+  max-height: 60px;
+  border: none;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+ 
+ .codelink{
+ width: 120px;
+ height: 45px;
+ color: #000000;
+ font-size: 14px;
+ font-weight: normal;
+ font-style: normal;
+ text-decoration: none;
+ text-align: center;
+ background: #FFFFFF;
+ border: 3px dotted #0055A4;
+ border-radius: 21px;
+ margin-right: 10px;
+ 
+ }
+
+ .codelink:hover{
+   cursor: pointer;
+   background-color:#0093D0
+ }
+
+.toolbox_drawers_keywords {
   text-align: left;
   padding-top: 2px;
   padding-bottom: 0px;
   padding-right: 5px;
   padding-left: 5px;
-  color: black;
   font-size:16px;
-}
-
-.keywords {
-  text-align: left;
-  padding-top: 0px;
-  padding-bottom: 2px;
-  padding-right: 5px;
-  padding-left: 5px;
-  color: black;
-  font-size:12px;
 }
 
 .language {
@@ -503,7 +606,7 @@ img {
 }
 
 .mylink:any-link {
-  color: black;
+  color: #0055A4;
   height: fit-content;
 }
 
@@ -547,20 +650,62 @@ h1 {
   padding: 5px;
 }
 
+h2 {
+  font-size: 1.4em;
+  padding-left: 2px;
+}
+
 h3{
-  font-size: 14px;
+  font-size: 1.2em;
   color:#0055A4;
   line-height:0px;
 }
 
 p{
-  font-size: 1.4em;
+  font-size: 16px;
+  line-height:20px;
 }
 
+ul {
+  list-style-type: square;
+  display: flex;
+  flex-direction: column;
+}
 
 li{
   padding: 0px;
   line-height:20px;
-  font-size:12px;
+  font-size:16px;
   color:#0055A4;
 }
+
+a{
+  color:#0093D0;
+  font-style:normal;
+}
+
+/* Could be needed by tool landing page in the future */
+  /* [data-md-tooltip] {
+    position: relative;
+  }
+  [data-md-tooltip]:before {
+      content: attr(data-md-tooltip);
+      position: absolute;
+      bottom: -35px;
+      left: 50%;
+      padding: 8px;
+      transform: translateX(-50%) scale(0);
+      transition: transform 0.3s ease-in-out;
+      transform-origin: top;
+      background: #616161e6;
+      color: white;
+      border-radius: 2px;
+      font-size: 12px;
+      font-family: Arial Narrow,Arial,sans-serif;
+      font-weight: 400;
+  }
+  [data-md-tooltip]:hover:before {
+    transform: translateX(-50%) scale(1);
+  }
+  
+   */
