@@ -130,7 +130,16 @@ a{
    background-color:#0093D0
  }
 
-.toolbox_drawers_keywords {
+.toolbox_drawers {
+  text-align: left;
+  padding-top: 2px;
+  padding-bottom: 0px;
+  padding-right: 5px;
+  padding-left: 5px;
+  font-size:16px;
+}
+
+.keywords {
   text-align: left;
   padding-top: 2px;
   padding-bottom: 0px;
