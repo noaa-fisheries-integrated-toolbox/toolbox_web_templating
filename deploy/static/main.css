@@ -474,6 +474,10 @@ img {
   padding-right: 15px;
 }
 
+.software_badge{
+  width: 175px;
+}
+
 footer {
   display: flex;
   flex-direction: row;
