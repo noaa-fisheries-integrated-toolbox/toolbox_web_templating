@@ -475,7 +475,8 @@ img {
 }
 
 .software_badge{
-  width: 175px;
+  height: 1.4em;
+  width:fit-content;  
 }
 
 footer {
