@@ -351,9 +351,9 @@ button.icon_small[disabled] {
   font-style: normal;
   text-decoration: none;
   text-align: center;
-  background: #0093D0;
+  /* background-color:#00000066; */
   border: none;
-  border-radius: 21px;
+  /* border-radius: 21px; */
   margin-left: auto;
   }
 
