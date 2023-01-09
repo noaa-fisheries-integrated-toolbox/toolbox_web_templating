@@ -97,43 +97,35 @@
 
 
       <div class ="mywrap">
-
+          
         {% if authors is defined and authors|length > 1 %}
-        <div class ="mywrap">
         <h3>Authors</h3>
         <p>
         {{authors}}
         </p>
-      </div>
         {% elif authors is defined and authors %}
-        <div class ="mywrap">
         <h3>Author</h3>
         <p>
         {{authors}}
         </p>
-        </div>
         {% endif %}
 
-        <div class ="mywrap">
         <h3>Description</h3>
         <p>
           {{background_text}}
         </p>
-        </div>
+
         {% if references is defined and references|length%}
-        <div class ="mywrap">
-          <h3>References</h3>
-              <ul>
-                {% for ref in references %}
-                <li>{{ref}}</li>
-                {% endfor %}
-              </ul>
-        /div>
+        <h3>References</h3>
+            <ul>
+              {% for ref in references %}
+              <li>{{ref}}</li>
+              {% endfor %}
+            </ul>
         {% endif %}
 
 
         {% if associated_tools is defined and associated_tools|length %}
-        <div class ="mywrap">
         <h3>
         Associated Tools
         </h3>
@@ -142,11 +134,9 @@
               <li><a href="{{tools.link}}">{{tools.name}}</a></li>
             {% endfor %}
             </ul>
-            </div>
         {% endif %}
 
           {% if orgs_of_use is defined and orgs_of_use|length %}
-          <div class ="mywrap">
           <h3>
           Organizations using {{tool_abbreviation}}
           </h3>
@@ -155,29 +145,23 @@
                 <li><a href="{{org.link}}">{{org.name}}</a></li>
                 {% endfor %}
             </ul>
-          </div>
           {% endif %}
 
           {% if citation is defined and citation|length %}
-          <div class ="mywrap">
           <h3>
           Citation
           </h3>
             <p>{{citation}}</p>
-            </div>
           {% endif %}
           {% if software_badges is defined and software_badges|length %}
-          <div class ="mywrap">
           <h3>
           Code Repository Badges
           </h3>
             {% for tools in software_badges%}
             <img src="{{tools}}">
             {% endfor %}
-          </div>
           {% endif %}
                   
-          <div class ="mywrap">
           <h3>
           Keywords
           </h3>
@@ -185,8 +169,7 @@
           {% for key in keywords%}
             <li>{{key}}</li>
           {% endfor %}
-          {% endif %}       
-          </div>   
+          {% endif %}          
       </div>
 
       <div class = "divider"></div>
