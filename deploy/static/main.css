@@ -222,6 +222,7 @@ a{
 
 .row .icon_small {
   margin: 0 10px 0 0;
+  background-size:contain;
 }
 
 button:disabled,
