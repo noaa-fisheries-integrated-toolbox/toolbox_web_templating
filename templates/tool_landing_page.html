@@ -140,7 +140,7 @@
           <h3>
           Organizations using {{tool_abbreviation}}
           </h3>
-            <ul >
+            <ul>
                 {% for org in orgs_of_use%}
                 <li><a href="{{org.link}}">{{org.name}}</a></li>
                 {% endfor %}
@@ -166,9 +166,11 @@
           Keywords
           </h3>
           {% if keywords is defined and keywords|length %}
+          <ul>
           {% for key in keywords%}
             <li>{{key}}</li>
           {% endfor %}
+          </ul>
           {% endif %}          
       </div>
 
