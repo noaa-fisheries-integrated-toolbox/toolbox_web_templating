@@ -6,10 +6,6 @@ on:
     paths:
       - 'model_list_dir/**/**.json'
       - 'model_list_dir/**.json'
-    branches:
-      - main
-      - dev
-
 
 jobs:
   verify-json-validation:
