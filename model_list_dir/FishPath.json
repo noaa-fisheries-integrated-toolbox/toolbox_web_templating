@@ -1,9 +1,9 @@
 {
-    "active_development": "true",
+    "active_development": true,
     "tool_name": "FishPath",
     "tool_abbreviation": "FishPath",
     "authors": "The Nature Conservancy, NOAA, and CSIRO",
-    "noaa_internal": "false",
+    "noaa_internal": false,
     "maintainer_name": "FishPath Support",
     "maintainer_email": "support@fishpath.org",
     "background_text": "The FishPath Tool is an online decision-support tool for data-limited fisheries management. The primary goal of the FishPath Tool is to support users in understanding and refining options for the three major components of a harvest strategy: 1) data collection, 2) data-limited assessment, and 3) management measures. Once registered, you may access the FishPath Tool, including the FishPath questionnaire, interactive results tailored to your fishery, and supporting resources.",
@@ -14,5 +14,5 @@
     "documentation_link": "https://fishpath.github.io/FishPath-Tool-User-Guide/",
     "toolbox_drawers": ["Fish and Fisheries", "Human Dimensions"],
     "keywords": ["Data Limited Method", "Decision Support Tool", "Fisheries", "Web App"],
-    "uses_github_releases": "false"
+    "uses_github_releases": false
   }
