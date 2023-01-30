@@ -1,0 +1,21 @@
+{
+  "authors": "Woodman et al.",
+  "maintainer_name": "Sam Woodman", 
+  "background_text": "eSDM is an R package designed to allow users to create ensembles of predictions from species distribution models (SDMs) made at different spatial scales or with different prediction units. Included in the package is the eSDM GUI, an R Shiny tool that provides the user with a graphical user interface that they can use to import, overlay, and create ensembles of SDM predictions.",
+  "maintainer_email":"sam.woodman@noaa.gov",
+  "documentation_link": "https://smwoodman.github.io/eSDM/reference/index.html",
+  "source_code_link": "https://github.com/smwoodman/eSDM",
+  "website_link":"https://smwoodman.github.io/eSDM/",
+  "tool_abbreviation": "eSDM",
+  "tool_name": "Ensemble tool for predictions from Species Distribution Models",
+  "online_app_link": "https://swoodman.shinyapps.io/eSDM/",
+  "pdf_download_link": "https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.13283",
+  "references": [ "Woodman, SM, Forney, KA, Becker, EA, et al. esdm: A tool for creating and exploring ensembles of predictions from species distribution and abundance models. Methods Ecol Evol. 2019; 10: 1923–1933. https://doi.org/10.1111/2041-210X.13283"],
+  "release_badge":"smwoodman/eSDM",
+  "active_development": true,
+  "noaa_internal": true,
+  "software_badges":["https://www.repostatus.org/badges/latest/active.svg"],
+  "uses_github_releases": true,
+  "toolbox_drawers": ["Protected Species"], 
+  "keywords": ["Web App", "Shiny", "Ensemble Modeling", "R Package"]
+}

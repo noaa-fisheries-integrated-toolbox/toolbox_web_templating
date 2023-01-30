@@ -1,0 +1,18 @@
+{
+  "authors": "Seaver, A.",
+  "maintainer_name":"orphaned", 
+  "maintainer_email":"fisheries.toolbox@noaa.gov",
+  "background_text": "The Model Compare (MComp) program allows the user to compare the results between VPA and ASAP estimation models as well as the simulated results from Age Based PopSim.  In addition, the program allows the user to display time series data from any alternate model as an additional comparative series.  The user may compare Stock Numbers, Fishing Mortality, Spawning Stock Biomass, Jan-1 Biomass and Survey Indices.   The user may compare up to three model results simultaneously.   Comparison may be across all years in the combined time series or alternatively for common years only.",
+  "executable_link": "https://github.com/nmfs-fish-tools/MCOMP/releases/download/4.3.0/MODELCOMPV43.zip",
+  "fit_repo": "https://github.com/nmfs-fish-tools/MCOMP.git",
+  "tool_abbreviation": "MCOMP",
+  "tool_name": "Model Compare Utility",
+  "software_badges":["https://www.repostatus.org/badges/latest/inactive.svg"],
+  "active_development": false,
+  "noaa_internal": true,
+  "static_version_number": "4.3",
+  "uses_github_releases": false,
+  "release_badge":"nmfs-fish-tools/MCOMP",
+  "toolbox_drawers": ["Fish and Fisheries"],
+  "keywords": ["Model Comparision", "Output Visualization", "Guided User Interface", "Legacy Tool"]
+}

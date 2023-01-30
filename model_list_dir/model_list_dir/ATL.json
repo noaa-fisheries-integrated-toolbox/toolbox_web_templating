@@ -1,0 +1,25 @@
+{
+  "authors": "Matthew Supernaw",
+  "maintainer_name": "Matthew Supernaw",
+  "maintainer_email": "fisheries.toolbox@noaa.gov",
+  "background_text": "The Analytics Template Library (ATL) is a scientific computing library with an emphasis on gradient based optimization. ATL leverages the power of template metaprogramming for flexibility, extensibility, and speed. This guide is intended to give the user a basic understanding of how to develop programs in ATL. The information in this document is intended for anyone interested in scientific computing in C++ and it is expected that the reader will have a basic understanding of the C++ programming language, as well as scientific computing.",
+  "source_code_link": "https://github.com/nmfs-fish-tools/ATL",
+  "tool_abbreviation": "ATL",
+  "tool_name": "Analytics Template Library",
+  "references": [
+    "Andreas Griewank, Andrea Walther [Introduction to Automatic Differentiation]. PAMM Proc. Appl. Math. Mech. 2, 45?49 (2003).",
+    "Andreas Griewank [On Automatic Differentiation]. Center for Research on Parallel Computation, 1989.",
+    "Robert Mansel Gower, Margarida P. Mello Hessian Matrices via Automatic Differentiation. Institute of Mathematics, Statistics and Scientific Computing,State University of Campinas, September 29, 2010.",
+    "Fournier, D.A., Skaug, H.J., Ancheta, J., Ianelli, J., Magnusson, A., Maunder, M.N., Nielsen, A., and Sibert, J. 2012. AD Model Builder: using automatic differentiation for statistical inference of highly parameterized complex nonlinear models. Optim. Methods Softw. 27:233-249.",
+    "Kasper Kristensen and Anders Nielsen and Casper W. Berg and Hans Skaug and Bradley M. Bell, 2016,  TMB: Automatic Differentiation and Laplace Approximation, Journal of Statistical Software, 70:1-21 "
+  ],
+  "software_badges": [
+    "https://img.shields.io/github/last-commit/nmfs-fish-tools/ATL.svg?style=plastic"
+  ],
+  "active_development": true,
+  "noaa_internal": true,
+  "static_version_number": "1.0.0",
+  "uses_github_releases": false,
+  "toolbox_drawers": ["General Modeling and Productivity Tools"],
+  "keywords": ["Maximum Likelihood Estimation", "Model Builder", "Gradient Solver"]
+}

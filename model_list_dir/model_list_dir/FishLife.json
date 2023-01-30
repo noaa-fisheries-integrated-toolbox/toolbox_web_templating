@@ -1,0 +1,31 @@
+{
+  "tool_name": "FishLife",
+  "tool_abbreviation": "FishLife",
+  "maintainer_name": "James Thorson",
+  "maintainer_email": "James.Thorson@noaa.gov",
+  "authors": "James T Thorson Stephan B. Munch, Jason M. Cope, Jin Gao",
+  "background_text": "FishLife is an R Package that includes software, data, and associated results for a simple evolutionary model of life-history parameters for fishes.  The model approximates the co-evolution of life-history parameters representing adult growth, size, mortality, and maturity, as well as stock-recruit parameters representing maximum spawners per spawner, Beverton-Holt 'steepness', and variability in recruitment.  Given these adult and stock-recruit predictions, the model can then predict life-cycle parameters including generation time, intrinsic growth rate, and fishing mortality reference point proxies. The model includes predictions of these life-history parameters (and associated multivariate predictive uncertainty) for all described fishes, while shrinking the predicted value of each parameter towards available data for that species, data for related species, and predicted values given available data for other parameters for that species.",
+  "references": [
+    "Thorson, J.T., n.d. Predicting recruitment density dependence and intrinsic growth rate for all fishes worldwide using a data-integrated life-history model. Fish Fish. n/a. https://doi.org/10.1111/faf.12427",
+    "Thorson, J.T., Munch, S.B., Cope, J.M., Gao, J., 2017. Predicting life history parameters for all fishes worldwide. Ecol. Appl. 27, 2262–2276. https://doi.org/10.1002/eap.1606",
+    "Rudd, M.B., Thorson, J.T., Sagarese, S.R., 2019. Ensemble models for data-poor assessment: accounting for uncertainty in life-history information. ICES J. Mar. Sci. 76, 870–883. https://doi.org/10.1093/icesjms/fsz012"
+  ],
+  "online_app_link": "https://james-thorson.shinyapps.io/FishLife/",
+  "source_code_link": "https://github.com/James-Thorson-NOAA/FishLife",
+  "static_version_number": "2.0.0",
+  "active_development": true,
+  "noaa_internal": true,
+  "associated_tools": [
+    {
+      "name": "LIME",
+      "link": "https://github.com/merrillrudd/LIME"
+    }
+  ],
+  "software_badges": [
+    "https://img.shields.io/github/last-commit/James-Thorson-NOAA/FishLife.svg?style=plastic"
+  ],
+  "release_badge": "James-Thorson-NOAA/FishLife",
+  "uses_github_releases": true, 
+  "toolbox_drawers": ["General Modeling and Productivity Tools"], 
+  "keywords": ["R Package", "Fish and Fisheries", "Fish Biology", "Web App", "Shiny"]
+}

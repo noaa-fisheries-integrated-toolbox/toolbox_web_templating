@@ -1,0 +1,16 @@
+{
+  "authors": "Sean Andersen, Eric Ward",
+  "maintainer_name": "Sean Andersen",
+  "maintainer_email": "sean@seananderson.ca",
+  "background_text": "The glmmfields R package implements Bayesian spatiotemporal models that allow for extreme spatial deviations through time. It uses a predictive process approach with random fields implemented through a multivariate-t distribution instead of a multivariate normal. The models are fit with Stan.",
+  "documentation_link": "https://cran.r-project.org/web/packages/glmmfields/vignettes/spatial-glms.html",
+  "source_code_link": "https://github.com/seananderson/glmmfields",
+  "tool_abbreviation": "glmmfields",
+  "tool_name": "Spatial GLMMs in R with Stan",
+  "software_badges":["https://www.repostatus.org/badges/latest/active.svg"],
+  "active_development": true,
+  "noaa_internal": true,
+  "uses_github_releases": true, 
+  "toolbox_drawers": ["General Modeling and Productivity Tools"], 
+  "keywords": ["Bayesian Modeling", "R Package"]
+}

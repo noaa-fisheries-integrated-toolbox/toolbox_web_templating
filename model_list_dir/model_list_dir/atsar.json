@@ -1,0 +1,18 @@
+{
+  "authors": "Eric Ward",
+  "maintainer_name": "Eric Ward",
+  "maintainer_email": "eric.ward@noaa.gov",
+  "background_text": "The atsar R package implements Bayesian time series models using Stan, primarily for illustrative purposes and teaching.",
+  "documentation_link": "https://atsa-es.github.io/atsar/#documentation",
+  "source_code_link": "https://github.com/atsa-es/atsar",
+  "tool_abbreviation": "atsar",
+  "tool_name": "Applied time series analysis in R with Stan",
+  "website_link":"https://atsa-es.github.io/atsar/",
+  "software_badges":["https://www.repostatus.org/badges/latest/active.svg", "https://github.com/atsa-es/atsar/workflows/R-CMD-check/badge.svg"],
+  "active_development": true,
+  "noaa_internal": true,
+  "uses_github_releases": true,
+  "release_badge":"atsa-es/atsar",
+  "toolbox_drawers": ["General Modeling and Productivity Tools"],
+  "keywords": ["Bayesian Modeling", "Time Series", "Teaching Tool", "R Package"]
+}

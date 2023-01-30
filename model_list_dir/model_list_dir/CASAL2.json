@@ -1,0 +1,17 @@
+{
+  "authors": "Ian Doonan, Kath Large, Alistair Dunn, Scott Rasmussen, Craig Marsh, and Sophie Mormede",
+  "maintainer_name": "Casal2 development team",
+  "maintainer_email": "casal2@niwa.co.nz",
+  "background_text": "Casal2 is NIWA’s next generation open-source integrated assessment tool for modelling the population dynamics of marine species, including fishery stock assessments. Casal2 expands functionality and increases maintainability relative to its predecessor, CASAL. Casal2 can be used for quantitative assessments of marine populations, including fish, invertebrates, marine mammals, and seabirds.",
+  "source_code_link": "https://github.com/NIWAFisheriesModelling/CASAL2",
+  "website_link": "https://casal2.github.io/",
+  "tool_abbreviation": "CASAL2",
+  "tool_name": "C++ Algorithmic Stock Assessment Laboratory version 2",
+  "references": [ "Ian Doonan, Kath Large, Alistair Dunn, Scott Rasmussen, Craig Marsh, and Sophie Mormede, Casal2: New Zealand’s integrated population modelling tool, Fisheries Research, Volume 183, 2016, Pages 498-505, https://doi.org/10.1016/j.fishres.2016.04.024."],
+  "software_badges":["https://www.repostatus.org/badges/latest/active.svg"],
+  "active_development": true,
+  "noaa_internal": false,
+  "uses_github_releases": true,
+  "toolbox_drawers": ["Fish and Fisheries"],
+  "keywords": ["C++", "Stock Assessment Model", "Age Structured Model"]
+}

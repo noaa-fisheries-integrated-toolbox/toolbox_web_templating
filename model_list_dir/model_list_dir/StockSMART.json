@@ -1,0 +1,16 @@
+{
+  "authors": "W. Qiu, K. Blackhart, J. Vieser, and A. Furnish",
+  "background_text": "Stock SMART is NOAA Fisheries' Stock Status, Management, Assessment, and Resource Trends web tool. Stock SMART includes different applications for users to search, view, compare, and download the results of assessments for stocks managed by NOAA Fisheries. Future updates will allow users to access stock status determinations and other related information on fisheries management. ",
+  "maintainer_name": "Stock SMART Development Team",
+  "maintainer_email":"Stock.SMART@noaa.gov",
+  "tool_abbreviation": "StockSMART",
+  "tool_name": "Stock Status, Management, Assessments & Resource Trends",
+  "online_app_link": "https://www.st.nmfs.noaa.gov/stocksmart",
+  "software_badges":["https://www.repostatus.org/badges/latest/active.svg"],
+  "active_development": true,
+  "noaa_internal": true,
+  "uses_github_releases": false,
+  "static_version_number": "1.0.0",
+  "toolbox_drawers": ["Fish and Fisheries"], 
+  "keywords": ["Web App", "Data Visualization"]
+}

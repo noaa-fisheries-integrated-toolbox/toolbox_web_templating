@@ -1,0 +1,26 @@
+{
+  "associated_tools": [ 
+    {"name": "Ecopath with Ecosim",
+    "link": "https://ecopath.org/"
+    }
+  ],
+  "authors": "Lucey,S.,  K. Aydin, S. Gaichas, and  A.Whitehouse",
+  "maintainer_name": "Sean Lucey",
+  "maintainer_email": "sean.lucey@noaa.gov",
+  "background_text": "Rpath is an R implementation of the Ecopath mass balance and Ecosim dynamic food web algorithms geared towards fisheries research; Ecopath/Ecosim models have seen worldwide use in the study of fisheries interactions with marine food webs. Rpath is designed to allow for cross-platform use and to aid in the reproducibility of studies using this framework. ",
+  "citation": "https://doi.org/10.1016/j.ecolmodel.2020.109057",
+  "documentation_link": "https://github.com/NOAA-EDAB/Rpath/wiki",
+  "source_code_link": "https://github.com/NOAA-EDAB/Rpath",
+  "tool_abbreviation": "RPATH",
+  "tool_name": "R implementation of the Ecopath with Ecosim",
+  "website_link": "https://noaa-edab.github.io/Rpath/",
+  "references": [
+    "S.M.Lucey, S. K. Gaichasa, and K. Y. Aydin. 2020. Conducting reproducible ecosystem modeling using the open source mass balance model Rpath. Ecological Modelling 427. https://doi.org/10.1016/j.ecolmodel.2020.109057"],
+  "software_badges":["https://www.repostatus.org/badges/latest/active.svg"],
+  "active_development": true,
+  "noaa_internal": true,
+  "static_version_number": "0.1.2",
+  "uses_github_releases": false,
+  "toolbox_drawers": ["Ecosystem", "Fish and Fisheries"], 
+  "keywords": ["R Package", "Multispecies Model", "Ecosystem", "Fish and Fisheries"]
+}

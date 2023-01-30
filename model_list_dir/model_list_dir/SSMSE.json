@@ -1,0 +1,27 @@
+{
+  "associated_tools": [
+    {
+      "name": "SS3",
+      "link": "https://vlab.ncep.noaa.gov/web/stock-synthesis"
+    }
+  ],
+  "authors": "Doering, K., and N. Vaughan",
+  "background_text": "SSMSE is an R package for performing Management Strategy Evaluation (MSE) using Stock Synthesis (SS3).  SS3 is used as the Operating Model (OM) and, if the user desires, the Estimation model (EM). SSMSE allows existing SS3 models to be used as the basis for an OM. These OMs are used in the MSE framework provided by SSMSE to evaluate the implications of management actions on a population given uncertainty.",
+  "maintainer_name": "Kathryn Doering",
+  "maintainer_email": "kathryn.doering@noaa.gov",
+  "documentation_link": "https://nmfs-fish-tools.github.io/SSMSE/manual",
+  "source_code_link": "https://github.com/nmfs-fish-tools/SSMSE",
+  "website_link": "https://nmfs-fish-tools.github.io/SSMSE",
+  "tool_abbreviation": "SSMSE",
+  "tool_name": "Management Strategy Evaluation for SS3",
+    "active_development": true,
+  "noaa_internal": true,
+  "software_badges": [
+    "https://www.repostatus.org/badges/latest/active.svg",
+    "https://img.shields.io/github/watchers/nmfs-fish-tools/ssmse.svg?style=social"
+  ],
+  "uses_github_releases": true,
+  "release_badge": "nmfs-fish-tools/SSMSE",
+  "toolbox_drawers": ["Fish and Fisheries"], 
+  "keywords": ["R Package", "Management Strategy Evaluation", "ADMB", "Risk Assessment Tool", "Decision Support Tool"]
+}

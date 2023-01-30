@@ -1,0 +1,18 @@
+{
+  "authors": "Doering, K., B. Li, and K. Johnson",
+  "background_text": "Reusable github actions workflows for R packages.",
+  "maintainer_name": "Kathryn Doering",
+  "maintainer_email": "kathryn.doering@noaa.gov",
+  "documentation_link": "https://nmfs-fish-tools.github.io/ghactions4r/reference/index.html",
+  "source_code_link": "https://github.com/nmfs-fish-tools/ghactions4r",
+  "tool_abbreviation": "ghactions4r",
+  "tool_name": "ghactions4r",
+  "website_link": "https://nmfs-fish-tools.github.io/ghactions4r/",
+  "release_badge": "nmfs-fish-tools/ghactions4r",
+  "active_development": true,
+  "noaa_internal": true,
+  "software_badges": ["https://www.repostatus.org/badges/latest/active.svg", "https://github.com/nmfs-fish-tools/ghactions4r/actions/workflows/call-r-cmd-check.yml/badge.svg","https://img.shields.io/badge/lifecycle-experimental-orange.svg"],
+  "uses_github_releases": true,
+  "toolbox_drawers": ["General Modeling and Productivity Tools"], 
+  "keywords": ["R Package", "Developer Utilities"]
+}

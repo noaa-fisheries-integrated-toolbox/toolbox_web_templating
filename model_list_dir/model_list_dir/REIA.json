@@ -1,0 +1,19 @@
+{
+  "associated_tools": [
+  ],
+  "authors": "C.K. Seung and S. Miller.",
+  "background_text": "The Regional Impact Analysis web application was developed to assist economists and social scientists working with Alaska fisheries in estimating the economic impacts of changes in fishery policies. This web-based application runs a 10 region Multi-Regional Social Accounting Matrix (10MRSAM) model.",
+  "maintainer_name": "Fisheries Integrated Toolbox",
+  "maintainer_email": "fisheries.toolbox@noaa.gov",
+  "documentation_link": "https://nwecon.psmfc.org/RegionalImpactAnalysis_UserManual.pdf",
+  "tool_abbreviation": "REIA",
+  "website_link":"https://nwecon.psmfc.org/",
+  "tool_name": "Regional Economic Impact Analysis for North Pacific Fisheries",
+  "online_app_link": "https://nwecon.psmfc.org/application/",
+  "citation": "https://doi.org/10.25923/67f4-e184",
+    "active_development": true,
+  "noaa_internal": false,
+  "uses_github_releases": false,
+  "toolbox_drawers": ["Human Dimensions", "Fish and Fisheries"], 
+  "keywords": ["Economics", "North Pacific", "Fish and Fisheries"]
+}

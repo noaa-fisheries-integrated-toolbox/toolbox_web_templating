@@ -1,0 +1,14 @@
+{
+  "authors": "Lisa Colburn",
+  "background_text": "An interactive tool for exploring economic data from West Coast commercial fisheries. Data summarized comes from the Economic Data Collection Program and PacFIN.",
+  "maintainer_name": "Lisa Colburn",
+  "maintainer_email": "fisheries.toolbox@noaa.gov",
+  "tool_abbreviation": "fisheye",
+  "tool_name": "Fisheries Economic Explorer",
+  "online_app_link": "https://dataexplorer.northwestscience.fisheries.noaa.gov/fisheye/",
+  "active_development": true,
+  "noaa_internal": true,
+  "uses_github_releases": false,
+  "toolbox_drawers": ["Human Dimensions"],
+  "keywords": ["Web App", "Economics"]
+}
