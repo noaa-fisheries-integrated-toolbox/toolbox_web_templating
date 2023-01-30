@@ -1,0 +1,27 @@
+Automatically generated JSON for the onboarding request: 
+```
+{
+  "active_development": true,
+  "tool_name": "r4ss",
+  "tool_abbreviation": "r4ss",
+  "authors": " Ian G. Taylor, Ian J. Stewart, Allan C. Hicks, Tommy M. Garrison, Andre E. Punt, R.I.C. Chris Francis, John R. Wallace, Chantel R. Wetzel, James T. Thorson, Yukio Takeuchi, Kotaro Ono, Cole C. Monnahan, Christine C. Stawitz, Z. Teresa A'mar, Athol R. Whitten, Kelli F. Johnson, Robbie L. Emmet, Sean C. Anderson, Gwladys I. Lambert, Megan M. Stachura, Andrew B. Cooper, Andi Stephens, Neil L. Klaer, Carey R. McGilliard, Iago Mosqueira, Watal M. Iwasaki, Kathryn L. Doering, Andrea M. Havron, Nathan R. Vaughan, LaTreese S. Denson, Ashleigh J. Novak, Henning Winker, Lee Qi, Megumi Oshima, Eric Fletcher",
+  "noaa_internal": true,
+  "maintainer_name": "Ian Taylor",
+  "maintainer_email": "ian.taylor@noaa.gov",
+  "background_text": "The r4ss package is a collection of R functions for interacting with Stock Synthesis. It is based on the original work of Ian Stewart begun around 2005 and released as an open source R package in 2009. The package has a long list of authors and has benefited from a large community of users making suggestions and reporting issues.",
+  "citation": "https://doi.org/10.1016/j.fishres.2021.105924",
+  "associated_tools": [
+    {
+      "name": ["SS3"],
+      "link": ["https://vlab.noaa.gov/web/stock-synthesis"]
+    }
+  ],
+  "user_organizations": ["NOAA Northwest Fisheries Science Center", "NOAA Southwest FIsheries Science Center", "NOAA Southeast Fisheries Science Center", "NOAA Pacific Islands Fisheries Science Center", "NOAA Northeast Fisheries Science Center", "ICES", "ICCAT", "CSIRO "],
+  "website_link": "https://r4ss.github.io/r4ss/",
+  "source_code_link": "https://github.com/r4ss/r4ss",
+  "software_badges": ["https://img.shields.io/github/v/release/r4ss/r4ss?color=brightgreen&label=GitHub", "https://github.com/r4ss/r4ss/actions/workflows/call-r-cmd-check.yml/badge.svg", "https://codecov.io/gh/r4ss/r4ss/branch/main/graph/badge.svg"],
+  "toolbox_drawers": ["Fish and Fisheries\r"],
+  "keywords": ["Data Visualization\r", "Fisheries\r", "Output Visualization\r", "R Package\r"],
+  "uses_github_releases": true
+}
+```
