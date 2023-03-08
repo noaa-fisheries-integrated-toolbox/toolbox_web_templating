@@ -95,7 +95,7 @@
                       <input type="button" value="Gradient Solver" onclick="simpleSearch(this.value)">
                       <input type="button" value="Guided User Interface" onclick="simpleSearch(this.value)">
                       <input type="button" value="Individual Based Model" onclick="simpleSearch(this.value)">
-                      <input type="button" value="Legacy Tool" onclick="simpleSearch(this.value)">
+                      <!-- <input type="button" value="Legacy Tool" onclick="simpleSearch(this.value)"> -->
                       <input type="button" value="Length Structured Model" onclick="simpleSearch(this.value)">
                       <input type="button" value="Management Strategy Evaluation" onclick="simpleSearch(this.value)">
                       <input type="button" value="Marine Mammals" onclick="simpleSearch(this.value)">
@@ -177,12 +177,12 @@
                   <div class ="row"><img class="icon_small checkmarkE"> <h2>External Tool</h2></div>
                       Authored by developers external to NOAA.
                 </div>
-                <div class = "box2">
+                <!-- <div class = "box2">
                   <div class ="row"><img class="icon_small legacy"> 
                     <input type="button" value="Legacy Tool" onclick="simpleSearch(this.value)">
                   </div>
                       A tool that is no longer maintained. It is recommended to update to a replacement tool.
-                </div>
+                </div> -->
                 </div>
           </nav>
 
@@ -267,11 +267,11 @@
                 {% endif %}
                 <!-- Legacy Tool Icon -->
                 <!-- May want to use noaa_internal and active_development in the future to determine if this button should be added -->
-                {% if value['keywords'] is defined and 'Legacy Tool' in value['keywords'] %}
+                <!-- {% if value['keywords'] is defined and 'Legacy Tool' in value['keywords'] %}
                   <button class = "icon_small legacy" ></button>
                 {% else %}
                   <button class = "icon_small legacy" disabled></button>
-                {% endif %}
+                {% endif %} -->
 
               </div>
 

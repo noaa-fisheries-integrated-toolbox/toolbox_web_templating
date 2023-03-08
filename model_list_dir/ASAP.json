@@ -19,5 +19,5 @@
   "release_badge":"nmfs-fish-tools/ASAP",
   "uses_github_releases": false,
   "toolbox_drawers": ["Fish and Fisheries"],
-  "keywords": ["Stock Assessment Model", "Age Structured Model", "Guided User Interface", "Legacy Tool"]
+  "keywords": ["Stock Assessment Model", "Age Structured Model", "Guided User Interface"]
 }

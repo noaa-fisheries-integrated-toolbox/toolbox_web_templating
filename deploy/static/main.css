@@ -276,9 +276,9 @@ button.icon_small[disabled] {
   background-image: url("https://raw.githubusercontent.com/noaa-fisheries-integrated-toolbox/FIT_graphics/main/icons/icons8-checkmark-24.png");
 }
 
-.legacy {
+/* .legacy {
   background-image: url("https://raw.githubusercontent.com/noaa-fisheries-integrated-toolbox/FIT_graphics/main/icons/legacy_icon.png");
-}
+} */
 
 .checkmarkN {
   background-image: url("https://raw.githubusercontent.com/noaa-fisheries-integrated-toolbox/FIT_graphics/main/icons/n_icon_white_filled.png");

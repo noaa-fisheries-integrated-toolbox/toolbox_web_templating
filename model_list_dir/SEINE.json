@@ -19,5 +19,5 @@
   "uses_github_releases": false,
   "release_badge":"nmfs-fish-tools/SEINE",
   "toolbox_drawers": ["Fish and Fisheries"], 
-  "keywords": ["Data Limited Method", "Stock Assessment Model", "Guided User Interface", "Natural Mortality Model", "Legacy Tool"]
+  "keywords": ["Data Limited Method", "Stock Assessment Model", "Guided User Interface", "Natural Mortality Model"]
 }

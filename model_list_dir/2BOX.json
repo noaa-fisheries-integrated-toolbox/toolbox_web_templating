@@ -15,6 +15,6 @@
   "release_badge":"nmfs-fish-tools/2BOX",
   "toolbox_drawers": ["Fish and Fisheries"],
   "uses_github_releases": false,
-  "keywords": ["Legacy Tool", "Virtual Population Analysis", "Stock Assessment Model"]
+  "keywords": ["Virtual Population Analysis", "Stock Assessment Model"]
 }
 

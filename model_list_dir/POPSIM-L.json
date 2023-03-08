@@ -14,5 +14,5 @@
   "release_badge":"nmfs-fish-tools/POPSIM-L",
   "toolbox_drawers": ["Fish and Fisheries"], 
   "uses_github_releases": false,
-  "keywords": ["Simulation", "Guided User Interface", "Legacy Tool"]
+  "keywords": ["Simulation", "Guided User Interface"]
 }

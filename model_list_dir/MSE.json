@@ -14,5 +14,5 @@
   "uses_github_releases": false,
   "release_badge":"nmfs-fish-tools/MSE",
   "toolbox_drawers": ["Fish and Fisheries"], 
-  "keywords": ["Management Strategy Evaluation", "Guided User Interface", "Simulation", "Risk Assessment Tool", "Legacy Tool"]
+  "keywords": ["Management Strategy Evaluation", "Guided User Interface", "Simulation", "Risk Assessment Tool"]
 }

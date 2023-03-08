@@ -23,5 +23,5 @@
   "release_badge":"nmfs-fish-tools/SCALE",
   "toolbox_drawers": ["Fish and Fisheries"],
   "uses_github_releases": false,
-  "keywords": ["Stock Assessment Model", "Length Structured Model", "ADMB", "Guided User Interface", "Legacy Tool"]
+  "keywords": ["Stock Assessment Model", "Length Structured Model", "ADMB", "Guided User Interface"]
 }

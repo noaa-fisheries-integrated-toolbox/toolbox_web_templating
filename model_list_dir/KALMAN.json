@@ -17,5 +17,5 @@
   "uses_github_releases": false,
   "release_badge":"nmfs-fish-tools/KALMAN",
   "toolbox_drawers": ["General Modeling and Productivity Tools"], 
-  "keywords": ["Time Series", "Guided User Interface", "Legacy Tool"]
+  "keywords": ["Time Series", "Guided User Interface"]
 }
