@@ -5,28 +5,23 @@
       "link": "https://vlab.ncep.noaa.gov/web/stock-synthesis"
     }
   ],
-  "author_name": "Doering, K., and N. Vaughan",
+  "authors": "Doering, K., and N. Vaughan",
   "background_text": "SSMSE is an R package for performing Management Strategy Evaluation (MSE) using Stock Synthesis (SS3).  SS3 is used as the Operating Model (OM) and, if the user desires, the Estimation model (EM). SSMSE allows existing SS3 models to be used as the basis for an OM. These OMs are used in the MSE framework provided by SSMSE to evaluate the implications of management actions on a population given uncertainty.",
-  "badge_level": "badge_external_active",
-  "contact": "fisheries.toolbox@noaa.gov",
-  "documentation_link": "../inst/bookdown/_book/index.html",
-  "download_app_link": "",
-  "github_link": "https://github.com/nmfs-fish-tools/SSMSE",
-  "model_link_page": "https://nmfs-fish-tools.github.io/SSMSE",
-  "model_abbrev": "SSMSE",
-  "model_name": "Management Strategy Evaluation for SS3",
-  "model_type": "Management Strategy Evaluation",
-  "online_app_link": "",
-  "pdf_download": "",
-  "references": [],
-  "support_level": "internal_active",
-  "tool_type": "Associated Tool",
-  "shields_badges": [
+  "maintainer_name": "Kathryn Doering",
+  "maintainer_email": "kathryn.doering@noaa.gov",
+  "documentation_link": "https://nmfs-fish-tools.github.io/SSMSE/manual",
+  "source_code_link": "https://github.com/nmfs-fish-tools/SSMSE",
+  "website_link": "https://nmfs-fish-tools.github.io/SSMSE",
+  "tool_abbreviation": "SSMSE",
+  "tool_name": "Management Strategy Evaluation for SS3",
+    "active_development": true,
+  "noaa_internal": true,
+  "software_badges": [
     "https://www.repostatus.org/badges/latest/active.svg",
     "https://img.shields.io/github/watchers/nmfs-fish-tools/ssmse.svg?style=social"
   ],
-  "version_number": "",
+  "uses_github_releases": true,
   "release_badge": "nmfs-fish-tools/SSMSE",
-  "toolbox_drawer": ["fisheries"], 
-  "keywords": ["R Package", "Management Strategy Evaluation", "ADMB", "Risk Analysis Tool", "Decision Support Tool"]
+  "toolbox_drawers": ["Fish and Fisheries"], 
+  "keywords": ["R Package", "Management Strategy Evaluation", "ADMB", "Risk Assessment Tool", "Decision Support Tool"]
 }

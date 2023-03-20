@@ -1,36 +1,30 @@
 {
   "associated_tools": [
     {
-      "name": "R Core Team. 2019. R: A Language and Environment for Statistical Computing. R Foundation for Statistical Computing, Vienna, Austria."
-    },
-    {
-      "name": "Template Model Builder, Kristensen, K., Nielsen, A., Berg, C. W., Skaug, H., and Bell, B. M. 2016. TMB: Automatic differentiation and Laplace approximation. Journal of Statistical Software 70(5): 1–21."
+      "name": "Template Model Builder",
+       "link": "https://github.com/kaskr/adcomp"  
     }
   ],
-  "author_name": "Tim Miller and Brian Stock",
+  "authors": "Tim Miller and Brian Stock",
+  "maintainer_name":"Tim Miller",
+  "maintainer_email": "timothy.j.miller@noaa.gov",
   "background_text": "A state-space age-structured assessment model that can include state-space covariate models and effects on recruitment and internal estimation of biological reference points. See the vignettes provided with the package for example applications.",
-  "badge_level": "",
-  "documentation_link": "",
-  "download_app_link": "",
-  "github_link": "https://github.com/timjmiller/wham",
-  "model_abbrev": "WHAM",
-  "model_link_page": "https://timjmiller.github.io/wham",
-  "model_name": "Woods Hole Assessment Model",
-  "model_type": "Statistical Catch-at-Age",
-  "online_app_link": "",
-  "pdf_download": "",
+  "source_code_link": "https://github.com/timjmiller/wham",
+  "tool_abbreviation": "WHAM",
+  "website_link": "https://timjmiller.github.io/wham",
+  "tool_name": "Woods Hole Assessment Model",
   "references": [
     "Miller, T. J., Hare, J. A., and Alade, L. A. 2016. A state-space approach to incorporating environmental effects on recruitment in an age-structured assessment model with an application to Southern New England yellowtail flounder. Canadian Journal of Fisheries and Aquatic Sciences 73(8): 1261-1270. doi: 10.1139/cjfas-2015-0339",
     "Miller, T. J. and Hyun, S-Y. 2018. Evaluating evidence for alternative natural mortality and process error assumptions using a state-space, age-structured assessment model. Canadian Journal of Fisheries and Aquatic Sciences 75(5): 691-703. doi: 10.1139/cjfas-2017-0035",
     "Miller, T. J., O’Brien, L., and Fratantoni, P. S. 2018. Temporal and environmental variation in growth and maturity and effects on management reference points of Georges Bank Atlantic cod. Canadian Journal of Fisheries and Aquatic Sciences 75(12): 2159-2171. doi: 10.1139/cjfas-2017-0124"
   ],
   "release_badge": "timjmiller/wham",
-  "shields_badges": [
+  "software_badges": [
     "https://www.repostatus.org/badges/latest/active.svg"
   ],
-  "support_level": "internal_active",
-  "tool_type": "Stock Assessment Model",
-  "version_number": "",
-  "toolbox_drawer": ["fisheries"], 
-  "keywords": ["Stock Assessment Model", "Age Structured Model", "TMB", "R package"]
+    "active_development": true,
+  "noaa_internal": true,
+  "uses_github_releases": true,
+  "toolbox_drawers": ["Fish and Fisheries"], 
+  "keywords": ["Stock Assessment Model", "Age Structured Model", "TMB", "R Package"]
 }

@@ -1,35 +1,25 @@
 {
-  "associated_tools": [],
-  "author_name": "Klasky, R., Townsend, H., Link, J., and  E. Wurst",
+  "authors": "Klasky, R., Townsend, H., Link, J., and  E. Wurst",
   "background_text": "The Multi-Species Virtual Population Analysis tool is a Qt/C++ implementation of the Visual Basic tool written by Dr. Lance Garrison about 20 years ago.  This tool is a series of single-species virtual population analysis (VPA) models linked by a simple feeding model to calculate natural mortality rates. A VPA is the process by which a population size is inferred to have been a certain size in the past in order to support the observed fish catches and natural mortality.",
-  "badge_level": "",
-  "contact": "ron.klaskey@noaa.gov",
-  "documentation_link": "./QuickStart_Guide_MSVPA_X2.pdf",
-  "download_app_link": "https://github.com/nmfs-fish-tools/MSVPA_X2/releases",
-  "github_link": "https://github.com/nmfs-fish-tools/MSVPA_X2",
-  "model_abbrev": "MSVPA_X2",
-  "model_link_page": "https://github.com/nmfs-fish-tools/MSVPA_X2",
-  "model_name": "Multi-Species Virtual Population Analysis eXtended 2",
-  "model_type": "",
-  "online_app_link": "",
-  "orgs_of_use": [
-    {
-      "link": "http://www.asmfc.org/",
-      "name": "Atlantic States Marine Fisheries Commission"
-    }
-  ],
-  "pdf_download": "",
+  "maintainer_name": "Ronald Klasky",
+  "maintainer_email": "ronald.klasky@noaa.gov",
+  "documentation_link": "https://github.com/nmfs-fish-tools/MSVPA_X2/blob/master/docs/QuickStart_Guide_MSVPA_X2.pdf",
+  "executable_link": "https://github.com/nmfs-fish-tools/MSVPA_X2/releases",
+  "source_code_link": "https://github.com/nmfs-fish-tools/MSVPA_X2",
+  "tool_abbreviation": "MSVPA_X2",
+  "tool_name": "Multi-Species Virtual Population Analysis eXtended 2",
+  "user_organizations": ["Atlantic States Marine Fisheries Commission"],
   "references": [
     "Lance P. Garrison, Jason S. Link, D. Patrick Kilduff, Matthew D. Cieri, Brandon Muffley, Douglas S. Vaughan, Alexei Sharov, Behzad Mahmoudi, Robert J. Latour, An expansion of the MSVPA approach for quantifying predator–prey interactions in exploited fish communities, ICES Journal of Marine Science, Volume 67, Issue 5, July 2010, Pages 856–870, https://doi.org/10.1093/icesjms/fsq005"
   ],
   "release_badge":"nmfs-fish-tools/MSVPA_X2",
-  "shields_badges": [
+  "software_badges": [
     "https://www.repostatus.org/badges/latest/active.svg",
     "https://img.shields.io/badge/platform-linux%20%7CCwin-lightgrey"
   ],
-  "support_level": "internal_active",
-  "tool_type": "",
-  "version_number": "0.9.0", 
-  "toolbox_drawer": ["ecosystem",  "fisheries"], 
-  "keywords": ["Multispecies Modeling", "Virtual Population Analysis", "Guided User Interface"]
+  "active_development": true,
+  "noaa_internal": true,
+  "uses_github_releases": true,
+  "toolbox_drawers": ["Ecosystem",  "Fish and Fisheries"], 
+  "keywords": ["Multispecies Model", "Virtual Population Analysis", "Guided User Interface"]
 }

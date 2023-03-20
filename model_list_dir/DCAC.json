@@ -1,17 +1,12 @@
 {
-  "associated_tools": [],
-  "author_name": "MacCall, A.",
+  "authors": "MacCall, A.",
+  "maintainer_name": "orphaned",
+  "maintainer_email": "fisheries.toolbox@noaa.gov",
   "background_text": "The Depletion-Corrected Average Catch is a method for estimating sustainable yields for data-poor fisheries.  Based on the idea that the average catch has been sustainable if abundance has not changed, DCAC makes a correction to that average if abundance has increased or decreased (which may be the subject of an educated guess based on subjective impressions).  The magnitude of the correction depends on the approximate natural mortality rate, which should be about 0.2 or smaller to apply this model.  Uncertainty is recognized in all of the parameters in the model, and is reflected in the output probability distribution.",
-  "badge_level": "badge_internal_inactive",
-  "documentation_link": "",
-  "download_app_link": "https://github.com/nmfs-fish-tools/DCAC/releases/download/2.1.1/DCACV211.zip",
+  "executable_link": "https://github.com/nmfs-fish-tools/DCAC/releases/download/2.1.1/DCACV211.zip",
   "fit_repo": "https://github.com/nmfs-fish-tools/DCAC.git",
-  "model_abbrev": "DCAC",
-  "model_name": "Depletion-Corrected Average Catch",
-  "model_type": "Data-Limited",
-  "model_link_page": "https://nmfs-fish-tools.github.io/DCAC",
-  "online_app_link": "",
-  "pdf_download": "",
+  "tool_abbreviation": "DCAC",
+  "tool_name": "Depletion-Corrected Average Catch",
   "references": [
     "Alverson, D., and W. Pereyra. 1969. Demersal fish explorations in the northeastern Pacific Ocean – an evaluation of exploratory fishing methods and analytical approaches to stock size and yield forecasts. J. Fish Res. Board Can. 26:1985-2001.",
     "Deriso, R. 1982. Relationship of fishing mortality to natural mortality and growth at the level of maximum sustainable yield. Can. J. Fish. Aquat. Sci. 39:1054-1-58.",
@@ -20,11 +15,12 @@
     "MacCall, A. 2007. Depletion-adjusted average catch. pp. 27-31 In: Rosenberg, A., Agnew, D., Babcock, E., Mogensen, C., O’Boyle, R., Powers, J., Stefansson, G., Swasey, J. 2007. Setting annual catch limits for U.S. fisheries: An expert working group report. Lenfest Ocean Program, 1025 F Street NW, Suite 900, Washington, D.C.",
     "Walters, C., and S. Martell. 2004. Fisheries ecology and management. Princeton University Press. 399 p."
   ],
-  "shields_badges":["https://www.repostatus.org/badges/latest/inactive.svg"],
-  "support_level": "internal_inactive",
-  "tool_type": "Stock Assessment Model",
-  "version_number": "2.1.1",
+  "software_badges":["https://www.repostatus.org/badges/latest/inactive.svg"],
+    "active_development": false,
+  "noaa_internal": true,
+  "static_version_number": "2.1.1",
+  "uses_github_releases": false, 
   "release_badge":"nmfs-fish-tools/DCAC",
-  "toolbox_drawer": ["fisheries"], 
-  "keywords": ["Stock Assessment Model", "Data Limited Method", ""]
+  "toolbox_drawers": ["Fish and Fisheries"], 
+  "keywords": ["Stock Assessment Model", "Data Limited Method"]
 }

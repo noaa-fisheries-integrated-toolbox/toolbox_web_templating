@@ -8,7 +8,7 @@ import json
 def into_pandas(f):
     df = pd.read_csv(f);
     headers = [
-      "model_name",
+      "tool_name",
       "model_abbrev",
       "model_type",
       "author_name",
@@ -16,7 +16,7 @@ def into_pandas(f):
        "references",
       "online_app_link",
       "download_app_link",
-      "github_link",
+      "code_repository_link",
       "version_number",
       "pdf_download",
       "badge_level",
@@ -27,7 +27,7 @@ def into_pandas(f):
 
 
     new_df= pd.DataFrame(columns = headers)
-    new_df.model_name = df.Model
+    new_df.tool_name = df.Model
     new_df.model_abbrev = df['Unnamed: 1']
     new_df.version_number = df.Version
     new_df.author_name = df.Author

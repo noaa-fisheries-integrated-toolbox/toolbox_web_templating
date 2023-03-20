@@ -1,54 +1,150 @@
 {
-  "type": "object", 
-  "properties": {
-    "associated_tools":{
-       "type": "array", 
-       "items": {
-          "type": "object", 
-          "properties" : {
-             "name": {"type": "string"},
-             "link": {"type": "string"}
-          }
-       }
-    }, 
-    "author_name": {"type": "string"},
-    "background_text": {"type": "string"},
-    "badge_level": {"type": "string"},
-    "contact": {"type": "string"},
-    "documentation_link": {"type": "string"},
-    "download_app_link": {"type": "string"},
-    "github_link": {"type": "string"},
-    "model_abbrev": {"type": "string"},
-    "model_name": {"type": "string"},
-    "model_type": {"type": "string"},
-    "model_link_page": {"type": "string"},
-    "online_app_link": {"type": "string"},
-    "pdf_download": {"type": "string"},
-    "release_badge": {"type": "string"},
-    "references": {
-      "type": "array", 
-      "items": {"type": "string"}
-    }, 
-    "support_level": {"type": "string"},
-    "tool_type": {"type": "string"},
-    "shields_badges": {
-      "type" : "array",
-      "items": {
-        "type": "string"
-      }
+    "title": "Tool Details",
+    "description": "Information about a tool onboarded to FIT",
+    "type": "object", 
+    "properties": {
+        "active_development": {
+            "description": "If the source code is actively developed",
+            "type": "boolean"
+        },
+        "tool_name": {
+            "description": "The full name of the tool",
+            "type": "string"
+        },
+        "tool_abbreviation": {
+            "description": "Short name for the tool",
+            "type": "string"
+        },
+        "authors": {
+            "description": "All authors of the tool",
+            "type": "string"
+        },
+        "noaa_internal": {
+            "description": "Was this developed in part by NOAA employees or affiliates?",
+            "type": "boolean"
+        },
+        "maintainer_name": {
+            "description": "Name of the primary maintainer. One name only.",
+            "type": "string"
+        },
+        "maintainer_email": {
+            "description": "Email address of the maintainer. One email only.",
+            "type": "string"
+        },
+        "background_text": {
+            "description": "A paragraph of background text that describes the tool.",
+            "type": "string"
+        },
+        "citation": {
+            "description": "Primary way to cite the tool",
+            "type": "string"
+        },
+        "references": {
+            "description": "References related to the tool, not the citation",
+            "type": "array", 
+            "items": {"type": "string"}
+        },
+        "associated_tools":{
+            "description": "Other software tools related to this one. Can be part of FIT or not.",
+            "type": "array", 
+            "items": {
+               "type": "object", 
+               "properties" : {
+                  "name": {
+                    "description": "Name of the associated tool",
+                    "type": "string"
+                  },
+                  "link": {
+                    "description": "URL to the associated tool",
+                    "type": "string"
+                  }
+               },
+               "required": ["name", "link"]
+            }
+        },
+        "user_organizations": {
+            "description": "Any organizations that use the tool operationally",
+            "type": "array", 
+            "items": {
+            "type": "string"
+            }
+        },
+        "online_app_link": {
+            "description": "link to the web app for the tool, if available",
+            "type": "string"
+        },
+        "executable_link": {
+            "description": "link to the executable(s) for the tool, if available",
+            "type": "string"
+        },
+        "website_link": {
+            "description": "link to the website for the tool, if available",
+            "type": "string"
+        },
+        "documentation_link": {
+            "description": "link to the documentation for the tool, if available and different than other links provided",
+            "type": "string"
+        },
+        "source_code_link": {
+            "description": "Link to the source code, if available.",
+            "type": "string"
+        },
+        "pdf_download_link": {
+            "description": "Link to a pdf to download from the FIT tool page. Should be different than other links provided if used.",
+            "type": "string"
+        },
+        "software_badges": {
+            "description": "Link to up to 3 software badges (e.g., from github actions, shields.io) to display for the tool",
+            "type" : "array",
+            "items": {
+              "type": "string"
+            },
+            "maxItems": 3,
+            "uniqueItems": true
+        },
+        "toolbox_drawers": {
+            "description": "The toolbox drawers that the tool belongs in. Choose all that apply.",
+            "type": "array", 
+            "items": {
+            "type": "string"
+            },            
+            "minItems": 1,
+            "uniqueItems": true
+        },
+        "keywords": {
+            "description": "Keywords for the tool. Choose up to 5.",
+            "type": "array", 
+            "items": {
+              "type": "string"
+            },
+            "minItems": 1,
+            "maxItems": 5,
+            "uniqueItems": true
+        },
+        "uses_github_releases": {
+            "description": "Does the tool use github releases? If so, the current version number will be pulled from the releases.",
+            "type":"boolean"
+        },
+        "static_version_number": {
+            "description": "Static version number, only used if the tool is unlikely to be updated often.",
+            "type": "string"
+        },
+        "release_badge": {
+            "description": "The github org/repo if using the release badge. Plan to deprecate this and info from source_code_link and use_github_releases instead",
+            "type": "string"
+        }
     },
-    "version_number": {"type": "string"}, 
-    "toolbox_drawer": {
-      "type": "array", 
-      "items": {
-         "type": "string"
-      }
-    },
-    "keywords": {
-      "type": "array", 
-      "items": {
-         "type": "string"
-      }
-    }
-  }
+    "required": [
+        "active_development",
+        "tool_name",
+        "tool_abbreviation",
+        "authors",
+        "noaa_internal",
+        "maintainer_name",
+        "maintainer_email",
+        "background_text",
+        "toolbox_drawers", 
+        "keywords",
+        "uses_github_releases"
+    ]
 }
