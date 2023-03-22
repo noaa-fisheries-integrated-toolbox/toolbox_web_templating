@@ -214,10 +214,10 @@ a{
   width: 25px;
   height: 25px;
   margin: 0 auto 0 auto;
-  border: 1px solid black;
+  border: none;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: white;
+  background-color: none;
 }
 
 .row .icon_small {
@@ -244,7 +244,7 @@ button.icon_small[disabled] {
 
 
 .online {
-  background-image: url("https://raw.githubusercontent.com/noaa-fisheries-integrated-toolbox/FIT_graphics/main/icons/icons8-tune-24.png");
+  background-image: url("https://raw.githubusercontent.com/noaa-fisheries-integrated-toolbox/FIT_graphics/main/icons/app-slider-50_white_filled.png");
 }
 
 .online:hover{
@@ -252,7 +252,7 @@ button.icon_small[disabled] {
 }
 
 .github {
-  background-image: url("https://raw.githubusercontent.com/noaa-fisheries-integrated-toolbox/FIT_graphics/main/icons/icons8-code-fork-24.png");
+  background-image: url("https://raw.githubusercontent.com/noaa-fisheries-integrated-toolbox/FIT_graphics/main/icons/code-fork-50_white_filled.png");
 }
 
 .github:hover{
@@ -261,7 +261,7 @@ button.icon_small[disabled] {
 
 
 .down {
-  background-image: url("https://raw.githubusercontent.com/noaa-fisheries-integrated-toolbox/FIT_graphics/main/icons/icons8-lightning-bolt-filled-50.png");
+  background-image: url("https://raw.githubusercontent.com/noaa-fisheries-integrated-toolbox/FIT_graphics/main/icons/lightning-bolt_white_filled.png");
 }
 .down:hover{
   cursor: pointer;
