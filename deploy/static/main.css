@@ -214,10 +214,10 @@ a{
   width: 25px;
   height: 25px;
   margin: 0 auto 0 auto;
-  border: 1px solid black;
+  border: none;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: white;
+  background-color: none;
 }
 
 .row .icon_small {
@@ -244,7 +244,7 @@ button.icon_small[disabled] {
 
 
 .online {
-  background-image: url("https://raw.githubusercontent.com/noaa-fisheries-integrated-toolbox/FIT_graphics/main/icons/icons8-tune-24.png");
+  background-image: url("https://raw.githubusercontent.com/noaa-fisheries-integrated-toolbox/FIT_graphics/main/icons/app-slider-50_white_filled.png");
 }
 
 .online:hover{
@@ -252,7 +252,7 @@ button.icon_small[disabled] {
 }
 
 .github {
-  background-image: url("https://raw.githubusercontent.com/noaa-fisheries-integrated-toolbox/FIT_graphics/main/icons/icons8-code-fork-24.png");
+  background-image: url("https://raw.githubusercontent.com/noaa-fisheries-integrated-toolbox/FIT_graphics/main/icons/code-fork-50_white_filled.png");
 }
 
 .github:hover{
@@ -261,7 +261,7 @@ button.icon_small[disabled] {
 
 
 .down {
-  background-image: url("https://raw.githubusercontent.com/noaa-fisheries-integrated-toolbox/FIT_graphics/main/icons/icons8-lightning-bolt-filled-50.png");
+  background-image: url("https://raw.githubusercontent.com/noaa-fisheries-integrated-toolbox/FIT_graphics/main/icons/lightning-bolt_white_filled.png");
 }
 .down:hover{
   cursor: pointer;
@@ -646,7 +646,7 @@ a.title_link:-wekit-any-link,
 .boxInput {
   /*width: 200px;*/
   font-size: 18px;
-  border: 1px solid white;
+  border: 1px solid #0055A4;
   border-radius: 4px;
   background-color: white;
   color: #0055A4;
@@ -763,3 +763,55 @@ input:checked~.tab-content {
   }
   
    */
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: #0055A4;
+  border-color: #002364;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropbtn:hover {
+  background-color: #0093D0;
+  cursor: pointer;
+}
+
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #ddd;
+  }
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #0093D0;}
