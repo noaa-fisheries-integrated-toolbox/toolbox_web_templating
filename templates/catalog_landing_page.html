@@ -21,16 +21,21 @@
             <img src="https://raw.githubusercontent.com/noaa-fisheries-integrated-toolbox/FIT_graphics/main/FIT_logo/logo_pngs/FIT_logo_2022_color_no_text.png" alt="NOAA Fisheries Integrated Toolbox Logo" height="75">&nbsp;&nbsp;&nbsp;
             <h1 class ="header_title">NOAA Fisheries Integrated Toolbox</h1>
         </div>
-        <div class = "divider"></div>
-          <div class ="mywrap_head">
-            <button class="header_button" onclick="location.href='/';" value="FIT homepage" >FIT Homepage</button>
-            <button class="header_button" onclick="location.href='/resources';" value="Explore Resources" >Explore Resources</button>
-            <button class="header_button" onclick="location.href='/resources/noaa%20fit/contact';" value="Contact FIT" >Contact FIT</button>
-          </div>
-        <div class = "divider"></div>
-        <div class ="mywrap">
-          <h2 class ="title">{{org_config.general_title}}</h2>
+        <div class ="mywrap_head">
+          <button class="dropbtn" onclick="location.href='/';" value="FIT homepage" >FIT Homepage</button>
+            <div class="dropdown">
+              <button class="dropbtn" value="Resources" >Resources</button>
+                <div class="dropdown-content">
+                  <button class="menudropbtn" onclick="location.href='/resources';" value="Resources Home" >Resources Home</button>
+                  <button class="menudropbtn" onclick="location.href='/resources';" value="Browse by category" >Browse By Category</button>
+                  <button class="menudropbtn" onclick="location.href='/resources';" value="Browse by tag" >Browse By Tag</button>
+                </div>
+            </div>
+          <button class="dropbtn" onclick="location.href='/resources/about';" value="About" >About</button>
+           <button class="dropbtn" onclick="location.href='/resources/noaa%20fit/contact';" value="Contact" >Contact</button>
         </div>
+
+        <div class = "divider"></div>
         <div class="mywrap">
           
           <input class = "boxInput" type="text" id="myInput" onkeyup="simpleSearch()" placeholder="Search for tools" title="Type in a name">

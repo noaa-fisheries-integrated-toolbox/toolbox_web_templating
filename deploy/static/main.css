@@ -697,6 +697,15 @@ a.title_link:-wekit-any-link,
   font-size: 16px;
 }
 
+.menudropbtn {
+  background-color: #0055A4;
+  border-color: #002364;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+
+}
+
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
   position: relative;
@@ -708,7 +717,7 @@ a.title_link:-wekit-any-link,
   display: none;
   position: absolute;
   background-color: #f1f1f1;
-  min-width: 160px;
+  min-width: 100%;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
@@ -726,6 +735,10 @@ a.title_link:-wekit-any-link,
   cursor: pointer;
 }
 
+.menudropbtn:hover {
+  background-color: #0093D0;
+  cursor: pointer;
+}
 
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
