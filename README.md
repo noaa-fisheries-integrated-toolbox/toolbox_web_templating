@@ -71,6 +71,10 @@ JSON data can be (partially) validated using [schema](https://json-schema.org/un
 # Creating Webpages Locally From Templates
 
 Python and Jinja2 need to be installed locally.
+```
+pip install jinja2
+```
+
 
 From bash, run:
 
@@ -81,3 +85,7 @@ python create_catalog_landing_page.py Browse_config.json
 
 This is just the commands in create_html.yml. Note that this will create new
 webpages that should not be saved to the repository.
+
+To view the webpages from VS code, try using the Live Preview Extension.
+You may need to add .html to the end of a link in order to view it properly. Sometimes the 
+embedded preview doesn't work, so a separate browser window will need to be opened instead.
