@@ -15,5 +15,6 @@
   "software_badges": ["https://img.shields.io/github/v/release/nwfsc-math-bio/rCAX?color=brightgreen&label=GitHub", "https://github.com/nwfsc-math-bio/rCAX/actions/workflows/check-release.yaml/badge.svg"],
   "toolbox_drawers": ["Protected Species", "Fish and Fisheries"],
   "keywords": ["R Package", "Salmon", "API Client", "West Coast"],
-  "uses_github_releases": true
+  "uses_github_releases": true, 
+  "release_badge": "nwfsc-math-bio/rCAX"
 }
