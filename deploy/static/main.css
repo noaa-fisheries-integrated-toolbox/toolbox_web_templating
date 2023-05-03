@@ -662,82 +662,6 @@ a.title_link:-wekit-any-link,
 }
 
 
-
-
-/* Accordion styles */
-.tabs {
-  overflow: hidden;
-}
-
-.tab {
-  width: 100%;
-  color: white;
-  overflow: hidden;
-}
-
-label:hover {
-  background-color: rgb(20, 70, 160);
-
-}
-
-input[type="checkbox"] {
-
-  position: absolute;
-  left: -9999px;
-}
-
-label {
-  display: flex;
-  justify-content: space-between;
-  padding: 1em;
-  font-weight: bold;
-  cursor: pointer;
-}
-
-label::after {
-  content: "\276F";
-  width: 1em;
-  height: 1em;
-  text-align: center;
-  transition: all .35s;
-}
-
-.tab-content {
-  height: 0;
-  transition: .5s;
-  display: flex;
-  flex-direction: column;
-  padding-top: 0px;
-}
-
-.sidenav input[type="button"] {
-  all: inherit;
-  font-weight: bold;
-  cursor: pointer;
-  padding: 1em;
-
-
-}
-
-.sidenav input[type="button"]:hover {
-  background-color: rgb(20, 70, 160);
-  text-decoration: underline;
-}
-
-.sidenav .tab-content input[type="button"] {
-  padding-left: 2em;
-}
-
-input:checked+label::after {
-  transform: rotate(90deg);
-  -webkit-transform: rotate(90deg);
-}
-
-input:checked~.tab-content {
-  height: auto;
-  padding-top: 5px;
-}
-
 /* Could be needed by tool landing page in the future */
   /* [data-md-tooltip] {
     position: relative;
@@ -773,6 +697,15 @@ input:checked~.tab-content {
   font-size: 16px;
 }
 
+.menudropbtn {
+  background-color: #0055A4;
+  border-color: #002364;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+
+}
+
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
   position: relative;
@@ -784,7 +717,7 @@ input:checked~.tab-content {
   display: none;
   position: absolute;
   background-color: #f1f1f1;
-  min-width: 160px;
+  min-width: 100%;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
@@ -802,6 +735,10 @@ input:checked~.tab-content {
   cursor: pointer;
 }
 
+.menudropbtn:hover {
+  background-color: #0093D0;
+  cursor: pointer;
+}
 
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {

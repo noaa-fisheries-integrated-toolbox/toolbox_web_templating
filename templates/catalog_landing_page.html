@@ -21,15 +21,24 @@
             <img src="https://raw.githubusercontent.com/noaa-fisheries-integrated-toolbox/FIT_graphics/main/FIT_logo/logo_pngs/FIT_logo_2022_color_no_text.png" alt="NOAA Fisheries Integrated Toolbox Logo" height="75">&nbsp;&nbsp;&nbsp;
             <h1 class ="header_title">NOAA Fisheries Integrated Toolbox</h1>
         </div>
+        <div class ="mywrap_head">
+          <button class="dropbtn" onclick="location.href='/';" value="FIT homepage" >FIT Homepage</button>
+            <div class="dropdown">
+              <button class="dropbtn" value="Resources" >Resources</button>
+                <div class="dropdown-content">
+                  <button class="menudropbtn" onclick="location.href='/resources';" value="Resources Home" >Resources Home</button>
+                  <button class="menudropbtn" onclick="location.href='/resources';" value="Browse by category" >Browse By Category</button>
+                  <button class="menudropbtn" onclick="location.href='/resources';" value="Browse by tag" >Browse By Tag</button>
+                </div>
+            </div>
+          <button class="dropbtn" onclick="location.href='/resources/about';" value="About" >About</button>
+           <button class="dropbtn" onclick="location.href='/resources/noaa%20fit/contact';" value="Contact" >Contact</button>
+        </div>
+
+
         <div class = "divider"></div>
-          <div class ="mywrap_head">
-            <button class="header_button" onclick="location.href='/';" value="FIT homepage" >FIT Homepage</button>
-            <button class="header_button" onclick="location.href='/resources';" value="Explore Resources" >Explore Resources</button>
-            <button class="header_button" onclick="location.href='/resources/noaa%20fit/contact';" value="Contact FIT" >Contact FIT</button>
-          </div>
-        <div class = "divider"></div>
-        <div class ="mywrap">
-          <h2 class ="title">{{org_config.general_title}}</h2>
+        <div class="mywrap">
+          <h2>Welcome to the FIT! Browse open source software tools for data end-users.</h2>
         </div>
         <div class="mywrap">
           
@@ -56,6 +65,7 @@
             <div class="dropdown-content">
               <input type="button" value="ADMB" onclick="simpleSearch(this.value)">
               <input type="button" value="Age Structured Model" onclick="simpleSearch(this.value)">
+              <input type="button" value="API Client" onclick="simpleSearch(this.value)">
               <input type="button" value="Bayesian Modeling" onclick="simpleSearch(this.value)">
               <input type="button" value="Bycatch" onclick="simpleSearch(this.value)">
               <input type="button" value="C++" onclick="simpleSearch(this.value)">
@@ -111,66 +121,12 @@
               <input type="button" value="Virtual Population Analysis" onclick="simpleSearch(this.value)">
               <input type="button" value="Visualization" onclick="simpleSearch(this.value)">
               <input type="button" value="Web App" onclick="simpleSearch(this.value)">
+              <input type="button" value="West Coast" onclick="simpleSearch(this.value)">
             </div>
           </div>
-
-
-
-
-
         </div>
-        <div class="divider_thin"></div>
-        <div class="mywrap">
-          <div class="mywrap">
-            <nav class ="sidenav" role="navigation">
-              <button class="menu-toggle" id=”menu-toggle” onclick="menuClick(this)"  aria-label=”toggle the menu” aria-expanded="false" aria-controls="menu"></button>
-              <div class="menulabel">
-                  <div class="bar1" aria-hidden=”true”></div>
-                  <div class="bar2" aria-hidden=”true”></div>
-                  <div class="bar3" aria-hidden=”true”></div>
-              </div>
-
-            <div id = "menu" tabindex="-1">
-              <div class = "box2">
-                    <div class ="row"><img class="icon_small online"><h2> Web App</h2></div>
-                    Tool is available as a web-based application.
-                </div>
-                <div class = "box2">
-                  <div class ="row"><img class="icon_small down" ><h2> Executable</h2></div>
-
-                      Tool is packaged as an executable available for download.
-                </div>
-                <div class = "box2">
-                  <div class ="row"><img class="icon_small github"><h2> Code Repository</h2></div>
-
-                      Code repository associated with the tool is available for developers or users to access. Interested developers can make pull requests on the code base.
-                </div>
-                <!-- <div class = "box2">
-                  <div class ="row"><img class="icon_small cert" > <h2>Validation</h2></div>
-                      Tools and code go through a validation process and are assigned different levels of validation.
-
-                </div> -->
-                <div class = "box2">
-                  <div class ="row"><img class="icon_small checkmarkN"> <h2>NOAA Support</h2></div>
-                      Authored and currently maintained by NOAA staff.
-                </div>
-                <div class = "box2">
-                  <div class ="row"><img class="icon_small checkmarkE"> <h2>External Tool</h2></div>
-                      Authored by developers external to NOAA.
-                </div>
-                <!-- <div class = "box2">
-                  <div class ="row"><img class="icon_small legacy"> 
-                    <input type="button" value="Legacy Tool" onclick="simpleSearch(this.value)">
-                  </div>
-                      A tool that is no longer maintained. It is recommended to update to a replacement tool.
-                </div> -->
-                </div>
-          </nav>
-
-
-
+      
         <div class ="boxcontainer">
-
           {% for key, value in configs.items() %}
           <div class = "box">
               {% set my_string = value['tool_abbreviation']  %}
@@ -202,61 +158,7 @@
               {% endif %} -->
 
               <div class = "language"></div>
-              <!-- web app button -->
-              <div class = "iconrow">
-                {% if value['online_app_link'] is defined and value['online_app_link']|length %}
-                 <button class = "icon_small online" onclick="location.href= '{{value.online_app_link}}';" value="Go to online app" ></button>
-                {% else %}
-                 <button class = "icon_small online" disabled></button>
-                {% endif %}
-                <!-- executable button -->
-                {% if value['executable_link'] is defined and value['executable_link']|length %}
-                 <button class = "icon_small down" onclick="location.href='{{value.executable_link}}';" value="download app" ></button>
-                {% else %}
-                  <button class = "icon_small down" disabled></button>
-                {% endif %}
-                <!-- code repository button -->
-                {% if value['source_code_link'] is defined and value['source_code_link']|length %}
-                 <button class = "icon_small github" onclick="location.href='{{value.source_code_link}}';" value="Go to online app" ></button>
-                {% else %}
-                  <button class = "icon_small github" disabled></button>
-                {% endif %}
-
-               <!--  {% if value['online_app_link']|length %}
-                 <button class = "icon_small"  id ="" onclick="location.href=""{{value['online_app_link']}};" value="Go to online app" ></button>
-                 -->
-                  <!-- {% else %} -->
-                  <!-- {% if badge_level %}
-                <button class = "icon_small {{badge_level}}"></button> -->
-                <!-- {% else %}
-                <button class = "icon_small cert" disabled></button> -->
-                <!-- {% endif %} -->
-
-                  <!-- <button class = "icon_small cert" disabled></button> -->
-                <!-- {% endif %} -->
-                <!-- NOAA support button -->
-                {% if value['noaa_internal'] is defined and value['active_development'] is defined and value['noaa_internal'] == true and value['active_development'] == true%}
-                  <button class = "icon_small internal_active" ></button>
-                {% else %}
-                  <button class = "icon_small internal_active" disabled></button>
-                {% endif %}
-                <!-- External Tool Icon -->
-                {% if value['noaa_internal'] is defined and value['active_development'] is defined and value['noaa_internal'] == false and value['active_development'] == true%}
-                  <button class = "icon_small external_active" ></button>
-                {% else %}
-                  <button class = "icon_small external_active" disabled></button>
-                {% endif %}
-                <!-- Legacy Tool Icon -->
-                <!-- May want to use noaa_internal and active_development in the future to determine if this button should be added -->
-                <!-- {% if value['keywords'] is defined and 'Legacy Tool' in value['keywords'] %}
-                  <button class = "icon_small legacy" ></button>
-                {% else %}
-                  <button class = "icon_small legacy" disabled></button>
-                {% endif %} -->
-
-              </div>
-
-
+              
           </div>
           {% endfor %}
         </div>

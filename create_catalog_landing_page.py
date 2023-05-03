@@ -12,7 +12,7 @@ import sys
 def write_html_index(template, configs, org_config):
     root = os.path.dirname(os.path.abspath(__file__))
     #root = path to output directory
-    filename = os.path.join(root, 'deploy', 'browse.html')
+    filename = os.path.join(root, 'deploy', 'index.html')
     with open(filename, 'w') as fh:
         fh.write(template.render(configs = configs, org_config = org_config))
 

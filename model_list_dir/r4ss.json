@@ -20,5 +20,6 @@
   "software_badges": ["https://img.shields.io/github/v/release/r4ss/r4ss?color=brightgreen&label=GitHub", "https://github.com/r4ss/r4ss/actions/workflows/call-r-cmd-check.yml/badge.svg", "https://codecov.io/gh/r4ss/r4ss/branch/main/graph/badge.svg"],
   "toolbox_drawers": ["Fish and Fisheries"],
   "keywords": ["Data Visualization", "Fisheries", "Output Visualization", "R Package"],
-  "uses_github_releases": true
+  "uses_github_releases": true,
+  "release_badge": "r4ss/r4ss"
 }
