@@ -12,5 +12,5 @@
   "noaa_internal": true,
   "uses_github_releases": false,
   "toolbox_drawers": ["Fish and Fisheries"],
-  "keywords": ["Web App"]
+  "keywords": ["Web App", "Species Distribution Model"]
 }
