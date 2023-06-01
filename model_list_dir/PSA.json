@@ -10,5 +10,7 @@
   "citation": "https://github.com/nathanvaughan1/PSA",
   "online_app_link": "https://connect.fisheries.noaa.gov/psa/",
   "source_code_link": "https://github.com/nathanvaughan1/PSA",
-  "uses_github_releases": true
+  "toolbox_drawers": ["Fish and Fisheries"],
+  "uses_github_releases": true,
+  "keywords": ["Risk Assessment Tool", "Shiny", "Web App"]
 }
