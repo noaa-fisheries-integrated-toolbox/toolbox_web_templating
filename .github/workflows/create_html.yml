@@ -25,7 +25,7 @@ jobs:
     - name: create HTML file
       run: |
         python create_tool_landing_page.py
-        python create_catalog_landing_page.py Browse_config.json
+        python create_catalog_landing_page.py dev_config.json
         # note that static images and FIT landing page (index.html) are
         # already in the deploy folder.
         # for now, don't create individual drawer pages

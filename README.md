@@ -80,7 +80,7 @@ From bash, run:
 
 ```
 python create_tool_landing_page.py
-python create_catalog_landing_page.py Browse_config.json
+python create_catalog_landing_page.py dev_config.json # or prod_config.json if building the production site.
 ```
 
 This is just the commands in create_html.yml. Note that this will create new
