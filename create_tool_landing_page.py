@@ -57,7 +57,7 @@ def run_all_files(list_of_models, folder_out, configdir):
 
 
 def main():
-    with open("Browse_config.json", "r") as read_file:
+    with open("models_all.json", "r") as read_file:
         modellist_configjson = json.load(read_file)
     list_of_models = modellist_configjson['list_of_models']    
     folder_out= 'deploy'

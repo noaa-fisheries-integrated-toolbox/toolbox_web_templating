@@ -9,9 +9,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - name: Validate JSON
+      - name: Validate JSON, prod and dev config
         uses: docker://orrosenblatt/validate-json-action:latest
         env:
           INPUT_SCHEMA: schema_config.json
-          INPUT_JSONS: EcoSys_config.json,FaF_config.json,FGenM_config.json,HumanDim_config.json,ProSpec_config.json,Browse_config.json
+          INPUT_JSONS: prod_config.json,dev_config.json
+      - name: Validate JSON, models_all
+        uses: docker://orrosenblatt/validate-json-action:latest
+        env:
+          INPUT_SCHEMA: schema_models_all.json
+          INPUT_JSONS: models_all.json
+          
           

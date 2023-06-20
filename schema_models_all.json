@@ -1,0 +1,18 @@
+{
+  "title": "models all list", 
+  "description": "Information about all models in the toolbox",
+  "type": "object", 
+  "properties": {
+    "list_of_models": {
+      "description": "The models in the location_of_model_list directory that should be shown on the webpage. They must be spelled (case sensitive) as the .json files are named.",
+      "type": "array", 
+      "items" : {
+        "type": "string"
+       }
+    }, 
+    "location_of_model_list": { 
+      "description": "The path to the directory where the model file json specifications are located.", 
+      "type": "string"
+    }
+  }
+}
