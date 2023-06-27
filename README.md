@@ -1,43 +1,35 @@
-# Big picture
+# Big picture, GitHub Branching
 
 ![The setup for the FIT repo](fit-deploy-sketch.png)
 
-1. Try out new changes in a feature branch off of main (or off of dev)
+1. Try out new changes in a feature branch off of dev.
 2. Merge changes into dev. Once merged in, use a github action to build the html pages and deploy them to 3.
 3. The fit-dev repo is hosted on github pages. Navigate to noaa-fisheries-integrated-toolbox.github.io/fit-dev to preview the FIT website.
-4. Once confirming the dev pages look good, merge changes into 4. Once merged in, use a github acion to build the html pages and deploy them to 5.
+4. Once confirming the dev pages look good, merge changes into 4 (for small changes, can consider squashing or rebasing instead). Once merged in, use a github action (done automatically) to build the html pages and deploy them to 5. Delete the dev branch and recreate it from (so that they are back in sync with the exact same commits).
 5. This is the production version of the NOAA fisheries site, advertised to the public.
 
 # Webpage addresses on production
 
  - FIT landing page (https://noaa-fisheries-integrated-toolbox.github.io/ ; no change)
- - browse landing page (https://noaa-fisheries-integrated-toolbox.github.io/browse; new page)
- - individual drawer landing pages (if we still want these) (https://noaa-fisheries-integrated-toolbox.github.io/nmfs-fish-tools , for example; CHANGE from nmfs-fish-tools.github.io). 
  - individual tool landing pages, toolbox hosted (https://noaa-fisheries-integrated-toolbox.github.io/ASAP, for example; CHANGE from nmfs-fish-tools.github.io/ASAP)
 
  # redirect pages
- - will need the nmfs-fish-tools.github.io (and other org .io repos) to redirect; same with nmfs-fish-tools.github.io/toolname. Maybe just upload a new link to post for a bit.
+ - will need the nmfs-fish-tools.github.io (and other org .io repos) to redirect; same with nmfs-fish-tools.github.io/toolname. These redirect automatically or have a redirect link.
 
 # Org Templating
 
 This repository includes templates and JSON data for the FIT. [python's jinja 2](https://zetcode.com/python/jinja/) is used to generate webpages from the html templates and JSON files (For R users, this approach is similar to using [glue](https://glue.tidyverse.org/)).
 
 ## How to update or add tool landing pages 
-1. In [model_list_dir subfolder](https://github.com/noaa-fisheries-integrated-toolbox/toolbox_web_templating/tree/main/model_list_dir) add or update `.json` files (use [empty.json](https://github.com/noaa-fisheries-integrated-toolbox/toolbox_web_templating/blob/main/model_list_dir/EcoSys_model_list/empty.json) as a template if it’s a new tool). Examples of json are available in [model_list_dir/MODEL_LIST_NOTES.json](https://github.com/noaa-fisheries-integrated-toolbox/toolbox_web_templating/blob/main/model_list_dir/MODEL_LIST_NOTES.json)
-2. If it is a new tool, add to the x_config.json file for the drawer it should be in.
-3. In toolbox_web_templating [actions](https://github.com/noaa-fisheries-integrated-toolbox/toolbox_web_templating/actions), run the workflow "create html" for the drawer the new tool goes in 
-4. Download the `index.html` created by the action (to find this, click into the action after it runs, the `index.html` will be at the bottom)
-5. Replace the `index.html` in the github.io repo for whichever drawer the new tool is in: 
-- [Fish and Fisheries](https://github.com/nmfs-fish-tools/nmfs-fish-tools.github.io)
-- [Protected Species](https://github.com/NMFS-Protected-Species-Tools/nmfs-protected-species-tools.github.io) 
-- [Human Dimensions](https://github.com/nmfs-human-dimensions-tools/nmfs-human-dimensions-tools.github.io)
-- [Ecosystems](https://github.com/NMFS-ecosystem-tools/nmfs-ecosystem-tools.github.io)
-- [General Modeling Tools](https://github.com/nmfs-general-modeling-tools/nmfs-general-modeling-tools.github.io)
-
-Each landing page can be created using the correct config file.
+1. In [model_list_dir subfolder](https://github.com/noaa-fisheries-integrated-toolbox/toolbox_web_templating/tree/main/model_list_dir) add or update `.json` files. Examples of json are available in the readme. If onboarding a new tool, the issue from [the onboard-and-update repo](https://github.com/noaa-fisheries-integrated-toolbox/onboard-and-update) should have a json based on user input that can be copy/pasted in, then checked.
+2. If it is a new tool, add the name of the json file (minus the extension, case sensitive) to the list_of_models item in the models_all.json file.
+3. Changes can be checked locally using instructions in the "Creating Webpages Locally From Templates"
+4. After committing and pushing to dev, changes can be checked on the [fit-dev](https://noaa-fisheries-integrated-toolbox.github.io/fit-dev/) site. If GitHub actions are failing, look at them and make changes.
+5. Once actions passing, share changed dev tool landing page with the person submitting the(e.g., if the tool is called, my-tool, the address would be https://noaa-fisheries-integrated-toolbox.github.io/fit-dev/my-tool). Allow them to request changes. 
+6. If the author approves, open an PR to main, which KD will look at and merge in if passing checks.
 
 # Explanation of JSON metadata
-JSON data can be (partially) validated using [schema](https://json-schema.org/understanding-json-schema/about.html)
+JSON data can be validated using [schema](https://json-schema.org/understanding-json-schema/about.html)
 ```json
 {
   "active_development": true,     //in active development? true or false
@@ -75,7 +67,6 @@ Python and Jinja2 need to be installed locally.
 pip install jinja2
 ```
 
-
 From bash, run:
 
 ```
@@ -83,8 +74,7 @@ python create_tool_landing_page.py
 python create_catalog_landing_page.py dev_config.json # or prod_config.json if building the production site.
 ```
 
-This is just the commands in create_html.yml. Note that this will create new
-webpages that should not be saved to the repository.
+These are just the commands in `create_html`.yml. Note that this will create new webpages that should NOT be saved to the repository.
 
 To view the webpages from VS code, try using the Live Preview Extension.
 You may need to add .html to the end of a link in order to view it properly. Sometimes the 
