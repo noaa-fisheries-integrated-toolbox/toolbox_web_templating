@@ -1,4 +1,6 @@
-# Big picture, GitHub Branching
+# Guide to the Toolbox Templating repo
+
+## Big picture, GitHub Branching
 
 ![The setup for the FIT repo](fit-deploy-sketch.png)
 
@@ -8,19 +10,19 @@
 4. Once confirming the dev pages look good, merge changes into 4 (for small changes, can consider squashing or rebasing instead). Once merged in, use a github action (done automatically) to build the html pages and deploy them to 5. Delete the dev branch and recreate it from (so that they are back in sync with the exact same commits).
 5. This is the production version of the NOAA fisheries site, advertised to the public.
 
-# Webpage addresses on production
+## Webpage addresses on production
 
  - FIT landing page (https://noaa-fisheries-integrated-toolbox.github.io/ ; no change)
  - individual tool landing pages, toolbox hosted (https://noaa-fisheries-integrated-toolbox.github.io/ASAP, for example; CHANGE from nmfs-fish-tools.github.io/ASAP)
 
- # redirect pages
+## redirect pages
  - will need the nmfs-fish-tools.github.io (and other org .io repos) to redirect; same with nmfs-fish-tools.github.io/toolname. These redirect automatically or have a redirect link.
 
-# Org Templating
+## Org Templating
 
 This repository includes templates and JSON data for the FIT. [python's jinja 2](https://zetcode.com/python/jinja/) is used to generate webpages from the html templates and JSON files (For R users, this approach is similar to using [glue](https://glue.tidyverse.org/)).
 
-## How to update or add tool landing pages 
+### How to update or add tool landing pages 
 1. In [model_list_dir subfolder](https://github.com/noaa-fisheries-integrated-toolbox/toolbox_web_templating/tree/main/model_list_dir) add or update `.json` files. Examples of json are available in the readme. If onboarding a new tool, the issue from [the onboard-and-update repo](https://github.com/noaa-fisheries-integrated-toolbox/onboard-and-update) should have a json based on user input that can be copy/pasted in, then checked.
 2. If it is a new tool, add the name of the json file (minus the extension, case sensitive) to the list_of_models item in the models_all.json file.
 3. Changes can be checked locally using instructions in the "Creating Webpages Locally From Templates"
@@ -28,7 +30,7 @@ This repository includes templates and JSON data for the FIT. [python's jinja 2]
 5. Once actions passing, share changed dev tool landing page with the person submitting the(e.g., if the tool is called, my-tool, the address would be https://noaa-fisheries-integrated-toolbox.github.io/fit-dev/my-tool). Allow them to request changes. 
 6. If the author approves, open an PR to main, which KD will look at and merge in if passing checks.
 
-# Explanation of JSON metadata
+## Explanation of JSON metadata
 JSON data can be validated using [schema](https://json-schema.org/understanding-json-schema/about.html)
 ```json
 {
@@ -60,7 +62,7 @@ JSON data can be validated using [schema](https://json-schema.org/understanding-
   "user_organizations": ["SEFSC", "NWFSC", "SWFSC"] //operational users of the tool
 ```
 
-# Creating Webpages Locally From Templates
+## Creating Webpages Locally From Templates
 
 Python and Jinja2 need to be installed locally.
 ```
@@ -79,3 +81,13 @@ These are just the commands in `create_html`.yml. Note that this will create new
 To view the webpages from VS code, try using the Live Preview Extension.
 You may need to add .html to the end of a link in order to view it properly. Sometimes the 
 embedded preview doesn't work, so a separate browser window will need to be opened instead.
+
+## Overview of GitHub Actions in toolbox_web_templating
+
+GitHub actions code (YAML files) live in the `.github/workflows` directory.
+
+- `create_html.yml`: creates the html pages for viewing and saves them as artifacts. The files can be downloaded and examined. Runs on every push to any branch and manually.
+- `dev_create_website_and_deploy.yml`: updates [FIT dev site](https://github.com/noaa-fisheries-integrated-toolbox/fit-dev) by deploying rendered html from the toolbox_web_templating dev branch to https://github.com/noaa-fisheries-integrated-toolbox/fit-dev/tree/gh-pages (gh-pages branch). Runs on every push to the dev branch and manually.
+- `prod_create_website_and_deploy.yml`: updates [FIT prod site](https://noaa-fisheries-integrated-toolbox.github.io/) by deploying rendered html from the toolbox_web_templating main branch to https://github.com/noaa-fisheries-integrated-toolbox/noaa-fisheries-integrated-toolbox.github.io/tree/gh-pages (gh-pages branch). runs on every push to main and manually.
+- `validate_json_config.yml`: check that `prod_config.json`,`dev_config.json` matches the JSON schema defined in `schema_config.json` and that `models_all.json` matches the JSON schema definied in `schema_models_all.json`. If the GitHub action fails, it will provide info on how the json files need to be modified to match the schema. Runs on every push to any branch, and manually.
+- `validate_json_model_list.yml`: checks that the JSON files in `model_list_dir` matches the JSON schema defined in `schema_model_list.json`. If the GitHub action fails, it will provide info on how the json files need to be modified to match the schema. Runs on every push to any branch where there are changes to the files in `model_list_dir` and manually.
