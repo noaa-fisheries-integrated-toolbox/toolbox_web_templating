@@ -11,7 +11,7 @@ from jinja2 import Environment, FileSystemLoader
 #basic templating
 # use conda web_templating. .. source activate web_templating
 
-def write_html(template, configs, new_dir, modelname):
+def write_html(template, configs, new_dir, modelname, dev_or_prod_config):
     #root = os.path.dirname(os.path.abspath(__file__))
     #docsdir = os.path.join(new_dir, 'deploy')
     htmlname = modelname + '.html'
@@ -19,7 +19,7 @@ def write_html(template, configs, new_dir, modelname):
     #if not os.path.exists(docsdir):
     #    os.mkdir(docsdir)
     with open(filename, 'w') as fh:
-        fh.write(template.render(**configs))
+        fh.write(template.render(**configs, dev_or_prod_config = dev_or_prod_config))
 
 
 def load_template():
@@ -36,12 +36,12 @@ def load_template():
 #     filename = args.files;
 #     return filename
 
-def write_templates(configs, new_dir, modelname):
+def write_templates(configs, new_dir, modelname, dev_or_prod_config):
     # filename = parse_args()
     template = load_template()
-    write_html(template, configs, new_dir, modelname)
+    write_html(template, configs, new_dir, modelname, dev_or_prod_config)
 
-def run_all_files(list_of_models, folder_out, configdir):
+def run_all_files(list_of_models, folder_out, configdir, dev_or_prod_config):
     for modelname in list_of_models:
         print(modelname)
         old_name = modelname +'.json'
@@ -52,18 +52,21 @@ def run_all_files(list_of_models, folder_out, configdir):
         # Create target Directory if don't exist
         if not os.path.exists(new_dir):
             os.mkdir(new_dir)
-        write_templates(configjson, new_dir, modelname)
+        write_templates(configjson, new_dir, modelname, dev_or_prod_config)
         
 
 
-def main():
+def main(dev_or_prod_config):
     with open("models_all.json", "r") as read_file:
         modellist_configjson = json.load(read_file)
     list_of_models = modellist_configjson['list_of_models']    
     folder_out= 'deploy'
     configdir= 'model_list_dir'
-    run_all_files(list_of_models, folder_out, configdir)
+    run_all_files(list_of_models, folder_out, configdir, dev_or_prod_config)
 
 
 if __name__ == '__main__':
-    main()
+    dev_or_prod_config = sys.argv[1]; # use this approach if we need to generate multiple files
+    with open(dev_or_prod_config) as f:
+            dev_or_prod_config =  json.load(f)
+    main(dev_or_prod_config)
