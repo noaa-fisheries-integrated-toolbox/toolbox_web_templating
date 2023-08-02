@@ -24,7 +24,7 @@ jobs:
         pip install jinja2
     - name: create HTML file
       run: |
-        python create_tool_landing_page.py
+        python create_tool_landing_page.py dev_config.json
         python create_catalog_landing_page.py dev_config.json
     - name: Deploy 🚀
       uses: JamesIves/github-pages-deploy-action@v4
