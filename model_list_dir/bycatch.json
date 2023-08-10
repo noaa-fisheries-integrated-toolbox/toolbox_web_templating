@@ -10,7 +10,12 @@
   "website_link":"https://ericward-noaa.github.io/bycatch/",
   "active_development": true,
   "noaa_internal": false,
-  "software_badges":["https://www.repostatus.org/badges/latest/active.svg"],
+  "software_badges":[
+    {
+      "link": "https://www.repostatus.org/badges/latest/active.svg", 
+      "alt_text": "A software badge showing that the repository is active."
+    }
+  ],
   "release_badge": "ericward-noaa/bycatch",
   "uses_github_releases": true, 
   "toolbox_drawers": ["Protected Species", "Fish and Fisheries"],

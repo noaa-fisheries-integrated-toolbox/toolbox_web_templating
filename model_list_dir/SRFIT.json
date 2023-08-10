@@ -7,8 +7,13 @@
   "fit_repo": "https://github.com/nmfs-fish-tools/SRFIT.git",
   "tool_abbreviation": "SRFIT",
   "tool_name": "Stock Recruitment Fitting Model",
-  "software_badges":["https://www.repostatus.org/badges/latest/inactive.svg"],
-    "active_development": false,
+  "software_badges":[
+    {
+      "link": "https://www.repostatus.org/badges/latest/inactive.svg", 
+      "alt_text": "A software badge showing that the repository is inactive."
+    }
+  ],
+  "active_development": false,
   "noaa_internal": true,
   "static_version_number": "7.0.1",
   "uses_github_releases": false,

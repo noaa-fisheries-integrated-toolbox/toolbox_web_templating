@@ -7,8 +7,13 @@
   "tool_abbreviation": "VRAP",
   "tool_name": "Viability and Risk Assessment Procedure",
   "website_link":"https://nwfsc-math-bio.github.io/VRAP/",
-  "software_badges":["https://www.repostatus.org/badges/latest/active.svg"],
-    "active_development": true,
+  "software_badges":[
+    {
+      "link": "https://www.repostatus.org/badges/latest/active.svg", 
+      "alt_text": "A software badge showing that the repository is active."
+    }
+  ],
+  "active_development": true,
   "noaa_internal": true,
   "release_badge":"eeholmes/VRAP",
   "uses_github_releases": true,

@@ -16,7 +16,12 @@
       "link": "https://github.com/pfmc-assessments/VASTWestCoast"
     }
   ],
-  "software_badges":[ "https://img.shields.io/github/last-commit/James-Thorson-NOAA/VAST.svg?style=plastic"],
+  "software_badges":[ 
+    {
+      "link": "https://img.shields.io/github/last-commit/James-Thorson-NOAA/VAST.svg?style=plastic",
+      "alt_text": "A sofware badge shwoing the last commit to the repository"
+    }
+  ],
   "release_badge":"James-Thorson-NOAA/VAST",
   "uses_github_releases": true,
   "toolbox_drawers": ["General Modeling and Productivity Tools", "Fish and Fisheries"], 

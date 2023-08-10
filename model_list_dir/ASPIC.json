@@ -16,7 +16,12 @@
     "Prager, M. H., C. Phillip Goodyear, and G. P. Scott. 1996. Application of a surplus-production model to a swordfish-like simulated stock with time-changing selectivity. Trans. AFS 125:729-740.",
     "Schaefer, M. B. 1957. A study of the dynamics of the fishery for yellowfin tuna in the eastern tropical Pacific Ocean. Inter-Am. Trop. Tuna Comm. Bull. 2: 247–268."
   ],
-  "software_badges":["https://www.repostatus.org/badges/latest/inactive.svg"],
+  "software_badges":[
+    {
+      "link": "https://www.repostatus.org/badges/latest/inactive.svg", 
+      "alt_text": "A software badge showing that the repository is inactive."
+    }
+  ],
   "active_development": false,
   "noaa_internal": true,
   "static_version_number": "5.34.6",

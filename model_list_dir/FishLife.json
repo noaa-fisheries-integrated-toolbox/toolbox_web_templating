@@ -21,8 +21,11 @@
       "link": "https://github.com/merrillrudd/LIME"
     }
   ],
-  "software_badges": [
-    "https://img.shields.io/github/last-commit/James-Thorson-NOAA/FishLife.svg?style=plastic"
+  "":[
+    {
+      "link": "hhttps://img.shields.io/github/last-commit/James-Thorson-NOAA/FishLife.svg?style=plastic", 
+      "alt_text": "A software badge showing the latest commit to the repository."
+    }
   ],
   "release_badge": "James-Thorson-NOAA/FishLife",
   "uses_github_releases": true, 

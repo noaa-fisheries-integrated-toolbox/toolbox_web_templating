@@ -16,7 +16,12 @@
     "Northeast Data Poor Stocks Working Group. 2007. Monkfish assessment summary for 2007. US Dep Commer, Northeast Fish Sci Cent Ref Doc. 07-13; 12 p.",
     "Northeast Data Poor Stocks Working Group. 2007. Monkfish assessment report for 2007. US Dep Commer, Northeast Fish Sci Cent Ref Doc 07-21; 232 p."
   ],
-  "software_badges":["https://www.repostatus.org/badges/latest/inactive.svg"],
+  "software_badges":[
+    {
+      "link": "https://www.repostatus.org/badges/latest/inactive.svg", 
+      "alt_text": "A software badge showing that the repository is inactive."
+    }
+  ],
   "active_development": false,
   "noaa_internal": true,
   "static_version_number": "1.0.11",

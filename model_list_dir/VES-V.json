@@ -9,8 +9,11 @@
   "tool_abbreviation": "VES-V",
   "tool_name": "Virtual Ecosystem Scenario Viewer",
   "online_app_link": "http://www.perspectx.com/VES-V/v144/",
-  "software_badges": [
-    "https://www.repostatus.org/badges/latest/active.svg"
+  "software_badges":[
+    {
+      "link": "https://www.repostatus.org/badges/latest/active.svg", 
+      "alt_text": "A software badge showing that the repository is active."
+    }
   ],
   "active_development": true,
   "noaa_internal": true,

@@ -13,7 +13,12 @@
   ],
   "active_development": true,
   "noaa_internal": false,
-  "software_badges":["https://www.repostatus.org/badges/latest/active.svg"],
+  "software_badges":[
+    {
+      "link": "https://www.repostatus.org/badges/latest/active.svg", 
+      "alt_text": "A software badge showing that the repository is active."
+    }
+  ],
   "static_version_number": "6.6.1",
   "uses_github_releases": false,
   "toolbox_drawers": ["Ecosystem"], 

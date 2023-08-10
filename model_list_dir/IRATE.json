@@ -12,7 +12,12 @@
     "Hoenig, J.M., N.J. Barrowman, W.S. Hearn, and K.H. Pollock. 1998. Multiyear tagging studies incorporating fishing effort data. Can. J. Fish. Aquat. Sci. 55: 1466-1476.",
     "Jiang, H.H., K.H. Pollock, C. Brownie, J.M. Hoenig, R.J. Latour, B.K. Wells, and J.E. Hightower. 2007. Tag return models allowing for harvest and catch and release: evidence of environmental and management impacts on striped bass fishing and natural mortality rates. N. Amer. J. Fish. Man. 27: 387-396."
   ],
-  "software_badges":["https://www.repostatus.org/badges/latest/inactive.svg"],
+  "software_badges":[
+    {
+      "link": "https://www.repostatus.org/badges/latest/inactive.svg", 
+      "alt_text": "A software badge showing that the repository is inactive."
+    }
+  ],
   "active_development": false,
   "noaa_internal": true,
   "static_version_number": "2.0.0",

@@ -8,7 +8,12 @@
   "tool_abbreviation": "NWCTrends",
   "tool_name": "Standardized trends metrics for listed PNW salmonids",
   "website_link":"https://nwfsc-math-bio.github.io/NWCTrends/",
-  "software_badges":["https://www.repostatus.org/badges/latest/active.svg"],
+  "software_badges":[
+    {
+      "link": "https://www.repostatus.org/badges/latest/active.svg", 
+      "alt_text": "A software badge showing that the repository is active."
+    }
+  ],
   "active_development": true,
   "noaa_internal": true,
   "uses_github_releases": true,

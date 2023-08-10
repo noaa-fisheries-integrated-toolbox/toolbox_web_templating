@@ -13,7 +13,16 @@
   ],
   "active_development": true,
   "noaa_internal": false,
-  "software_badges":["https://www.repostatus.org/badges/latest/active.svg","https://img.shields.io/badge/platform-linux%20%7Cwin-lightgrey"],
+  "software_badges":[
+    {
+      "link": "https://www.repostatus.org/badges/latest/active.svg", 
+      "alt_text": "A software badge showing that the repository is active."
+    },
+    {
+      "link": "https://img.shields.io/badge/platform-linux%20%7Cwin-lightgrey", 
+      "alt_text": "A software badge showing that the software works on Linux and Windows Platforms"
+    }
+  ],
   "uses_github_releases": false,
   "toolbox_drawers": ["Ecosystem", "Fish and Fisheries"], 
   "keywords": ["Ecosystem", "Fish and Fisheries", "Multispecies Model"]

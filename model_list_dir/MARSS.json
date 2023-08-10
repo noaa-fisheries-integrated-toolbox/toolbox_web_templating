@@ -12,7 +12,12 @@
   "citation": "https://doi.org/10.32614/RJ-2012-002",
   "active_development": true,
   "noaa_internal": false,
-  "software_badges":["https://www.repostatus.org/badges/latest/active.svg"],
+  "software_badges":[
+    {
+      "link": "https://www.repostatus.org/badges/latest/active.svg", 
+      "alt_text": "A software badge showing that the repository is active."
+    }
+  ],
   "uses_github_releases": true,
   "toolbox_drawers": ["General Modeling and Productivity Tools", "Protected Species"], 
   "keywords":["Time Series", "R Package"]

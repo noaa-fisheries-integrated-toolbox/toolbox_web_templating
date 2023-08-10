@@ -11,8 +11,13 @@
   "citation": "https://doi.org/10.1111/2041-210X.12256",
   "references": [
   "https://sizespectrum.org/mizer/articles/publications.html#publications-using-mizer" ],
-  "software_badges":["https://www.repostatus.org/badges/latest/active.svg"],
-    "active_development": true,
+  "software_badges":[
+    {
+      "link": "https://www.repostatus.org/badges/latest/active.svg", 
+      "alt_text": "A software badge showing that the repository is active."
+    }
+  ],
+  "active_development": true,
   "noaa_internal": false,
   "uses_github_releases": true,
   "release_badge": "sizespectrum/mizer", 

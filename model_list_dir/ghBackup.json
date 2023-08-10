@@ -14,7 +14,16 @@
   "release_badge": "nmfs-fish-tools/ghactions4r",
   "active_development": true,
   "noaa_internal": true,
-  "software_badges": ["https://www.repostatus.org/badges/latest/active.svg", "https://github.com/nmfs-fish-tools/ghBackup/actions/workflows/call-r-cmd-check.yml/badge.svg"],
+  "software_badges": [
+    {
+      "link": "https://www.repostatus.org/badges/latest/active.svg", 
+      "alt_text": "A software badge showing that the repository is active."
+    }, 
+    {
+      "link": "https://github.com/nmfs-fish-tools/ghBackup/actions/workflows/call-r-cmd-check.yml/badge.svg",
+      "alt_text": "A software badge showing the status of a GitHub Action workflow called call-r-cmd-check"
+    }
+  ],
   "uses_github_releases": false,
   "toolbox_drawers": ["General Modeling and Productivity Tools"], 
   "keywords": ["R Package", "Developer Utilities"]

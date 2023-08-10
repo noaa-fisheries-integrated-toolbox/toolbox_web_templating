@@ -10,8 +10,13 @@
   "references": [
     "Meinhold, R and Meinhold, N. 1983. Understanding the Kalman Filter. The American Statistician, Vol. 37, No. 2 (May, 1983), pp. 123-127"
   ],
-  "software_badges":["https://www.repostatus.org/badges/latest/inactive.svg"],
-    "active_development": false,
+  "software_badges":[
+    {
+      "link": "https://www.repostatus.org/badges/latest/inactive.svg", 
+      "alt_text": "A software badge showing that the repository is inactive."
+    }
+  ],
+  "active_development": false,
   "noaa_internal": true,
   "static_version_number": "2.3",
   "uses_github_releases": false,

@@ -6,7 +6,12 @@
   "tool_abbreviation": "StockSMART",
   "tool_name": "Stock Status, Management, Assessments & Resource Trends",
   "online_app_link": "https://www.st.nmfs.noaa.gov/stocksmart",
-  "software_badges":["https://www.repostatus.org/badges/latest/active.svg"],
+  "software_badges":[
+    {
+      "link": "https://www.repostatus.org/badges/latest/active.svg", 
+      "alt_text": "A software badge showing that the repository is active."
+    }
+  ],
   "active_development": true,
   "noaa_internal": true,
   "uses_github_releases": false,
