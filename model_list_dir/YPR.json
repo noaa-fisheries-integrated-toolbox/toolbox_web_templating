@@ -10,7 +10,12 @@
     "Gabriel, W.L., M. P. Sissenwine, and W. J. Overholtz. 1989. Analysis of spawning stock biomass per recruit: An example of Georges Bank haddock. North American Journal of Fisheries Management 9:383-391, 1989.",
     "Thompson, W.F. and F.H Bell. 1934. Biological statistics of the Pacific halibut fishery. (2) Effects of changes in intensity upon total yield and yield per unit of gear. International Fisheries Commission Report, No. 8, 1934."
   ],
-  "software_badges":["https://www.repostatus.org/badges/latest/inactive.svg"],
+  "software_badges":[
+    {
+      "link": "https://www.repostatus.org/badges/latest/inactive.svg", 
+      "alt_text": "A software badge showing that the repository is inactive."
+    }
+  ],
   "active_development": false,
   "noaa_internal": true,
   "static_version_number": "3.3",

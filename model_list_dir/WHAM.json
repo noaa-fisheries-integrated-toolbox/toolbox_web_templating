@@ -19,8 +19,11 @@
     "Miller, T. J., O’Brien, L., and Fratantoni, P. S. 2018. Temporal and environmental variation in growth and maturity and effects on management reference points of Georges Bank Atlantic cod. Canadian Journal of Fisheries and Aquatic Sciences 75(12): 2159-2171. doi: 10.1139/cjfas-2017-0124"
   ],
   "release_badge": "timjmiller/wham",
-  "software_badges": [
-    "https://www.repostatus.org/badges/latest/active.svg"
+  "software_badges":[
+    {
+      "link": "https://www.repostatus.org/badges/latest/active.svg", 
+      "alt_text": "A software badge showing that the repository is active."
+    }
   ],
     "active_development": true,
   "noaa_internal": true,

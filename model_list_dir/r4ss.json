@@ -16,8 +16,21 @@
   ],
   "user_organizations": ["NOAA Northwest Fisheries Science Center", "NOAA Southwest FIsheries Science Center", "NOAA Southeast Fisheries Science Center", "NOAA Pacific Islands Fisheries Science Center", "NOAA Northeast Fisheries Science Center", "ICES", "ICCAT", "CSIRO "],
   "website_link": "https://r4ss.github.io/r4ss/",
-  "source_code_link": "https://github.com/r4ss/r4ss",
-  "software_badges": ["https://img.shields.io/github/v/release/r4ss/r4ss?color=brightgreen&label=GitHub", "https://github.com/r4ss/r4ss/actions/workflows/call-r-cmd-check.yml/badge.svg", "https://codecov.io/gh/r4ss/r4ss/branch/main/graph/badge.svg"],
+  "source_code_link": "https://github.com/r4ss/r4ss", 
+  "software_badges": [
+    {
+      "link": "https://img.shields.io/github/v/release/r4ss/r4ss?color=brightgreen&label=GitHub", 
+      "alt_text": "A software badge showing the latest release of the software on GitHub"
+    },
+    {
+      "link": "https://github.com/r4ss/r4ss/actions/workflows/call-r-cmd-check.yml/badge.svg", 
+      "alt_text": "A software badge showing the status of a GitHub Actions workflow called call-r-cmd-check"
+    },
+    {
+      "link": "https://codecov.io/gh/r4ss/r4ss/branch/main/graph/badge.svg",
+      "alt_text": "A badge showing the code coverage of the software on the main branch"
+    }
+  ],
   "toolbox_drawers": ["Fish and Fisheries"],
   "keywords": ["Data Visualization", "Fisheries", "Output Visualization", "R Package"],
   "uses_github_releases": true,
