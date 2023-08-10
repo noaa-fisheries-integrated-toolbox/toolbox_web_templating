@@ -11,7 +11,12 @@
   "release_badge":"kacurtis/ObsCovgTools",
   "active_development": true,
   "noaa_internal": true,
-  "software_badges":["https://www.repostatus.org/badges/latest/active.svg"],
+  "software_badges":[
+    {
+      "link": "https://www.repostatus.org/badges/latest/active.svg", 
+      "alt_text": "A software badge showing that the repository is active."
+    }
+  ],
   "uses_github_releases": true,
   "toolbox_drawers": ["Protected Species", "Fish and Fisheries"],
   "keywords": ["Bycatch", "R Package", "Shiny", "Guided User Interface"]

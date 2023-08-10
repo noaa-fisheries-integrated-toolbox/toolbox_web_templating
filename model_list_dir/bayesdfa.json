@@ -8,7 +8,12 @@
   "tool_abbreviation": "bayesdfa",
   "tool_name": "Bayesian Dynamic Factor Analysis with Stan",
   "website_link":"https://fate-ewi.github.io/bayesdfa/",
-  "software_badges":["https://www.repostatus.org/badges/latest/active.svg"],
+  "software_badges":[
+    {
+      "link": "https://www.repostatus.org/badges/latest/active.svg", 
+      "alt_text": "A software badge showing that the repository is active."
+    }
+  ],
   "active_development": true,
   "noaa_internal": true,
   "uses_github_releases": true, 

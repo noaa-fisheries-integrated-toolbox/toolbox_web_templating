@@ -55,7 +55,15 @@ JSON data can be validated using [schema](https://json-schema.org/understanding-
   "pdf_download_link": "https://somelink.org/my.pdf", //A URL to a pdf that might be helpful for users.
   "release_badge":"NMFS-ecosystem-tools/MSCAA"//IF THE REPO UESE RELEASES ON GITHUB, JUST PUT THE ORG/REPO HERE TO LINK.
   "references": ["ref1", "ref2"], //** Formatted publication references.Please include DOI if available.
-  "software_badges":["https://www.repostatus.org/badges/latest/active.svg","https://img.shields.io/badge/platform-linux%20%7Cwin-lightgrey"],//** add any extra badges here from repostatus or shields in a list
+  "software_badges":[
+      { "link":"https://www.repostatus.org/badges/latest/active.svg",
+      "alt_text": "A software badge showing that the repository is active"
+      },
+      {
+        "link": "https://img.shields.io/badge/platform-linux%20%7Cwin-lightgrey", 
+        "alt_text":"A software badge showing that the software can be used on Linux or Windows Platforms"
+      }
+  ],
   "static_version_number": "1.0.0",//** add version number only if it is not using github releases and the version is unlikely to change. Omit this element if not used.
   "toolbox_drawers": ["Fish and Fisheries", "General Modeling and Productivity Tools"], //** options are: "Fish and Fisheries", "Ecosystem"", "Human Dimensions", "Protected Species", and "General Modeling and Productivity Tools"*. Put all that apply to the tool.
   "keywords": ["Economics", "R", "Web App"], //**keywords to sort through tools.,

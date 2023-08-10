@@ -165,7 +165,7 @@
           Code Repository Badges
           </h3>
             {% for tools in software_badges%}
-            <img class="software_badge" src="{{tools}}">
+            <img class="software_badge" src="{{tools.link}}" alt="{{tools.alt_text}}">
             <br>
             {% endfor %}
           {% endif %}

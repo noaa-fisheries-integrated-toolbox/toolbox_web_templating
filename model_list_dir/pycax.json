@@ -19,7 +19,20 @@
     "website_link": "https://nwfsc-math-bio.github.io/pycax",
     "documentation_link": "https://nwfsc-math-bio.github.io/pycax",
     "source_code_link": "https://github.com/nwfsc-math-bio/pycax",
-    "software_badges": ["https://img.shields.io/pypi/v/pycax-client.svg", "https://github.com/nwfsc-math-bio/pycax/actions/workflows/tests.yml/badge.svg", "https://nwfsc-math-bio.github.io/pycax/coverage.svg"],
+    "software_badges":[
+      {
+        "link": "https://img.shields.io/pypi/v/pycax-client.svg", 
+        "alt_text": "A software badge showing the version of the software on pypi"
+      },
+      {
+        "link": "https://github.com/nwfsc-math-bio/pycax/actions/workflows/tests.yml/badge.svg",
+        "alt_text": "A software badge showing the status of tests run on the repository using GitHub Actions"
+      }, 
+      {
+        "link": "https://nwfsc-math-bio.github.io/pycax/coverage.svg",
+        "alt_text": "A software badge showing the code coverage for the software"
+      }
+    ],
     "toolbox_drawers": ["Fish and Fisheries", "Protected Species"],
     "keywords": ["Salmon", "API Client", "Python Package", "West Coast"],
     "uses_github_releases": true

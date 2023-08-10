@@ -10,7 +10,12 @@
   "website_link":"https://ericward-noaa.github.io/phenomix/",
   "active_development": true,
   "noaa_internal": false,
-  "software_badges":["https://www.repostatus.org/badges/latest/active.svg"],
+  "software_badges":[
+    {
+      "link": "https://www.repostatus.org/badges/latest/active.svg", 
+      "alt_text": "A software badge showing that the repository is active."
+    }
+  ],
   "uses_github_releases": true,
   "release_badge": "ericward-noaa/phenomix",
   "toolbox_drawers": ["Protected Species", "Fish and Fisheries"],

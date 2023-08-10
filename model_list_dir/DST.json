@@ -11,7 +11,16 @@
     ],
     "active_development": true,
   "noaa_internal": false,
-  "software_badges":["https://www.repostatus.org/badges/latest/wip.svg","https://img.shields.io/github/watchers/nmfs-fish-tools/dst.svg?style=social"],
+  "software_badges":[
+    {
+      "link": "https://www.repostatus.org/badges/latest/wip.svg", 
+      "alt_text": "A software badge showing that the repository is a work in progress."
+    }, 
+    {
+      "link": "https://img.shields.io/github/watchers/nmfs-fish-tools/dst.svg?style=social",
+      "alt_text": "A software badge showing the number of watchers of the repository on GitHub"
+    }
+  ],
   "uses_github_releases": false, 
   "release_badge":"nmfs-fish-tools/DST",
   "toolbox_drawers": ["Fish and Fisheries"], 

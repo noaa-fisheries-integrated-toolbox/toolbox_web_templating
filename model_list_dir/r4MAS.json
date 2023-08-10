@@ -12,8 +12,17 @@
   "website_link": "https://nmfs-fish-tools.github.io/r4MAS",
   "tool_abbreviation": "r4MAS",
   "tool_name": "R interface to Metapopulation Assessment System",
-  "software_badges":["https://www.repostatus.org/badges/latest/active.svg", "https://github.com/nmfs-fish-tools/r4MAS/workflows/R-CMD-check/badge.svg"],
-    "active_development": true,
+  "software_badges":[
+    {
+      "link": "https://www.repostatus.org/badges/latest/active.svg", 
+      "alt_text": "A software badge showing that the repository is active."
+    },
+    {
+      "link": "https://github.com/nmfs-fish-tools/r4MAS/workflows/R-CMD-check/badge.svg",
+      "alt_text": "A software badge showing the status of the GitHub Actions workflow called R-CMD-check"
+    }
+  ],
+  "active_development": true,
   "noaa_internal": true,
   "static_version_number": "1.0",
   "uses_github_releases": false,

@@ -7,10 +7,13 @@
   "fit_repo": "https://github.com/nmfs-fish-tools/YPRLEN.git",
   "tool_abbreviation": "YPRLEN",
   "tool_name": "Length Based Yield Per Recruit",
-  "software_badges": [
-    "https://www.repostatus.org/badges/latest/inactive.svg"
+  "software_badges":[
+    {
+      "link": "https://www.repostatus.org/badges/latest/inactive.svg", 
+      "alt_text": "A software badge showing that the repository is inactive."
+    }
   ],
-    "active_development": false,
+  "active_development": false,
   "noaa_internal": true,
   "static_version_number": "2.1",
   "uses_github_releases": false,

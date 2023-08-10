@@ -14,7 +14,10 @@
     "Kasper Kristensen and Anders Nielsen and Casper W. Berg and Hans Skaug and Bradley M. Bell, 2016,  TMB: Automatic Differentiation and Laplace Approximation, Journal of Statistical Software, 70:1-21 "
   ],
   "software_badges": [
-    "https://img.shields.io/github/last-commit/nmfs-fish-tools/ATL.svg?style=plastic"
+    {  
+     "link": "https://img.shields.io/github/last-commit/nmfs-fish-tools/ATL.svg?style=plastic", 
+     "alt_text": "A software badge showing the latest commit on GitHub"
+    }
   ],
   "active_development": true,
   "noaa_internal": true,

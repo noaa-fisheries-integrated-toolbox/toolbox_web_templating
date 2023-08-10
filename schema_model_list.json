@@ -97,8 +97,19 @@
             "description": "Link to up to 3 software badges (e.g., from github actions, shields.io) to display for the tool",
             "type" : "array",
             "items": {
-              "type": "string"
-            },
+                "type": "object", 
+                "properties" : {
+                   "link": {
+                     "description": "URL to the badge",
+                     "type": "string"
+                   },
+                   "alt_text": {
+                     "description": "alt text description of the badge",
+                     "type": "string"
+                   }
+                },
+                "required": ["link", "alt_text"]
+             },
             "maxItems": 3,
             "uniqueItems": true
         },

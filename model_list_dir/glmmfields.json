@@ -7,7 +7,12 @@
   "source_code_link": "https://github.com/seananderson/glmmfields",
   "tool_abbreviation": "glmmfields",
   "tool_name": "Spatial GLMMs in R with Stan",
-  "software_badges":["https://www.repostatus.org/badges/latest/active.svg"],
+  "software_badges":[
+    {
+      "link": "https://www.repostatus.org/badges/latest/active.svg", 
+      "alt_text": "A software badge showing that the repository is active."
+    }
+  ],
   "active_development": true,
   "noaa_internal": true,
   "uses_github_releases": true, 

@@ -8,7 +8,12 @@
   "tool_name": "Dual Zone Virtual Population Analysis",
   "maintainer_name": "orphaned", 
   "maintainer_email": "fisheries.toolbox@noaa.gov",
-  "software_badges":["https://www.repostatus.org/badges/latest/inactive.svg"],
+  "software_badges":[
+    {
+      "link": "https://www.repostatus.org/badges/latest/inactive.svg", 
+      "alt_text": "A software badge showing that the repository is inactive."
+    }
+  ],
   "active_development": false,
   "noaa_internal": true, 
   "static_version_number": "3.05",

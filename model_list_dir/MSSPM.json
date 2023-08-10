@@ -9,9 +9,15 @@
   "tool_abbreviation": "MSSPM",
   "tool_name": "Multi-Species Surplus Production Model",
   "release_badge":"nmfs-fish-tools/MSSPM",
-  "software_badges": [
-    "https://www.repostatus.org/badges/latest/active.svg",
-    "https://img.shields.io/badge/platform-linux-lightgrey"
+  "software_badges":[
+    {
+      "link": "https://www.repostatus.org/badges/latest/active.svg", 
+      "alt_text": "A software badge showing that the repository is active."
+    },
+    {
+      "link": "https://img.shields.io/badge/platform-linux%20%7Cwin-lightgrey",
+      "alt_text": "A software badge showing the tool runs on Windows or Linux"
+    }
   ],
   "active_development": true,
   "noaa_internal": true,
