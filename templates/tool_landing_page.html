@@ -84,11 +84,14 @@
                 </button>
               {% endif %}
 
-              {% if pdf_download_link is defined and pdf_download_link|length %}
+
+              <!-- Stop using pdf download because the description is too general to
+              work well for folks using screen readers. -->
+              <!-- {% if pdf_download_link is defined and pdf_download_link|length %}
               <a class = "pdfIcon" title="download pdf"
                 href="{{pdf_download_link}}" download>
               </a>
-              {% endif %}
+              {% endif %} -->
 
               {% if release_badge is defined and release_badge %}
               {% set release = "https://img.shields.io/github/v/release/"   ~ release_badge  ~ "?color=%230093D0&include_prereleases&label=%20" %}
