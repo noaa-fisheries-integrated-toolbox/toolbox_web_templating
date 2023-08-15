@@ -52,7 +52,7 @@ JSON data can be validated using [schema](https://json-schema.org/understanding-
   "citation": "https://doi.org/10.32614/RJ-2012-002", //How to cite the package. Ideally an article with DOI.
   "tool_abbreviation": "MODABBREV", //SHORT ABBREVIATION OF TOOL USED AT TOP OF TILE ON LANDING PAGE. Must Match the name of the JSON file. Required.
   "tool_name": "Complete Name of Model Tool", //required
-  "pdf_download_link": "https://somelink.org/my.pdf", //A URL to a pdf that might be helpful for users.
+  "pdf_download_link": "https://somelink.org/my.pdf", //Not used, and plan to deprecate
   "release_badge":"NMFS-ecosystem-tools/MSCAA"//IF THE REPO UESE RELEASES ON GITHUB, JUST PUT THE ORG/REPO HERE TO LINK.
   "references": ["ref1", "ref2"], //** Formatted publication references.Please include DOI if available.
   "software_badges":[
