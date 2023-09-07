@@ -1,0 +1,25 @@
+{
+    "active_development": true,
+    "tool_name": "R package for phylogenetic structural equation models",
+    "tool_abbreviation": "phylosem",
+    "authors": "James Thorson and Wouter van der Bijl",
+    "noaa_internal": true,
+    "maintainer_name": "James Thorson",
+    "maintainer_email": "James.Thorson@noaa.gov",
+    "background_text": "phylosem is a user-friendly and minimal R-package for phylogenetic structural equation models (PSEM).  PSEM generalizes a wide range of methods including phylogenetic generalized linear models, phylologenetic trait imputation, and structural equation models.  PSEM can be used to estimate continuous and categorical traits (e.g., demographic parameters, ecological role, mophometric measurements) for species based on evolutionary trade-offs and measurements for related taxa.  Package phylosem is intended as a simplified alternative to R-package FishLife. ",
+    "citation": "Thorson, J. T., & van der Bijl, W. (In review). phylosem: A fast and simple R package for phylogenetic inference and trait imputation using phylogenetic structural equation models. Journal of Evolutionary Biology.",
+    "references": ["Thorson, J. T., Maureaud, A. A., Frelat, R., Mérigot, B., Bigman, J. S., Friedman, S. T., Palomares, M. L. D., Pinsky, M. L., Price, S. A., & Wainwright, P. (2023). Identifying direct and indirect associations among traits by merging phylogenetic comparative methods and structural equation models. Methods in Ecology and Evolution, 14(5), 1259–1275. https://doi.org/10.1111/2041-210X.14076"],
+    "associated_tools": [
+      {
+        "name": "FishLife",
+        "link": "https://noaa-fisheries-integrated-toolbox.github.io/FishLife"
+      }
+    ],
+    "user_organizations": ["Alaska Fisheries Science Center"],
+    "website_link": "https://cran.r-project.org/web/packages/phylosem/index.html",
+    "documentation_link": "https://github.com/James-Thorson-NOAA/phylosem/tree/main/vignettes",
+    "source_code_link": "https://github.com/James-Thorson-NOAA/phylosem/",
+    "toolbox_drawers": ["Fish and Fisheries", "General Modeling and Productivity Tools"],
+    "keywords": ["Natural Mortality Model", "R Package", "TMB"],
+    "uses_github_releases": true
+  }
