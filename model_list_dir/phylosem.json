@@ -21,5 +21,6 @@
     "source_code_link": "https://github.com/James-Thorson-NOAA/phylosem/",
     "toolbox_drawers": ["Fish and Fisheries", "General Modeling and Productivity Tools"],
     "keywords": ["Natural Mortality Model", "R Package", "TMB"],
-    "uses_github_releases": true
+    "uses_github_releases": true,
+    "release_badge": "James-Thorson-NOAA/phylosem"
   }
