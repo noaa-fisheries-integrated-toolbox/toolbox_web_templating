@@ -2,7 +2,7 @@
   "associated_tools": [
     {
       "name": "SS3",
-      "link": "https://vlab.ncep.noaa.gov/web/stock-synthesis"
+      "link": "https://noaa-fisheries-integrated-toolbox.github.io/SS3"
     }
   ],
   "authors": "Doering, K., and N. Vaughan",
