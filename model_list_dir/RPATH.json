@@ -27,5 +27,6 @@
   "static_version_number": "0.1.2",
   "uses_github_releases": false,
   "toolbox_drawers": ["Ecosystem", "Fish and Fisheries"], 
-  "keywords": ["R Package", "Multispecies Model", "Ecosystem", "Fish and Fisheries"]
+  "keywords": ["R Package", "Multispecies Model", "Ecosystem", "Fish and Fisheries", 
+    "Management Strategy Evaluation"]
 }
