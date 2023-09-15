@@ -29,5 +29,5 @@
   "noaa_internal": true,
   "uses_github_releases": true,
   "toolbox_drawers": ["Fish and Fisheries"], 
-  "keywords": ["Stock Assessment Model", "Age Structured Model", "TMB", "R Package"]
+  "keywords": ["Stock Assessment Model", "Age Structured Model", "TMB", "R Package", "Management Strategy Evaluation"]
 }
