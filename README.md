@@ -80,7 +80,7 @@ pip install jinja2
 From bash, run:
 
 ```
-python create_tool_landing_page.py
+python create_tool_landing_page.py dev_config.json
 python create_catalog_landing_page.py dev_config.json # or prod_config.json if building the production site.
 ```
 
