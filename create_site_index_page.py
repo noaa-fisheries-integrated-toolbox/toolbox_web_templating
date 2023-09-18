@@ -52,4 +52,5 @@ if __name__ == '__main__':
             org_config =  json.load(f)
     with open("models_all.json") as f:
             model_config =  json.load(f)
+            model_config['list_of_models'].sort(key=lambda x: x.lower())
     main(org_config, model_config)
