@@ -4,6 +4,7 @@
   height: 100%;
   font-family: Arial Narrow, Arial, sans-serif;
   color: #0055A4;
+  background-color: #FFFFFF;
   margin: 40px;
   font-size: 16px;
 }
@@ -34,6 +35,7 @@ h1 {
   margin-right: auto;
   font-weight: bold;
   color: #0055A4;
+  background-color: #FFFFFF;
   font-family: Cambria, Georgia, serif;
   font-size: 2.2em;
   text-align: left;
@@ -49,6 +51,7 @@ h2 {
 h3{
   font-size: 1.2em;
   color:#0055A4;
+  background-color: #FFFFFF;
   line-height:0px;
   padding-left:5px;
 }
@@ -70,10 +73,12 @@ li{
   line-height:20px;
   font-size:1em;
   color:#0055A4;
+  background-color: #FFFFFF;
 }
 
 a{
   color:#0093D0;
+  background-color: #FFFFFF;
   font-style:normal;
 }
 .title {
@@ -90,13 +95,14 @@ a{
   text-align: center;
   line-height: 30px;
   padding:5px;
-  color: white;
+  color:#FFFFFF;
   background-color: #0055A4;
 }
 
 
 .codelink.nolink{
   color:#d1d3de;
+  background-color: #FFFFFF;
   pointer-events: none;
 
 }
@@ -192,6 +198,7 @@ a{
 
 .main_button:hover {
   background-color: #0093D0;
+  color: #000000;
   cursor: pointer;
 }
 
@@ -208,6 +215,7 @@ a{
   justify-content: stretch;
   margin-top: auto;
   background-color: #0055A4;
+  color: #FFFFFF;
 }
 
 .icon_small {
@@ -319,6 +327,7 @@ button.icon_small[disabled] {
   width:35px;
   height: 35px;
   color: #0055A4;
+  background-color: #FFFFFF;
   font-size: 24px;
   font-weight: normal;
   background-image: url("https://raw.githubusercontent.com/noaa-fisheries-integrated-toolbox/FIT_graphics/main/icons/icons8-pdf-50.png");
@@ -331,6 +340,7 @@ button.icon_small[disabled] {
       width: 35px;
   height: 35px;
   color: #444444;
+  background-color: #FFFFFF;
   font-size: 24px;
   font-weight: normal;
   border: none;
@@ -351,7 +361,7 @@ button.icon_small[disabled] {
   font-style: normal;
   text-decoration: none;
   text-align: center;
-  /* background-color:#00000066; */
+  background-color:#FFFFFF; 
   border: none;
   /* border-radius: 21px; */
   margin-left: auto;
@@ -374,6 +384,7 @@ button.icon_small[disabled] {
   margin-left: 40px;
   margin-bottom: 40px;
   color: black;
+  background-color: #FFFFFF;
   display: flex;
   flex-direction: column;
 
@@ -381,6 +392,7 @@ button.icon_small[disabled] {
 
 .box2 {
   color: white;
+  background-color: #0055A4;
   height: auto;
   padding-top: 5px;
   padding-bottom: 5px;
@@ -423,6 +435,7 @@ button.icon_small[disabled] {
 .divider {
   width: 100%;
   height: 8px;
+  color: #FFFFFF;
   background-color: #0055A4;
   border: 0 none;
   margin-top: 20px;
@@ -432,6 +445,7 @@ button.icon_small[disabled] {
 .divider_thin{
   width: 100%;
   height: 2px;
+  color: #FFFFFF;
   background-color:#0055A4;
   border: 0 none;
   margin-top: 40px;
@@ -444,6 +458,7 @@ button.icon_small[disabled] {
     width: auto;
     height: 30px;
     color: #0055A4;
+    background-color: #FFFFFF;
     font-weight: bold;
     font-style: normal;
     text-decoration: none;
@@ -462,6 +477,7 @@ button.icon_small[disabled] {
   padding: 20px 80px 20px 80px;
   font-family: Arial Narrow, Arial, sans-serif;
   color: #0055A4;
+  background-color: #FFFFFF;
 }
 
 .release {
@@ -484,6 +500,7 @@ footer {
   flex-direction: row;
   font-size: 1em;
   color: #0055A4;
+  background-color: #FFFFFF;
   padding-left: 60px;
   padding-right: 260px;
   font-family: Cambria, Georgia, serif;
@@ -500,7 +517,7 @@ footer {
 
 .mylink:any-link {
   color: #0055A4;
-  ;
+  background-color: #FFFFFF;
   height: fit-content;
 }
 
@@ -508,6 +525,7 @@ footer {
 /* WebKit browsers */
 .mylink:-webkit-any-link {
   color: #0055A4;
+  background-color: #FFFFFF;
   height: fit-content;
 }
 
@@ -518,11 +536,13 @@ footer {
 a,
 a.contact:link {
   color: #0055A4;
+  background-color: #FFFFFF;
   text-decoration: underline;
 }
 
 a.contact {
   color: #0055A4;
+  background-color: #FFFFFF;
   text-decoration: underline;
 }
 
@@ -536,6 +556,7 @@ a.title_link:-wekit-any-link,
 .title a:link,
 .title a:visited {
   color: #0055A4;
+  background-color: #FFFFFF;
   text-decoration: underline;
 }
 
@@ -543,6 +564,7 @@ a.title_link:-wekit-any-link,
   display: flex;
   justify-content: flex-end;
   font-size: 10px;
+  background-color: #FFFFFF;
   color: grey;
 }
 
@@ -717,6 +739,7 @@ a.title_link:-wekit-any-link,
   display: none;
   position: absolute;
   background-color: #f1f1f1;
+  color: #000000;
   min-width: 100%;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -725,6 +748,7 @@ a.title_link:-wekit-any-link,
 /* Links inside the dropdown */
 .dropdown-content a {
   color: black;
+  background-color: #f1f1f1;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
@@ -732,17 +756,20 @@ a.title_link:-wekit-any-link,
 
 .dropbtn:hover {
   background-color: #0093D0;
+  color: #FFFFFF;
   cursor: pointer;
 }
 
 .menudropbtn:hover {
   background-color: #0093D0;
+  color: #FFFFFF;
   cursor: pointer;
 }
 
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
     background-color: #ddd;
+    color: #000000;
   }
 
 /* Show the dropdown menu on hover */
@@ -751,4 +778,7 @@ a.title_link:-wekit-any-link,
 }
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: #0093D0;}
+.dropdown:hover .dropbtn {
+  background-color: #0093D0;
+  color: #FFFFFF;
+}
