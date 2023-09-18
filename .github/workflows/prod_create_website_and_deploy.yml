@@ -26,6 +26,7 @@ jobs:
       run: |
         python create_tool_landing_page.py prod_config.json
         python create_catalog_landing_page.py prod_config.json
+        python create_site_index_page.py prod_config.json
     - name: Deploy 🚀
       uses: JamesIves/github-pages-deploy-action@v4
       with:

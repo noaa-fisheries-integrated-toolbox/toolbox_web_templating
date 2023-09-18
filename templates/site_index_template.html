@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ {{org_config.google_analytics_text}}
+
+    <title>Site Index</title>
+    <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/noaa-fisheries-integrated-toolbox/FIT_graphics/main/FIT_logo/logo_pngs/FIT_favicon_2022_color.png">
+   <link type="text/css" rel="stylesheet" href="./static/main.css" />
+
+</head>
+<body>
+  <main role="main" class="container">
+        <div class="mywrap_head">
+            <img src="https://raw.githubusercontent.com/noaa-fisheries-integrated-toolbox/FIT_graphics/main/FIT_logo/logo_pngs/FIT_logo_2022_color_no_text.png" alt="NOAA Fisheries Integrated Toolbox Logo" height="75">&nbsp;&nbsp;&nbsp;
+            <h1 class ="header_title">NOAA Fisheries Integrated Toolbox</h1>
+        </div>
+        <div class ="mywrap_head">
+          <button class="dropbtn" onclick="location.href='/';" value="FIT homepage" >FIT Homepage</button>
+            <div class="dropdown">
+              <button class="dropbtn" value="Resources" >Resources</button>
+                <div class="dropdown-content">
+                  <button class="menudropbtn" onclick="location.href='/resources';" value="Resources Home" >Resources Home</button>
+                  <button class="menudropbtn" onclick="location.href='/resources/categories';" value="Browse by category" >Browse By Category</button>
+                  <button class="menudropbtn" onclick="location.href='/resources/tags';" value="Browse by tag" >Browse By Tag</button>
+                </div>
+            </div>
+          <button class="dropbtn" onclick="location.href='/resources/about';" value="About" >About</button>
+           <button class="dropbtn" onclick="location.href='/resources/noaa%20fit/contact';" value="Contact" >Contact</button>
+        </div>
+
+
+        <div class = "divider"></div>
+        <div class="mywrap">
+          <h2>Site Index</h2>
+        </div>
+
+          <h3>FIT Information</h3><br>
+          <ul>
+            <li><a href ="https://noaa-fisheries-integrated-toolbox.github.io/">NOAA Fisheries Integrated Toolbox Homepage</a></li>
+            <li><a href ="https://noaa-fisheries-integrated-toolbox.github.io/resources/about/">About NOAA Fisheries Integrated Toolbox</a></li>
+            <li><a href ="https://noaa-fisheries-integrated-toolbox.github.io/resources/contact/">Contact the NOAA Fisheries Integrated Toolbox Team</a></li>
+          </ul>
+
+          <h3>Resources</h3><br>
+          <ul>
+            <li><a href ="https://noaa-fisheries-integrated-toolbox.github.io/resources">Resources Home</a></li>
+            <li><a href ="https://noaa-fisheries-integrated-toolbox.github.io/resources/categories/">Browse Resources by Category</a></li>
+            <li><a href ="https://noaa-fisheries-integrated-toolbox.github.io/resources/tags/">Browse Resources by Tag</a></li>
+          </ul>
+
+          <h3>FIT Tool pages</h3><br>
+          <ul>
+          {% for key, value in configs.items() %}
+              {% set my_string = value['tool_abbreviation']  %}
+              <li><a href= {{my_string}}>FIT Tool: {{value['tool_name']}} </a></li>
+          {% endfor %}
+          </ul>
+
+          <div class = "divider"></div>
+          <a class = "mylink" href = "https://www.noaa-fisheries-integrated-toolbox.github.io/site-index">Site Index</a>
+          <div class = "divider"></div>
+
+        <footer >
+          <img src="https://raw.githubusercontent.com/noaa-fisheries-integrated-toolbox/FIT_graphics/main/NOAA_logos/noaa-fisheries-rgb-2line-horizontal-small.png" alt="NOAA Fisheries Logo" height="75" >
+         <div class="mywrap_center">
+          <a class ="mylink line" href="https://www.commerce.gov/">U.S. Department of Commerce</a>
+          <a class ="mylink line" href="https://www.noaa.gov">National Oceanographic and Atmospheric Administration</a>
+          <a class ="mylink" href="https://www.fisheries.noaa.gov/">NOAA Fisheries</a>
+
+
+        </footer>
+      </main>
+    </body>
+    </html>
+    
