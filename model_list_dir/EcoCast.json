@@ -1,0 +1,17 @@
+{
+    "active_development": false,
+    "tool_name": "EcoCast",
+    "tool_abbreviation": "EcoCast",
+    "authors": "Heather Welch, Elliott Hazen, and Kylie Scales",
+    "noaa_internal": true,
+    "maintainer_name": "Heather Welch",
+    "maintainer_email": "heather.welch@noaa.gov",
+    "background_text": "EcoCast is a real-time data tool to help fishers and managers allocate fishing effort to optimize the harvest of target fish while minimizing bycatch of protected species. The EcoCast Map product combines the predicted distributions of target catch species and bycatch species into a single map that suggests better and poorer locations to fish off the US West Coast.The repository linked is to operationalize the tool.",
+    "citation": "https://doi.org/10.1126/sciadv.aar3001",
+    "references": ["https://doi.org/10.1111/1365-2664.13281", " https://doi.org/10.1111/cobi.13417", "https://doi.org/10.1016/j.rse.2020.111753"],
+    "website_link": "https://coastwatch.pfeg.noaa.gov/ecocast/",
+    "source_code_link": "https://github.com/HeatherWelch/NOAA_operationalization",
+    "toolbox_drawers": ["Ecosystems", "Fish and Fisheries", "Protected Species"],
+    "keywords": ["Bycatch", "Decision Support Tool", "Marine Mammals", "North Pacific", "Web App"],
+    "uses_github_releases": false
+  }

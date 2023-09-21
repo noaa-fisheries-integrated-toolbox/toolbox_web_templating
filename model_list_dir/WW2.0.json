@@ -1,0 +1,17 @@
+{
+    "active_development": false,
+    "tool_name": "WhaleWatch 2.0",
+    "tool_abbreviation": "WW2.0",
+    "authors": "Heather Welch and Briana Abrahms",
+    "noaa_internal": true,
+    "maintainer_name": "Heather Welch",
+    "maintainer_email": "heather.welch@noaa.gov",
+    "background_text": "WhaleWatch 2.0 is a predictive spatial management tool that helps scientists and managers evaluate the most likely times and places that blue whales will be present along the U.S. West Coast in order to inform management decisions and mitigate risk of ship strikes, bycatch, or other threats. This is the latest dynamic model for blue whales. Blue whales are an Endangered Species, with roughly 1500 whales estimated in the migratory Eastern North Pacific Population off of the U.S. West Coast. This population is threatened by ship strikes, which are the largest source of mortality, as well as bycatch in fishing gear.  Previous models for blue whales in the California Current Ecosystem include the original WhaleWatch effort and a climatological ensemble modelthat provides a best seasonal estimate from multiple data sources and modeling approaches. The repository linked is to operationalize the tool.",
+    "citation": "https://doi.org/10.1111/ddi.12940",
+    "references": ["https://doi.org/10.1111/1365-2664.12820"],
+    "website_link": "https://coastwatch.pfeg.noaa.gov/projects/whalewatch2/about_whalewatch2.html",
+    "source_code_link": "https://github.com/HeatherWelch/NOAA_operationalization",
+    "toolbox_drawers": ["Ecosystems", "Protected Species"],
+    "keywords": ["Decision Support Tool", "Marine Mammals", "North Pacific", "Shiny", "Species Distribution Model"],
+    "uses_github_releases": false
+  }
