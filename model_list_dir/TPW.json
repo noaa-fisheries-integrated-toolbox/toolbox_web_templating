@@ -1,0 +1,16 @@
+{
+    "active_development": false,
+    "tool_name": "Top Predator Watch",
+    "tool_abbreviation": "TPW",
+    "authors": "Heather Welch",
+    "noaa_internal": true,
+    "maintainer_name": "Heather Welch",
+    "maintainer_email": "heather.welch@noaa.gov",
+    "background_text": "Top Predator Watch is a dynamic ocean management tool that produces daily predictions of the distributions of 14 top predator species: blue (<i>Prionace glauca</i>), mako (<i>Isurus oxyrinchus</i>), white (<i>Carcharodon carcharias</i>), and salmon (<i>Lamna ditropis</i>) sharks; albacore (<i>Thunnus alalunga</i>), yellowfin (<i>T. albacares</i>), and bluefin (<i>T. thynnus</i>) tunas; blue whales (<i>Balaenoptera musculus</i>), sooty shearwaters (<i>Ardenna grisea</i>), California sea lions (<i>Zalophus californianus</i>), black-footed (<i>Phoebastria nigripes</i>) and Laysan (<i>P. immutabilis</i>) albatross; elephant seals (<i>Mirounga angustirostris</i>) and leatherback turtles (<i>Dermochelys coriacea</i>). From these predictions we extract core habitat - the locations where each species is most likely to be found based on current environmental conditions. The repository linked is to operationalize the tool.",
+    "citation": "https://doi.org/10.1038/s41467-023-40849-y",
+    "website_link": "https://oceanview.pfeg.noaa.gov/top-predator-watch/",
+    "source_code_link": "https://github.com/HeatherWelch/NOAA_operationalization",
+    "toolbox_drawers": ["Ecosystems", "Protected Species"],
+    "keywords": ["Bycatch", "Fisheries", "Marine Mammals", "North Pacific", "Species Distribution Model"],
+    "uses_github_releases": false
+  }
