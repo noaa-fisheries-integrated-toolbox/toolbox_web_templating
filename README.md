@@ -82,6 +82,7 @@ From bash, run:
 ```
 python create_tool_landing_page.py dev_config.json
 python create_catalog_landing_page.py dev_config.json # or prod_config.json if building the production site.
+python create_site_index_page.py dev_config.json # or prod_config.json if building the production site.
 ```
 
 These are just the commands in `create_html`.yml. Note that this will create new webpages that should NOT be saved to the repository.
