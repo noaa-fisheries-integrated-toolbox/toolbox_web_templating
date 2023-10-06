@@ -3,6 +3,14 @@
     {
       "name": "SS3",
       "link": "https://noaa-fisheries-integrated-toolbox.github.io/SS3"
+    }, 
+    {
+      "name": "ss3sim",
+      "link": "https://ss3sim.github.io/ss3sim/"
+    }, 
+    {
+      "name": "r4ss",
+      "link": "https://noaa-fisheries-integrated-toolbox.github.io/r4ss"
     }
   ],
   "authors": "Doering, K., and N. Vaughan",
@@ -11,10 +19,9 @@
   "maintainer_email": "kathryn.doering@noaa.gov",
   "documentation_link": "https://nmfs-fish-tools.github.io/SSMSE/manual",
   "source_code_link": "https://github.com/nmfs-fish-tools/SSMSE",
-  "website_link": "https://nmfs-fish-tools.github.io/SSMSE",
   "tool_abbreviation": "SSMSE",
   "tool_name": "Management Strategy Evaluation for SS3",
-    "active_development": true,
+  "active_development": true,
   "noaa_internal": true,
   "software_badges": [
     {
@@ -24,6 +31,10 @@
     {
       "link": "https://img.shields.io/github/watchers/nmfs-fish-tools/ssmse.svg?style=social",
       "alt_text": "A software badge showing the number of watchers of the GitHub repository."
+    },
+    {
+      "link": "https://zenodo.org/badge/DOI/10.5281/zenodo.8394821.svg",
+      "alt_text": "A software badge showing the zenodo DOI"
     }
   ],
   "uses_github_releases": true,
