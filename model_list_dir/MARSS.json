@@ -19,6 +19,6 @@
     }
   ],
   "uses_github_releases": true,
-  "toolbox_drawers": ["General Modeling and Productivity Tools", "Protected Species"], 
+  "toolbox_drawers": ["General Modeling Tools", "Protected Species"], 
   "keywords":["Time Series", "R Package"]
 }

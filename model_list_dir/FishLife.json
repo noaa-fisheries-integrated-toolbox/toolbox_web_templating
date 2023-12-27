@@ -33,6 +33,6 @@
   ],
   "release_badge": "James-Thorson-NOAA/FishLife",
   "uses_github_releases": true, 
-  "toolbox_drawers": ["General Modeling and Productivity Tools"], 
+  "toolbox_drawers": ["General Modeling Tools", "Fish and Fisheries"], 
   "keywords": ["R Package", "Fish and Fisheries", "Fish Biology", "Web App", "Shiny"]
 }
