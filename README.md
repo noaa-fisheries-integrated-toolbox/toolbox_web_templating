@@ -72,9 +72,10 @@ JSON data can be validated using [schema](https://json-schema.org/understanding-
 
 ## Creating Webpages Locally From Templates
 
-Python and Jinja2 need to be installed locally.
+Python and its libraries `Jinja2` and `requests` need to be installed locally.
 ```
 pip install jinja2
+pip install requests
 ```
 
 From bash, run:
