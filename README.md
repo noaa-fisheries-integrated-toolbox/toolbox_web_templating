@@ -65,7 +65,7 @@ JSON data can be validated using [schema](https://json-schema.org/understanding-
       }
   ],
   "static_version_number": "1.0.0",//** add version number only if it is not using github releases and the version is unlikely to change. Omit this element if not used.
-  "toolbox_drawers": ["Fish and Fisheries", "General Modeling and Productivity Tools"], //** options are: "Fish and Fisheries", "Ecosystem"", "Human Dimensions", "Protected Species", and "General Modeling and Productivity Tools"*. Put all that apply to the tool.
+  "toolbox_drawers": ["Fish and Fisheries", "General Modeling Tools"], //** options are: "Fish and Fisheries", "Ecosystem"", "Human Dimensions", "Protected Species", "General Modeling Tools", and "Utility Tools"*. Put all that apply to the tool.
   "keywords": ["Economics", "R", "Web App"], //**keywords to sort through tools.,
   "user_organizations": ["SEFSC", "NWFSC", "SWFSC"] //operational users of the tool
 ```
