@@ -5,6 +5,7 @@ import json
 import os
 import shutil
 import sys
+import requests
 
 from jinja2 import Environment, FileSystemLoader
 
@@ -48,6 +49,22 @@ def run_all_files(list_of_models, folder_out, configdir, dev_or_prod_config):
         configfile = os.path.join(configdir,old_name) 
         with open(configfile, "r") as read_file:
           configjson = json.load(read_file)
+        # replace citation doi with formatted text string
+        # nothing should be replaced if the citation doesn't start
+        # with "https://doi.org"
+        try:
+          tmpcitation = configjson['citation']
+          if tmpcitation.startswith("https://doi.org"):
+            headers = {
+              'Accept': 'text/x-bibliography; style=apa',
+            }
+            response = requests.get(configjson['citation'], headers=headers)
+            # replace citation with the text string.
+            # need to change the encoding (ISO-8859-1) to apparent_encoding (utf-8)
+            response.encoding = response.apparent_encoding
+            configjson['citation'] = response.text
+        except:
+          pass
         new_dir = os.path.join(folder_out)
         # Create target Directory if don't exist
         if not os.path.exists(new_dir):
