@@ -24,6 +24,6 @@
   ],
   "uses_github_releases": true, 
   "zenodo_citation":"187419043",
-  "toolbox_drawers": ["General Modeling and Productivity Tools"], 
+  "toolbox_drawers": ["Utility Tools", "Human Dimensions"], 
   "keywords": ["Economics", "Guided User Interface", "Fish and Fisheries"]
 }

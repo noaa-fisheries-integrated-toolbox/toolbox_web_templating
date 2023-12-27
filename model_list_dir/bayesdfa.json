@@ -18,6 +18,6 @@
   "noaa_internal": true,
   "uses_github_releases": true, 
   "release_badge":"fate-ewi/bayesdfa",
-  "toolbox_drawers": ["General Modeling and Productivity Tools"],
+  "toolbox_drawers": ["General Modeling Tools"],
   "keywords": ["Bayesian Modeling", "Time Series", "R Package"]
 }

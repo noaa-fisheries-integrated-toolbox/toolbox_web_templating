@@ -22,6 +22,6 @@
     }
   ],
   "uses_github_releases": true,
-  "toolbox_drawers": ["General Modeling and Productivity Tools"], 
+  "toolbox_drawers": ["Utility Tools"], 
   "keywords": ["User Utilities", "Developer Utilities", "NOAA Branding", "R Package"]
 }

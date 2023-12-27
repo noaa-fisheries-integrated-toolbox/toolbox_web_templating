@@ -25,6 +25,6 @@
     }
   ],
   "uses_github_releases": false,
-  "toolbox_drawers": ["General Modeling and Productivity Tools"], 
+  "toolbox_drawers": ["Utility Tools"], 
   "keywords": ["R Package", "Developer Utilities"]
 }

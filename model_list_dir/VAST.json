@@ -24,6 +24,6 @@
   ],
   "release_badge":"James-Thorson-NOAA/VAST",
   "uses_github_releases": true,
-  "toolbox_drawers": ["General Modeling and Productivity Tools", "Fish and Fisheries"], 
+  "toolbox_drawers": ["General Modeling Tools", "Fish and Fisheries"], 
   "keywords": ["Time Series", "Spatial Model", "TMB", "Species Distribution Model"]
 }
