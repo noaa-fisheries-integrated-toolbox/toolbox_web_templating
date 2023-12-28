@@ -20,7 +20,7 @@
             "type": "string"
         },
         "tool_logo": {
-            "description": "URL to an image of the tool's logo"
+            "description": "URL to an image of the tool's logo",
             "type": "string"
         },
         "noaa_internal": {
