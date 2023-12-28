@@ -19,6 +19,10 @@
             "description": "All authors of the tool",
             "type": "string"
         },
+        "tool_logo": {
+            "description": "URL to an image of the tool's logo"
+            "type": "string"
+        },
         "noaa_internal": {
             "description": "Was this developed in part by NOAA employees or affiliates?",
             "type": "boolean"
