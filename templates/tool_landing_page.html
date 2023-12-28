@@ -138,6 +138,14 @@
             </ul>
         {% endif %}
 
+        {% if installation is defined and installation|length %}
+        <h3>
+          Installation Instructions
+        </h3>
+        <p>
+          {{installation}}
+        </p>
+        {% endif %}
 
         {% if associated_tools is defined and associated_tools|length %}
         <h3>

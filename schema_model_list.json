@@ -117,6 +117,10 @@
             "maxItems": 3,
             "uniqueItems": true
         },
+        "installation": {
+           "description": "Short instructions on how to install the tool",
+           "type": "string"
+        },
         "toolbox_drawers": {
             "description": "The toolbox drawers that the tool belongs in. Choose all that apply.",
             "type": "array", 
