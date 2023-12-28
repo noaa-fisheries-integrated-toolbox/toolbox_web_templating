@@ -28,10 +28,14 @@
     </div>
     <div class = "divider"></div>
         <div class="mywrap">
+            {% if tool_logo is defined and tool_logo|length %}
+              <img src="{{tool_logo}}" alt = "tool logo" height = "75">
+            {% endif%}
             <h2 class ="title">
               Tool: {{tool_name}} ({{tool_abbreviation}})
             </h2>
         </div>
+        <br>
         <div class="mywrap">
               {% if online_app_link is defined and online_app_link|length %}
               <button class = "codelink" title="link to online application" onclick=" window.open('{{online_app_link}}', '_blank'); return false;">
