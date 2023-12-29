@@ -14,7 +14,7 @@
         "link": "https://noaa-fisheries-integrated-toolbox.github.io/rCAX"
       }
     ],
-    "user_organizations": ["NOAA Northwest Fisheries Science Center"],
+    "user_organizations": ["https://ror.org/05r7z1k40"],
     "executable_link": "https://pypi.org/project/pycax-client/",
     "website_link": "https://nwfsc-math-bio.github.io/pycax",
     "documentation_link": "https://nwfsc-math-bio.github.io/pycax",

@@ -71,7 +71,7 @@
             }
         },
         "user_organizations": {
-            "description": "Any organizations that use the tool operationally",
+            "description": "RORs of any organizations that use the tool operationally",
             "type": "array", 
             "items": {
             "type": "string"
