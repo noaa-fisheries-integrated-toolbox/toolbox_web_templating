@@ -16,7 +16,11 @@
             "type": "string"
         },
         "authors": {
-            "description": "All authors of the tool",
+            "description": "All authors of the tool who have made significant contributions",
+            "type": "string"
+        },
+        "contributors": {
+            "description": "Those who have contributed small changes to the tool",
             "type": "string"
         },
         "tool_logo": {
