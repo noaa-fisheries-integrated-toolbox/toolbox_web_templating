@@ -1,7 +1,7 @@
 # Convert info from a Github issue into json. This is an important step #
 # toward making the toolbox onboarding automated.
 
-# Note that this is currently coded as an example for one repo only.
+# Note this may be a bit out of date.
 library(gh)
 library(jsonlite)
 

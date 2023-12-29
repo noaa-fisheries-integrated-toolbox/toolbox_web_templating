@@ -14,7 +14,7 @@
       "link": "https://vlab.noaa.gov/web/stock-synthesis"
     }
   ],
-  "user_organizations": ["NOAA Northwest Fisheries Science Center", "NOAA Southwest FIsheries Science Center", "NOAA Southeast Fisheries Science Center", "NOAA Pacific Islands Fisheries Science Center", "NOAA Northeast Fisheries Science Center", "ICES", "ICCAT", "CSIRO "],
+  "user_organizations": ["https://ror.org/05r7z1k40", "https://ror.org/022d75229", "https://ror.org/0396y0w87", "NOAA Pacific Islands Fisheries Science Center", "https://ror.org/02apffz65", "https://ror.org/03hg53255", "https://ror.org/01fxs2165", "https://ror.org/03qn8fb07"],
   "website_link": "https://r4ss.github.io/r4ss/",
   "source_code_link": "https://github.com/r4ss/r4ss", 
   "software_badges": [
