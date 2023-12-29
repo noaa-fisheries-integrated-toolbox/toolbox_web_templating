@@ -66,6 +66,14 @@ def run_all_files(list_of_models, folder_out, configdir, dev_or_prod_config):
             configjson['citation'] = formatted_citation
         except:
           pass
+        # replace reference dois with formatted text string
+        try:
+          for index, ref in enumerate(configjson['references']):
+              if ref.startswith("https://doi.org"):
+                formatted_citation = format_citation(doi = ref)
+                configjson['references'][index] = formatted_citation
+        except:
+          pass
         new_dir = os.path.join(folder_out)
         # Create target Directory if don't exist
         if not os.path.exists(new_dir):
