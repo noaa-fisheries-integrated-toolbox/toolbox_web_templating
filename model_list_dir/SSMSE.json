@@ -38,7 +38,7 @@
       "alt_text": "A software badge showing the zenodo DOI"
     }
   ],
-  "installation": "In R, install from GitHub:<br><br><code>remotes::install_github(\"nmfs-fish-tools/SSMSE\")</code><br><br>More details on installation are available on <a href=\"https://github.com/nmfs-fish-tools/ssmse?tab=readme-ov-file#installing-the-ssmse-r-package\">the SSMSE readme</a>.",
+  "installation_instructions": "In R, install from GitHub:<br><br><code>remotes::install_github(\"nmfs-fish-tools/SSMSE\")</code><br><br>More details on installation are available on <a href=\"https://github.com/nmfs-fish-tools/ssmse?tab=readme-ov-file#installing-the-ssmse-r-package\">the SSMSE readme</a>.",
   "uses_github_releases": true,
   "release_badge": "nmfs-fish-tools/SSMSE",
   "toolbox_drawers": ["Fish and Fisheries"], 
