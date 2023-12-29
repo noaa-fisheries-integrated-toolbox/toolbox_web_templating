@@ -121,7 +121,7 @@
             "maxItems": 3,
             "uniqueItems": true
         },
-        "installation": {
+        "installation_instructions": {
            "description": "Short instructions on how to install the tool",
            "type": "string"
         },
