@@ -166,6 +166,7 @@
         "maintainer_name",
         "maintainer_email",
         "background_text",
+        "citation",
         "toolbox_drawers", 
         "keywords",
         "uses_github_releases"
