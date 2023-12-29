@@ -42,6 +42,14 @@ def write_templates(configs, new_dir, modelname, dev_or_prod_config):
     template = load_template()
     write_html(template, configs, new_dir, modelname, dev_or_prod_config)
 
+def format_citation(doi):
+    headers = {'Accept': 'text/x-bibliography; style=apa'}
+    response = requests.get(doi, headers=headers)
+    # replace citation with the text string.
+    # need to change the encoding (ISO-8859-1) to apparent_encoding (utf-8)
+    response.encoding = response.apparent_encoding
+    return response.text
+
 def run_all_files(list_of_models, folder_out, configdir, dev_or_prod_config):
     for modelname in list_of_models:
         print(modelname)
@@ -53,16 +61,9 @@ def run_all_files(list_of_models, folder_out, configdir, dev_or_prod_config):
         # nothing should be replaced if the citation doesn't start
         # with "https://doi.org"
         try:
-          tmpcitation = configjson['citation']
-          if tmpcitation.startswith("https://doi.org"):
-            headers = {
-              'Accept': 'text/x-bibliography; style=apa',
-            }
-            response = requests.get(configjson['citation'], headers=headers)
-            # replace citation with the text string.
-            # need to change the encoding (ISO-8859-1) to apparent_encoding (utf-8)
-            response.encoding = response.apparent_encoding
-            configjson['citation'] = response.text
+          if configjson['citation'].startswith("https://doi.org"):
+            formatted_citation = format_citation(doi = configjson['citation'])
+            configjson['citation'] = formatted_citation
         except:
           pass
         new_dir = os.path.join(folder_out)
