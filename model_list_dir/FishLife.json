@@ -27,7 +27,7 @@
   ],
   "software_badges":[
     {
-      "link": "hhttps://img.shields.io/github/last-commit/James-Thorson-NOAA/FishLife.svg?style=plastic", 
+      "link": "https://img.shields.io/github/last-commit/James-Thorson-NOAA/FishLife.svg?style=plastic", 
       "alt_text": "A software badge showing the latest commit to the repository."
     }
   ],
