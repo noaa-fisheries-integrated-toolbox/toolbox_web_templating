@@ -6,6 +6,7 @@ import os
 import shutil
 import sys
 import requests
+import re
 
 from jinja2 import Environment, FileSystemLoader
 
@@ -43,12 +44,16 @@ def write_templates(configs, new_dir, modelname, dev_or_prod_config):
     write_html(template, configs, new_dir, modelname, dev_or_prod_config)
 
 def format_citation(doi):
-    headers = {'Accept': 'text/x-bibliography; style=apa'}
+    headers = {'Accept': 'text/x-bibliography; style=american-meteorological-society'}
     response = requests.get(doi, headers=headers)
     # replace citation with the text string.
     # need to change the encoding (ISO-8859-1) to apparent_encoding (utf-8)
     response.encoding = response.apparent_encoding
-    return response.text
+    # add linked doi (commented out for now, but keep as an example)
+    citation = response.text# + " <a href=\"" + doi + "\">" + doi + "</a>"
+    citation = re.sub("\.$", "", citation)
+    citation = re.sub("(https://doi\.org/\d{2}\.\d{4,}/\S*/?)", "<a href=\"\g<1>\">\g<1></a>", citation)
+    return citation
 
 def run_all_files(list_of_models, folder_out, configdir, dev_or_prod_config):
     for modelname in list_of_models:
