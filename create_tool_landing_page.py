@@ -44,13 +44,14 @@ def write_templates(configs, new_dir, modelname, dev_or_prod_config):
     write_html(template, configs, new_dir, modelname, dev_or_prod_config)
 
 def format_citation(doi):
-    headers = {'Accept': 'text/x-bibliography; style=american-meteorological-society'}
+    headers = {'Accept': 'text/x-bibliography; style=apa'}
     response = requests.get(doi, headers=headers)
     # replace citation with the text string.
     # need to change the encoding (ISO-8859-1) to apparent_encoding (utf-8)
     response.encoding = response.apparent_encoding
     # add linked doi (commented out for now, but keep as an example)
     citation = response.text# + " <a href=\"" + doi + "\">" + doi + "</a>"
+    citation = re.sub(" Portico\.", "", citation)
     citation = re.sub("\.$", "", citation)
     citation = re.sub("(https://doi\.org/\d{2}\.\d{4,}/\S*/?)", "<a href=\"\g<1>\">\g<1></a>", citation)
     return citation
