@@ -8,7 +8,7 @@
   "maintainer_email": "support@fishpath.org",
   "background_text": "The FishPath Tool is an online decision-support tool for data-limited fisheries management. The primary goal of the FishPath Tool is to support users in understanding and refining options for the three major components of a harvest strategy: 1) data collection, 2) data-limited assessment, and 3) management measures. Once registered, you may access the FishPath Tool, including the FishPath questionnaire, interactive results tailored to your fishery, and supporting resources.",
   "citation": "https://doi.org/10.1111/faf.12721",
-  "references": ["https://www.fisheries.noaa.gov/feature-story/sharing-tools-sustainable-fishery-management", "https://doi.org/10.4027/amdlfs.2016.03, https://doi.org/10.1016/j.marpol.2020.104215"],
+  "references": ["https://www.fisheries.noaa.gov/feature-story/sharing-tools-sustainable-fishery-management", "https://doi.org/10.4027/amdlfs.2016.03", "https://doi.org/10.1016/j.marpol.2020.104215"],
   "user_organizations": ["https://ror.org/02bypky31"],
   "online_app_link": "https://tool.fishpath.org/",
   "documentation_link": "https://fishpath.github.io/FishPath-Tool-User-Guide/",
