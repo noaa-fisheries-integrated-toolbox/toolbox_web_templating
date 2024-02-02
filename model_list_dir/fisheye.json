@@ -6,13 +6,12 @@
   "maintainer_email": "amanda.phillips@noaa.gov",
   "tool_abbreviation": "FishEyE",
   "tool_name": "Fisheries Economic Explorer",
-  "references": "Harsch, M., L. Pfeiffer, E. Steiner, and M. Guldin. 2018. Economic Performance Metrics : An Overview of Metrics and the Use of Web Applications to Disseminate Outcomes in the U.S. West Coast Groundfish Trawl Catch Share Program. NOAA technical memorandum NMFS-NWFS 143.",
-  "references": "Steiner, E., A. Vizek, M. Guldin, M. Krigbaum, and L. Pfeiffer. 2021. Evaluating the Economic Performance of the U.S. West Coast Groundfish Trawl Catch Share Program. NOAA Tech Memo NMFS-NWFSC 169.",
+  "references": ["Harsch, M., L. Pfeiffer, E. Steiner, and M. Guldin. 2018. Economic Performance Metrics : An Overview of Metrics and the Use of Web Applications to Disseminate Outcomes in the U.S. West Coast Groundfish Trawl Catch Share Program. NOAA technical memorandum NMFS-NWFS 143.","Steiner, E., A. Vizek, M. Guldin, M. Krigbaum, and L. Pfeiffer. 2021. Evaluating the Economic Performance of the U.S. West Coast Groundfish Trawl Catch Share Program. NOAA Tech Memo NMFS-NWFSC 169."],
   "online_app_link": "https://connect.fisheries.noaa.gov/fisheye/fisheyelandingpage.html",
-  "documentation_link": "https://connect.fisheries.noaa.gov/fisheye_literature/Literature.html"
+  "documentation_link": "https://connect.fisheries.noaa.gov/fisheye_literature/Literature.html",
   "active_development": true,
   "noaa_internal": true,
   "uses_github_releases": false,
   "toolbox_drawers": ["Human Dimensions"],
-  "keywords": ["Web App", "Economics"]
+  "keywords": ["Web App", "Economics", "West Coast Groundfish Trawl Catch Share Program"]
 }
