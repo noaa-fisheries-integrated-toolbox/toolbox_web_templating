@@ -66,7 +66,7 @@ JSON data can be validated using [schema](https://json-schema.org/understanding-
   ],
   "static_version_number": "1.0.0",//** add version number only if it is not using github releases and the version is unlikely to change. Omit this element if not used.
   "toolbox_drawers": ["Fish and Fisheries", "General Modeling Tools"], //** options are: "Fish and Fisheries", "Ecosystem"", "Human Dimensions", "Protected Species", "General Modeling Tools", and "Utility Tools"*. Put all that apply to the tool.
-  "keywords": ["Economics", "R", "Web App"], //**keywords to sort through tools.,
+  "keywords": ["Economics", "R", "Web App"], //**keywords to sort through tools., current searchable keywords are listed: https://github.com/noaa-fisheries-integrated-toolbox/toolbox_web_templating/blob/main/json_analysis/keywords.txt
   "user_organizations": ["https://ror.org/0396y0w87", "https://ror.org/05r7z1k40", "https://ror.org/022d75229"] //operational users of the tool
 ```
 
