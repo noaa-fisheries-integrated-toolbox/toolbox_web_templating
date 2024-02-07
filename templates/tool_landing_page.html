@@ -117,10 +117,22 @@
         <p>
         {{authors}}
         </p>
-        {% elif authors is defined and authors %}
+        {% elif authors is defined %}
         <h3>Author</h3>
         <p>
         {{authors}}
+        </p>
+        {% endif %}
+
+        {% if contributors is defined and contributors|length > 1 %}
+        <h3>Contributors</h3>
+        <p>
+        {{contributors}}
+        </p>
+        {% elif contributors is defined %}
+        <h3>Contributor</h3>
+        <p>
+        {{contributors}}
         </p>
         {% endif %}
 
