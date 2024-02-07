@@ -41,6 +41,7 @@ JSON data can be validated using [schema](https://json-schema.org/understanding-
     {"name":"NAME OF TOOL","link":"LINK TO TOOL"}
   ],
   "authors": "First1 Last1 and First2 Last2",// **Name of the tool author or authors
+  "contributors": "First1 Last1 and First2 Last2",// **Name of the tool contributors.
   "background_text": "Information on this tool goes here and will be displayed on the tool page", //** Please Write up to a paragraph.
   "maintainer_email": "fisheries.toolbox@noaa.gov", //**Email for main contact. Please put a noaa.gov email address that someone will check.
   //Note: At least one of the 5 following links need to be filled out for your tool to be found. Please fill in as many as apply.
