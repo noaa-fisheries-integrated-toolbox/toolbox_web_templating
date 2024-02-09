@@ -13,5 +13,5 @@
   "noaa_internal": true,
   "uses_github_releases": false,
   "toolbox_drawers": ["Human Dimensions"], 
-  "keywords": ["Web App", "Data Exploration", "Socioeconomics", "Indicators", "Fishing Engagement and Reliance"]
+  "keywords": ["Web App", "Data Exploration", "Socioeconomics"]
 }
