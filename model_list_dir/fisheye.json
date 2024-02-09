@@ -13,5 +13,5 @@
   "noaa_internal": true,
   "uses_github_releases": false,
   "toolbox_drawers": ["Human Dimensions"],
-  "keywords": ["Web App", "Economics", "West Coast Groundfish Trawl Catch Share Program"]
+  "keywords": ["Web App", "Economics"]
 }
