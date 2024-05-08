@@ -20,6 +20,7 @@
   "maintainer_email": "kathryn.doering@noaa.gov",
   "citation": "https://doi.org/10.21105/joss.04937",
   "documentation_link": "https://nmfs-fish-tools.github.io/SSMSE/manual",
+  "website_link": "https://nmfs-fish-tools.github.io/SSMSE/",
   "source_code_link": "https://github.com/nmfs-fish-tools/SSMSE",
   "tool_abbreviation": "SSMSE",
   "tool_name": "Management Strategy Evaluation for SS3",
