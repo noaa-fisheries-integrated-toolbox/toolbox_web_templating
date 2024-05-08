@@ -1,0 +1,34 @@
+{
+    "active_development": true,
+    "tool_name": "The Fisheries Integrated Modeling System",
+    "tool_abbreviation": "FIMS",
+    "authors": "Christine Stawitz, Andrea Havron, Matthew Supernaw, Bai Li, Kathryn Doering",
+    "contributors": "Nathan Vaughan, Megumi Oshima, Ian Taylor, Kyle Shertzer, Kelli Johnson, Cole Monnahan, Chris Legault, Kristan Blackhart, Patrick Lynch, Rick Methot, Tim Miller, Huihua Lee, EJ Dick, Peter Kuriyama, Jon Brodziak",
+    "tool_logo": "https://github.com/NOAA-FIMS/noaa-fims.github.io/blob/main/assets/img/logo.png",
+    "noaa_internal": true,
+    "maintainer_name": "Christine Stawitz",
+    "maintainer_email": "christine.stawitz@noaa.gov",
+    "background_text": "The NOAA Fisheries Integrated Modeling System is a software system designed and architected to support next-generation fisheries stock assessment, ecosystem, and socioeconomic modeling. A team of experts within NOAA Fisheries is designing and developing the system, and we are advised by the FIMS Council which includes academic, industry, and international partners. We have an operational software system that was released to the public in 2023 and is ready for beta testing, although it is still under active development. Users and developers are welcome to submit feedback using Github issues. ",
+    "citation": "https://doi.org/10.5281/zenodo.10393209",
+    "references": ["https://zenodo.org/doi/10.5281/zenodo.10393209"],
+    "user_organizations": ["https://ror.org/04950b532"],
+    "documentation_link": "https://noaa-fims.github.io/FIMS/",
+    "source_code_link": "https://github.com/FIMS/FIMS",
+    "software_badges": [
+        { "link":"https://github.com/NOAA-FIMS/FIMS/workflows/call-r-cmd-check/badge.svg",
+        "alt_text": "A software badge showing the status of the GitHub Action call-r-cmd-check"
+        },
+        {
+            "link": "https://codecov.io/gh/NOAA-FIMS/FIMS/branch/main/graph/badge.svg", 
+            "alt_text":"A software badge showing the code coverage"
+        },
+        {
+            "link": "https://img.shields.io/badge/lifecycle-experimental-orange.svg", 
+            "alt_text": "A software badge showing this repository has the lifestage experimental, following the lifecycles package"
+        }
+    ],
+    "installation_instructions": "The following software is required:\n* R version 4.0.0 or newer (or RStudio version 1.2.5042 or newer)\nthe remotes R package\n* TMB version 1.8.0 or newer (install instructions are [here](https://github.com/kaskr/adcomp/wiki/Download).)\n**Windows Users**\n* Rtools4 (available from [here](https://cran.r-project.org/bin/windows/Rtools/rtools40.html))\n```\nremotes::install_github(\"NOAA-FIMS/FIMS\")\nlibrary(FIMS)\n```",
+    "toolbox_drawers": ["Fish and Fisheries"],
+    "keywords": ["Age Structured Model", "C++", "R Package", "Stock Assessment Model", "TMB"],
+    "uses_github_releases": true
+  }
