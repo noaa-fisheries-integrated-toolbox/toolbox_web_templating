@@ -1,0 +1,21 @@
+{
+    "active_development": true,
+    "tool_name": "Ageing Error",
+    "tool_abbreviation": "AgeingError",
+    "authors": "Andre E. Punt, Kelli F. Johnson, James T. Thorson, Ian G. Taylor, Paul Burch",
+    "contributors": "Ian J. Stewart, Melissa A. Haltuch",
+    "noaa_internal": true,
+    "maintainer_name": "Ian Taylor",
+    "maintainer_email": "ian.taylor@noaa.gov",
+    "background_text": "The AgeingError package estimates uncertainty in age estimates double-reads of hard structures (e.g., otoliths) based on the method of Punt et al. (2008) that account for both ageing bias and imprecision. The output can be used in Stock Synthesis or other assessment platforms that incorporate ageing error.",
+    "citation": "Users should cite both the R package and the associated 2008 manuscript, both described at https://pfmc-assessments.github.io/AgeingError/authors.html#citation",
+    "references": ["https://doi.org/10.1139/F08-111"],
+    "user_organizations": ["https://ror.org/05r7z1k40"],
+    "website_link": "https://pfmc-assessments.github.io/AgeingError/",
+    "documentation_link": "https://pfmc-assessments.github.io/AgeingError/articles/getting_started.html",
+    "source_code_link": "https://github.com/pfmc-assessments/AgeingError",
+    "installation_instructions": "In R, install from GitHub:\n```\n# using {remotes}\nremotes::install_github(\"pfmc-assessments/AgeingError\")\n# using {pak}\npak::pak(\"pfmc-assessments/AgeingError\")\n```",
+    "toolbox_drawers": ["Fish and Fisheries"],
+    "keywords": ["Data Exploration", "Fisheries", "R Package", "TMB"],
+    "uses_github_releases": true
+  }
