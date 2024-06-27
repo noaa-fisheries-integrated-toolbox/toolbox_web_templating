@@ -14,7 +14,7 @@
     "website_link": "https://pfmc-assessments.github.io/AgeingError/",
     "documentation_link": "https://pfmc-assessments.github.io/AgeingError/articles/getting_started.html",
     "source_code_link": "https://github.com/pfmc-assessments/AgeingError",
-    "installation_instructions": "In R, install the latest precompiled version from R universe:<br><br><code>install.packages(\"AgeingError\", repos = c(\"https://noaa-fisheries-integrated-toolbox.r-universe.dev\", \"https://cloud.r-project.org\"))</code><br><br>Or in R, install from GitHub:<br><br><code># using {remotes}<br>remotes::install_github(\"pfmc-assessments/AgeingError\")<br># using {pak}<br>pak::pak(\"pfmc-assessments/AgeingError\")<br></code>",
+    "installation_instructions": "The easiest installation method is to use a pre-compiled version on R-universe from the R console:<br><br><code>install.packages(\"AgeingError\", repos = c(\"https://noaa-fisheries-integrated-toolbox.r-universe.dev\", \"https://cloud.r-project.org\"))</code><br><br>You can also install from GitHub from the R console using the code below which will compile the package locally (which takes longer and requires <a href=\"https://cran.r-project.org/bin/windows/Rtools/\">Rtools</a> for Windows users):<br><br><code>remotes::install_github(\"pfmc-assessments/AgeingError\")<br><br></code>",
     "toolbox_drawers": ["Fish and Fisheries"],
     "keywords": ["Data Exploration", "Fisheries", "R Package", "TMB"],
     "uses_github_releases": true
