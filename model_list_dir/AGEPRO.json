@@ -21,7 +21,6 @@
   ],
   "active_development": true,
   "noaa_internal": true,
-  "static_version_number": "4.3.4",
   "release_badge":"PIFSCstockassessments/AGEPRO-GUI",
   "uses_github_releases": true,
   "toolbox_drawers": ["Fish and Fisheries"],
