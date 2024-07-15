@@ -3,8 +3,7 @@
   "maintainer_name": "orphaned",
   "maintainer_email": "fisheries.toolbox@noaa.gov",
   "background_text": "The Stock Recruitment Fitting Model (SRFIT) performs MSY reference points calculations. The model can be used to fit Beverton-Holt or Ricker curves to time series of stock recruitment data assuming either uncorrelated or serially-correlated errors. Informative or uninformative prior distributions for stock-recruitment curves may also be specified. Life history and fishery parameters are used to calculate yield and spawning biomass per recruit based on standard algorithms.  A standard Sissenwine-Shepherd analysis is applied to compute MSY reference points conditioned on model configuration. Markov Chain Monte Carlo simulation is used to characterize posterior distributions of MSY reference points.  Bayesian and Aikaike information criterion are computed for selection among alternative models or for model-averaging across a set of credible models.   The calculation engine was written in AD Model Builder by Dr. Jon Brodziak of the NMFS Pacific Islands Science Center and Dr. Christopher Legault of the NMFS Northeast Fisheries Science Center.",
-  "executable_link": "https://github.com/nmfs-fish-tools/SRFIT/releases/download/7.0.1/SRFITV70.zip",
-  "fit_repo": "https://github.com/nmfs-fish-tools/SRFIT.git",
+  "executable_link": "https://github.com/noaa-fisheries-integrated-toolbox/FIT-binaries/raw/main/SRFITV70.zip",
   "tool_abbreviation": "SRFIT",
   "tool_name": "Stock Recruitment Fitting Model",
   "software_badges":[
@@ -17,7 +16,6 @@
   "noaa_internal": true,
   "static_version_number": "7.0.1",
   "uses_github_releases": false,
-  "release_badge":"nmfs-fish-tools/SRFIT",
   "toolbox_drawers": ["Fish and Fisheries"], 
   "keywords": ["Reference Points Model", "ADMB", "Bayesian Modeling", "Guided User Interface"]
 }
