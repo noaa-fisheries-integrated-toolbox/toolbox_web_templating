@@ -3,7 +3,7 @@
   "maintainer_name": "orphaned",
   "maintainer_email": "fisheries.toolbox@noaa.gov",
   "background_text": "The Instantaneous Rates (IRATE) model is used to analyze tagging data. It is based on the Hoenig et al. (1998) alternate formulation of the Brownie et al. (1985) band recovery models that allow fishing and natural mortality to be derived from the exploitation rate and survival rate estimates of a Type II (continuous) fishery. IRATE allows both age-independent and age-dependent instantaneous rates models (Hoenig et al., 1998; Jiang et al., 2007) to be fitted to multi-year fish tag return data.  IRATE allows model development with either age-dependent harvest-only or harvest and catch-release tag returns or similar age independent models.   The software, developed by Dr. Gary Nelson of the Massachusetts Division of Marine Fisheries, also allows estimation of harvest reporting rates, catch and release reporting rates, and tag retention of harvested and/or released fish.  However, not all parameters in the model can be estimated simultaneously with tag data alone. Some parameters must be fixed and assumed known (usually reporting rate and tag loss) to obtain good estimates of remaining parameters.  Additionally, the model can account for non-mixing of the tagged fish in the first release year and adjust for harvest and M selectivity in the age-based models.   The negative log likelihood is used as the objective function to obtain maximum likelihood estimates of parameters.  Several model fit statistics are provided that can be used to select the best model formulation; these include the Akaike Information Criterion (AIC), c-hat (a measure of overdispersion) and standard residuals.  The calculation engine is written in AD Model Builder.",
-  "executable_link": "https://github.com/nmfs-fish-tools/IRATE/releases/download/2.0.0/IRATEV2.zip",
+  "executable_link": "https://github.com/noaa-fisheries-integrated-toolbox/FIT-binaries/raw/main/IRATEV2.zip",
   "tool_abbreviation": "IRATE",
   "tool_name": "Instantaneous Rates",
   "references": [
@@ -21,7 +21,6 @@
   "noaa_internal": true,
   "static_version_number": "2.0.0",
   "uses_github_releases": false,
-  "release_badge":"nmfs-fish-tools/IRATE",
   "toolbox_drawers": ["Fish and Fisheries"], 
   "keywords": ["Tag Data Model"]
 }

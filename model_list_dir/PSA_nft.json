@@ -4,7 +4,7 @@
   "maintainer_email": "fisheries.toolbox@noaa.gov",
   "background_text": "Please use the PSA Shiny version linked in associated tools instead. The Productivity-Susceptibility Analysis (PSA) is a semi-quantitative and rapid risk assessment tool that relies on the life history characteristics of a stock (i.e., productivity) and its susceptibility to the fishery in question.  First used to classify differences in bycatch sustainability in the Australian prawn fishery in 2001, this assessment has a long history of use in evaluating fisheries and is recommended by several organizations and work groups as a reasonable approach for determining risk.  <p>The productivity and susceptibility of a stock is determined by providing a score ranging from 1 (low) to 3 (high) for a standardized set of attributes related to each index (productivity = 10; susceptibility = 12).  When scoring these attributes, the user has the ability to also assess the data quality associated with each attribute score, and customize the analysis by weighting these attributes according to the fishery.  The scores for the productivity and susceptibility indices are then automatically calculated and graphically displayed on an x-y scatter plot.  Stocks that receive a low productivity score and high susceptibility score are considered to be at a high risk of becoming depleted, while stocks with a high productivity score and low susceptibility score are considered to be at low risk of becoming depleted.</p>  This version of the PSA has been customized to specifically assess the vulnerability of U.S. fish stocks from becoming overfished (B_current < 1/2 B_msy) or undergoing overfishing (F_current > F_msy), with an emphasis on assessing data-poor stock, where vulnerability has been identified by NOAA-Fisheries as a useful measure for: 1) identifying stocks that should be managed and protected under a fishery management plan, 2) grouping data-poor stocks into relevant management complexes, and 3) developing precautionary harvest control rules. In addition, scoring of the data quality used to define vulnerability may help in determining species of interest for further data collection and particular data gaps across species.",
   "documentation_link": "https://repository.library.noaa.gov/view/noaa/3713",
-  "executable_link": "https://github.com/nmfs-fish-tools/PSA/releases/download/1.4.0/PSA-1-4.zip",
+  "executable_link": "https://github.com/noaa-fisheries-integrated-toolbox/FIT-binaries/raw/main/PSA-1-4.zip",
   "tool_abbreviation": "PSA_nft",
   "tool_name": "Productivity and Susceptibility Analysis (National Fisheries Toolbox)",
   "associated_tools": [
@@ -23,7 +23,6 @@
   "noaa_internal": true,
   "static_version_number": "1.4.0",
   "uses_github_releases": false,
-  "release_badge":"nmfs-fish-tools/PSA",
   "toolbox_drawers": ["Fish and Fisheries"],
   "keywords": ["Risk Assessment Tool", "Fish and Fisheries", "Simulation"]
 }
