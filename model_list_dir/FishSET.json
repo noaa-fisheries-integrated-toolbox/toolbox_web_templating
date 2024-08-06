@@ -4,7 +4,7 @@
     "tool_abbreviation": "FishSET",
     "authors": "Lisa Pfeiffer, Paul Carvalho, Anna Abelman, Min-Yang Lee",
     "contributors": "Alan Haynie, Melanie Harsch, Bryce McManus, Allen Chen, Adam Hayes, Rita Curtis, Corinne Bassin, Doug Lipton, Jordan Watson",
-    "tool_logo": "https://github.com/noaa-nwfsc/FishSET/blob/master/docs/fishset_logo.png",
+    "tool_logo": "https://github.com/noaa-nwfsc/FishSET/blob/master/docs/fishset_logo.png?raw=true",
     "noaa_internal": true,
     "maintainer_name": "Paul Carvalho",
     "maintainer_email": "paul.carvalho@noaa.gov",
@@ -16,20 +16,19 @@
     "source_code_link": "https://github.com/noaa-nwfsc/FishSET",
     "software_badges": [
       {
-        "link":"https://github.com/noaa-nwfsc/FishSET/actions/workflows/R-CMD-check.yaml/badge.svg", 
+        "link": "https://github.com/noaa-nwfsc/FishSET/actions/workflows/R-CMD-check.yaml/badge.svg", 
         "alt_text": "A software badge showing the staus of the R-CMD-check GitHub action workflow"
-    }, 
-    {
-      "link":   
-      "https://github.com/noaa-nwfsc/FishSET/actions/workflows/secretScan.yml/badge.svg",
-      "alt_text": "A software badge showing the status of the secretScan GitHub Action workflow"
-    },
-    {
-      "link":"https://img.shields.io/badge/lifecycle-experimental-orange.svg",
-      "alt_text":"A software badge showing that the lifecyle stage of the software is experimental."
-    }
+      }, 
+      {
+        "link": "https://github.com/noaa-nwfsc/FishSET/actions/workflows/secretScan.yml/badge.svg",
+        "alt_text": "A software badge showing the status of the secretScan GitHub Action workflow"
+      },
+      {
+        "link": "https://img.shields.io/badge/lifecycle-experimental-orange.svg",
+        "alt_text":"A software badge showing that the lifecyle stage of the software is experimental."
+      }
     ],
-    "installation_instructions": "<p>In R, install the \\'devtools\\' R package, then run the following code (enter a blank line when prompted to update packages):</p><p><code>options (download.file.method = \"wininet\")</code><code>devtools::install_github(\"noaa-nwfsc/FishSET\")</code></p>",
+    "installation_instructions": "<p>In R, install the 'devtools' R package, then run the following code (enter a blank line when prompted to update packages):</p><p><code>options (download.file.method = \"wininet\")</code>\n<code>devtools::install_github(\"noaa-nwfsc/FishSET\")</code></p>",
     "toolbox_drawers": ["Human Dimensions"],
     "keywords": ["Data Exploration", "Data Visualization", "Decision Support Tool", "Economics", "Fisheries"],
     "uses_github_releases": true
