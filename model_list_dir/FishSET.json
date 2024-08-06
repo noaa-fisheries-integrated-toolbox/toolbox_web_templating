@@ -1,0 +1,22 @@
+{
+    "active_development": true,
+    "tool_name": "Spatial Economics Toolbox for Fisheries",
+    "tool_abbreviation": "FishSET",
+    "authors": "Lisa Pfeiffer, Paul Carvalho, Anna Abelman, Min-Yang Lee",
+    "contributors": "Alan Haynie, Melanie Harsch, Bryce McManus, Allen Chen, Adam Hayes, Rita Curtis, Corinne Bassin, Doug Lipton, Jordan Watson",
+    "tool_logo": "https://github.com/noaa-nwfsc/FishSET/blob/master/docs/fishset_logo.png",
+    "noaa_internal": true,
+    "maintainer_name": "Paul Carvalho",
+    "maintainer_email": "paul.carvalho@noaa.gov",
+    "background_text": "The Spatial Economics Toolbox for Fisheries (FishSET) is a set of tools developed as an R package for organizing and visualizing data; developing, improving and disseminating modeling best practices; and simulating policy scenarios to explore the welfare consequences of management decisions.",
+    "citation": "Pfeiffer, L., Carvalho, P., Abelman, A., Lee, MY., & Haynie, A. (2024). FishSET: Spatial Economics Toolbox for Fisheries. R Package Version 1.0.0.  https://github.com/noaa-nwfsc/FishSET.",
+    "executable_link": "https://github.com/noaa-nwfsc/FishSET/releases/latest",
+    "website_link": "https://noaa-nwfsc.github.io/FishSET/",
+    "documentation_link": "https://noaa-nwfsc.github.io/FishSET/articles/FishSET_User_Manual.html",
+    "source_code_link": "https://github.com/noaa-nwfsc/FishSET",
+    "software_badges": ["https://github.com/noaa-nwfsc/FishSET/actions/workflows/R-CMD-check.yaml/badge.svg", "https://github.com/noaa-nwfsc/FishSET/actions/workflows/secretScan.yml/badge.svg", "https://img.shields.io/badge/lifecycle-experimental-orange.svg"],
+    "installation_instructions": "<p>In R, install the \\'devtools\\' R package, then run the following code (enter a blank line when prompted to update packages):</p><p><code>options (download.file.method = \"wininet\")</code><code>devtools::install_github(\"noaa-nwfsc/FishSET\")</code></p>",
+    "toolbox_drawers": ["Human Dimensions"],
+    "keywords": ["Data Exploration", "Data Visualization", "Decision Support Tool", "Economics", "Fisheries", "Guided User Interface", "R Package", "Shiny", "Simulation", "Socioeconomics", "Spatial Model"],
+    "uses_github_releases": true
+  }
