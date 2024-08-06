@@ -14,9 +14,23 @@
     "website_link": "https://noaa-nwfsc.github.io/FishSET/",
     "documentation_link": "https://noaa-nwfsc.github.io/FishSET/articles/FishSET_User_Manual.html",
     "source_code_link": "https://github.com/noaa-nwfsc/FishSET",
-    "software_badges": ["https://github.com/noaa-nwfsc/FishSET/actions/workflows/R-CMD-check.yaml/badge.svg", "https://github.com/noaa-nwfsc/FishSET/actions/workflows/secretScan.yml/badge.svg", "https://img.shields.io/badge/lifecycle-experimental-orange.svg"],
+    "software_badges": [
+      {
+        "link":"https://github.com/noaa-nwfsc/FishSET/actions/workflows/R-CMD-check.yaml/badge.svg", 
+        "alt_text": "A software badge showing the staus of the R-CMD-check GitHub action workflow"
+    }, 
+    {
+      "link":   
+      "https://github.com/noaa-nwfsc/FishSET/actions/workflows/secretScan.yml/badge.svg",
+      "alt_text": "A software badge showing the status of the secretScan GitHub Action workflow"
+    },
+    {
+      "link":"https://img.shields.io/badge/lifecycle-experimental-orange.svg",
+      "alt_text":"A software badge showing that the lifecyle stage of the software is experimental."
+    }
+    ],
     "installation_instructions": "<p>In R, install the \\'devtools\\' R package, then run the following code (enter a blank line when prompted to update packages):</p><p><code>options (download.file.method = \"wininet\")</code><code>devtools::install_github(\"noaa-nwfsc/FishSET\")</code></p>",
     "toolbox_drawers": ["Human Dimensions"],
-    "keywords": ["Data Exploration", "Data Visualization", "Decision Support Tool", "Economics", "Fisheries", "Guided User Interface", "R Package", "Shiny", "Simulation", "Socioeconomics", "Spatial Model"],
+    "keywords": ["Data Exploration", "Data Visualization", "Decision Support Tool", "Economics", "Fisheries"],
     "uses_github_releases": true
   }
