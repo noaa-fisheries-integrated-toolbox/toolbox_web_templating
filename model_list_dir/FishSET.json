@@ -3,7 +3,7 @@
     "tool_name": "Spatial Economics Toolbox for Fisheries",
     "tool_abbreviation": "FishSET",
     "authors": "Lisa Pfeiffer, Paul Carvalho, Anna Abelman, Min-Yang Lee, Alan Haynie",
-    "contributors": "Melanie Harsch, Bryce McManus, Allen Chen, Adam Hayes, Rita Curtis, Corinne Bassin, Doug Lipton, Jordan Watson",
+    "contributors": "Corinne Bassin, Allen Chen, Rita Curtis, Melanie Harsch, Adam Hayes, Bryce McManus, Doug Lipton, Jordan Watson",
     "tool_logo": "https://github.com/noaa-nwfsc/FishSET/blob/master/docs/fishset_logo.png?raw=true",
     "noaa_internal": true,
     "maintainer_name": "Paul Carvalho",
