@@ -2,8 +2,8 @@
     "active_development": true,
     "tool_name": "Spatial Economics Toolbox for Fisheries",
     "tool_abbreviation": "FishSET",
-    "authors": "Lisa Pfeiffer, Paul Carvalho, Anna Abelman, Min-Yang Lee",
-    "contributors": "Alan Haynie, Melanie Harsch, Bryce McManus, Allen Chen, Adam Hayes, Rita Curtis, Corinne Bassin, Doug Lipton, Jordan Watson",
+    "authors": "Lisa Pfeiffer, Paul Carvalho, Anna Abelman, Min-Yang Lee, Alan Haynie",
+    "contributors": "Melanie Harsch, Bryce McManus, Allen Chen, Adam Hayes, Rita Curtis, Corinne Bassin, Doug Lipton, Jordan Watson",
     "tool_logo": "https://github.com/noaa-nwfsc/FishSET/blob/master/docs/fishset_logo.png?raw=true",
     "noaa_internal": true,
     "maintainer_name": "Paul Carvalho",
@@ -28,7 +28,7 @@
         "alt_text":"A software badge showing that the lifecyle stage of the software is experimental."
       }
     ],
-    "installation_instructions": "<p>In R, install the 'devtools' R package, then run the following code (enter a blank line when prompted to update packages):</p><p><code>options (download.file.method = \"wininet\")</code><br><br><code>devtools::install_github(\"noaa-nwfsc/FishSET\")</code></p>",
+    "installation_instructions": "<p>In R, install the 'devtools' R package, then run the following code (enter a blank line when prompted to update packages):</p><p><code>options (download.file.method = \"wininet\")</code><br><code>devtools::install_github(\"noaa-nwfsc/FishSET\")</code></p>",
     "toolbox_drawers": ["Human Dimensions"],
     "keywords": ["Data Visualization", "Economics", "R Package", "Shiny", "Spatial Model"],
     "uses_github_releases": true
