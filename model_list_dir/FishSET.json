@@ -31,5 +31,6 @@
     "installation_instructions": "<p>In R, install the 'devtools' R package, then run the following code (enter a blank line when prompted to update packages):</p><p><code>options (download.file.method = \"wininet\")</code><br><code>devtools::install_github(\"noaa-nwfsc/FishSET\")</code></p>",
     "toolbox_drawers": ["Human Dimensions"],
     "keywords": ["Data Visualization", "Economics", "R Package", "Shiny", "Spatial Model"],
-    "uses_github_releases": true
+    "uses_github_releases": true,
+    "release_badge": "noaa-nwfsc/FishSET"
   }
