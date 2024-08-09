@@ -8,7 +8,7 @@
   "tool_name": "A Bayesian approach for estimating trends of aggregated abundance",
   "active_development": false,
   "noaa_internal": true,
-  "uses_github_releases": true,
+  "uses_github_releases": false,
   "toolbox_drawers": ["Protected Species", "General Modeling Tools"],
   "keywords": ["R Package"]
 }

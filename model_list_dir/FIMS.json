@@ -12,7 +12,7 @@
     "citation": "https://doi.org/10.5281/zenodo.10393209",
     "user_organizations": ["https://ror.org/04950b532"],
     "documentation_link": "https://noaa-fims.github.io/FIMS/",
-    "source_code_link": "https://github.com/FIMS/FIMS",
+    "source_code_link": "https://github.com/NOAA-FIMS/FIMS",
     "software_badges": [
         { "link":"https://github.com/NOAA-FIMS/FIMS/workflows/call-r-cmd-check/badge.svg",
         "alt_text": "A software badge showing the status of the GitHub Action call-r-cmd-check"
