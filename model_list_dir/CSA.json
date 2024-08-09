@@ -6,9 +6,7 @@
   "executable_link": "https://github.com/noaa-fisheries-integrated-toolbox/FIT-binaries/raw/main/CSAV43.zip",
   "tool_abbreviation": "CSA",
   "tool_name": "Collie-Sissenwine Analysis",
-  "references": [
-    "Collie, J. S. and M. P. Sissenwine, 1983. Estimating population size from relative abundance data measured with error. Can. J. Fish. Aquat. Sci., 40: 1871-1879."
-  ],
+  "citation": "https://doi.org/10.1139/f83-217",
   "software_badges":[
     {
       "link": "https://www.repostatus.org/badges/latest/inactive.svg", 

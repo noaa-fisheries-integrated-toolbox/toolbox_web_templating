@@ -6,12 +6,12 @@
   "executable_link": "https://github.com/noaa-fisheries-integrated-toolbox/FIT-binaries/raw/main/DCACV211.zip",
   "tool_abbreviation": "DCAC",
   "tool_name": "Depletion-Corrected Average Catch",
+  "citation": "MacCall, A. 2007. Depletion-adjusted average catch. pp. 27-31 In: Rosenberg, A., Agnew, D., Babcock, E., Mogensen, C., O’Boyle, R., Powers, J., Stefansson, G., Swasey, J. 2007. Setting annual catch limits for U.S. fisheries: An expert working group report. Lenfest Ocean Program, 1025 F Street NW, Suite 900, Washington, D.C.",
   "references": [
     "Alverson, D., and W. Pereyra. 1969. Demersal fish explorations in the northeastern Pacific Ocean – an evaluation of exploratory fishing methods and analytical approaches to stock size and yield forecasts. J. Fish Res. Board Can. 26:1985-2001.",
     "Deriso, R. 1982. Relationship of fishing mortality to natural mortality and growth at the level of maximum sustainable yield. Can. J. Fish. Aquat. Sci. 39:1054-1-58.",
     "Gulland, J. 1970. Preface. In: J. Gulland (ed.) The fish resources of the oceans. FAO Fish. Tech. Pap. 97, p.1-4.",
     "He, X., D, Pearson, E. Dick, J. Field, S. Ralston, and A. MacCall. 2007. Status of the widow rockfish resource in 2007, an update. Pacific Fishery Management Council, Portland OR.",
-    "MacCall, A. 2007. Depletion-adjusted average catch. pp. 27-31 In: Rosenberg, A., Agnew, D., Babcock, E., Mogensen, C., O’Boyle, R., Powers, J., Stefansson, G., Swasey, J. 2007. Setting annual catch limits for U.S. fisheries: An expert working group report. Lenfest Ocean Program, 1025 F Street NW, Suite 900, Washington, D.C.",
     "Walters, C., and S. Martell. 2004. Fisheries ecology and management. Princeton University Press. 399 p."
   ],
   "software_badges":[

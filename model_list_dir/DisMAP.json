@@ -6,6 +6,7 @@
   "source_code_link": "https://github.com/nmfs-fish-tools/DisMAP",
   "tool_abbreviation": "DisMAP",
   "tool_name": "The Distribution Mapping and Analysis Portal",
+  "citation": "See citation information at https://apps-st.fisheries.noaa.gov/dismap/DisMAP.html",
   "online_app_link": "https://apps-st.fisheries.noaa.gov/dismap/DisMAP.html",
   "active_development": true,
   "noaa_internal": true,

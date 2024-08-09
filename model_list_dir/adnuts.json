@@ -14,6 +14,7 @@
   "active_development": true,
   "noaa_internal": true,
   "uses_github_releases": true,
+  "citation": "https://doi.org/10.1371/journal.pone.0197954",
   "software_badges":[
     {
       "link": "https://www.repostatus.org/badges/latest/active.svg", 

@@ -6,6 +6,7 @@
   "documentation_link": "https://ericward-noaa.github.io/bycatch/articles/a01_overview.html",
   "source_code_link": "https://github.com/ericward-noaa/bycatch",
   "tool_abbreviation": "bycatch",
+  "citation":"https://doi.org/10.3389/fmars.2021.775187",
   "tool_name": "bycatch",
   "website_link":"https://ericward-noaa.github.io/bycatch/",
   "active_development": true,
