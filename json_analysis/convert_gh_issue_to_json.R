@@ -125,7 +125,6 @@ issue_body$source_code_link <- unbox(issue_body$source_code_link)
 issue_body$pdf_download_link <- unbox(issue_body$pdf_download_link)
 issue_body$uses_github_releases <- unbox(issue_body$uses_github_releases)
 issue_body$static_version_number <- unbox(issue_body$static_version_number)
-issue_body$release_badge <- unbox(issue_body$release_badge)
 
 # to write to a file:
 #jsonlite::write_json(issue_body, "test.JSON", pretty = TRUE)

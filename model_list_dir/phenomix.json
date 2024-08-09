@@ -17,7 +17,6 @@
     }
   ],
   "uses_github_releases": true,
-  "release_badge": "ericward-noaa/phenomix",
   "toolbox_drawers": ["Protected Species", "Fish and Fisheries"],
 
   "keywords": ["Salmon", "Time Series", "Fish and Fisheries"]

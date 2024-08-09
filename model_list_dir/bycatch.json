@@ -4,7 +4,7 @@
   "maintainer_name": "Eric Ward",
   "maintainer_email":"eric.ward@noaa.gov",
   "documentation_link": "https://ericward-noaa.github.io/bycatch/articles/a01_overview.html",
-  "source_code_link": "https://github.com/ericward-noaa/bycatch/",
+  "source_code_link": "https://github.com/ericward-noaa/bycatch",
   "tool_abbreviation": "bycatch",
   "tool_name": "bycatch",
   "website_link":"https://ericward-noaa.github.io/bycatch/",
@@ -16,7 +16,6 @@
       "alt_text": "A software badge showing that the repository is active."
     }
   ],
-  "release_badge": "ericward-noaa/bycatch",
   "uses_github_releases": true, 
   "toolbox_drawers": ["Protected Species", "Fish and Fisheries"],
   "keywords": ["R Package", "Bayesian Modeling"]

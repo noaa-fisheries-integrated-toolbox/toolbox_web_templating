@@ -15,7 +15,7 @@
     }
   ],
   "static_version_number": "1.6.1",
-  "uses_github_releases": true,
+  "uses_github_releases": false,
   "toolbox_drawers": ["Fish and Fisheries"], 
   "keywords": ["Guided User Interface", "User Utilities"]
 }

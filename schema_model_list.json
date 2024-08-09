@@ -151,10 +151,6 @@
         "static_version_number": {
             "description": "Static version number, only used if the tool is unlikely to be updated often.",
             "type": "string"
-        },
-        "release_badge": {
-            "description": "The github org/repo if using the release badge. Plan to deprecate this and info from source_code_link and use_github_releases instead",
-            "type": "string"
         }
     },
     "required": [

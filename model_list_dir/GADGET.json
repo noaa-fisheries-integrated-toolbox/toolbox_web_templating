@@ -8,7 +8,6 @@
   "source_code_link": "https://github.com/gadget-framework/gadget2",
   "tool_abbreviation": "GADGET",
   "tool_name": "Globally applicable Area-Disaggregated General Ecosystem Toolbox",
-  "release_badge":"Hafro/gadget2",
   "references": ["Begley, J.S. and Howell, D. 2004. An overview of Gadget, the Globally applicable Area-Disaggregated General Ecosystem Toolbox. https://imr.brage.unit.no/imr-xmlui/handle/11250/100625"
   ],
   "active_development": true,
@@ -23,7 +22,7 @@
       "alt_text": "A software badge showing that the software works on Linux and Windows Platforms"
     }
   ],
-  "uses_github_releases": false,
+  "uses_github_releases": true,
   "toolbox_drawers": ["Ecosystem", "Fish and Fisheries"], 
   "keywords": ["Ecosystem", "Fish and Fisheries", "Multispecies Model"]
 }

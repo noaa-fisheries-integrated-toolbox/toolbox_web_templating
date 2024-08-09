@@ -54,7 +54,7 @@ JSON data can be validated using [schema](https://json-schema.org/understanding-
   "tool_abbreviation": "MODABBREV", //SHORT ABBREVIATION OF TOOL USED AT TOP OF TILE ON LANDING PAGE. Must Match the name of the JSON file. Required.
   "tool_name": "Complete Name of Model Tool", //required
   "pdf_download_link": "https://somelink.org/my.pdf", //Not used, and plan to deprecate
-  "release_badge":"NMFS-ecosystem-tools/MSCAA"//IF THE REPO UESE RELEASES ON GITHUB, JUST PUT THE ORG/REPO HERE TO LINK.
+  "uses_github_releases": true, //If the repo uses releases on GitHub.
   "references": ["ref1", "ref2"], //** Formatted publication references.Please include DOI if available.
   "software_badges":[
       { "link":"https://www.repostatus.org/badges/latest/active.svg",

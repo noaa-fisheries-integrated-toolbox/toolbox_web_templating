@@ -8,7 +8,6 @@
   "tool_abbreviation": "nmfspalette",
   "website_link": "https://nmfs-fish-tools.github.io/nmfspalette/",
   "tool_name": "nmfspalette",
-  "release_badge":"nmfs-fish-tools/nmfspalette",
   "active_development": true,
   "noaa_internal": true,
   "software_badges":[

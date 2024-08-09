@@ -15,9 +15,9 @@
     }
   ],
   "user_organizations": ["https://ror.org/05r7z1k40"],
-  "website_link": "https://nwfsc-math-bio.github.io/rCAX",
-  "documentation_link": "https://nwfsc-math-bio.github.io/rCAX",
-  "source_code_link": "https://github.com/nwfsc-math-bio/rCAX",
+  "website_link": "https://nwfsc-cb.github.io/rCAX",
+  "documentation_link": "https://nwfsc-cb.github.io/rCAX",
+  "source_code_link": "https://github.com/nwfsc-cb/rCAX/",
   "software_badges": [
     {
       "link": "https://img.shields.io/github/v/release/nwfsc-math-bio/rCAX?color=brightgreen&label=GitHub", 
@@ -30,6 +30,5 @@
   ],
   "toolbox_drawers": ["Protected Species", "Fish and Fisheries"],
   "keywords": ["R Package", "Salmon", "API Client", "West Coast"],
-  "uses_github_releases": true, 
-  "release_badge": "nwfsc-math-bio/rCAX"
+  "uses_github_releases": true
 }
