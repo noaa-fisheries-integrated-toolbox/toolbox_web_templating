@@ -6,7 +6,7 @@
   "maintainer_email": "cole.monnahan@noaa.gov",
   "background_text": "The aim of ‘adnuts’ (pronounced A-D NUTS like A-D MB) is to provide advanced MCMC sampling for ‘ADMB’ and ‘TMB’ models. It mimics ‘Stan’ in functionality and feel, specifically providing no-U-turn (NUTS) sampling with adaptive mass matrix and parallel execution.",
   "documentation_link": "https://cloud.r-project.org/web/packages/adnuts/adnuts.pdf",
-  "source_code_link": "https://github.com/Cole-Monnahan-NOAA/adnuts/",
+  "source_code_link": "https://github.com/Cole-Monnahan-NOAA/adnuts",
   "tool_abbreviation": "adnuts",
   "website_link": "https://cole-monnahan-noaa.github.io/adnuts/index.html",
   "tool_name": "AD no U-turn sampling",
