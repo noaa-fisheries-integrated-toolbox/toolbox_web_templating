@@ -31,45 +31,10 @@ This repository includes templates and JSON data for the FIT. [python's jinja 2]
 6. If the author approves, open an PR to main, which KD will look at and merge in if passing checks.
 
 ## Explanation of JSON metadata
-JSON data can be validated using [schema](https://json-schema.org/understanding-json-schema/about.html)
-```json
-{
-  "active_development": true,     //in active development? true or false
-  "noaa_internal": false, //Maintained by NOAA? true or false.
-  "associated_tools": [
-    {"name":"NAME OF TOOL","link":"LINK TO TOOL"},
-    {"name":"NAME OF TOOL","link":"LINK TO TOOL"}
-  ],
-  "authors": "First1 Last1 and First2 Last2",// **Name of the tool author or authors
-  "contributors": "First1 Last1 and First2 Last2",// **Name of the tool contributors.
-  "background_text": "Information on this tool goes here and will be displayed on the tool page", //** Please Write up to a paragraph.
-  "maintainer_email": "fisheries.toolbox@noaa.gov", //**Email for main contact. Please put a noaa.gov email address that someone will check.
-  //Note: At least one of the 5 following links need to be filled out for your tool to be found. Please fill in as many as apply.
-  "online_app_link": "https://some.link.noaa.gov", //IF THERE IS A SHINY APP OR OTHER ONLINE APP, PUT LINK HERE OTHERWISE leave out this element.
-  "executable_link": "https://some.link.noaa.gov", //**LINK TO DOWNLOAD APPLICATION IF EXE exists. Leave out this element if exe does not exist
-  "website_link": "https://some.link.noaa.gov", //**link to the website, if it exists; otherwise, leave out.
-  "documentation_link": "https://some.link.noaa.gov", //**LINK TO EXTERNAL DOCUMENTATION. Leave element out if does not exist or link is already entered elsewhere (e.g., on the website)
-  "source_code_link": "https://github.com/org/repo", //LINK TO GITHUB CODE REPO, if exists.
-  "citation": "https://doi.org/10.32614/RJ-2012-002", //How to cite the package. Ideally an article with DOI.
-  "tool_abbreviation": "MODABBREV", //SHORT ABBREVIATION OF TOOL USED AT TOP OF TILE ON LANDING PAGE. Must Match the name of the JSON file. Required.
-  "tool_name": "Complete Name of Model Tool", //required
-  "pdf_download_link": "https://somelink.org/my.pdf", //Not used, and plan to deprecate
-  "uses_github_releases": true, //If the repo uses releases on GitHub.
-  "references": ["ref1", "ref2"], //** Formatted publication references.Please include DOI if available.
-  "software_badges":[
-      { "link":"https://www.repostatus.org/badges/latest/active.svg",
-      "alt_text": "A software badge showing that the repository is active"
-      },
-      {
-        "link": "https://img.shields.io/badge/platform-linux%20%7Cwin-lightgrey", 
-        "alt_text":"A software badge showing that the software can be used on Linux or Windows Platforms"
-      }
-  ],
-  "static_version_number": "1.0.0",//** add version number only if it is not using github releases and the version is unlikely to change. Omit this element if not used.
-  "toolbox_drawers": ["Fish and Fisheries", "General Modeling Tools"], //** options are: "Fish and Fisheries", "Ecosystem"", "Human Dimensions", "Protected Species", "General Modeling Tools", and "Utility Tools"*. Put all that apply to the tool.
-  "keywords": ["Economics", "R", "Web App"], //**keywords to sort through tools., current searchable keywords are listed: https://github.com/noaa-fisheries-integrated-toolbox/toolbox_web_templating/blob/main/json_analysis/keywords.txt
-  "user_organizations": ["https://ror.org/0396y0w87", "https://ror.org/05r7z1k40", "https://ror.org/022d75229"] //operational users of the tool
-```
+
+JSON data can be validated using [schema](https://json-schema.org/understanding-json-schema/about.html).
+
+See descriptions in the [schema_model_list.json file](https://github.com/noaa-fisheries-integrated-toolbox/toolbox_web_templating/blob/main/schema_model_list.json).
 
 ## Creating Webpages Locally From Templates
 

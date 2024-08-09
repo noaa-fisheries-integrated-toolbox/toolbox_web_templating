@@ -12,7 +12,7 @@
             "type": "string"
         },
         "tool_abbreviation": {
-            "description": "Short name for the tool",
+            "description": "Short name for the tool, should match the json file name.",
             "type": "string"
         },
         "authors": {
@@ -40,15 +40,15 @@
             "type": "string"
         },
         "background_text": {
-            "description": "A paragraph of background text that describes the tool.",
+            "description": "A paragraph of background text that describes the tool. Displays on the tool page.",
             "type": "string"
         },
         "citation": {
-            "description": "Primary way to cite the tool",
+            "description": "Primary way to cite the tool. Ideally a doi URL.",
             "type": "string"
         },
         "references": {
-            "description": "References related to the tool, not the citation",
+            "description": "References related to the tool, not the citation. Preferably a doi URL.",
             "type": "array", 
             "items": {"type": "string"}
         },
@@ -71,7 +71,7 @@
             }
         },
         "user_organizations": {
-            "description": "RORs of any organizations that use the tool operationally",
+            "description": "RORs of any organizations that use the tool operationally. NOAA RORs: https://docs.google.com/spreadsheets/d/1SD3s4h071Itn1XW6gFzlQjTe9Tkk9i9fP0i_8IIMKWo/edit?gid=0#gid=0",
             "type": "array", 
             "items": {
             "type": "string"
@@ -98,7 +98,7 @@
             "type": "string"
         },
         "pdf_download_link": {
-            "description": "Link to a pdf to download from the FIT tool page. Should be different than other links provided if used.",
+            "description": "Link to a pdf to download from the FIT tool page. Should be different than other links provided if used. Not used and plan to deprecate.",
             "type": "string"
         },
         "software_badges": {
@@ -126,7 +126,7 @@
            "type": "string"
         },
         "toolbox_drawers": {
-            "description": "The toolbox drawers that the tool belongs in. Choose all that apply.",
+            "description": "The toolbox drawers that the tool belongs in. Choose all that apply. options are: Fish and Fisheries, Ecosystem, Human Dimensions, Protected Species, General Modeling Tools, and Utility Tools",
             "type": "array", 
             "items": {
             "type": "string"
@@ -135,7 +135,7 @@
             "uniqueItems": true
         },
         "keywords": {
-            "description": "Keywords for the tool. Choose up to 5.",
+            "description": "Keywords for the tool. Choose up to 5. current searchable keywords are listed: https://github.com/noaa-fisheries-integrated-toolbox/toolbox_web_templating/blob/main/json_analysis/keywords.txt",
             "type": "array", 
             "items": {
               "type": "string"
