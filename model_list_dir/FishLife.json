@@ -12,7 +12,6 @@
   ],
   "online_app_link": "https://james-thorson.shinyapps.io/FishLife/",
   "source_code_link": "https://github.com/James-Thorson-NOAA/FishLife",
-  "static_version_number": "2.0.0",
   "active_development": true,
   "noaa_internal": true,
   "associated_tools": [
@@ -31,7 +30,6 @@
       "alt_text": "A software badge showing the latest commit to the repository."
     }
   ],
-  "release_badge": "James-Thorson-NOAA/FishLife",
   "uses_github_releases": true, 
   "toolbox_drawers": ["General Modeling Tools", "Fish and Fisheries"], 
   "keywords": ["R Package", "Fish and Fisheries", "Fish Biology", "Web App", "Shiny"]

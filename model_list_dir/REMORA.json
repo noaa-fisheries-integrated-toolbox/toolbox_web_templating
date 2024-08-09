@@ -7,7 +7,6 @@
   "source_code_link": "https://github.com/nmfs-fish-tools/REMORA",
   "tool_abbreviation": "REMORA",
   "tool_name": "REsource Management Option Review and Analysis Tool",
-  "release_badge":"nmfs-fish-tools/REMORA",
   "uses_github_releases": true,
   "active_development": true,
   "noaa_internal": false,

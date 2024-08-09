@@ -11,7 +11,6 @@
   "tool_abbreviation": "ghBackup",
   "tool_name": "ghBackup",
   "website_link": "https://nmfs-fish-tools.github.io/ghBackup/",
-  "release_badge": "nmfs-fish-tools/ghactions4r",
   "active_development": true,
   "noaa_internal": true,
   "software_badges": [

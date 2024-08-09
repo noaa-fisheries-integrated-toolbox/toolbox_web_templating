@@ -4,7 +4,7 @@
   "maintainer_email": "eric.ward@noaa.gov",
   "background_text": "bayesdfa implements Bayesian Dynamic Factor Analysis (DFA) with Stan.",
   "documentation_link": "https://cran.r-project.org/web/packages/bayesdfa/bayesdfa.pdf",
-  "source_code_link": "https://github.com/fate-ewi/bayesdfa/issues",
+  "source_code_link": "https://github.com/fate-ewi/bayesdfa",
   "tool_abbreviation": "bayesdfa",
   "tool_name": "Bayesian Dynamic Factor Analysis with Stan",
   "website_link":"https://fate-ewi.github.io/bayesdfa/",
@@ -16,8 +16,7 @@
   ],
   "active_development": true,
   "noaa_internal": true,
-  "uses_github_releases": true, 
-  "release_badge":"fate-ewi/bayesdfa",
+  "uses_github_releases": true,
   "toolbox_drawers": ["General Modeling Tools"],
   "keywords": ["Bayesian Modeling", "Time Series", "R Package"]
 }

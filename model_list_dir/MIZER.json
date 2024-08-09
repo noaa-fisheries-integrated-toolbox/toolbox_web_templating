@@ -4,7 +4,7 @@
   "maintainer_email":"gustav.delius@york.ac.uk",
   "background_text": "Mizer is an R package to run dynamic multi-species size-spectrum models of fish communities. The package has been developed to model marine ecosystems that are subject to fishing. However, it may also be appropriate for other ecosystems. The package contains routines and functions to allow users to set up an ecosystem model, and then project it through time under different fishing strategies. Methods are included to explore the results, including plots and calculation of community indicators such as the slope of the size spectrum. Size-based models can be complicated so mizer contains many default options that can be easily changed by the user.",
   "executable_link": "https://cloud.r-project.org/package=mizer",
-  "source_code_link": "https://github.com/sizespectrum/mizer/",
+  "source_code_link": "https://github.com/sizespectrum/mizer",
   "tool_abbreviation": "MIZER",
   "tool_name": "Multi-species size spectrum modelling in R",
   "website_link": "https://sizespectrum.org/mizer/index.html",
@@ -20,7 +20,6 @@
   "active_development": true,
   "noaa_internal": false,
   "uses_github_releases": true,
-  "release_badge": "sizespectrum/mizer", 
   "toolbox_drawers": ["Ecosystem"], 
   "keywords": ["R Package", "Multispecies Model", "Fish and Fisheries", "Size Spectra Model"]
 }
