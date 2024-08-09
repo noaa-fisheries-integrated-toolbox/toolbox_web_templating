@@ -8,7 +8,7 @@
   "tool_abbreviation": "bayesdfa",
   "tool_name": "Bayesian Dynamic Factor Analysis with Stan",
   "website_link":"https://fate-ewi.github.io/bayesdfa/",
-  "citation": "https://www.doi.org/10.32614/RJ-2019-007",
+  "citation": "https://doi.org/10.32614/RJ-2019-007",
   "software_badges":[
     {
       "link": "https://www.repostatus.org/badges/latest/active.svg", 
