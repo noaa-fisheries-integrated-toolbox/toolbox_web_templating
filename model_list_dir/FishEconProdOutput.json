@@ -27,8 +27,7 @@
       "alt_text": "A software badge showing that the lifecycle stage of the software is maturing."
     }
   ],
-  "uses_github_releases": true, 
-  "release_badge": "EmilyMarkowitz-NOAA/FishEconProdOutput",
+  "uses_github_releases": true,
   "toolbox_drawers": ["Human Dimensions"], 
   "keywords": ["Economics", "R Package"]
 }

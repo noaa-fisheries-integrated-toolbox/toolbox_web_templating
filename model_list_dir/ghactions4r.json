@@ -8,7 +8,6 @@
   "tool_abbreviation": "ghactions4r",
   "tool_name": "ghactions4r",
   "website_link": "https://nmfs-fish-tools.github.io/ghactions4r/",
-  "release_badge": "nmfs-fish-tools/ghactions4r",
   "active_development": true,
   "noaa_internal": true,
   "software_badges":[

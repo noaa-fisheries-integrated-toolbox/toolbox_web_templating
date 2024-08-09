@@ -8,7 +8,6 @@
   "source_code_link": "https://github.com/nmfs-fish-tools/MSCAA",
   "tool_abbreviation": "MSCAA",
   "tool_name": "Multi-Species Statistical Catch-At-Age",
-  "release_badge":"nmfs-fish-tools/MSCAA",
   "active_development": true,
   "noaa_internal": true,
   "software_badges":[

@@ -21,7 +21,6 @@
   "active_development": true,
   "noaa_internal": true,
   "uses_github_releases": true,
-  "release_badge":"atsa-es/atsar",
   "toolbox_drawers": ["General Modeling Tools"],
   "keywords": ["Bayesian Modeling", "Time Series", "Teaching Tool", "R Package"]
 }

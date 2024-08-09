@@ -18,9 +18,8 @@
     "user_organizations": ["https://ror.org/01h7fye62"],
     "website_link": "https://cran.r-project.org/web/packages/phylosem/index.html",
     "documentation_link": "https://github.com/James-Thorson-NOAA/phylosem/tree/main/vignettes",
-    "source_code_link": "https://github.com/James-Thorson-NOAA/phylosem/",
+    "source_code_link": "https://github.com/James-Thorson-NOAA/phylosem",
     "toolbox_drawers": ["Fish and Fisheries", "General Modeling Tools"],
     "keywords": ["Natural Mortality Model", "R Package", "TMB"],
-    "uses_github_releases": true,
-    "release_badge": "James-Thorson-NOAA/phylosem"
+    "uses_github_releases": true
   }

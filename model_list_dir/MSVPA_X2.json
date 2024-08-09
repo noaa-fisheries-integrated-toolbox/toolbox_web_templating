@@ -12,7 +12,6 @@
   "references": [
     "Lance P. Garrison, Jason S. Link, D. Patrick Kilduff, Matthew D. Cieri, Brandon Muffley, Douglas S. Vaughan, Alexei Sharov, Behzad Mahmoudi, Robert J. Latour, An expansion of the MSVPA approach for quantifying predator–prey interactions in exploited fish communities, ICES Journal of Marine Science, Volume 67, Issue 5, July 2010, Pages 856–870, https://doi.org/10.1093/icesjms/fsq005"
   ],
-  "release_badge":"nmfs-fish-tools/MSVPA_X2",
   "software_badges":[
     {
       "link": "https://www.repostatus.org/badges/latest/active.svg", 
