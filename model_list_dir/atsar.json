@@ -5,6 +5,7 @@
   "background_text": "The atsar R package implements Bayesian time series models using Stan, primarily for illustrative purposes and teaching.",
   "documentation_link": "https://atsa-es.github.io/atsar/#documentation",
   "source_code_link": "https://github.com/atsa-es/atsar",
+  "citation": "https://www.doi.org/10.5281/zenodo.4561128",
   "tool_abbreviation": "atsar",
   "tool_name": "Applied time series analysis in R with Stan",
   "website_link":"https://atsa-es.github.io/atsar/",

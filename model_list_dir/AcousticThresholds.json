@@ -5,6 +5,7 @@
   "maintainer_email":"amy.scholik@noaa.gov",
   "tool_abbreviation": "AcousticThresholds",
   "tool_name": "Technical Guidance for Assessing the Effects of Anthropogenic Sound on Marine Mammal Hearing ",
+  "citation": "National Marine Fisheries Service. 2020. Manual for Optional Web Calculator Tool (Version 1.0) for: 2018 Technical Guidance for Assessing the Effects of Anthropogenic Sound on Marine Mammal Hearing (Version 2.0): Underwater Thresholds for Onset of Permanent and Temporary Threshold Shifts. Silver Spring, Maryland: Office of Protected Resources, National Marine Fisheries Service.",
   "online_app_link": "https://jmlondon.shinyapps.io/AcousticThresholds/",
   "active_development": true,
   "noaa_internal": true,
