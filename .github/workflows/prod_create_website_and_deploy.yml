@@ -5,9 +5,9 @@ name: Create and Deploy Prod HTMl site
 # Includes building automatically when either of the relavent JSON files update on the main branch or on the push of a button
 on: 
   workflow_dispatch:
-  push:
-    branches:
-      - main
+#  push:
+#    branches:
+#      - main
 
 jobs:
   build:
