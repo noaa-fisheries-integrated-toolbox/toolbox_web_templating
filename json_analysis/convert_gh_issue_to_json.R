@@ -6,8 +6,8 @@ library(gh)
 library(jsonlite)
 
 issue_info <- gh("/repos/{owner}/{repo}/issues/{issue_number}",
-owner = "noaa-fisheries-integrated-toolbox",
-repo = "onboard-and-update",
+owner = "nmfs-ost",
+repo = "FIT-onboard-and-update",
 issue_number = "1"
 )
 issue_body <- issue_info$body
@@ -138,7 +138,7 @@ markdown_txt <- paste(
 
 # post json as a comment on the issue
 gh("POST /repos/{owner}/{repo}/issues/{issue_number}/comments",
-   owner = "noaa-fisheries-integrated-toolbox",
-   repo = "onboard-and-update",
+   owner = "nmfs-ost",
+   repo = "FIT-onboard-and-update",
    issue_number = 1,
    body = markdown_txt)

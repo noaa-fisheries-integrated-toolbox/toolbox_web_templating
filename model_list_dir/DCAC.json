@@ -3,7 +3,7 @@
   "maintainer_name": "orphaned",
   "maintainer_email": "fisheries.toolbox@noaa.gov",
   "background_text": "The Depletion-Corrected Average Catch is a method for estimating sustainable yields for data-poor fisheries.  Based on the idea that the average catch has been sustainable if abundance has not changed, DCAC makes a correction to that average if abundance has increased or decreased (which may be the subject of an educated guess based on subjective impressions).  The magnitude of the correction depends on the approximate natural mortality rate, which should be about 0.2 or smaller to apply this model.  Uncertainty is recognized in all of the parameters in the model, and is reflected in the output probability distribution.",
-  "executable_link": "https://github.com/noaa-fisheries-integrated-toolbox/FIT-binaries/raw/main/DCACV211.zip",
+  "executable_link": "https://github.com/nmfs-ost/fit-binaries/raw/main/DCACV211.zip",
   "tool_abbreviation": "DCAC",
   "tool_name": "Depletion-Corrected Average Catch",
   "citation": "MacCall, A. 2007. Depletion-adjusted average catch. pp. 27-31 In: Rosenberg, A., Agnew, D., Babcock, E., Mogensen, C., O’Boyle, R., Powers, J., Stefansson, G., Swasey, J. 2007. Setting annual catch limits for U.S. fisheries: An expert working group report. Lenfest Ocean Program, 1025 F Street NW, Suite 900, Washington, D.C.",
