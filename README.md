@@ -6,7 +6,7 @@
 
 1. Try out new changes in a feature branch off of dev.
 2. Merge changes into dev. Once merged in, use a github action to build the html pages and deploy them to 3.
-3. The fit-dev repo is hosted on github pages. Navigate to noaa-fisheries-integrated-toolbox.github.io/fit-dev to preview the FIT website.
+3. The fit-dev repo is hosted on github pages. Navigate to nmfs-ost.github.io/noaa-fit-dev to preview the FIT website.
 4. Once confirming the dev pages look good, merge changes into 4 (for small changes, can consider squashing or rebasing instead). Once merged in, use a github action (done automatically) to build the html pages and deploy them to 5. Delete the dev branch and recreate it from (so that they are back in sync with the exact same commits).
 5. This is the production version of the NOAA fisheries site, advertised to the public.
 
@@ -23,18 +23,18 @@
 This repository includes templates and JSON data for the FIT. [python's jinja 2](https://zetcode.com/python/jinja/) is used to generate webpages from the html templates and JSON files (For R users, this approach is similar to using [glue](https://glue.tidyverse.org/)).
 
 ### How to update or add tool landing pages 
-1. Changes should be made in a branch off of dev. In [model_list_dir subfolder](https://github.com/noaa-fisheries-integrated-toolbox/toolbox_web_templating/tree/main/model_list_dir) add or update `.json` files. Examples of json are available in the readme. If onboarding a new tool, the issue from [the onboard-and-update repo](https://github.com/nmfs-ost/FIT-onboard-and-update) should have a json based on user input that can be copy/pasted in, then checked.
+1. Changes should be made in a branch off of dev. In [model_list_dir subfolder](https://github.com/nmfs-ost/FIT_web_templating/tree/main/model_list_dir) add or update `.json` files. Examples of json are available in the readme. If onboarding a new tool, the issue from [the onboard-and-update repo](https://github.com/nmfs-ost/FIT-onboard-and-update) should have a json based on user input that can be copy/pasted in, then checked.
 2. If it is a new tool, add the name of the json file (minus the extension, case sensitive) to the list_of_models item in the models_all.json file.
 3. Changes can be checked locally using instructions in the "Creating Webpages Locally From Templates"
-4. After committing and pushing to dev, changes can be checked on the [fit-dev](https://noaa-fisheries-integrated-toolbox.github.io/fit-dev/) site. If GitHub actions are failing, look at them and make changes.
-5. Once actions passing, share changed dev tool landing page with the person submitting the(e.g., if the tool is called, my-tool, the address would be https://noaa-fisheries-integrated-toolbox.github.io/fit-dev/my-tool). Allow them to request changes. 
+4. After committing and pushing to dev, changes can be checked on the [fit-dev](https://nmfs-ost.github.io/noaa-fit-dev/) site. If GitHub actions are failing, look at them and make changes.
+5. Once actions passing, share changed dev tool landing page with the person submitting the(e.g., if the tool is called, my-tool, the address would be https://nmfs-ost.github.io/noaa-fit-dev/my-tool). Allow them to request changes. 
 6. If the author approves, open an PR to main, which KD will look at and merge in if passing checks.
 
 ## Explanation of JSON metadata
 
 JSON data can be validated using [schema](https://json-schema.org/understanding-json-schema/about.html).
 
-See descriptions in the [schema_model_list.json file](https://github.com/noaa-fisheries-integrated-toolbox/toolbox_web_templating/blob/main/schema_model_list.json).
+See descriptions in the [schema_model_list.json file](https://github.com/nmfs-ost/FIT_web_templating/blob/main/schema_model_list.json).
 
 ## Creating Webpages Locally From Templates
 
@@ -63,8 +63,8 @@ embedded preview doesn't work, so a separate browser window will need to be open
 GitHub actions code (YAML files) live in the `.github/workflows` directory.
 
 - `create_html.yml`: creates the html pages for viewing and saves them as artifacts. The files can be downloaded and examined. Runs on every push to any branch and manually.
-- `dev_create_website_and_deploy.yml`: updates [FIT dev site](https://github.com/noaa-fisheries-integrated-toolbox/fit-dev) by deploying rendered html from the toolbox_web_templating dev branch to https://github.com/noaa-fisheries-integrated-toolbox/fit-dev/tree/gh-pages (gh-pages branch). Runs on every push to the dev branch and manually.
-- `prod_create_website_and_deploy.yml`: updates [FIT prod site](https://nmfs-ost.github.io/noaa-fit/) by deploying rendered html from the toolbox_web_templating main branch to https://github.com/noaa-fisheries-integrated-toolbox/noaa-fisheries-integrated-toolbox.github.io/tree/gh-pages (gh-pages branch). runs on every push to main and manually.
+- `dev_create_website_and_deploy.yml`: updates [FIT dev site](https://github.com/nmfs-ost/noaa-fit-dev) by deploying rendered html from the toolbox_web_templating dev branch to https://github.com/nmfs-ost/noaa-fit-dev/tree/gh-pages (gh-pages branch). Runs on every push to the dev branch and manually.
+- `prod_create_website_and_deploy.yml`: updates [FIT prod site](https://nmfs-ost.github.io/noaa-fit/) by deploying rendered html from the toolbox_web_templating main branch to https://github.com/nmfs-ost/noaa-fit/tree/gh-pages (gh-pages branch). runs on every push to main and manually.
 - `validate_json_config.yml`: check that `prod_config.json`,`dev_config.json` matches the JSON schema defined in `schema_config.json` and that `models_all.json` matches the JSON schema definied in `schema_models_all.json`. If the GitHub action fails, it will provide info on how the json files need to be modified to match the schema. Runs on every push to any branch, and manually.
 - `validate_json_model_list.yml`: checks that the JSON files in `model_list_dir` matches the JSON schema defined in `schema_model_list.json`. If the GitHub action fails, it will provide info on how the json files need to be modified to match the schema. Runs on every push to any branch where there are changes to the files in `model_list_dir` and manually.
 
