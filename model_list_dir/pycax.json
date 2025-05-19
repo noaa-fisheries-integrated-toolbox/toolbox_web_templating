@@ -11,7 +11,7 @@
     "associated_tools": [
       {
         "name": "rCAX",
-        "link": "https://noaa-fisheries-integrated-toolbox.github.io/rCAX"
+        "link": "https://nmfs-ost.github.io/noaa-fit/rCAX"
       }
     ],
     "user_organizations": ["https://ror.org/05r7z1k40"],

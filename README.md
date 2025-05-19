@@ -12,8 +12,8 @@
 
 ## Webpage addresses on production
 
- - FIT landing page (https://noaa-fisheries-integrated-toolbox.github.io/ ; no change)
- - individual tool landing pages, toolbox hosted (https://noaa-fisheries-integrated-toolbox.github.io/ASAP, for example; CHANGE from nmfs-fish-tools.github.io/ASAP)
+ - FIT landing page (https://nmfs-ost.github.io/noaa-fit/ ; no change)
+ - individual tool landing pages, toolbox hosted (https://nmfs-ost.github.io/noaa-fit/ASAP, for example; CHANGE from nmfs-fish-tools.github.io/ASAP)
 
 ## redirect pages
  - will need the nmfs-fish-tools.github.io (and other org .io repos) to redirect; same with nmfs-fish-tools.github.io/toolname. These redirect automatically or have a redirect link.
@@ -64,7 +64,7 @@ GitHub actions code (YAML files) live in the `.github/workflows` directory.
 
 - `create_html.yml`: creates the html pages for viewing and saves them as artifacts. The files can be downloaded and examined. Runs on every push to any branch and manually.
 - `dev_create_website_and_deploy.yml`: updates [FIT dev site](https://github.com/noaa-fisheries-integrated-toolbox/fit-dev) by deploying rendered html from the toolbox_web_templating dev branch to https://github.com/noaa-fisheries-integrated-toolbox/fit-dev/tree/gh-pages (gh-pages branch). Runs on every push to the dev branch and manually.
-- `prod_create_website_and_deploy.yml`: updates [FIT prod site](https://noaa-fisheries-integrated-toolbox.github.io/) by deploying rendered html from the toolbox_web_templating main branch to https://github.com/noaa-fisheries-integrated-toolbox/noaa-fisheries-integrated-toolbox.github.io/tree/gh-pages (gh-pages branch). runs on every push to main and manually.
+- `prod_create_website_and_deploy.yml`: updates [FIT prod site](https://nmfs-ost.github.io/noaa-fit/) by deploying rendered html from the toolbox_web_templating main branch to https://github.com/noaa-fisheries-integrated-toolbox/noaa-fisheries-integrated-toolbox.github.io/tree/gh-pages (gh-pages branch). runs on every push to main and manually.
 - `validate_json_config.yml`: check that `prod_config.json`,`dev_config.json` matches the JSON schema defined in `schema_config.json` and that `models_all.json` matches the JSON schema definied in `schema_models_all.json`. If the GitHub action fails, it will provide info on how the json files need to be modified to match the schema. Runs on every push to any branch, and manually.
 - `validate_json_model_list.yml`: checks that the JSON files in `model_list_dir` matches the JSON schema defined in `schema_model_list.json`. If the GitHub action fails, it will provide info on how the json files need to be modified to match the schema. Runs on every push to any branch where there are changes to the files in `model_list_dir` and manually.
 

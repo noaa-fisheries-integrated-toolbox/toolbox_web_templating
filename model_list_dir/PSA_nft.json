@@ -10,7 +10,7 @@
   "associated_tools": [
     {
       "name": "PSA, Shiny Version",
-      "link": "https://noaa-fisheries-integrated-toolbox.github.io/PSA"
+      "link": "https://nmfs-ost.github.io/noaa-fit/PSA"
     }
   ],
   "software_badges":[

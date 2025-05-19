@@ -2,7 +2,7 @@
   "associated_tools": [
     {
       "name": "SS3",
-      "link": "https://noaa-fisheries-integrated-toolbox.github.io/SS3"
+      "link": "https://nmfs-ost.github.io/noaa-fit/SS3"
     }, 
     {
       "name": "ss3sim",
@@ -10,7 +10,7 @@
     }, 
     {
       "name": "r4ss",
-      "link": "https://noaa-fisheries-integrated-toolbox.github.io/r4ss"
+      "link": "https://nmfs-ost.github.io/noaa-fit/r4ss"
     }
   ],
   "authors": "Doering, K., and N. Vaughan",

@@ -11,7 +11,7 @@
   "associated_tools": [
     {
       "name": "pycax",
-      "link": "https://noaa-fisheries-integrated-toolbox.github.io/pycax"
+      "link": "https://nmfs-ost.github.io/noaa-fit/pycax"
     }
   ],
   "user_organizations": ["https://ror.org/05r7z1k40"],
