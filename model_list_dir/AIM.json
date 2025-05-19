@@ -3,7 +3,7 @@
   "maintainer_name": "orphaned",
   "maintainer_email": "fisheries.toolbox@noaa.gov",
   "background_text": "An Index Method (AIM) allows the user to fit a relationship between time series of relative stock abundance indices and catch data. Underlying the methodology is a linear model of population growth, which characterizes the population response to varying levels of fishing mortality. If the underlying model is valid, AIM can be used to estimate the level of relative fishing mortality at which the population is likely to be stable. The index methodology can used to construct reference points based on relative abundance indices and catches and to perform deterministic or stochastic projections to achieve a target stock size.  AIM was developed by Dr. Paul Rago at the NMFS Northeast Fisheries Science Center.",
-  "executable_link": "https://github.com/noaa-fisheries-integrated-toolbox/FIT-binaries/raw/main/AIMV25.zip",
+  "executable_link": "https://github.com/nmfs-ost/fit-binaries/raw/main/AIMV25.zip",
   "tool_abbreviation": "AIM",
   "tool_name": "An Index Method",
   "software_badges":[
