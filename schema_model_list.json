@@ -135,7 +135,7 @@
             "uniqueItems": true
         },
         "keywords": {
-            "description": "Keywords for the tool. Choose up to 5. current searchable keywords are listed: https://github.com/noaa-fisheries-integrated-toolbox/toolbox_web_templating/blob/main/json_analysis/keywords.txt",
+            "description": "Keywords for the tool. Choose up to 5. current searchable keywords are listed: https://github.com/nmfs-ost/FIT_web_templating/blob/main/json_analysis/keywords.txt",
             "type": "array", 
             "items": {
               "type": "string"
