@@ -5,9 +5,12 @@ name: Create and Deploy Dev HTMl site
 # Includes building automatically when either of the relavent JSON files update on the main branch or on the push of a button
 on: 
   workflow_dispatch:
-#  push:
-#    branches: 
-#      - dev
+  push:
+    branches: 
+      - dev
+
+permissions:
+  contents: write
 
 jobs:
   build:
@@ -32,5 +35,5 @@ jobs:
       uses: JamesIves/github-pages-deploy-action@v4
       with:
         folder: deploy # The folder the action should deploy.
-        repository-name: noaa-fisheries-integrated-toolbox/fit-dev
-        token: ${{ secrets.API_TOKEN_GITHUB }}
+        repository-name: nmfs-ost/noaa-fit-dev
+        token: ${{ secrets.FIT_DEPLOY_TOKEN }}
